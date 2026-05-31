@@ -13,9 +13,9 @@ When you email, it helps if you include: your account email, iPhone model + iOS 
 
 ### How do credits work?
 
-Each virtual try-on render costs one credit.
+Each virtual Try On render costs one credit.
 
-- **Free tier:** 2 lifetime renders. They do not reset — once used, you'll need to subscribe to Pro or buy a top-up pack to keep rendering.
+- Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 - **Pro subscription:** 30 renders per month. Renders reset at the start of each billing period.
 - **5-render top-up pack:** a one-time $1.99 consumable available to Pro subscribers. Top-up credits stack on top of your monthly Pro allowance and never expire.
 
@@ -65,33 +65,31 @@ Inside the app, go to **Settings → Danger Zone → Delete Account**. This star
 - Your data is hidden from the app and inaccessible to you.
 - We keep your data internally during that window to handle any chargebacks, fraud claims, or support disputes.
 
-After 30 days, all user-identifying data (profile, photos, outfits, credit history, reports) is permanently deleted. We keep a minimal audit record (email + deletion date) for up to 12 months for fraud prevention and compliance.
+After 30 days, all user-identifying backend data we control is permanently deleted. Manual iCloud backups you created remain in your private iCloud until you delete them. We keep a minimal audit record (email + deletion date) for up to 12 months for fraud prevention and compliance.
 
 If you change your mind during the 30-day window, email [Support@wearra.app](mailto:Support@wearra.app) and we'll cancel the deletion. If you can't access the in-app option at all, email us from the address linked to your account and we'll handle it manually.
 
-Wardrobe items, outfits, and trip data stored locally on your iPhone are removed when you uninstall the app.
+Wardrobe items, outfits, and trip data stored locally on your iPhone are removed when you uninstall the app. If you manually created an iCloud backup, that backup remains in your private iCloud until you delete it. iCloud Backup is manual, not live sync, and restoring it replaces the local wardrobe on that device.
 
-### Why didn't I get free credits on a new account?
+### Does Wearra include starter Try On renders?
 
-We use an Apple technology called DeviceCheck to prevent the same iPhone from creating unlimited free accounts. It stores two bits of information on Apple's servers per device — it does not identify you and cannot be used to track you across other apps. It only tells us "this device has already claimed free starter credits."
-
-If you believe this is a mistake (for example, you bought a used iPhone that had the app before), email us and we can look into it.
+Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 
 ### What data does the app collect?
 
-Short version: your email and display name (via Google Sign-In), photos you upload for try-on, the wardrobe items you enter, device/usage telemetry via Firebase Analytics, and crash logs via Firebase Crashlytics. Full details are in our [Privacy Policy](privacy.md).
+Short version: your account identifiers from Apple, Google, or email/password sign-in, photos you upload for Try On, the wardrobe items you enter, optional iCloud backups you create, AI Stylist chat turns, notification tokens if enabled, device/usage telemetry via Firebase Analytics, and crash logs via Firebase Crashlytics. Full details are in our [Privacy Policy](privacy.md).
 
 ### Where does my photo actually go when I render?
 
-Your avatar and garment photo(s) are sent to Google's Gemini and Vertex AI try-on endpoints. Only the photos are sent — no email, display name, or account identifier is attached to the render call. Details are in our [Privacy Policy](privacy.md#third-party-services).
+Your avatar and garment photo(s) are sent to the AI/render provider used for that request, which may include Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, or LightX. The render call does not include your email, display name, or account identifier. Details are in our [Privacy Policy](privacy.md#third-party-services).
 
 ### Are my photos used to train AI models?
 
-We don't train AI models on your photos. Your avatar and garment photos are sent to Google's Gemini API only to generate the render you requested. Per Google's Gemini API terms, data sent through the API is not used to train Google's models and is retained only for the time required to process the request — full details are in our [Privacy Policy](privacy.md#third-party-services).
+We don't train AI models on your photos. AI/render providers receive your avatar and garment photos only to generate the result you requested. Provider-side retention and training rules are governed by each provider's terms and privacy policy — full details are in our [Privacy Policy](privacy.md#third-party-services).
 
 ### Why does the app want my calendar / location?
 
-Both are optional. Calendar access is used to tailor outfit suggestions to your day; calendar contents are read on-device, and only the event titles for events you ask the assistant about are sent to Google's Gemini API for those suggestions. Location is used to fetch the weather forecast — your latitude and longitude are sent to Open-Meteo with no account identifier attached, and the resulting weather plus approximate location may be included in Gemini prompts when you ask for weather-aware suggestions.
+Both are optional. Calendar access is used to tailor outfit suggestions to your day; calendar contents are read on-device, and only the event titles for events you ask the assistant about are sent to our AI provider for those suggestions. Location is used to fetch the weather forecast — your latitude and longitude are sent to Open-Meteo with no account identifier attached, and the resulting weather plus approximate location may be included in AI prompts when you ask for weather-aware suggestions.
 
 You can revoke either permission at any time in iOS **Settings → Wearra**.
 

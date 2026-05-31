@@ -2,9 +2,9 @@
 
 > Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
 
-Wearra is a solo-developer iOS app (iPhone only, iOS 18+) that lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses Google Gemini and Vertex AI for AI features and Firebase for backend services. It is operated by Eli Linden in the United States.
+Wearra is a solo-developer iOS app (iPhone only, iOS 18+) that lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services. It is operated by Eli Linden in the United States.
 
-Last updated: 2026-05-22.
+Last updated: 2026-05-31.
 
 Each markdown file below is a direct mirror of the corresponding HTML page on the live site, optimised for LLM consumption (no styling or scripts).
 
@@ -18,7 +18,7 @@ Each markdown file below is a direct mirror of the corresponding HTML page on th
 ## Optional
 
 - [llms-full.txt](llms-full.txt): Single-file concatenation of all four markdown mirrors above, for agents that prefer one fetch over four
-- [Privacy: third-party services](privacy.md#third-party-services): Tables of every third-party that receives data from the app (Google Firebase suite, Gemini, Vertex AI, Apple StoreKit/DeviceCheck/APNs, Open-Meteo)
+- [Privacy: third-party services](privacy.md#third-party-services): Tables of every third-party that receives data from the app (Google Firebase suite, Gemini, Vertex AI, FASHN, fal.ai/Kling, LightX, Apple StoreKit/DeviceCheck/APNs/iCloud, Open-Meteo)
 - [ai.txt](ai.txt): AI training and inference permissions (Spawning ai.txt spec)
 - [robots.txt](robots.txt): Crawler permissions for search engines and AI bots
 - [sitemap.xml](sitemap.xml): Full URL inventory with last-modified timestamps
