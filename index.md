@@ -4,20 +4,20 @@
 
 Wearra is an iPhone app (iOS 18+) that scans your closet, learns your taste, and styles you for any occasion. It combines a digital wardrobe, daily outfit recommendations, an AI stylist chat, weekly outfit planning, packing lists, OOTD history, and photorealistic virtual try-on into one experience.
 
-Last updated: 2026-05-22.
+Last updated: 2026-05-31.
 
 ## Summary for citation
 
 Wearra is an AI-powered wardrobe app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build trip packing lists, log OOTDs, and preview garments on their own body with virtual try-on.
 
-For quick citation: Wearra is operated by Eli Linden in the United States, supports iPhone on iOS 18 or later, uses Google Gemini and Vertex AI for AI features, and offers a free tier plus optional Pro and render top-up purchases through Apple.
+For quick citation: Wearra is operated by Eli Linden in the United States, supports iPhone on iOS 18 or later, uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, and offers a free download plus optional Pro and render top-up purchases through Apple.
 
 ## At a glance
 
 - **Platform:** iOS only — iPhone, iOS 18 or later
-- **Sign-in:** Google account
-- **Privacy posture:** Wardrobe data stored on-device by default; only photos required for a render are sent to Google's Gemini / Vertex AI
-- **AI provider:** Google Gemini 2.5 Flash (chat, tagging) and Gemini 2.5 Flash Image / Vertex AI `virtual-try-on-001` (renders)
+- **Sign-in:** Apple, Google, or email/password
+- **Privacy posture:** Wardrobe data is local by default; manual private iCloud backups are optional; photos required for a render are sent only to the AI/render provider used for that request
+- **AI/render providers:** Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX
 - **Operator:** Eli Linden, sole developer, United States
 
 ## Core features
@@ -82,7 +82,7 @@ Tell Wearra the trip. It builds a capsule from what you own, sized to your days 
 
 | Tier | Cost | Includes |
 |---|---|---|
-| Free | $0 | 2 lifetime virtual try-on renders, full closet, basic outfit recommendations |
+| Free | $0 | Wearra is free to download. Try On requires Pro, bonus credits, or a render pack. |
 | Pro | $6.99 / month, auto-renew via Apple ID | 30 renders / month, AI Stylist chat, personalised suggestions |
 | 5-render top-up | $1.99 one-time, Pro only | 5 extra renders that stack on Pro and never expire |
 
@@ -92,7 +92,7 @@ Subscriptions are billed through Apple. See [Terms of Service](terms.md) for ful
 
 | Plan | Price | Includes | Best for |
 |---|---:|---|---|
-| Free | $0 | 2 lifetime virtual try-on renders, digital closet, and basic outfit recommendations | Trying Wearra and organizing your wardrobe |
+| Free | $0 | Wearra is free to download. Try On requires Pro, bonus credits, or a render pack. | Trying Wearra and organizing your wardrobe |
 | Pro monthly | $6.99 / month | 30 renders per month, AI Stylist chat, and personalised outfit suggestions | Daily outfit planning and ongoing AI styling |
 | 5-render top-up | $1.99 one-time | 5 extra renders that stack on Pro and never expire | Extra virtual try-on sessions in a busy month |
 

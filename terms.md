@@ -11,7 +11,7 @@ By downloading, installing, or using Wearra, you accept these Terms and our [Pri
 ## 2. Account eligibility
 
 - You must be at least **13 years old** to use Wearra.
-- You need a valid Google account to sign in.
+- You need a valid sign-in method supported by Wearra: Apple, Google, or email/password.
 - You are responsible for activity that happens under your account. Keep your sign-in credentials private.
 - One person per account. Don't create accounts for other people or impersonate anyone.
 
@@ -19,8 +19,8 @@ By downloading, installing, or using Wearra, you accept these Terms and our [Pri
 
 ### How credits work
 
-- Each virtual try-on render costs one credit.
-- **Free tier:** 2 lifetime renders. These do not reset. Once used, you'll need to subscribe to Pro or buy a top-up pack.
+- Each virtual Try On render costs one credit.
+- Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 - **Pro:** 30 renders per month, reset at the start of each billing period.
 - **Top-up pack:** 5 renders per purchase. Top-up credits do not expire.
 
@@ -72,7 +72,7 @@ We can suspend or terminate accounts that break these rules.
 
 **You own your photos.** We don't claim ownership of the wardrobe, avatar, or garment images you upload, or of the renders produced from them.
 
-To operate the app, you give us a limited, worldwide, royalty-free license to store, display, transmit, and process your content — including sending it to Google's Gemini API as described in our [Privacy Policy](privacy.md#third-party-services) — solely for the purpose of providing the app's features to you. This license ends when you delete the content or your account (except for copies in routine backups that expire shortly after).
+To operate the app, you give us a limited, worldwide, royalty-free license to store, display, transmit, and process your content — including sending it to the AI/render providers described in our [Privacy Policy](privacy.md#third-party-services) — solely for the purpose of providing the app's features to you. This license ends when you delete the content or your account (except for copies in routine backups that expire shortly after).
 
 You are responsible for making sure you have the right to upload any photo you submit.
 
@@ -90,13 +90,13 @@ You may delete your account at any time from **Settings → Danger Zone → Dele
 - Your data is hidden from the app and inaccessible to you.
 - We retain your data internally so we can respond to chargebacks, fraud claims, and support disputes.
 
-After 30 days, all user-identifying data (profile, photos, outfits, credit history, reports) is permanently and irrevocably deleted. We retain a minimal audit record (email, deletion date) for up to 12 months for fraud prevention and regulatory compliance.
+After 30 days, all user-identifying data we control in our backend (profile, photos, outfits, credit history, reports) is permanently and irrevocably deleted. Manual iCloud backups you created are stored in your private iCloud and remain under your control until you delete them. We retain a minimal audit record (email, deletion date) for up to 12 months for fraud prevention and regulatory compliance.
 
 To cancel a scheduled deletion, email [Support@wearra.app](mailto:Support@wearra.app) within the 30-day window.
 
 ## 8. Third-party services
 
-Wearra depends on third-party services, including Firebase, Google Gemini, Google Vertex AI, Apple (StoreKit, DeviceCheck, APNs), and Open-Meteo, as listed in our Privacy Policy. If any of those services change, degrade, or become unavailable, the app's features may be affected. We're not responsible for problems caused by third-party services, but we'll do our best to work around them.
+Wearra depends on third-party services, including Firebase, Firebase Cloud Messaging, Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, LightX, Apple (StoreKit, DeviceCheck, APNs), and Open-Meteo, as listed in our Privacy Policy. If any of those services change, degrade, or become unavailable, the app's features may be affected. We're not responsible for problems caused by third-party services, but we'll do our best to work around them.
 
 ## 9. Changes to the app and these Terms
 

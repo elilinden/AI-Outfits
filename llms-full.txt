@@ -4,7 +4,7 @@
 
 This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over four. Each section below is the full text of the corresponding markdown file with no summarization or truncation. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt).
 
-Operator: Eli Linden, sole developer, United States. Contact: Support@wearra.app. Last updated: 2026-05-22.
+Operator: Eli Linden, sole developer, United States. Contact: Support@wearra.app. Last updated: 2026-05-31.
 
 ---
 
@@ -18,20 +18,20 @@ Source: https://wearra.app/index.md
 
 Wearra is an iPhone app (iOS 18+) that scans your closet, learns your taste, and styles you for any occasion. It combines a digital wardrobe, daily outfit recommendations, an AI stylist chat, weekly outfit planning, packing lists, OOTD history, and photorealistic virtual try-on into one experience.
 
-Last updated: 2026-05-22.
+Last updated: 2026-05-31.
 
 ## Summary for citation
 
 Wearra is an AI-powered wardrobe app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build trip packing lists, log OOTDs, and preview garments on their own body with virtual try-on.
 
-For quick citation: Wearra is operated by Eli Linden in the United States, supports iPhone on iOS 18 or later, uses Google Gemini and Vertex AI for AI features, and offers a free tier plus optional Pro and render top-up purchases through Apple.
+For quick citation: Wearra is operated by Eli Linden in the United States, supports iPhone on iOS 18 or later, uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, and offers a free download plus optional Pro and render top-up purchases through Apple.
 
 ## At a glance
 
 - **Platform:** iOS only — iPhone, iOS 18 or later
-- **Sign-in:** Google account
-- **Privacy posture:** Wardrobe data stored on-device by default; only photos required for a render are sent to Google's Gemini / Vertex AI
-- **AI provider:** Google Gemini 2.5 Flash (chat, tagging) and Gemini 2.5 Flash Image / Vertex AI `virtual-try-on-001` (renders)
+- **Sign-in:** Apple, Google, or email/password
+- **Privacy posture:** Wardrobe data is local by default; manual private iCloud backups are optional; photos required for a render are sent only to the AI/render provider used for that request
+- **AI/render providers:** Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX
 - **Operator:** Eli Linden, sole developer, United States
 
 ## Core features
@@ -96,7 +96,7 @@ Tell Wearra the trip. It builds a capsule from what you own, sized to your days 
 
 | Tier | Cost | Includes |
 |---|---|---|
-| Free | $0 | 2 lifetime virtual try-on renders, full closet, basic outfit recommendations |
+| Free | $0 | Wearra is free to download. Try On requires Pro, bonus credits, or a render pack. |
 | Pro | $6.99 / month, auto-renew via Apple ID | 30 renders / month, AI Stylist chat, personalised suggestions |
 | 5-render top-up | $1.99 one-time, Pro only | 5 extra renders that stack on Pro and never expire |
 
@@ -106,7 +106,7 @@ Subscriptions are billed through Apple. See [Terms of Service](terms.md) for ful
 
 | Plan | Price | Includes | Best for |
 |---|---:|---|---|
-| Free | $0 | 2 lifetime virtual try-on renders, digital closet, and basic outfit recommendations | Trying Wearra and organizing your wardrobe |
+| Free | $0 | Wearra is free to download. Try On requires Pro, bonus credits, or a render pack. | Trying Wearra and organizing your wardrobe |
 | Pro monthly | $6.99 / month | 30 renders per month, AI Stylist chat, and personalised outfit suggestions | Daily outfit planning and ongoing AI styling |
 | 5-render top-up | $1.99 one-time | 5 extra renders that stack on Pro and never expire | Extra virtual try-on sessions in a busy month |
 
@@ -153,7 +153,7 @@ Wearra is operated by Eli Linden, a sole developer operating in the United State
 
 ### Information you give us directly
 
-- **Account info.** When you sign in with Google, we receive your email address and display name. We assign you an internal user ID (a Firebase UID) that links your account to your data across the app's backend.
+- **Account info.** When you sign in with Apple, Google, or email/password, we receive the account identifiers needed to create and secure your account, such as your email address, display name if provided, sign-in provider, and an internal Firebase UID.
 - **Photos you upload.** Wardrobe item photos, avatar photos, and garment photos you submit for virtual try-on rendering.
 - **Wardrobe details.** Outfit notes, purchase prices, brand names, wear counts, tags, categories, and style preferences you enter.
 - **Feedback.** Bad-render reports, attached photos, and any log bundles you choose to send through the in-app "Send to Developer" option.
@@ -163,8 +163,8 @@ Wearra is operated by Eli Linden, a sole developer operating in the United State
 - **Camera.** To photograph clothing items and create your avatar.
 - **Photo Library.** To import clothing photos and save try-on renders.
 - **Location (while using the app).** For weather-appropriate outfit suggestions. We pass your latitude and longitude to Open-Meteo — no account identifier is sent.
-- **Calendar (read-only).** To suggest outfits appropriate for your day's events. Calendar contents are read on-device; only the event titles for events you ask the assistant about are sent to Google's Gemini API for outfit suggestions. They are not stored on our servers.
-- **Notifications.** For optional reminders and alerts (for example, when a render finishes).
+- **Calendar (read-only).** To suggest outfits appropriate for your day's events. Calendar contents are read on-device; only the event titles for events you ask the assistant about are sent to our AI provider for outfit suggestions. They are not stored on our servers unless included in a chat turn you choose to send.
+- **Notifications.** For optional reminders and alerts (for example, when a render finishes). If notifications are enabled, Firebase Cloud Messaging (FCM) and Apple Push Notification service (APNs) tokens may be stored with your account so we can deliver reminders and admin pushes.
 
 You can revoke any of these at any time in iOS **Settings → Wearra**.
 
@@ -176,11 +176,11 @@ You can revoke any of these at any time in iOS **Settings → Wearra**.
 - **Performance data.** Response times, render durations, and other performance metrics used to diagnose slowness and regressions.
 - **Purchase history.** Records of your in-app subscription and top-up purchases, linked to your account, so we can unlock the features you paid for and reconcile credit balances. Apple handles the underlying payment data — we do not receive your credit card or Apple ID credentials.
 - **Approximate location.** Country-level, derived from IP by Firebase Analytics. No precise GPS is sent with analytics events.
-- **DeviceCheck token.** An opaque, per-device token provided by Apple's DeviceCheck. This is *not* your Apple ID, not the IDFA, and cannot be used to identify you across other apps. We use it only to store two bits of information per device to prevent abuse of our free-credits flow.
+- **DeviceCheck token.** An opaque, per-device token provided by Apple's DeviceCheck. This is *not* your Apple ID, not the IDFA, and cannot be used to identify you across other apps. We use it only to store two bits of information per device to prevent abuse of credit-grant and promo-code flows.
 
-### Information stored only on your device
+### Information stored on your device and optional iCloud backups
 
-The following is stored locally on your iPhone using Apple's SwiftData framework and is not uploaded unless you explicitly use a feature that requires it:
+The following is stored locally on your iPhone using Apple's SwiftData framework and is not uploaded to our backend unless you explicitly use a feature that requires it:
 
 - Your full wardrobe (photos, names, prices, brands, purchase dates, wear counts, tags, categories)
 - Outfits and outfit history (compositions, hero images, notes)
@@ -188,62 +188,71 @@ The following is stored locally on your iPhone using Apple's SwiftData framework
 - Style preferences
 - A cached snapshot of your profile (credit counts)
 
-Uninstalling the app removes this data from your device.
+You can manually back up wardrobe data and photos to your private iCloud. iCloud Backup is manual, not live sync. Restore replaces the local wardrobe on that device. Uninstalling the app removes local app data from that device, but manual iCloud backups remain in your private iCloud unless you delete them.
 
 ### Information stored in our cloud (Google Firestore)
 
-- `/users/{uid}` — email, display name, monthly render count, subscription snapshot
+- `/users/{uid}` — email, display name if provided, sign-in provider, monthly render count, subscription snapshot, and notification tokens if enabled
 - `/users/{uid}/creditGrants/{id}` — credit history (amount, reason, source, timestamps)
 - `/users/{uid}/badRenderReports/{id}` — photos, notes, item IDs, and the provider that produced the problematic render
 - `/users/{uid}/logDumps/{id}` — optional log bundles you send via "Send to Developer"
+- AI Stylist chat turns — your prompts, assistant responses, timestamps, and any wardrobe or context references you share with the assistant
 - `/debug_logs/{id}` — render debug info (photos, provider, input params) generated when a try-on runs, so we can diagnose issues
 - `/redeemCodes/{code}` — promo code state (we manage this; it isn't user-editable)
 
 ## How we use it
 
-- **Virtual try-on rendering.** We send your avatar and garment photos to Google's Gemini and Vertex AI try-on models so they can generate the rendered image you requested.
-- **AI chat and outfit suggestions.** Your prompts and the wardrobe context you share with the assistant are sent to Google Gemini 2.5 Flash.
+- **Virtual Try On rendering.** We send your avatar and garment photos to the AI/render provider used for that request so it can generate the rendered image you requested. Providers may include Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX.
+- **AI chat and outfit suggestions.** Your prompts and the wardrobe context you share with the assistant are sent to Google Gemini 2.5 Flash. Chat turns are also logged to Google Firestore so the app can maintain conversation history and diagnose support issues.
 - **Automatic item tagging.** When you add a clothing photo, it may be sent to Google Gemini for vision-based categorization (type, color, style).
 - **Weather-aware suggestions.** Your coordinates are sent to Open-Meteo to fetch the local forecast.
 - **Subscription management.** Apple handles billing; we receive subscription status through StoreKit so we can unlock Pro features.
-- **Abuse prevention.** We use Apple's DeviceCheck to flag devices that have already claimed free starter credits, so the same iPhone cannot create unlimited free accounts.
+- **Abuse prevention.** We use Apple's DeviceCheck to limit repeated credit grants and promo-code abuse from the same physical iPhone.
 - **Debugging and improvement.** Crash reports, usage analytics, and opt-in debug log uploads.
 - **Support.** To respond when you email us.
 
-We do not sell or share your personal information. We do not show ads. We do not use your photos to train AI models on our end, and Google receives photos only to return a render to you. Google's Gemini API terms (linked below) cover how that data is handled on their side.
+We do not sell or share your personal information. We do not show ads. We do not use your photos to train AI models on our end, and AI/render providers receive photos only to return the result you requested. Provider terms and privacy policies govern how that data is handled on their side.
 
 ## Third-party AI processing
 
-Wearra uses Google's Gemini API to power its AI features. The following data is transmitted to Google for processing:
+Wearra uses AI and render providers to power chat, item tagging, outfit suggestions, and virtual Try On. Depending on the feature and provider used for a request, data may be transmitted to Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, or LightX for processing:
 
-- Photos of you (avatar) and your clothing items, used for virtual try-on rendering and item tagging.
+- Photos of you (avatar) and your clothing items, used for virtual Try On rendering and item tagging.
+- Your prompts, assistant chat turns, and wardrobe context you choose to share with the AI Stylist.
 - Calendar event titles, used only when you request outfit suggestions for upcoming events.
 - Approximate location and current weather conditions, used to suggest weather-appropriate outfits.
 
-We do not transmit names, contacts, payment data, or other calendar metadata to Google. Per [Google's Gemini API terms of service](https://ai.google.dev/gemini-api/terms), data sent through the API is not used to train Google's AI models and is retained only for the time required to process the request and return a response.
-
-Google's privacy practices are governed by their [privacy policy](https://policies.google.com/privacy). By using Wearra's AI features, you consent to your data being processed by Google under those terms in addition to ours.
+We do not transmit names, contacts, payment data, or other calendar metadata to AI/render providers. By using Wearra's AI and rendering features, you consent to your data being processed by those providers under their terms in addition to ours.
 
 ## Third-party services
 
-The following third parties receive data from Wearra in order for the app to function. Click a provider to open their privacy policy.
+The following third parties may receive data from Wearra in order for the app to function.
 
 ### Google
 
 | Service | Purpose | Data shared |
 |---|---|---|
-| Firebase Authentication | Sign-in via Google OAuth | Email, display name |
-| Firebase Firestore | User profile, credit records, reports, debug logs | Account data, uploaded photos, app events |
+| Firebase Authentication | Sign-in via Apple, Google, or email/password | Email, display name if provided, sign-in provider, Firebase UID |
+| Firebase Firestore | User profile, credit records, reports, debug logs, AI Stylist chat turns | Account data, uploaded photos, app events, chat prompts and responses |
 | Firebase Storage | Debug photo uploads when a render fails | Photos from the failed render |
 | Firebase Remote Config | Feature flags and API keys delivered at runtime | App/device metadata only |
+| Firebase Cloud Messaging | Push notification delivery for reminders and admin pushes | FCM registration token, APNs token, account association |
 | Firebase Analytics | Usage events and device telemetry | Device model, iOS version, app version, locale, events, IP-derived country |
 | Firebase Crashlytics | Crash and non-fatal error reporting | Stack traces, device state at crash |
 | Google Cloud Functions | Server-side logic: `claimFreeCredits`, `redeemCode`, `submitBadRenderReport`, `alertWebhook` | Request payloads relevant to each function (e.g., DeviceCheck token, promo code, report content) |
 | Google Gemini 2.5 Flash | Chat, outfit suggestions, and item categorization | Your prompts, wardrobe context, item photos for tagging, and — when you ask for event- or weather-aware suggestions — calendar event titles plus approximate location and weather |
-| Google Gemini 2.5 Flash Image | Virtual try-on rendering | Avatar photo, garment photo(s) |
-| Google Vertex AI (`virtual-try-on-001`) | Virtual try-on rendering | Avatar photo, garment photo(s) |
+| Google Gemini 2.5 Flash Image | Virtual Try On rendering | Avatar photo, garment photo(s), render request metadata |
+| Google Vertex AI (`virtual-try-on-001`) | Virtual Try On rendering | Avatar photo, garment photo(s), render request metadata |
 
 Google's privacy policy: [policies.google.com/privacy](https://policies.google.com/privacy). Firebase-specific details: [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy).
+
+### Other AI/render providers
+
+| Provider | Purpose | Data shared |
+|---|---|---|
+| FASHN | Virtual Try On rendering | Avatar photo, garment photo(s), render request metadata |
+| fal.ai / Kling | AI rendering | Avatar photo, garment photo(s), prompt or render request metadata |
+| LightX | Virtual Try On rendering | Avatar photo, garment photo(s), render request metadata |
 
 ### Apple
 
@@ -252,6 +261,7 @@ Google's privacy policy: [policies.google.com/privacy](https://policies.google.c
 | StoreKit 2 | Subscription and in-app purchase billing, refunds, receipts | Purchase receipts; Apple handles payment data |
 | DeviceCheck | Abuse prevention (2 bits of state per physical device) | Opaque per-device token |
 | Apple Push Notification service (APNs) | Delivery of push notifications | APNs device token |
+| iCloud | Manual wardrobe backup and restore | Wardrobe data and photos you choose to back up to your private iCloud |
 
 Apple's privacy policy: [apple.com/legal/privacy](https://www.apple.com/legal/privacy/).
 
@@ -261,7 +271,7 @@ Apple's privacy policy: [apple.com/legal/privacy](https://www.apple.com/legal/pr
 |---|---|---|---|
 | Open-Meteo | Local weather forecast for outfit suggestions | Latitude and longitude only — no identifier | [open-meteo.com/en/terms](https://open-meteo.com/en/terms) |
 
-> **About retention on Google's side.** Once data reaches Google's Gemini API, retention and handling are governed by Google's terms (linked above). We do not separately control or store that data on Google's side.
+> **About provider-side retention.** Once data reaches an AI/render provider, retention and handling are governed by that provider's terms and privacy policy. We do not separately control or store that data on the provider's side.
 
 ## Your rights
 
@@ -293,13 +303,13 @@ If you are in the European Economic Area, the United Kingdom, or Switzerland, yo
 - Withdraw consent at any time where processing is based on consent.
 - Lodge a complaint with your local data protection authority.
 
-Our legal bases for processing are: **contract** (to provide the try-on service you requested), **legitimate interest** (abuse prevention, debugging, improving the app), and **consent** (optional analytics and notifications where required). When your data is transferred outside the EEA/UK — for example, to our US-based backend or to Google's US-based Gemini API — we rely on standard contractual clauses or the provider's own transfer mechanisms.
+Our legal bases for processing are: **contract** (to provide the try-on service you requested), **legitimate interest** (abuse prevention, debugging, improving the app), and **consent** (optional analytics and notifications where required). When your data is transferred outside the EEA/UK — for example, to our US-based backend or to AI/render providers — we rely on standard contractual clauses or the provider's own transfer mechanisms.
 
 ## Data retention
 
-- **Try-on photos.** Stored briefly during processing and removed from our Firebase Storage after the render completes or within 30 days, whichever is sooner. Retention on Google's side is governed by the Gemini API terms.
+- **Try-on photos.** Stored briefly during processing and removed from our Firebase Storage after the render completes or within 30 days, whichever is sooner. Retention on an AI/render provider's side is governed by that provider's terms.
 - **Account data.** Kept for as long as your account is active.
-- **On-device data.** Your wardrobe, outfit history, and trip data stay on your iPhone and are removed when you uninstall the app.
+- **On-device and iCloud backup data.** Your wardrobe, outfit history, and trip data stay on your iPhone by default. If you manually back up to private iCloud, that backup is controlled by your iCloud account. Restore replaces the local wardrobe on that device.
 - **Analytics and crash logs.** Retained according to Firebase's defaults (typically up to 14 months for analytics; shorter for crash logs).
 
 ### Account deletion and data retention
@@ -310,7 +320,7 @@ You may delete your account at any time from **Settings → Danger Zone → Dele
 - Your data is hidden from the app and inaccessible to you.
 - We retain your data internally so we can respond to chargebacks, fraud claims, and support disputes.
 
-After 30 days, all user-identifying data (profile, photos, outfits, credit history, reports) is permanently and irrevocably deleted. We retain a minimal audit record (email, deletion date) for up to 12 months for fraud prevention and regulatory compliance.
+After 30 days, all user-identifying data we control in our backend (profile, photos, outfits, credit history, reports) is permanently and irrevocably deleted. Manual iCloud backups you created are stored in your private iCloud and remain under your control until you delete them. We retain a minimal audit record (email, deletion date) for up to 12 months for fraud prevention and regulatory compliance.
 
 To cancel a scheduled deletion, email [Support@wearra.app](mailto:Support@wearra.app) within the 30-day window.
 
@@ -349,7 +359,7 @@ By downloading, installing, or using Wearra, you accept these Terms and our [Pri
 ## 2. Account eligibility
 
 - You must be at least **13 years old** to use Wearra.
-- You need a valid Google account to sign in.
+- You need a valid sign-in method supported by Wearra: Apple, Google, or email/password.
 - You are responsible for activity that happens under your account. Keep your sign-in credentials private.
 - One person per account. Don't create accounts for other people or impersonate anyone.
 
@@ -357,8 +367,8 @@ By downloading, installing, or using Wearra, you accept these Terms and our [Pri
 
 ### How credits work
 
-- Each virtual try-on render costs one credit.
-- **Free tier:** 2 lifetime renders. These do not reset. Once used, you'll need to subscribe to Pro or buy a top-up pack.
+- Each virtual Try On render costs one credit.
+- Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 - **Pro:** 30 renders per month, reset at the start of each billing period.
 - **Top-up pack:** 5 renders per purchase. Top-up credits do not expire.
 
@@ -410,7 +420,7 @@ We can suspend or terminate accounts that break these rules.
 
 **You own your photos.** We don't claim ownership of the wardrobe, avatar, or garment images you upload, or of the renders produced from them.
 
-To operate the app, you give us a limited, worldwide, royalty-free license to store, display, transmit, and process your content — including sending it to Google's Gemini API as described in our [Privacy Policy](privacy.md#third-party-services) — solely for the purpose of providing the app's features to you. This license ends when you delete the content or your account (except for copies in routine backups that expire shortly after).
+To operate the app, you give us a limited, worldwide, royalty-free license to store, display, transmit, and process your content — including sending it to the AI/render providers described in our [Privacy Policy](privacy.md#third-party-services) — solely for the purpose of providing the app's features to you. This license ends when you delete the content or your account (except for copies in routine backups that expire shortly after).
 
 You are responsible for making sure you have the right to upload any photo you submit.
 
@@ -428,13 +438,13 @@ You may delete your account at any time from **Settings → Danger Zone → Dele
 - Your data is hidden from the app and inaccessible to you.
 - We retain your data internally so we can respond to chargebacks, fraud claims, and support disputes.
 
-After 30 days, all user-identifying data (profile, photos, outfits, credit history, reports) is permanently and irrevocably deleted. We retain a minimal audit record (email, deletion date) for up to 12 months for fraud prevention and regulatory compliance.
+After 30 days, all user-identifying data we control in our backend (profile, photos, outfits, credit history, reports) is permanently and irrevocably deleted. Manual iCloud backups you created are stored in your private iCloud and remain under your control until you delete them. We retain a minimal audit record (email, deletion date) for up to 12 months for fraud prevention and regulatory compliance.
 
 To cancel a scheduled deletion, email [Support@wearra.app](mailto:Support@wearra.app) within the 30-day window.
 
 ## 8. Third-party services
 
-Wearra depends on third-party services, including Firebase, Google Gemini, Google Vertex AI, Apple (StoreKit, DeviceCheck, APNs), and Open-Meteo, as listed in our Privacy Policy. If any of those services change, degrade, or become unavailable, the app's features may be affected. We're not responsible for problems caused by third-party services, but we'll do our best to work around them.
+Wearra depends on third-party services, including Firebase, Firebase Cloud Messaging, Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, LightX, Apple (StoreKit, DeviceCheck, APNs), and Open-Meteo, as listed in our Privacy Policy. If any of those services change, degrade, or become unavailable, the app's features may be affected. We're not responsible for problems caused by third-party services, but we'll do our best to work around them.
 
 ## 9. Changes to the app and these Terms
 
@@ -493,9 +503,9 @@ When you email, it helps if you include: your account email, iPhone model + iOS 
 
 ### How do credits work?
 
-Each virtual try-on render costs one credit.
+Each virtual Try On render costs one credit.
 
-- **Free tier:** 2 lifetime renders. They do not reset — once used, you'll need to subscribe to Pro or buy a top-up pack to keep rendering.
+- Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 - **Pro subscription:** 30 renders per month. Renders reset at the start of each billing period.
 - **5-render top-up pack:** a one-time $1.99 consumable available to Pro subscribers. Top-up credits stack on top of your monthly Pro allowance and never expire.
 
@@ -545,33 +555,31 @@ Inside the app, go to **Settings → Danger Zone → Delete Account**. This star
 - Your data is hidden from the app and inaccessible to you.
 - We keep your data internally during that window to handle any chargebacks, fraud claims, or support disputes.
 
-After 30 days, all user-identifying data (profile, photos, outfits, credit history, reports) is permanently deleted. We keep a minimal audit record (email + deletion date) for up to 12 months for fraud prevention and compliance.
+After 30 days, all user-identifying backend data we control is permanently deleted. Manual iCloud backups you created remain in your private iCloud until you delete them. We keep a minimal audit record (email + deletion date) for up to 12 months for fraud prevention and compliance.
 
 If you change your mind during the 30-day window, email [Support@wearra.app](mailto:Support@wearra.app) and we'll cancel the deletion. If you can't access the in-app option at all, email us from the address linked to your account and we'll handle it manually.
 
-Wardrobe items, outfits, and trip data stored locally on your iPhone are removed when you uninstall the app.
+Wardrobe items, outfits, and trip data stored locally on your iPhone are removed when you uninstall the app. If you manually created an iCloud backup, that backup remains in your private iCloud until you delete it. iCloud Backup is manual, not live sync, and restoring it replaces the local wardrobe on that device.
 
-### Why didn't I get free credits on a new account?
+### Does Wearra include starter Try On renders?
 
-We use an Apple technology called DeviceCheck to prevent the same iPhone from creating unlimited free accounts. It stores two bits of information on Apple's servers per device — it does not identify you and cannot be used to track you across other apps. It only tells us "this device has already claimed free starter credits."
-
-If you believe this is a mistake (for example, you bought a used iPhone that had the app before), email us and we can look into it.
+Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 
 ### What data does the app collect?
 
-Short version: your email and display name (via Google Sign-In), photos you upload for try-on, the wardrobe items you enter, device/usage telemetry via Firebase Analytics, and crash logs via Firebase Crashlytics. Full details are in our [Privacy Policy](privacy.md).
+Short version: your account identifiers from Apple, Google, or email/password sign-in, photos you upload for Try On, the wardrobe items you enter, optional iCloud backups you create, AI Stylist chat turns, notification tokens if enabled, device/usage telemetry via Firebase Analytics, and crash logs via Firebase Crashlytics. Full details are in our [Privacy Policy](privacy.md).
 
 ### Where does my photo actually go when I render?
 
-Your avatar and garment photo(s) are sent to Google's Gemini and Vertex AI try-on endpoints. Only the photos are sent — no email, display name, or account identifier is attached to the render call. Details are in our [Privacy Policy](privacy.md#third-party-services).
+Your avatar and garment photo(s) are sent to the AI/render provider used for that request, which may include Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, or LightX. The render call does not include your email, display name, or account identifier. Details are in our [Privacy Policy](privacy.md#third-party-services).
 
 ### Are my photos used to train AI models?
 
-We don't train AI models on your photos. Your avatar and garment photos are sent to Google's Gemini API only to generate the render you requested. Per Google's Gemini API terms, data sent through the API is not used to train Google's models and is retained only for the time required to process the request — full details are in our [Privacy Policy](privacy.md#third-party-services).
+We don't train AI models on your photos. AI/render providers receive your avatar and garment photos only to generate the result you requested. Provider-side retention and training rules are governed by each provider's terms and privacy policy — full details are in our [Privacy Policy](privacy.md#third-party-services).
 
 ### Why does the app want my calendar / location?
 
-Both are optional. Calendar access is used to tailor outfit suggestions to your day; calendar contents are read on-device, and only the event titles for events you ask the assistant about are sent to Google's Gemini API for those suggestions. Location is used to fetch the weather forecast — your latitude and longitude are sent to Open-Meteo with no account identifier attached, and the resulting weather plus approximate location may be included in Gemini prompts when you ask for weather-aware suggestions.
+Both are optional. Calendar access is used to tailor outfit suggestions to your day; calendar contents are read on-device, and only the event titles for events you ask the assistant about are sent to our AI provider for those suggestions. Location is used to fetch the weather forecast — your latitude and longitude are sent to Open-Meteo with no account identifier attached, and the resulting weather plus approximate location may be included in AI prompts when you ask for weather-aware suggestions.
 
 You can revoke either permission at any time in iOS **Settings → Wearra**.
 

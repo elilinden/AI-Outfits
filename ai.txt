@@ -1,6 +1,6 @@
 # ai.txt — AI usage permissions for Wearra
 # Site: https://wearra.app/
-# Last updated: 2026-05-22
+# Last updated: 2026-05-31
 # Spec: https://spawning.ai/ai-txt
 #
 # This file expresses AI training and inference permissions in
