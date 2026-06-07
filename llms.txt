@@ -29,7 +29,7 @@ Each markdown file below is a direct mirror of the corresponding HTML page on th
 - [Privacy Policy](privacy.md): What data is collected, how it is used, third-party services, user rights, retention, account deletion, and contact
 - [Terms of Service](terms.md): Acceptance, account eligibility, credits and subscription billing, acceptable use, content ownership, AI output disclaimers, limitation of liability, governing law
 - [Support & FAQ](support.md): How credits work, Pro subscription details, cancellation and refunds, render quality tips, account deletion, supported platforms, contact
-- [Blog index](blog/index.md): All Wearra blog posts, split into AI recommendation guides and Google search guides
+- [Blog index](blog/index.md): All Wearra blog posts, split into AI wardrobe guides and practical style guides
 
 ## Topic hubs
 

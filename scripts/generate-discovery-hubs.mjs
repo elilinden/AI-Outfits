@@ -389,14 +389,14 @@ ${hubs.map(hub => `    <a class="post-card" href="../${hub.slug}.html">
   </div>`;
   const indexHtml = path.join(root, "blog", "index.html");
   let html = fs.readFileSync(indexHtml, "utf8");
-  html = html.replace(/\n  <h2>Core topic guides<\/h2>[\s\S]*?(?=\n  <h2>AI Recommendation Guides<\/h2>)/, "");
-  html = html.replace("  <h2>AI Recommendation Guides</h2>", `  ${hubCards}\n\n  <h2>AI Recommendation Guides</h2>`);
+  html = html.replace(/\n  <h2>Core topic guides<\/h2>[\s\S]*?(?=\n  <h2>AI wardrobe guides<\/h2>)/, "");
+  html = html.replace("  <h2>AI wardrobe guides</h2>", `  ${hubCards}\n\n  <h2>AI wardrobe guides</h2>`);
   fs.writeFileSync(indexHtml, html);
 
   const indexMd = path.join(root, "blog", "index.md");
   let md = fs.readFileSync(indexMd, "utf8");
-  md = md.replace(/\n## Core topic guides\n[\s\S]*?(?=\n## AI recommendation guides)/, "");
-  md = md.replace("## AI recommendation guides", `## Core topic guides\n\n${hubs.map(hub => `- [${hub.title}](../${hub.slug}.md): ${hub.description}`).join("\n")}\n\n## AI recommendation guides`);
+  md = md.replace(/\n## Core topic guides\n[\s\S]*?(?=\n## AI wardrobe guides)/, "");
+  md = md.replace("## AI wardrobe guides", `## Core topic guides\n\n${hubs.map(hub => `- [${hub.title}](../${hub.slug}.md): ${hub.description}`).join("\n")}\n\n## AI wardrobe guides`);
   fs.writeFileSync(indexMd, md);
 }
 
@@ -465,7 +465,7 @@ Each markdown file below is a direct mirror of the corresponding HTML page on th
 - [Privacy Policy](privacy.md): What data is collected, how it is used, third-party services, user rights, retention, account deletion, and contact
 - [Terms of Service](terms.md): Acceptance, account eligibility, credits and subscription billing, acceptable use, content ownership, AI output disclaimers, limitation of liability, governing law
 - [Support & FAQ](support.md): How credits work, Pro subscription details, cancellation and refunds, render quality tips, account deletion, supported platforms, contact
-- [Blog index](blog/index.md): All Wearra blog posts, split into AI recommendation guides and Google search guides
+- [Blog index](blog/index.md): All Wearra blog posts, split into AI wardrobe guides and practical style guides
 
 ## Topic hubs
 
