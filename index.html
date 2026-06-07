@@ -30,14 +30,11 @@
 <link rel="alternate" hreflang="en" href="https://wearra.app/">
 <link rel="alternate" hreflang="en-US" href="https://wearra.app/">
 <link rel="alternate" hreflang="x-default" href="https://wearra.app/">
-<link rel="icon" type="image/jpeg" href="AppleIcon.jpg">
+<link rel="icon" type="image/webp" href="/AppleIcon-64.webp">
 <link rel="apple-touch-icon" href="AppleIcon.jpg">
 <link rel="alternate" type="text/markdown" href="index.md" title="Wearra — Markdown mirror">
 <link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt index">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="image" href="/screenshots/wearra-ai-outfit-planner-home-screen.webp" type="image/webp">
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="/screenshots/wearra-ai-outfit-planner-home-screen-540.webp" type="image/webp" imagesrcset="/screenshots/wearra-ai-outfit-planner-home-screen-360.webp 360w, /screenshots/wearra-ai-outfit-planner-home-screen-540.webp 540w, /screenshots/wearra-ai-outfit-planner-home-screen.webp 720w" imagesizes="(max-width: 760px) 324px, 420px">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -580,7 +577,7 @@ html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;max-width:100%;overflo
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.001ms!important;animation-iteration-count:1!important;transition-duration:0.001ms!important}}
 body{
   margin:0;
-  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','SF Pro Text','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
   font-size:17px;
   line-height:1.6;
   color:var(--fg);
@@ -1187,7 +1184,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 <header class="nav" id="nav">
   <div class="container nav__inner">
     <a class="brand" href="#main" aria-label="Wearra home">
-      <img class="brand__mark" src="AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
+      <img class="brand__mark" src="/AppleIcon-64.webp" alt="" aria-hidden="true" width="32" height="32">
       <em>Wearra</em>
     </a>
     <nav class="nav__links" aria-label="Primary">
@@ -1229,7 +1226,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 
     <div class="reveal" style="position:relative">
       <div class="phone phone--hero" data-parallax="0.15">
-        <img class="phone__img" src="/screenshots/wearra-ai-outfit-planner-home-screen.webp" alt="Wearra home screen showing outfit ideas, saved outfits, and the AI Stylist shortcut" width="720" height="1565" fetchpriority="high">
+        <img class="phone__img" src="/screenshots/wearra-ai-outfit-planner-home-screen-540.webp" srcset="/screenshots/wearra-ai-outfit-planner-home-screen-360.webp 360w, /screenshots/wearra-ai-outfit-planner-home-screen-540.webp 540w, /screenshots/wearra-ai-outfit-planner-home-screen.webp 720w" sizes="(max-width: 760px) 324px, 420px" alt="Wearra home screen showing outfit ideas, saved outfits, and the AI Stylist shortcut" width="720" height="1565" fetchpriority="high">
       </div>
       <div class="phone__float phone__float--top" aria-hidden="true">
         <span class="ico ico--blue">
@@ -1429,8 +1426,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
       </div>
       <div class="feature__media" data-bg="cream">
         <div class="phone phone--video" data-parallax="0.08">
-          <video class="phone__video" autoplay muted loop playsinline preload="metadata" poster="/videos/wearra-virtual-try-on-demo-poster.webp" aria-label="Muted virtual try-on rendering demo" width="720" height="1280">
-            <source src="/videos/wearra-virtual-try-on-demo.mp4" type="video/mp4">
+          <video class="phone__video" muted loop playsinline preload="none" aria-label="Muted virtual try-on rendering demo" width="720" height="1280" data-lazy-video="/videos/wearra-virtual-try-on-demo.mp4" data-poster="/videos/wearra-virtual-try-on-demo-poster.webp">
+            <source data-src="/videos/wearra-virtual-try-on-demo.mp4" type="video/mp4">
             <a href="/videos/wearra-virtual-try-on-demo.mp4">Watch the Wearra virtual try-on rendering demo.</a>
           </video>
         </div>
@@ -1739,7 +1736,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
     <div class="footer__top">
       <div class="footer__brand">
         <a class="brand" href="#main">
-          <img class="brand__mark" src="AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
+          <img class="brand__mark" src="/AppleIcon-64.webp" alt="" aria-hidden="true" width="32" height="32">
           <em>Wearra</em>
         </a>
         <p>Wearra is an AI outfit planner and digital closet app for iPhone. Style faster from clothes you already own.</p>
@@ -1805,6 +1802,40 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
       video.removeAttribute('autoplay');
       video.pause();
     });
+  }
+
+  // Load below-fold demo videos only when they are close to view.
+  var lazyVideos = Array.prototype.slice.call(document.querySelectorAll('video[data-lazy-video]'));
+  function loadLazyVideo(video){
+    if(video.dataset.loaded) return;
+    if(video.dataset.poster){
+      video.poster = video.dataset.poster;
+    }
+    video.querySelectorAll('source[data-src]').forEach(function(source){
+      source.src = source.dataset.src;
+      source.removeAttribute('data-src');
+    });
+    video.dataset.loaded = 'true';
+    video.load();
+    if(!reduced){
+      video.setAttribute('autoplay', '');
+      video.play().catch(function(){});
+    }
+  }
+  if(lazyVideos.length){
+    if('IntersectionObserver' in window){
+      var videoObserver = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting){
+            loadLazyVideo(entry.target);
+            videoObserver.unobserve(entry.target);
+          }
+        });
+      }, {rootMargin:'600px 0px'});
+      lazyVideos.forEach(function(video){ videoObserver.observe(video); });
+    } else {
+      lazyVideos.forEach(loadLazyVideo);
+    }
   }
 
   // Reveal-on-scroll
