@@ -1,6 +1,6 @@
 # Wearra Support
 
-We're a small, solo-developer operation. Here's how to get in touch and quick answers to common questions.
+Wearra is a small independent operation. Here's how to get in touch and quick answers to common questions.
 
 ## Contact
 

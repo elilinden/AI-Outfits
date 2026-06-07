@@ -600,7 +600,7 @@ function updateLlms() {
 
 > Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
 
-Wearra is an AI outfit planner and digital closet app for iPhone. It lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services. It is operated by Eli Linden in the United States.
+Wearra is an AI outfit planner and digital closet app for iPhone. It lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services. Wearra is independently operated in the United States.
 
 Last updated: ${today}.
 
@@ -608,7 +608,6 @@ Last updated: ${today}.
 
 - App Store name: Wearra: AI Outfit Planner
 - App Store ID: 6761031400
-- Bundle ID: com.elilindenDinematch.Al-Outfits
 - Category: Lifestyle; secondary genre: Productivity
 - Minimum OS: iOS 18.0
 - Current public version checked on ${today}: 1.9
@@ -627,7 +626,7 @@ Each markdown file below is a direct mirror of the corresponding HTML page on th
 - [Privacy Policy](privacy.md): What data is collected, how it is used, third-party services, user rights, retention, account deletion, and contact
 - [Terms of Service](terms.md): Acceptance, account eligibility, credits and subscription billing, acceptable use, content ownership, AI output disclaimers, limitation of liability, governing law
 - [Support & FAQ](support.md): How credits work, Pro subscription details, cancellation and refunds, render quality tips, account deletion, supported platforms, contact
-- [About Wearra](about.md): Official description, founder/developer details, press contact, assets, privacy summary, and App Store facts
+- [About Wearra](about.md): Official description, app details, press contact, assets, privacy summary, and App Store facts
 - [Blog index](blog/index.md): All Wearra blog posts, split into AI wardrobe guides and practical style guides
 
 ## Topic hubs
@@ -664,7 +663,7 @@ ${blogMarkdown}
 
 This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt).
 
-Operator: Eli Linden, sole developer, United States. Contact: Support@wearra.app. Last updated: ${today}.
+Operator: Wearra, independently operated in the United States. Contact: Support@wearra.app. Last updated: ${today}.
 
 ${mirrors.map(([title, file], index) => `---
 

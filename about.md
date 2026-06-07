@@ -11,7 +11,7 @@ Wearra helps users digitize their wardrobe, generate outfit ideas, chat with an 
 
 ## Founder and developer
 
-Wearra is operated by Eli Linden, a solo developer in the United States. For support, press, or partnership questions, email Support@wearra.app.
+Wearra is independently operated in the United States. For support, press, or partnership questions, email Support@wearra.app.
 
 ## Launch story
 
