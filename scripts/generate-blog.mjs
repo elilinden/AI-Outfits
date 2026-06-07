@@ -794,6 +794,201 @@ const posts = [
       ["Do I need to upload my whole closet?", "No. Starting with frequently worn pieces can still make recommendations useful."],
       ["Can Wearra recommend outfits daily?", "Yes. Wearra includes daily outfit recommendations."]
     ]
+  },
+  {
+    slug: "college-outfit-planner-app",
+    type: "GUIDE",
+    title: "Best Outfit Planner App for College Students",
+    description: "How college students can use an outfit planner app to build class, internship, going-out, and weekend outfits from a small dorm closet.",
+    keywords: ["college outfit planner app", "outfit planner for students", "college wardrobe app"],
+    answer: "A good college outfit planner helps students make more outfits from fewer clothes. Wearra lets iPhone users digitize a dorm closet, plan looks for classes and internships, ask an AI Stylist for outfit ideas, and build weekend packing lists from clothes they already own.",
+    sections: [
+      {
+        heading: "Why college closets need planning",
+        paragraphs: [
+          "College style is hard because the same wardrobe has to handle early lectures, campus walks, internship interviews, nights out, and quick trips home. Most students also have limited closet space, limited laundry time, and a budget that does not leave room for buying a new outfit every week.",
+          "An outfit planner helps by turning a small closet into reusable looks. Instead of thinking item by item, you can plan full outfits by schedule, weather, and occasion."
+        ]
+      },
+      {
+        heading: "Dorm closet strategy",
+        bullets: [
+          "Start with repeatable basics: jeans, trousers, tees, sweaters, one jacket, sneakers, boots, and a few going-out pieces.",
+          "Digitize the pieces you actually wear first, then add special-event items later.",
+          "Save proven combinations for class, internships, dinners, weekends, and travel days.",
+          "Use outfit history to avoid forgetting combinations that already worked."
+        ]
+      },
+      {
+        heading: "Class to internship outfits",
+        paragraphs: [
+          "The most useful college outfits can pivot. A fitted tee, trousers, loafers, and a cardigan might work for class, while a blazer turns the same base into an internship-ready look.",
+          "Wearra can help students ask for context-specific ideas, like a comfortable lecture outfit that can become business casual for an afternoon meeting."
+        ]
+      },
+      {
+        heading: "Weekend and break packing",
+        paragraphs: [
+          "Weekend trips, holidays, and campus events are where overpacking starts. A planner can turn the real schedule into a small capsule: travel outfit, daytime outfits, one going-out look, shoes that repeat, and a weather layer.",
+          "That keeps the duffel bag lighter and makes it easier to rewear pieces without feeling like the same outfit is repeating."
+        ]
+      }
+    ],
+    faq: [
+      ["What is the best outfit planner app for college students?", "The best app is one that helps students use a small closet across classes, internships, weekends, and trips. Wearra is built for iPhone and combines a digital closet, AI outfit ideas, planning, packing lists, and Try On."],
+      ["How can I make more outfits from a dorm closet?", "Digitize your most-worn clothes, save outfits by occasion, repeat core basics, and plan layers and shoes around your real schedule."],
+      ["Can Wearra help with internship outfits?", "Yes. Wearra can help generate outfit ideas from saved wardrobe items and supports planning looks for work, school, events, and travel."]
+    ]
+  },
+  {
+    slug: "business-casual-outfit-planner",
+    type: "GUIDE",
+    title: "Business Casual Outfit Planner: What to Wear to Work From Clothes You Own",
+    description: "A practical guide to planning business casual work outfits for offices, internships, interviews, creative workplaces, and casual Fridays.",
+    keywords: ["business casual outfit planner", "work outfit planner", "office outfits from your closet"],
+    answer: "A business casual outfit planner helps turn existing closet pieces into polished work looks. Wearra can help iPhone users build office outfits from saved clothes, plan a workweek, and preview important looks before wearing them.",
+    sections: [
+      {
+        heading: "Business casual starts with the office",
+        paragraphs: [
+          "Business casual does not mean the same thing everywhere. A law office, summer internship, tech startup, creative studio, and casual office all have different expectations.",
+          "The easiest way to plan is to identify the formality level first, then build around structured basics: trousers, dark denim, button-downs, knit tops, blazers, loafers, flats, boots, and clean sneakers where appropriate."
+        ]
+      },
+      {
+        heading: "Six useful work outfit formulas",
+        bullets: [
+          "Corporate office: blazer, button-down or knit shell, tailored trouser, closed-toe shoes.",
+          "Summer internship: lightweight knit, wide-leg trousers, cardigan or blazer, comfortable flats.",
+          "Creative workplace: dark denim, clean tee, oversized blazer, minimalist sneakers.",
+          "Standard office: blouse, chinos or trousers, structured cardigan, loafers.",
+          "Interview day: suit jacket or structured dress, polished shoes, simple accessories.",
+          "Casual Friday: straight jeans, elevated sweater or button-down, leather belt, boots or flats."
+        ]
+      },
+      {
+        heading: "How to plan a workweek",
+        paragraphs: [
+          "A work outfit planner is most useful when you plan the whole week at once. Start with the most formal day, then repeat shoes, layers, and trousers in different combinations.",
+          "Wearra can help organize those looks in a planner so Monday's outfit does not have to be solved again on Tuesday morning."
+        ]
+      },
+      {
+        heading: "Use Try On for high-stakes outfits",
+        paragraphs: [
+          "For interviews, presentations, and first days, a visual preview can help you check proportion before you commit. Try On is useful when you want to see whether a blazer, trousers, dress, or shoe choice feels balanced on your own body.",
+          "AI-generated previews can vary, so use them as a styling aid rather than a perfect mirror."
+        ]
+      }
+    ],
+    faq: [
+      ["What should I wear for business casual?", "Start with tailored basics like trousers, dark denim, button-downs, knit tops, blazers, loafers, flats, or clean sneakers depending on the office."],
+      ["How do I plan work outfits from my closet?", "Digitize your work pieces, save reliable formulas, plan the most formal days first, and repeat shoes and layers intentionally."],
+      ["Can Wearra help plan office outfits?", "Yes. Wearra can generate outfit ideas from saved wardrobe items, help plan looks, and support Try On for important outfits."]
+    ]
+  },
+  {
+    slug: "date-night-outfit-planner",
+    type: "GUIDE",
+    title: "Date Night Outfit Planner: How to Pick an Outfit From Your Closet",
+    description: "A simple date night outfit planning guide for dinner, coffee, movies, drinks, outdoor dates, and casual plans.",
+    keywords: ["date night outfit planner", "what to wear on a date", "date outfit from closet"],
+    answer: "A date night outfit planner helps match your outfit to the real plan: dinner, coffee, drinks, a movie, or an outdoor date. Wearra helps users build date-night looks from clothes they already own, save favorites, and ask the AI Stylist for occasion-specific ideas.",
+    sections: [
+      {
+        heading: "Start with the date plan",
+        paragraphs: [
+          "The best date night outfit depends on where you are going. Dinner, coffee, rooftop drinks, a movie, and an outdoor walk all need different shoes, layers, and levels of polish.",
+          "Start with the setting, then choose one main piece you feel good in. Build around that piece instead of pulling everything out of the closet."
+        ]
+      },
+      {
+        heading: "Easy date night outfit formulas",
+        bullets: [
+          "Dinner: black dress, boots or heels, cropped jacket, simple jewelry.",
+          "Coffee: straight jeans, fitted top, clean sneakers, small bag.",
+          "Movie: trousers, soft sweater, comfortable shoes, light jacket.",
+          "Drinks: satin skirt, bodysuit or fitted top, boots, statement earrings.",
+          "Outdoor date: jeans, tank or tee, cardigan, comfortable walking shoes."
+        ]
+      },
+      {
+        heading: "Balance makes outfits feel intentional",
+        paragraphs: [
+          "A date outfit usually works when it has balance: fitted with relaxed, dressy with casual, simple with one strong accessory, or monochrome with texture.",
+          "That means you do not need a new outfit. You need a combination that matches the plan and feels like you."
+        ]
+      },
+      {
+        heading: "How Wearra helps",
+        paragraphs: [
+          "Wearra can help users ask for date-night outfit ideas from their own closet, restyle a favorite item, save looks, and plan outfits ahead of time.",
+          "Useful prompts include: style my black jeans for date night, make this outfit more dressed up, what shoes work with this dress, or create a casual dinner outfit from my closet."
+        ]
+      }
+    ],
+    faq: [
+      ["What should I wear on a date night?", "Wear something that matches the plan and makes you feel confident. For dinner, try a dress, trousers, dark jeans, or a skirt with polished shoes. For a casual date, keep it comfortable but intentional."],
+      ["How do I plan a date outfit from my closet?", "Start with the location, choose one main piece, add shoes, add a layer, and finish with one accessory or detail."],
+      ["Can an AI outfit planner help with date outfits?", "Yes. An AI outfit planner can suggest date-night looks based on your closet, the occasion, weather, and the style you want."]
+    ]
+  },
+  {
+    slug: "vacation-outfit-planner",
+    type: "GUIDE",
+    title: "Vacation Outfit Planner: Plan Every Look Before You Pack",
+    description: "How to plan vacation outfits by itinerary, weather, color palette, repeat pieces, shoes, layers, and packing lists.",
+    keywords: ["vacation outfit planner", "travel outfit planner", "vacation packing outfits"],
+    answer: "A vacation outfit planner helps you pack outfits, not random clothes. Wearra can help users build travel looks from their real closet, plan outfits by day, and create packing lists around weather, destination, trip length, and rewearable pieces.",
+    sections: [
+      {
+        heading: "Pack outfits, not piles",
+        paragraphs: [
+          "Most overpacking happens when people pack by category: tops, pants, shoes, dresses, and extras. The suitcase fills up, but the outfits may not work together.",
+          "A vacation outfit planner starts with the itinerary and builds complete looks for travel day, sightseeing, dinners, events, weather changes, and the trip home."
+        ]
+      },
+      {
+        heading: "Plan around the trip details",
+        bullets: [
+          "Destination and weather.",
+          "Trip length and laundry access.",
+          "Walking, swimming, events, dinners, and photos.",
+          "Carry-on or checked bag limits.",
+          "Shoes that work with more than one outfit.",
+          "Layers for planes, restaurants, nights, and weather shifts."
+        ]
+      },
+      {
+        heading: "Use a color palette and repeat pieces",
+        paragraphs: [
+          "A travel wardrobe works better when the colors mix. Neutrals plus one accent color can make tops, bottoms, shoes, jackets, and bags easier to repeat.",
+          "Repeat pieces are not a problem. Jeans, linen pants, black trousers, a white button-down, a neutral sweater, and comfortable shoes can each appear in multiple outfits when styled differently."
+        ]
+      },
+      {
+        heading: "Example five-day city trip",
+        bullets: [
+          "Travel day: jeans, white tee, cardigan, sneakers.",
+          "Sightseeing: trousers, tank, button-down, sneakers.",
+          "Dinner: black dress, sandals, small bag, jewelry.",
+          "Museum and lunch: midi skirt, tee, cardigan, flats.",
+          "Casual exploring: linen pants, tank, button-down, sandals."
+        ]
+      },
+      {
+        heading: "How Wearra helps",
+        paragraphs: [
+          "Wearra can help users plan vacation outfits from clothes already in their digital closet, save looks by day, and turn planned outfits into packing lists.",
+          "Useful prompts include: plan outfits for a five-day beach vacation, make a travel capsule from my closet, help me pack light, or create dinner outfits for my trip."
+        ]
+      }
+    ],
+    faq: [
+      ["What is a vacation outfit planner?", "A vacation outfit planner helps decide what to wear for each day and activity of a trip before packing."],
+      ["How do I avoid overpacking for a trip?", "Plan complete outfits first, choose repeat pieces, limit shoes, use a color palette, and avoid packing items that do not belong to a specific outfit."],
+      ["Can Wearra make vacation packing lists?", "Yes. Wearra supports travel packing workflows and can help build packing lists from saved closet items and planned outfits."]
+    ]
   }
 ];
 
@@ -908,6 +1103,82 @@ const postExtras = {
     },
     note: "Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.",
     privacy: "Trip data and wardrobe items are part of the user's wardrobe workflow; optional iCloud Backup is manual and private to the user's iCloud."
+  },
+  "college-outfit-planner-app": {
+    media: { type: "image", src: "/screenshots/wearra-ai-outfit-planner-home-screen.webp", alt: "Wearra iPhone home screen with outfit ideas for everyday planning" },
+    examples: [
+      "Dorm capsule: straight jeans, black trousers, hoodie, cardigan, button-down, four tops, sneakers, loafers, boots, and one jacket can cover class, meetings, errands, and weekend plans.",
+      "Class-to-internship pivot: start with trousers and a fitted tee, then add a blazer and loafers for a professional meeting.",
+      "Weekend trip: reuse one travel outfit, two daytime outfits, one going-out look, and shoes that work across the whole bag."
+    ],
+    comparison: {
+      headings: ["College need", "Manual approach", "Wearra workflow"],
+      rows: [
+        ["Small closet", "Bring more clothes just in case", "Build more combinations from fewer pieces"],
+        ["Internship day", "Guess in the morning", "Save polished outfit formulas ahead of time"],
+        ["Going out", "Buy something new", "Restyle pieces already in the closet"],
+        ["Weekend trip", "Overpack a duffel", "Create a small packing list from planned outfits"]
+      ]
+    },
+    note: "College style is a practical constraint problem: limited space, changing weather, different dress codes, and little time.",
+    privacy: "Wearra is designed around a personal wardrobe workflow; wardrobe data is local by default and optional iCloud Backup is manual."
+  },
+  "business-casual-outfit-planner": {
+    media: { type: "image", src: "/screenshots/wearra-outfit-planner-calendar-iphone.webp", alt: "Wearra planner calendar for scheduling outfits across a workweek" },
+    examples: [
+      "Monday presentation: blazer, knit shell, tailored trouser, loafers.",
+      "Creative office: dark denim, clean tee, oversized blazer, minimalist sneakers.",
+      "Casual Friday: straight jeans, elevated cardigan, leather belt, ankle boots."
+    ],
+    comparison: {
+      headings: ["Workplace", "Core formula", "What to avoid"],
+      rows: [
+        ["Corporate office", "Blazer, button-down, trouser, closed-toe shoe", "Too-casual denim or loud graphics"],
+        ["Summer internship", "Light knit, wide-leg pant, cardigan, comfortable flat", "Unplanned layers for freezing offices"],
+        ["Startup or studio", "Dark denim, tee, blazer, clean sneaker", "Looking careless instead of relaxed"],
+        ["Interview", "Structured jacket or dress, polished shoe, simple details", "Distracting accessories or untested fit"]
+      ]
+    },
+    note: "Business casual is easier when the planner starts with the office context instead of treating every workday the same.",
+    privacy: "Try On can help preview high-stakes outfits; render requests use AI/render providers for that request."
+  },
+  "date-night-outfit-planner": {
+    media: { type: "image", src: "/screenshots/wearra-outfit-recommendations-iphone.webp", alt: "Wearra outfit recommendations screen with save and Try On actions" },
+    examples: [
+      "Casual dinner: dark jeans, fitted top, boots, cropped jacket.",
+      "Movie date: trousers, soft sweater, comfortable shoes, light layer.",
+      "Rooftop drinks: satin skirt, bodysuit, boots, one strong accessory."
+    ],
+    comparison: {
+      headings: ["Date plan", "Start with", "Finish with"],
+      rows: [
+        ["Dinner", "Dress, trousers, or dark denim", "Polished shoes and simple jewelry"],
+        ["Coffee", "Jeans or relaxed trousers", "Clean sneakers and a light layer"],
+        ["Movie", "Comfortable base outfit", "Warm layer and realistic shoes"],
+        ["Outdoor walk", "Weather-safe pieces", "Comfortable shoes first"]
+      ]
+    },
+    note: "Date-night style works best when the outfit matches the real plan and still feels like the person wearing it.",
+    privacy: "Wearra can suggest looks from saved closet items without requiring users to publish or share their wardrobe."
+  },
+  "vacation-outfit-planner": {
+    media: { type: "image", src: "/screenshots/wearra-packing-list-trip-form-iphone.webp", alt: "Wearra trip form for building a vacation packing list" },
+    examples: [
+      "Five-day city trip: repeat jeans, trousers, a button-down, sneakers, and one cardigan across travel, sightseeing, dinner, and museum outfits.",
+      "Beach weekend: plan swimwear, breathable layers, sandals, one dinner outfit, and a light jacket before packing extras.",
+      "Photo-friendly dinner: choose the full look, including shoes and layer, before it goes in the suitcase."
+    ],
+    comparison: {
+      headings: ["Packing method", "Result", "Risk"],
+      rows: [
+        ["Pack by category", "Lots of items", "Pieces may not work together"],
+        ["Pack by outfit", "Clear daily plan", "Requires a little planning upfront"],
+        ["Pack by capsule", "Fewer items, more rewear", "Needs color compatibility"],
+        ["Wearra", "Outfits and packing list from closet items", "Works best after adding travel-relevant clothes"]
+      ]
+    },
+    note: "The best vacation wardrobe is not the biggest one. It is the one that works for the destination, weather, activities, and suitcase.",
+    privacy: "Trip planning can use wardrobe and destination context; optional iCloud Backup remains manual rather than live sync."
   }
 };
 
