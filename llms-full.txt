@@ -20,11 +20,11 @@ Wearra is an AI outfit planner and digital closet app for iPhone. It helps users
 
 Last updated: 2026-06-07.
 
-## Summary for citation
+## Summary
 
 Wearra is an AI outfit planner and digital closet app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build trip packing lists, log OOTDs, and preview garments on their own body with virtual try-on.
 
-For quick citation: Wearra is independently operated in the United States, supports iPhone on iOS 18 or later, uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, and offers a free download plus optional Pro and render top-up purchases through Apple.
+Wearra is independently operated in the United States, supports iPhone on iOS 18 or later, uses trusted AI/render providers for styling and Try On features, and offers a free download plus optional Pro and render top-up purchases through Apple.
 
 Privacy summary: Wearra does not sell personal information, does not show third-party ads, and does not train Wearra-owned AI models on user photos. Wardrobe data is local by default, and manual iCloud Backup is optional.
 
@@ -97,7 +97,7 @@ See how an outfit looks on your own body before you wear it. Upload one photo of
 - Compare looks side-by-side
 - Share with friends to crowd-source the call
 
-Rendering demo transcript: the video shows a Wearra virtual try-on render moving from outfit selection to a generated preview on a phone-sized screen. It is muted, visual-only, and included so users and crawlers can understand the Try On workflow without relying on audio.
+Rendering demo transcript: the video shows a Wearra virtual try-on render moving from outfit selection to a generated preview on a phone-sized screen. It is muted and visual-only, so the Try On workflow is easy to follow without audio.
 
 ### 6. Plan the week, log the fit
 Use an outfit calendar tied to your weather and schedule, then scroll back through the looks you actually wore.
@@ -694,7 +694,7 @@ Wearra was built around a simple wardrobe problem: people often own enough cloth
 ## App details
 
 - App Store name: Wearra: AI Outfit Planner
-- Canonical identity: Wearra is an AI outfit planner and digital closet app for iPhone.
+- What it is: Wearra is an AI outfit planner and digital closet app for iPhone.
 - Platform: iPhone, iOS 18 or later
 - Category: Lifestyle; secondary genre: Productivity
 - Price: Free download
@@ -713,7 +713,7 @@ Wearra is an iOS-first app, and accessibility details should be claimed publicly
 ## Assets
 
 - App icon: AppleIcon.jpg
-- Open Graph image: og-image.png
+- Preview image: og-image.png
 - Screenshots: screenshots/
 - Rendering demo video: videos/wearra-rendering-demo.mp4
 
