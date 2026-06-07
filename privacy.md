@@ -4,7 +4,7 @@
 
 This Privacy Policy explains what information Wearra collects when you use the app, why we collect it, and the choices you have. We try to say this in plain English — if anything is unclear, email us at [Support@wearra.app](mailto:Support@wearra.app).
 
-Wearra is operated by Eli Linden, a sole developer operating in the United States ("we," "us," or "Wearra").
+Wearra is independently operated in the United States ("we," "us," or "Wearra").
 
 ## What we collect
 

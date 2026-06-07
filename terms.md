@@ -2,7 +2,7 @@
 
 *Wearra · Effective April 20, 2026*
 
-These Terms are the agreement between you and Eli Linden ("we," "us") for your use of the Wearra iOS app. Using the app means you agree to these Terms. If you don't agree, please don't use the app.
+These Terms are the agreement between you and Wearra ("we," "us") for your use of the Wearra iOS app. Using the app means you agree to these Terms. If you don't agree, please don't use the app.
 
 ## 1. Acceptance
 
@@ -112,7 +112,7 @@ Wearra is provided **"as is" and "as available," without warranties of any kind*
 
 ## 12. Limitation of liability
 
-To the fullest extent allowed by law, Eli Linden and Wearra will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or goodwill, arising out of or in connection with your use of the app.
+To the fullest extent allowed by law, Wearra will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or goodwill, arising out of or in connection with your use of the app.
 
 Our total liability for any claim related to the app is limited to the greater of (a) the amount you paid us in the 12 months before the claim arose, or (b) USD $50.
 

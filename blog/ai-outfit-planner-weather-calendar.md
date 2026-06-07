@@ -25,7 +25,7 @@ An AI outfit planner is most useful when it considers your wardrobe, the weather
 | Manual outfit list | User preference | Automatic closet-aware suggestions |
 | Wearra | Closet, weather, planning, and saved looks | Works best when wardrobe data is current |
 
-**Founder note:** Outfit planning should reduce morning decisions, not create another planning chore. Wearra keeps the flow close to the daily calendar and saved closet.
+**Product note:** Outfit planning should reduce morning decisions, not create another planning chore. Wearra keeps the flow close to the daily calendar and saved closet.
 
 **Privacy note:** Calendar use is optional and limited to outfit context when the user grants permission.
 

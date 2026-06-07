@@ -799,7 +799,7 @@ const postExtras = {
         ["Wearra", "Closet-aware recommendations from owned items", "Best after a user adds enough wardrobe items for context"]
       ]
     },
-    founder: "Wearra is designed around the moment after inspiration, when a user still needs to decide what they can actually wear from their own closet.",
+    note: "Wearra is designed around the moment after inspiration, when a user still needs to decide what they can actually wear from their own closet.",
     privacy: "Wardrobe data is local by default, optional iCloud Backup is manual, and Try On photos are sent only to the AI/render provider needed for that request."
   },
   "best-virtual-try-on-app-own-clothes": {
@@ -818,7 +818,7 @@ const postExtras = {
         ["Wearra Try On", "Closet-connected previews plus planning and saving", "Requires Pro, bonus credits, or a render pack"]
       ]
     },
-    founder: "Try On is treated as a decision step, not a standalone novelty. The goal is to help users choose between real outfits they can wear.",
+    note: "Try On is treated as a decision step, not a standalone novelty. The goal is to help users choose between real outfits they can wear.",
     privacy: "Render requests do not need to include a user's email, display name, or account identifier with the avatar and garment photos sent for rendering."
   },
   "ai-outfit-planner-weather-calendar": {
@@ -837,7 +837,7 @@ const postExtras = {
         ["Wearra", "Closet, weather, planning, and saved looks", "Works best when wardrobe data is current"]
       ]
     },
-    founder: "Outfit planning should reduce morning decisions, not create another planning chore. Wearra keeps the flow close to the daily calendar and saved closet.",
+    note: "Outfit planning should reduce morning decisions, not create another planning chore. Wearra keeps the flow close to the daily calendar and saved closet.",
     privacy: "Calendar use is optional and limited to outfit context when the user grants permission."
   },
   "digital-closet-app-iphone-ios-18": {
@@ -856,7 +856,7 @@ const postExtras = {
         ["Wearra", "Digital closet connected to styling workflows", "Requires iPhone on iOS 18 or later"]
       ]
     },
-    founder: "The closet view is meant to be operational, not decorative. A clean grid matters because users need to scan quickly on a phone.",
+    note: "The closet view is meant to be operational, not decorative. A clean grid matters because users need to scan quickly on a phone.",
     privacy: "Wardrobe data is local by default, and manual iCloud Backup is optional rather than live sync."
   },
   "closet-app-with-packing-list": {
@@ -875,7 +875,7 @@ const postExtras = {
         ["Wearra", "Builds a capsule from saved clothes", "Depends on closet items being added first"]
       ]
     },
-    founder: "Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.",
+    note: "Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.",
     privacy: "Trip data and wardrobe items are part of the user's wardrobe workflow; optional iCloud Backup is manual and private to the user's iCloud."
   }
 };
@@ -1010,7 +1010,7 @@ function postSchema(post) {
       "datePublished": today,
       "dateModified": today,
       "inLanguage": "en-US",
-      "author": { "@type": "Person", "name": "Eli Linden" },
+      "author": { "@type": "Organization", "name": "Wearra", "url": "https://wearra.app/" },
       "publisher": {
         "@type": "Organization",
         "name": "Wearra",
@@ -1081,7 +1081,7 @@ ${extra.comparison.rows.map(row => `      <tr>${row.map(cell => `<td>${esc(cell)
   return `${media}
   ${examples}
   ${comparison}
-  <div class="callout"><strong>Founder note:</strong> ${esc(extra.founder)}</div>
+  <div class="callout"><strong>Product note:</strong> ${esc(extra.note)}</div>
   <div class="callout"><strong>Privacy note:</strong> ${esc(extra.privacy)}</div>`;
 }
 
@@ -1155,7 +1155,7 @@ ${extra.examples.map(item => `- ${mdEscape(item)}`).join("\n")}
 | ${extra.comparison.headings.map(() => "---").join(" | ")} |
 ${extra.comparison.rows.map(row => `| ${row.map(mdEscape).join(" | ")} |`).join("\n")}
 
-**Founder note:** ${mdEscape(extra.founder)}
+**Product note:** ${mdEscape(extra.note)}
 
 **Privacy note:** ${mdEscape(extra.privacy)}
 ` : "";
@@ -1308,7 +1308,7 @@ function writeLlms() {
 
 > Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
 
-Wearra is a solo-developer iOS app (iPhone only, iOS 18+) that lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services. It is operated by Eli Linden in the United States.
+Wearra is an independently operated iOS app (iPhone only, iOS 18+) that lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services.
 
 Last updated: ${today}.
 
@@ -1350,7 +1350,7 @@ ${blogLinks}
 
 This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt).
 
-Operator: Eli Linden, sole developer, United States. Contact: Support@wearra.app. Last updated: ${today}.
+Operator: Wearra, independently operated in the United States. Contact: Support@wearra.app. Last updated: ${today}.
 
 ${mirrors.map(([title, file], index) => `---
 

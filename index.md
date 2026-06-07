@@ -10,7 +10,7 @@ Last updated: 2026-06-07.
 
 Wearra is an AI outfit planner and digital closet app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build trip packing lists, log OOTDs, and preview garments on their own body with virtual try-on.
 
-For quick citation: Wearra is operated by Eli Linden in the United States, supports iPhone on iOS 18 or later, uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, and offers a free download plus optional Pro and render top-up purchases through Apple.
+For quick citation: Wearra is independently operated in the United States, supports iPhone on iOS 18 or later, uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, and offers a free download plus optional Pro and render top-up purchases through Apple.
 
 Privacy summary: Wearra does not sell personal information, does not show third-party ads, and does not train Wearra-owned AI models on user photos. Wardrobe data is local by default, and manual iCloud Backup is optional.
 
@@ -20,7 +20,7 @@ Privacy summary: Wearra does not sell personal information, does not show third-
 - **Sign-in:** Apple, Google, or email/password
 - **Privacy posture:** Wardrobe data is local by default; manual private iCloud backups are optional; photos required for a render are sent only to the AI/render provider used for that request
 - **AI/render providers:** Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX
-- **Operator:** Eli Linden, sole developer, United States
+- **Operator:** Wearra, independently operated in the United States
 
 ## Who Wearra is best for
 
@@ -182,7 +182,7 @@ You can revoke any permission at any time in iOS Settings → Wearra.
 ## Contact and entity details
 
 - **Name:** Wearra
-- **Operator:** Eli Linden
+- **Operator:** Wearra, independently operated in the United States
 - **Country:** United States
 - **Email:** [Support@wearra.app](mailto:Support@wearra.app)
 - **App Store:** [Wearra for iPhone](https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400)

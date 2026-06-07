@@ -25,7 +25,7 @@ A digital closet app for iPhone should make it easy to add clothes, tag them, se
 | Generic closet organizer | Cataloging clothes | May not include AI Stylist, Try On, packing, and planning |
 | Wearra | Digital closet connected to styling workflows | Requires iPhone on iOS 18 or later |
 
-**Founder note:** The closet view is meant to be operational, not decorative. A clean grid matters because users need to scan quickly on a phone.
+**Product note:** The closet view is meant to be operational, not decorative. A clean grid matters because users need to scan quickly on a phone.
 
 **Privacy note:** Wardrobe data is local by default, and manual iCloud Backup is optional rather than live sync.
 

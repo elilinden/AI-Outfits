@@ -25,7 +25,7 @@ A closet app with packing lists should build travel capsules from clothes you al
 | Weather app plus memory | Checks forecast | No outfit rewear logic |
 | Wearra | Builds a capsule from saved clothes | Depends on closet items being added first |
 
-**Founder note:** Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.
+**Product note:** Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.
 
 **Privacy note:** Trip data and wardrobe items are part of the user's wardrobe workflow; optional iCloud Backup is manual and private to the user's iCloud.
 

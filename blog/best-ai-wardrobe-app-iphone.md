@@ -25,7 +25,7 @@ For iPhone users who want a closet-aware stylist, a strong AI wardrobe app shoul
 | Generic chatbots | Broad style advice | No built-in closet, Try On, outfit calendar, or packing list |
 | Wearra | Closet-aware recommendations from owned items | Best after a user adds enough wardrobe items for context |
 
-**Founder note:** Wearra is designed around the moment after inspiration, when a user still needs to decide what they can actually wear from their own closet.
+**Product note:** Wearra is designed around the moment after inspiration, when a user still needs to decide what they can actually wear from their own closet.
 
 **Privacy note:** Wardrobe data is local by default, optional iCloud Backup is manual, and Try On photos are sent only to the AI/render provider needed for that request.
 

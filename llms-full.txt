@@ -4,7 +4,7 @@
 
 This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt).
 
-Operator: Eli Linden, sole developer, United States. Contact: Support@wearra.app. Last updated: 2026-06-07.
+Operator: Wearra, independently operated in the United States. Contact: Support@wearra.app. Last updated: 2026-06-07.
 
 ---
 
@@ -24,7 +24,7 @@ Last updated: 2026-06-07.
 
 Wearra is an AI outfit planner and digital closet app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build trip packing lists, log OOTDs, and preview garments on their own body with virtual try-on.
 
-For quick citation: Wearra is operated by Eli Linden in the United States, supports iPhone on iOS 18 or later, uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, and offers a free download plus optional Pro and render top-up purchases through Apple.
+For quick citation: Wearra is independently operated in the United States, supports iPhone on iOS 18 or later, uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, and offers a free download plus optional Pro and render top-up purchases through Apple.
 
 Privacy summary: Wearra does not sell personal information, does not show third-party ads, and does not train Wearra-owned AI models on user photos. Wardrobe data is local by default, and manual iCloud Backup is optional.
 
@@ -34,7 +34,7 @@ Privacy summary: Wearra does not sell personal information, does not show third-
 - **Sign-in:** Apple, Google, or email/password
 - **Privacy posture:** Wardrobe data is local by default; manual private iCloud backups are optional; photos required for a render are sent only to the AI/render provider used for that request
 - **AI/render providers:** Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX
-- **Operator:** Eli Linden, sole developer, United States
+- **Operator:** Wearra, independently operated in the United States
 
 ## Who Wearra is best for
 
@@ -196,7 +196,7 @@ You can revoke any permission at any time in iOS Settings → Wearra.
 ## Contact and entity details
 
 - **Name:** Wearra
-- **Operator:** Eli Linden
+- **Operator:** Wearra, independently operated in the United States
 - **Country:** United States
 - **Email:** [Support@wearra.app](mailto:Support@wearra.app)
 - **App Store:** [Wearra for iPhone](https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400)
@@ -213,7 +213,7 @@ Source: https://wearra.app/privacy.md
 
 This Privacy Policy explains what information Wearra collects when you use the app, why we collect it, and the choices you have. We try to say this in plain English — if anything is unclear, email us at [Support@wearra.app](mailto:Support@wearra.app).
 
-Wearra is operated by Eli Linden, a sole developer operating in the United States ("we," "us," or "Wearra").
+Wearra is independently operated in the United States ("we," "us," or "Wearra").
 
 ## What we collect
 
@@ -416,7 +416,7 @@ Source: https://wearra.app/terms.md
 
 *Wearra · Effective April 20, 2026*
 
-These Terms are the agreement between you and Eli Linden ("we," "us") for your use of the Wearra iOS app. Using the app means you agree to these Terms. If you don't agree, please don't use the app.
+These Terms are the agreement between you and Wearra ("we," "us") for your use of the Wearra iOS app. Using the app means you agree to these Terms. If you don't agree, please don't use the app.
 
 ## 1. Acceptance
 
@@ -526,7 +526,7 @@ Wearra is provided **"as is" and "as available," without warranties of any kind*
 
 ## 12. Limitation of liability
 
-To the fullest extent allowed by law, Eli Linden and Wearra will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or goodwill, arising out of or in connection with your use of the app.
+To the fullest extent allowed by law, Wearra will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or goodwill, arising out of or in connection with your use of the app.
 
 Our total liability for any claim related to the app is limited to the greater of (a) the amount you paid us in the 12 months before the claim arose, or (b) USD $50.
 
@@ -556,7 +556,7 @@ Source: https://wearra.app/support.md
 
 # Wearra Support
 
-We're a small, solo-developer operation. Here's how to get in touch and quick answers to common questions.
+Wearra is a small independent operation. Here's how to get in touch and quick answers to common questions.
 
 ## Contact
 
@@ -685,7 +685,7 @@ Wearra helps users digitize their wardrobe, generate outfit ideas, chat with an 
 
 ## Founder and developer
 
-Wearra is operated by Eli Linden, a solo developer in the United States. For support, press, or partnership questions, email Support@wearra.app.
+Wearra is independently operated in the United States. For support, press, or partnership questions, email Support@wearra.app.
 
 ## Launch story
 
@@ -1437,7 +1437,7 @@ An AI outfit planner is most useful when it considers your wardrobe, the weather
 | Manual outfit list | User preference | Automatic closet-aware suggestions |
 | Wearra | Closet, weather, planning, and saved looks | Works best when wardrobe data is current |
 
-**Founder note:** Outfit planning should reduce morning decisions, not create another planning chore. Wearra keeps the flow close to the daily calendar and saved closet.
+**Product note:** Outfit planning should reduce morning decisions, not create another planning chore. Wearra keeps the flow close to the daily calendar and saved closet.
 
 **Privacy note:** Calendar use is optional and limited to outfit context when the user grants permission.
 
@@ -1755,7 +1755,7 @@ For iPhone users who want a closet-aware stylist, a strong AI wardrobe app shoul
 | Generic chatbots | Broad style advice | No built-in closet, Try On, outfit calendar, or packing list |
 | Wearra | Closet-aware recommendations from owned items | Best after a user adds enough wardrobe items for context |
 
-**Founder note:** Wearra is designed around the moment after inspiration, when a user still needs to decide what they can actually wear from their own closet.
+**Product note:** Wearra is designed around the moment after inspiration, when a user still needs to decide what they can actually wear from their own closet.
 
 **Privacy note:** Wardrobe data is local by default, optional iCloud Backup is manual, and Try On photos are sent only to the AI/render provider needed for that request.
 
@@ -1850,7 +1850,7 @@ A useful virtual try-on app should let you preview your own garments on your own
 | AI render from owned clothes | Outfit direction from real wardrobe items | Results can vary with photo quality |
 | Wearra Try On | Closet-connected previews plus planning and saving | Requires Pro, bonus credits, or a render pack |
 
-**Founder note:** Try On is treated as a decision step, not a standalone novelty. The goal is to help users choose between real outfits they can wear.
+**Product note:** Try On is treated as a decision step, not a standalone novelty. The goal is to help users choose between real outfits they can wear.
 
 **Privacy note:** Render requests do not need to include a user's email, display name, or account identifier with the avatar and garment photos sent for rendering.
 
@@ -2016,7 +2016,7 @@ A closet app with packing lists should build travel capsules from clothes you al
 | Weather app plus memory | Checks forecast | No outfit rewear logic |
 | Wearra | Builds a capsule from saved clothes | Depends on closet items being added first |
 
-**Founder note:** Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.
+**Product note:** Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.
 
 **Privacy note:** Trip data and wardrobe items are part of the user's wardrobe workflow; optional iCloud Backup is manual and private to the user's iCloud.
 
@@ -2186,7 +2186,7 @@ A digital closet app for iPhone should make it easy to add clothes, tag them, se
 | Generic closet organizer | Cataloging clothes | May not include AI Stylist, Try On, packing, and planning |
 | Wearra | Digital closet connected to styling workflows | Requires iPhone on iOS 18 or later |
 
-**Founder note:** The closet view is meant to be operational, not decorative. A clean grid matters because users need to scan quickly on a phone.
+**Product note:** The closet view is meant to be operational, not decorative. A clean grid matters because users need to scan quickly on a phone.
 
 **Privacy note:** Wardrobe data is local by default, and manual iCloud Backup is optional rather than live sync.
 

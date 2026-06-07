@@ -25,7 +25,7 @@ A useful virtual try-on app should let you preview your own garments on your own
 | AI render from owned clothes | Outfit direction from real wardrobe items | Results can vary with photo quality |
 | Wearra Try On | Closet-connected previews plus planning and saving | Requires Pro, bonus credits, or a render pack |
 
-**Founder note:** Try On is treated as a decision step, not a standalone novelty. The goal is to help users choose between real outfits they can wear.
+**Product note:** Try On is treated as a decision step, not a standalone novelty. The goal is to help users choose between real outfits they can wear.
 
 **Privacy note:** Render requests do not need to include a user's email, display name, or account identifier with the avatar and garment photos sent for rendering.
 
