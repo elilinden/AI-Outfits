@@ -782,6 +782,104 @@ function mdEscape(value) {
   return String(value).replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 }
 
+const postExtras = {
+  "best-ai-wardrobe-app-iphone": {
+    media: { type: "image", src: "../screenshots/home-current.jpg", alt: "Wearra iPhone home screen with outfit ideas, saved outfits, and AI Stylist access" },
+    examples: [
+      "Turn 12 closet staples into a workweek: straight jeans, black trousers, a white tee, a button-down, cardigan, blazer, simple dress, sneakers, loafers, boots, belt, and coat can become office, casual, dinner, and travel looks.",
+      "Use saved outfit feedback to avoid recommending the same silhouette every day.",
+      "Keep special-event looks in the same system as daily outfits, so a wedding, internship, or trip does not require a separate notes app."
+    ],
+    comparison: {
+      headings: ["Approach", "What it helps with", "Where it falls short"],
+      rows: [
+        ["Manual notes", "Remembering outfit ideas", "Hard to search visually and not connected to clothing photos"],
+        ["Pinterest boards", "Inspiration and mood", "Often shows clothes a user does not own"],
+        ["Generic chatbots", "Broad style advice", "No built-in closet, Try On, outfit calendar, or packing list"],
+        ["Wearra", "Closet-aware recommendations from owned items", "Best after a user adds enough wardrobe items for context"]
+      ]
+    },
+    founder: "Wearra is designed around the moment after inspiration, when a user still needs to decide what they can actually wear from their own closet.",
+    privacy: "Wardrobe data is local by default, optional iCloud Backup is manual, and Try On photos are sent only to the AI/render provider needed for that request."
+  },
+  "best-virtual-try-on-app-own-clothes": {
+    media: { type: "video", src: "../videos/wearra-rendering-demo.mp4", poster: "../videos/wearra-rendering-demo-poster.jpg", alt: "Muted Wearra virtual try-on rendering demo" },
+    examples: [
+      "Compare a blazer outfit before an interview without changing clothes three times.",
+      "Preview whether a jacket and skirt proportion works before packing both.",
+      "Check color balance between shoes, pants, and outerwear before saving the final look."
+    ],
+    comparison: {
+      headings: ["Try-on method", "Good for", "Tradeoff"],
+      rows: [
+        ["Mirror photo only", "Fast gut check", "No easy way to compare garments not currently worn"],
+        ["Catalog model try-on", "Shopping visualization", "Not grounded in the user's body or closet"],
+        ["AI render from owned clothes", "Outfit direction from real wardrobe items", "Results can vary with photo quality"],
+        ["Wearra Try On", "Closet-connected previews plus planning and saving", "Requires Pro, bonus credits, or a render pack"]
+      ]
+    },
+    founder: "Try On is treated as a decision step, not a standalone novelty. The goal is to help users choose between real outfits they can wear.",
+    privacy: "Render requests do not need to include a user's email, display name, or account identifier with the avatar and garment photos sent for rendering."
+  },
+  "ai-outfit-planner-weather-calendar": {
+    media: { type: "image", src: "../screenshots/planner.jpg", alt: "Wearra planner calendar screen for scheduling outfits by day" },
+    examples: [
+      "Summer internship week: plan a light blazer outfit for Monday, a button-down and trousers for presentation day, sneakers for a commute-heavy day, and a dinner-ready outfit after work.",
+      "Rainy day: prioritize closed shoes, outerwear, and darker hems before suggesting delicate fabrics.",
+      "Weekend trip: turn forecast and activities into outfits instead of a loose pile of clothing."
+    ],
+    comparison: {
+      headings: ["Tool", "Useful signal", "Missing context"],
+      rows: [
+        ["Weather app", "Temperature and rain", "Closet, taste, outfit history"],
+        ["Calendar app", "Events and timing", "Weather and garment options"],
+        ["Manual outfit list", "User preference", "Automatic closet-aware suggestions"],
+        ["Wearra", "Closet, weather, planning, and saved looks", "Works best when wardrobe data is current"]
+      ]
+    },
+    founder: "Outfit planning should reduce morning decisions, not create another planning chore. Wearra keeps the flow close to the daily calendar and saved closet.",
+    privacy: "Calendar use is optional and limited to outfit context when the user grants permission."
+  },
+  "digital-closet-app-iphone-ios-18": {
+    media: { type: "image", src: "../screenshots/closet-current.jpg", alt: "Wearra digital closet grid with categories, search, favorites, and clothing item cards" },
+    examples: [
+      "Before: clothing photos scattered across camera roll, notes, and memory.",
+      "After digitizing: tops, bottoms, shoes, dresses, and outerwear become searchable items with cleaner backgrounds.",
+      "After styling: the closet powers outfit suggestions, travel capsules, OOTD history, and Try On decisions."
+    ],
+    comparison: {
+      headings: ["System", "Strength", "Weakness"],
+      rows: [
+        ["Camera roll album", "Easy to start", "No structured categories or outfit logic"],
+        ["Spreadsheet", "Flexible tracking", "Not visual enough for daily styling"],
+        ["Generic closet organizer", "Cataloging clothes", "May not include AI Stylist, Try On, packing, and planning"],
+        ["Wearra", "Digital closet connected to styling workflows", "Requires iPhone on iOS 18 or later"]
+      ]
+    },
+    founder: "The closet view is meant to be operational, not decorative. A clean grid matters because users need to scan quickly on a phone.",
+    privacy: "Wardrobe data is local by default, and manual iCloud Backup is optional rather than live sync."
+  },
+  "closet-app-with-packing-list": {
+    media: { type: "image", src: "../screenshots/packing.jpg", alt: "Wearra trip form for creating a packing list by destination, dates, and activities" },
+    examples: [
+      "Four-day city trip: 2 bottoms, 4 tops, 1 jacket, 2 shoes, and accessories can cover travel day, work block, dinner, and casual exploring.",
+      "Beach weekend: build around sandals, breathable layers, swimwear, and one dinner outfit instead of packing unrelated extras.",
+      "Cold-weather visit: prioritize rewearable base layers, one coat, and shoes that work across most outfits."
+    ],
+    comparison: {
+      headings: ["Packing method", "What it prevents", "Limitation"],
+      rows: [
+        ["Generic checklist", "Forgetting basics", "Does not know what the user owns"],
+        ["Notes app", "Captures a plan", "Easy to overpack duplicates"],
+        ["Weather app plus memory", "Checks forecast", "No outfit rewear logic"],
+        ["Wearra", "Builds a capsule from saved clothes", "Depends on closet items being added first"]
+      ]
+    },
+    founder: "Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.",
+    privacy: "Trip data and wardrobe items are part of the user's wardrobe workflow; optional iCloud Backup is manual and private to the user's iCloud."
+  }
+};
+
 function nav(prefix = "../") {
   return `<header class="nav" id="nav">
   <div class="container nav__inner">
@@ -793,7 +891,7 @@ function nav(prefix = "../") {
       <a href="${prefix}index.html#features">Features</a>
       <a href="${prefix}index.html#how">How it works</a>
       <a href="${prefix}index.html#stylist">AI Stylist</a>
-      <a href="${prefix}blog/index.html">Blog</a>
+      <a href="${prefix}blog/index.html">Guides</a>
       <a href="${prefix}index.html#download">Download</a>
     </nav>
     <a class="btn btn--primary" href="${appStoreUrl}" target="_blank" rel="noopener">Get the app</a>
@@ -810,7 +908,7 @@ function footer(prefix = "../") {
           <img class="brand__mark" src="${prefix}AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
           <em>Wearra</em>
         </a>
-        <p>Your AI-powered personal stylist for iOS. Style smarter, dress better - every day.</p>
+        <p>Wearra is an AI outfit planner and digital closet app for iPhone.</p>
       </div>
       <div>
         <h3>Product</h3>
@@ -823,7 +921,7 @@ function footer(prefix = "../") {
           <li><a href="${prefix}travel-capsule-wardrobe-app.html">Travel capsule wardrobe</a></li>
           <li><a href="${prefix}index.html#how">How it works</a></li>
           <li><a href="${prefix}index.html#stylist">AI Stylist</a></li>
-          <li><a href="${prefix}blog/index.html">Blog</a></li>
+          <li><a href="${prefix}blog/index.html">Guides</a></li>
           <li><a href="${prefix}index.html#download">Download</a></li>
         </ul>
       </div>
@@ -879,6 +977,7 @@ function head({ title, description, canonical, type = "article", markdown, schem
 <meta property="og:image" content="https://wearra.app/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://wearra.app/og-image.png">
+<meta name="apple-itunes-app" content="app-id=6761031400, app-argument=https://wearra.app/">
 <link rel="canonical" href="${canonical}">
 <link rel="icon" type="image/jpeg" href="../AppleIcon.jpg">
 <link rel="apple-touch-icon" href="../AppleIcon.jpg">
@@ -951,6 +1050,41 @@ function sectionHtml(section) {
   ${bullets}`;
 }
 
+function postExtraHtml(post) {
+  const extra = postExtras[post.slug];
+  if (!extra) return "";
+  const media = extra.media.type === "video"
+    ? `<figure class="article-media">
+    <video controls muted playsinline preload="metadata" poster="${extra.media.poster}" aria-label="${esc(extra.media.alt)}">
+      <source src="${extra.media.src}" type="video/mp4">
+      <a href="${extra.media.src}">Watch the Wearra virtual try-on rendering demo.</a>
+    </video>
+    <figcaption>${esc(extra.media.alt)}</figcaption>
+  </figure>`
+    : `<figure class="article-media">
+    <img src="${extra.media.src}" alt="${esc(extra.media.alt)}" loading="lazy" decoding="async" width="720" height="1565">
+    <figcaption>${esc(extra.media.alt)}</figcaption>
+  </figure>`;
+  const examples = `<h2>Real examples</h2>
+  <ul>
+${extra.examples.map(item => `    <li>${esc(item)}</li>`).join("\n")}
+  </ul>`;
+  const comparison = `<h2>Comparison</h2>
+  <table>
+    <thead>
+      <tr>${extra.comparison.headings.map(h => `<th scope="col">${esc(h)}</th>`).join("")}</tr>
+    </thead>
+    <tbody>
+${extra.comparison.rows.map(row => `      <tr>${row.map(cell => `<td>${esc(cell)}</td>`).join("")}</tr>`).join("\n")}
+    </tbody>
+  </table>`;
+  return `${media}
+  ${examples}
+  ${comparison}
+  <div class="callout"><strong>Founder note:</strong> ${esc(extra.founder)}</div>
+  <div class="callout"><strong>Privacy note:</strong> ${esc(extra.privacy)}</div>`;
+}
+
 function postHtml(post) {
   const schema = postSchema(post);
   const toc = `<nav class="toc" aria-label="Article contents">
@@ -979,16 +1113,14 @@ ${post.faq.map(([q, a]) => `    <details>
 ${nav("../")}
 <main id="main">
 <article class="article">
-  <p class="article__kicker">${post.type === "ANSWER" ? "AI recommendation guide" : "Style guide"}</p>
+  <p class="article__kicker">${post.type === "ANSWER" ? "AI wardrobe guide" : "Style guide"}</p>
   <h1>${esc(post.title)}</h1>
   <p class="meta">Published <time datetime="${today}">June 7, 2026</time> - Wearra Blog</p>
   <p class="lede">${esc(post.description)}</p>
-  <div class="tag-row">
-${post.keywords.map(k => `    <span>${esc(k)}</span>`).join("\n")}
-  </div>
   <div class="answer-box">
     <p><strong>Direct answer:</strong> ${esc(post.answer)}</p>
   </div>
+  ${postExtraHtml(post)}
   ${toc}
   ${post.sections.map(sectionHtml).join("\n\n  ")}
   ${faq}
@@ -1005,12 +1137,28 @@ ${script()}
 }
 
 function postMarkdown(post) {
+  const extra = postExtras[post.slug];
   const sections = post.sections.map(section => {
     const paras = (section.paragraphs || []).map(mdEscape).join("\n\n");
     const bullets = section.bullets?.length ? section.bullets.map(b => `- ${mdEscape(b)}`).join("\n") : "";
     return `## ${section.heading}\n\n${[paras, bullets].filter(Boolean).join("\n\n")}`;
   }).join("\n\n");
   const faq = post.faq?.length ? `\n\n## FAQ\n\n${post.faq.map(([q, a]) => `### ${q}\n\n${a}`).join("\n\n")}` : "";
+  const extraMd = extra ? `
+## Real examples
+
+${extra.examples.map(item => `- ${mdEscape(item)}`).join("\n")}
+
+## Comparison
+
+| ${extra.comparison.headings.map(mdEscape).join(" | ")} |
+| ${extra.comparison.headings.map(() => "---").join(" | ")} |
+${extra.comparison.rows.map(row => `| ${row.map(mdEscape).join(" | ")} |`).join("\n")}
+
+**Founder note:** ${mdEscape(extra.founder)}
+
+**Privacy note:** ${mdEscape(extra.privacy)}
+` : "";
   return `# ${post.title}
 
 Published: ${today}
@@ -1022,10 +1170,7 @@ ${post.description}
 
 ${post.answer}
 
-## Keywords
-
-${post.keywords.map(k => `- ${k}`).join("\n")}
-
+${extraMd}
 ${sections}${faq}
 
 ## Try Wearra
@@ -1062,7 +1207,7 @@ function blogIndexHtml() {
     return `<h2>${label}</h2>
   <div class="post-list">
 ${posts.filter(p => p.type === type).map(post => `    <a class="post-card" href="${post.slug}.html">
-      <p class="meta">${post.type === "ANSWER" ? "AI recommendation guide" : "Style guide"}</p>
+      <p class="meta">${post.type === "ANSWER" ? "AI wardrobe guide" : "Style guide"}</p>
       <h2>${esc(post.title)}</h2>
       <p>${esc(post.description)}</p>
     </a>`).join("\n")}

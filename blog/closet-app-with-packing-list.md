@@ -9,11 +9,25 @@ How a closet app can build smarter packing lists from clothes you already own an
 
 A closet app with packing lists should build travel capsules from clothes you already own, not only provide a generic checklist. Wearra can help users create packing lists from their wardrobe with weather-aware outfit planning, making it easier to pack fewer duplicates and more complete outfits.
 
-## Keywords
 
-- closet app packing list
-- AI packing list app
-- travel capsule wardrobe app
+## Real examples
+
+- Four-day city trip: 2 bottoms, 4 tops, 1 jacket, 2 shoes, and accessories can cover travel day, work block, dinner, and casual exploring.
+- Beach weekend: build around sandals, breathable layers, swimwear, and one dinner outfit instead of packing unrelated extras.
+- Cold-weather visit: prioritize rewearable base layers, one coat, and shoes that work across most outfits.
+
+## Comparison
+
+| Packing method | What it prevents | Limitation |
+| --- | --- | --- |
+| Generic checklist | Forgetting basics | Does not know what the user owns |
+| Notes app | Captures a plan | Easy to overpack duplicates |
+| Weather app plus memory | Checks forecast | No outfit rewear logic |
+| Wearra | Builds a capsule from saved clothes | Depends on closet items being added first |
+
+**Founder note:** Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.
+
+**Privacy note:** Trip data and wardrobe items are part of the user's wardrobe workflow; optional iCloud Backup is manual and private to the user's iCloud.
 
 ## Why packing lists need your closet
 
@@ -64,6 +78,10 @@ Wearra can use weather context for outfit and packing suggestions.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

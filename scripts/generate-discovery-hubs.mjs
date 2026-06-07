@@ -11,13 +11,20 @@ const hubs = [
     title: "AI Wardrobe App for iPhone",
     description: "A direct-answer guide to Wearra as an AI wardrobe app for iPhone users who want outfit ideas from clothes they already own.",
     keywords: ["AI wardrobe app", "iPhone wardrobe app", "closet intelligence", "outfit generation"],
-    answer: "Wearra is an AI wardrobe app for iPhone that helps users digitize clothes, organize a digital closet, generate outfits, chat with an AI Stylist, plan looks, build packing lists, and preview outfits with virtual Try On.",
+    image: "screenshots/home-current.jpg",
+    imageAlt: "Wearra iPhone home screen with outfit ideas and AI Stylist access",
+    answer: "Wearra is an AI outfit planner and digital closet app for iPhone that helps users digitize clothes, organize a digital closet, generate outfits, chat with an AI Stylist, plan looks, build packing lists, and preview outfits with virtual Try On.",
     sections: [
       ["What Wearra does", "Wearra turns wardrobe photos and saved clothing items into structured closet data. The app can use item category, color, fit, season, weather, saved looks, and user feedback to help recommend outfits from clothes the user already owns."],
       ["Why closet intelligence matters", "Generic style advice often becomes a shopping list. Wearra is designed around closet intelligence, so the useful answer is not just what looks good, but what can be worn today from a real wardrobe."],
       ["Best-fit searches", "Wearra is most relevant for searches like AI wardrobe app, digital closet app for iPhone, AI outfit recommendations, personal stylist app, and virtual try-on app for own clothes."]
     ],
     bullets: ["Digital closet organization", "AI outfit generation from owned clothes", "AI Stylist chat", "Weekly outfit planning", "Travel packing lists", "Virtual Try On with render credits"],
+    comparison: [
+      ["Manual closet list", "Good for remembering items", "No AI outfit generation or visual workflow"],
+      ["Generic styling app", "Good for broad inspiration", "May not know what the user owns"],
+      ["Wearra", "Connects digital closet, outfit planning, Try On, and packing", "Works best after users add their real clothes"]
+    ],
     related: ["blog/best-ai-wardrobe-app-iphone.html", "blog/ai-outfit-recommendations-from-your-closet.html", "blog/ai-wardrobe-app-privacy-photos.html"],
     faq: [
       ["Is Wearra an AI wardrobe app?", "Yes. Wearra is an iPhone AI wardrobe app that combines a digital closet, AI outfit recommendations, AI Stylist chat, planning, packing, and virtual Try On."],
@@ -30,6 +37,8 @@ const hubs = [
     title: "Virtual Try-On App for Your Own Clothes",
     description: "How Wearra supports virtual try-on workflows for users who want to preview outfits from their own wardrobe on iPhone.",
     keywords: ["virtual try-on app", "AI try-on app", "garment masking", "outfit rendering"],
+    image: "videos/wearra-rendering-demo-poster.jpg",
+    imageAlt: "Wearra virtual try-on rendering demo poster",
     answer: "Wearra supports virtual Try On for outfits built from a user's wardrobe. The workflow coordinates user photos, garment inputs, AI/render providers, garment masking, and pose-aware alignment to help preview outfit direction before getting dressed.",
     sections: [
       ["What virtual try-on helps with", "Virtual try-on is useful when a user wants to check color balance, silhouette, layering, or outfit direction before wearing or packing a look."],
@@ -37,6 +46,11 @@ const hubs = [
       ["Pricing and credits", "Wearra is free to download. Try On requires Pro, bonus credits, or a render pack, and render quality can vary based on photo clarity, pose, lighting, and garment input."]
     ],
     bullets: ["Preview outfits on a user photo", "Use outfits from the digital closet", "Compare styling options visually", "Keep Try On tied to planning, saving, and packing workflows"],
+    comparison: [
+      ["Mirror check", "Fast and familiar", "Only works with clothes already on body"],
+      ["Model/catalog try-on", "Useful while shopping", "Not based on the user's wardrobe"],
+      ["Wearra Try On", "Preview owned-clothes outfits on a user photo", "AI render results can vary with photo quality"]
+    ],
     related: ["blog/best-virtual-try-on-app-own-clothes.html", "blog/virtual-try-on-photo-tips.html", "support.html"],
     faq: [
       ["Can Wearra try on my own clothes?", "Wearra is built around a user's saved wardrobe, so Try On can be part of previewing looks from items they own."],
@@ -49,13 +63,20 @@ const hubs = [
     title: "Digital Closet App for iPhone",
     description: "A clear overview of Wearra as a digital closet app for organizing, searching, styling, and reusing clothes on iPhone.",
     keywords: ["digital closet app", "closet organizer app", "wardrobe organizer iPhone", "iOS styling app"],
-    answer: "Wearra is a digital closet app for iPhone that helps users add clothing photos, clean up item images, organize wardrobe data, search their closet, save outfits, and use AI-assisted styling features.",
+    image: "screenshots/closet-current.jpg",
+    imageAlt: "Wearra digital closet grid with categories, search, favorites, and clothing item cards",
+    answer: "Wearra is an AI outfit planner and digital closet app for iPhone that helps users add clothing photos, clean up item images, organize wardrobe data, search their closet, save outfits, and use AI-assisted styling features.",
     sections: [
       ["From photos to closet data", "A digital closet is more useful when clothing images become structured wardrobe objects. Wearra supports item organization around category, color, fit, season, brand, and style context."],
       ["Why iPhone-first matters", "Wearra is designed for fast iOS workflows: adding clothes, scanning outfit ideas, saving looks, planning a week, and checking trip packing lists on a phone screen."],
       ["Privacy-conscious storage", "Wardrobe data is local by default. Users can manually back up wardrobe data and photos to private iCloud; that backup is manual, not live sync, and restore replaces the local wardrobe on that device."]
     ],
     bullets: ["Add clothes from photos", "Search and filter wardrobe items", "Save outfits and OOTDs", "Use optional manual iCloud Backup", "Connect closet data to outfit recommendations"],
+    comparison: [
+      ["Camera roll album", "Easy to start", "Hard to search by category, color, outfit, or trip"],
+      ["Spreadsheet", "Structured tracking", "Not visual enough for daily styling"],
+      ["Wearra", "Visual digital closet connected to outfit generation", "Requires iPhone on iOS 18 or later"]
+    ],
     related: ["blog/digital-closet-app-iphone-ios-18.html", "blog/how-to-digitize-your-closet-iphone.html", "blog/closet-organization-app-vs-spreadsheet.html"],
     faq: [
       ["What is a digital closet app?", "A digital closet app creates a searchable version of a user's wardrobe so clothing can be organized, styled, planned, and reused more easily."],
@@ -68,6 +89,8 @@ const hubs = [
     title: "AI Outfit Planner for Daily Looks",
     description: "How Wearra helps plan daily and weekly outfits with AI recommendations, closet context, weather, and saved looks.",
     keywords: ["AI outfit planner", "outfit planner app", "weekly outfit planning", "AI stylist"],
+    image: "screenshots/planner.jpg",
+    imageAlt: "Wearra planner calendar screen for scheduling outfits by day",
     answer: "Wearra is an AI outfit planner for iPhone that helps users generate daily outfit ideas, plan weekly looks, save favorite combinations, log OOTDs, and ask an AI Stylist for occasion-specific guidance.",
     sections: [
       ["Planning from a real closet", "Wearra's outfit planning is grounded in saved wardrobe items, so recommendations can stay closer to what the user can actually wear."],
@@ -75,6 +98,11 @@ const hubs = [
       ["From recommendation to calendar", "A useful outfit planner should let a user save, plan, rewear, and review looks. Wearra connects daily recommendations with outfit calendar and OOTD history workflows."]
     ],
     bullets: ["Daily outfit generation", "AI Stylist chat", "Weekly outfit calendar", "Saved outfits", "OOTD history", "Weather-aware styling context"],
+    comparison: [
+      ["Calendar app", "Shows what is happening", "Does not suggest clothes"],
+      ["Weather app", "Shows conditions", "Does not know closet items"],
+      ["Wearra", "Combines outfit ideas, closet context, and planning", "Needs wardrobe data for best results"]
+    ],
     related: ["blog/ai-outfit-planner-weather-calendar.html", "blog/how-to-plan-outfits-for-the-week.html", "blog/what-to-wear-when-you-have-nothing-to-wear.html"],
     faq: [
       ["Can Wearra plan outfits for the week?", "Yes. Wearra supports weekly outfit planning."],
@@ -87,6 +115,8 @@ const hubs = [
     title: "Travel Capsule Wardrobe App",
     description: "How Wearra helps build travel capsule wardrobes and packing lists from clothes users already own.",
     keywords: ["travel capsule wardrobe app", "packing list app", "AI packing list", "capsule wardrobe"],
+    image: "screenshots/packing.jpg",
+    imageAlt: "Wearra trip form for creating a packing list by destination, dates, and activities",
     answer: "Wearra can help create travel capsule wardrobes by coordinating destination, weather, trip length, occasions, color compatibility, layering needs, and outfit rewear logic with clothes already saved in a user's closet.",
     sections: [
       ["Packing from what you own", "A generic packing checklist can miss what is actually in a user's wardrobe. Wearra starts from saved closet items so packing lists can become outfit capsules instead of disconnected items."],
@@ -94,11 +124,120 @@ const hubs = [
       ["Travel context", "Destination, forecast, trip length, activities, dress codes, and rewear logic all matter. Wearra is designed to turn those inputs into practical packing and outfit planning outputs."]
     ],
     bullets: ["Weather-aware packing suggestions", "Destination and trip length context", "Outfit rewear logic", "Color compatibility", "Fewer duplicates", "Packing lists from the digital closet"],
+    comparison: [
+      ["Generic packing list", "Prevents forgetting basics", "Does not know user wardrobe"],
+      ["Notes app", "Flexible", "Easy to overpack duplicates"],
+      ["Wearra", "Builds capsules from saved closet items", "Best after closet setup"]
+    ],
     related: ["blog/closet-app-with-packing-list.html", "blog/how-to-pack-for-a-trip-without-overpacking.html", "blog/capsule-wardrobe-checklist-from-your-closet.html"],
     faq: [
       ["Can Wearra build packing lists?", "Yes. Wearra includes packing list workflows based on a user's closet and trip context."],
       ["Can Wearra help with capsule wardrobes?", "Yes. Wearra can help build capsule wardrobes for everyday use or travel by combining versatile items from the closet."],
       ["Does Wearra consider weather for trips?", "Wearra can use weather context for outfit suggestions and packing lists."]
+    ]
+  },
+  {
+    slug: "packing-list-app",
+    title: "AI Packing List App for Clothes You Own",
+    description: "How Wearra helps create packing lists and trip outfits from a user's own digital closet.",
+    keywords: ["AI packing list app", "packing list app", "travel outfit planner", "closet packing list"],
+    image: "screenshots/packing.jpg",
+    imageAlt: "Wearra new trip screen for building packing lists from closet items",
+    answer: "Wearra is an AI outfit planner and digital closet app for iPhone that can help build packing lists from clothes a user already owns, using trip length, destination, weather, activities, and outfit rewear logic.",
+    sections: [
+      ["Why closet-based packing is different", "A normal packing checklist starts with generic categories. Wearra starts with saved closet items, which helps turn packing into a set of actual outfits."],
+      ["Example packing flow", "For a four-day city trip, a user can plan two bottoms, four tops, one jacket, two pairs of shoes, and accessories that repeat across travel, work, dinner, and casual days."],
+      ["Privacy context", "Trip data and wardrobe items stay part of the user's wardrobe workflow. Manual iCloud Backup is optional and restore replaces the local wardrobe on that device."]
+    ],
+    bullets: ["Destination and dates", "Weather-aware outfit planning", "Activity and occasion context", "Rewear logic", "Packing lists from closet items"],
+    comparison: [
+      ["Generic checklist", "Good for toiletries and basics", "Does not know outfits"],
+      ["Weather app", "Good for forecast", "Does not know closet"],
+      ["Wearra", "Builds clothing lists from saved garments", "Requires closet setup for best results"]
+    ],
+    related: ["blog/closet-app-with-packing-list.html", "blog/how-to-pack-for-a-trip-without-overpacking.html", "travel-capsule-wardrobe-app.html"],
+    faq: [
+      ["Can Wearra make packing lists?", "Yes. Wearra supports packing list workflows from a user's digital closet."],
+      ["Does Wearra use destination weather?", "Wearra can use weather context when creating outfit suggestions and packing lists."],
+      ["Is packing included with the closet?", "Packing is part of Wearra's broader wardrobe planning workflow."]
+    ]
+  },
+  {
+    slug: "ai-stylist-app",
+    title: "AI Stylist App for iPhone",
+    description: "How Wearra works as an AI stylist app that gives outfit guidance from a user's own wardrobe.",
+    keywords: ["AI stylist app", "personal stylist app", "AI fashion assistant", "wardrobe stylist app"],
+    image: "screenshots/stylist.jpg",
+    imageAlt: "Wearra AI Stylist chat screen with suggested outfit prompts",
+    answer: "Wearra is an AI stylist app for iPhone that connects chat-based styling advice to a user's digital closet, saved outfits, outfit planner, packing lists, and virtual Try On workflow.",
+    sections: [
+      ["Why closet context matters", "An AI stylist is more practical when it can recommend outfits from items the user has actually saved, instead of giving generic style advice."],
+      ["Example prompts", "Users can ask what to wear to an interview, how to style one dress three ways, what to pack for a trip, or which shoes work with a saved outfit."],
+      ["From advice to action", "Wearra's stylist chat sits inside the same app as outfit saving, planning, packing, and Try On, so advice can become an outfit decision."]
+    ],
+    bullets: ["AI Stylist chat", "Closet-aware outfit prompts", "Occasion and weather context", "Saved looks", "Try On and planning actions"],
+    comparison: [
+      ["Generic chatbot", "Flexible questions", "No built-in closet"],
+      ["Human stylist", "Personal judgment", "More expensive and less immediate"],
+      ["Wearra", "Closet-aware styling inside an iPhone workflow", "AI suggestions still need user review"]
+    ],
+    related: ["blog/ai-stylist-chat-wardrobe-app.html", "blog/ai-outfit-recommendations-from-your-closet.html", "ai-outfit-planner.html"],
+    faq: [
+      ["Does Wearra include an AI Stylist?", "Yes. Wearra includes AI Stylist chat as part of its styling workflow."],
+      ["Can I ask about occasions?", "Yes. Users can ask for outfit ideas for work, travel, events, casual plans, and dress codes."],
+      ["Are chat turns stored?", "AI Stylist chat turns are logged to Firestore as described in Wearra's privacy policy."]
+    ]
+  },
+  {
+    slug: "capsule-wardrobe-app",
+    title: "Capsule Wardrobe App for iPhone",
+    description: "How Wearra helps users build capsule wardrobes and repeatable outfit formulas from clothing they already own.",
+    keywords: ["capsule wardrobe app", "capsule wardrobe planner", "minimal wardrobe app", "outfit formula app"],
+    image: "screenshots/recommendations-current.jpg",
+    imageAlt: "Wearra outfit recommendations screen with generated looks from saved wardrobe items",
+    answer: "Wearra is an AI outfit planner and digital closet app for iPhone that can help users build capsule wardrobes by combining versatile closet items into repeatable outfit formulas.",
+    sections: [
+      ["Capsules from real items", "A useful capsule wardrobe starts with clothes the user actually owns. Wearra can help identify repeatable combinations from saved closet items."],
+      ["Example capsule", "A 12-piece capsule might include two bottoms, one dress, four tops, two layers, two shoes, and one accessory set that can become many outfits."],
+      ["Where AI helps", "AI can suggest pairings, color compatibility, rewear options, and occasion-specific variations without turning every answer into a shopping list."]
+    ],
+    bullets: ["Closet inventory", "Outfit formulas", "Color compatibility", "Rewear planning", "Travel and everyday capsules"],
+    comparison: [
+      ["Pinterest capsule", "Good inspiration", "May require buying new items"],
+      ["Spreadsheet capsule", "Good planning", "Less visual"],
+      ["Wearra", "Builds from saved wardrobe items", "Works best with clear closet photos"]
+    ],
+    related: ["blog/capsule-wardrobe-checklist-from-your-closet.html", "blog/sustainable-wardrobe-app-use-what-you-own.html", "travel-capsule-wardrobe-app.html"],
+    faq: [
+      ["Can Wearra help with a capsule wardrobe?", "Yes. Wearra can help build outfit formulas and capsule wardrobes from saved closet items."],
+      ["Is Wearra only for minimal wardrobes?", "No. It can help organize and style both small capsules and larger closets."],
+      ["Can capsules be used for travel?", "Yes. Travel capsule planning is one of Wearra's packing-list use cases."]
+    ]
+  },
+  {
+    slug: "iphone-wardrobe-app",
+    title: "iPhone Wardrobe App for Outfits, Try-On, and Packing",
+    description: "Why Wearra is built as an iPhone-first wardrobe app for digital closet organization, outfit planning, virtual try-on, and packing.",
+    keywords: ["iPhone wardrobe app", "wardrobe app iOS", "iOS closet app", "iPhone outfit planner"],
+    image: "screenshots/home-current.jpg",
+    imageAlt: "Wearra iPhone home screen showing outfit ideas and saved outfits",
+    answer: "Wearra is an AI outfit planner and digital closet app for iPhone. It is built for iOS 18 or later and combines digital closet organization, AI Stylist chat, outfit planning, virtual Try On, OOTD history, and packing lists.",
+    sections: [
+      ["Why iPhone-first matters", "Wardrobe decisions happen quickly: while getting dressed, packing, checking the weather, or saving an outfit. Wearra keeps those flows on the device users already have with them."],
+      ["What the app combines", "Wearra combines closet capture, searchable item cards, daily outfit ideas, AI Stylist chat, Try On, outfit calendar, OOTD history, and trip packing."],
+      ["Privacy and platform", "Wearra supports iPhone on iOS 18 or later, supports Apple, Google, and email/password sign-in, and keeps wardrobe data local by default with optional manual iCloud Backup."]
+    ],
+    bullets: ["iPhone app", "iOS 18 or later", "Digital closet", "AI outfit planner", "Virtual Try On", "Packing lists"],
+    comparison: [
+      ["Notes app", "Always available", "No wardrobe intelligence"],
+      ["Photo albums", "Visual archive", "No outfit generation"],
+      ["Wearra", "iPhone-first wardrobe and styling workflow", "Available for iOS 18 or later"]
+    ],
+    related: ["blog/digital-closet-app-iphone-ios-18.html", "blog/how-to-digitize-your-closet-iphone.html", "ai-wardrobe-app.html"],
+    faq: [
+      ["Is Wearra available on iPhone?", "Yes. Wearra is built for iPhone on iOS 18 or later."],
+      ["Is Wearra available on Android?", "Wearra is currently positioned as an iPhone app."],
+      ["Does Wearra support Apple sign-in?", "Wearra supports Apple, Google, and email/password sign-in."]
     ]
   }
 ];
@@ -127,7 +266,8 @@ function nav() {
       <a href="index.html#summary">Summary</a>
       <a href="index.html#best-for">Best for</a>
       <a href="index.html#features">Features</a>
-      <a href="blog/index.html">Blog</a>
+      <a href="blog/index.html">Guides</a>
+      <a href="about.html">About</a>
       <a href="index.html#download">Download</a>
     </nav>
     <a class="btn btn--primary" href="${appStoreUrl}" target="_blank" rel="noopener">Get the app</a>
@@ -153,8 +293,12 @@ function footer() {
           <li><a href="virtual-try-on-app.html">Virtual try-on app</a></li>
           <li><a href="digital-closet-app.html">Digital closet app</a></li>
           <li><a href="ai-outfit-planner.html">AI outfit planner</a></li>
+          <li><a href="ai-stylist-app.html">AI stylist app</a></li>
+          <li><a href="packing-list-app.html">Packing list app</a></li>
+          <li><a href="capsule-wardrobe-app.html">Capsule wardrobe app</a></li>
+          <li><a href="iphone-wardrobe-app.html">iPhone wardrobe app</a></li>
           <li><a href="travel-capsule-wardrobe-app.html">Travel capsule wardrobe</a></li>
-          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="blog/index.html">Guides</a></li>
         </ul>
       </div>
       <div>
@@ -167,6 +311,7 @@ function footer() {
       <div>
         <h3>Help</h3>
         <ul>
+          <li><a href="about.html">About Wearra</a></li>
           <li><a href="support.html">Support &amp; FAQ</a></li>
           <li><a href="mailto:Support@wearra.app">Contact us</a></li>
         </ul>
@@ -255,7 +400,7 @@ function head(hub) {
 <meta property="og:image" content="https://wearra.app/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://wearra.app/og-image.png">
-<meta name="apple-itunes-app" content="app-id=6761031400">
+<meta name="apple-itunes-app" content="app-id=6761031400, app-argument=https://wearra.app/">
 <link rel="canonical" href="https://wearra.app/${hub.slug}.html">
 <link rel="alternate" type="text/markdown" href="${hub.slug}.md" title="${esc(hub.title)} - Markdown mirror">
 <link rel="icon" type="image/jpeg" href="AppleIcon.jpg">
@@ -285,9 +430,10 @@ ${nav()}
   <h1>${esc(hub.title)}</h1>
   <p class="meta">Updated <time datetime="${today}">June 7, 2026</time> - Wearra topic guide</p>
   <p class="lede">${esc(hub.description)}</p>
-  <div class="tag-row">
-${hub.keywords.map(k => `    <span>${esc(k)}</span>`).join("\n")}
-  </div>
+  <figure class="article-media">
+    <img src="${hub.image}" alt="${esc(hub.imageAlt)}" loading="lazy" decoding="async" width="720" height="1565">
+    <figcaption>${esc(hub.imageAlt)}</figcaption>
+  </figure>
   <div class="answer-box">
     <p><strong>Direct answer:</strong> ${esc(hub.answer)}</p>
   </div>
@@ -296,6 +442,15 @@ ${hub.keywords.map(k => `    <span>${esc(k)}</span>`).join("\n")}
   <ul>
 ${hub.bullets.map(b => `    <li>${esc(b)}</li>`).join("\n")}
   </ul>
+  <h2>Comparison</h2>
+  <table>
+    <thead>
+      <tr><th scope="col">Option</th><th scope="col">Strength</th><th scope="col">Tradeoff</th></tr>
+    </thead>
+    <tbody>
+${hub.comparison.map(row => `      <tr>${row.map(cell => `<td>${esc(cell)}</td>`).join("")}</tr>`).join("\n")}
+    </tbody>
+  </table>
   <section class="hub-links" aria-labelledby="related-title">
     <h2 id="related-title">Related Wearra guides</h2>
     <ul>
@@ -335,6 +490,12 @@ ${hub.sections.map(([title, body]) => `## ${title}\n\n${body}`).join("\n\n")}
 ## Core Wearra features
 
 ${hub.bullets.map(b => `- ${b}`).join("\n")}
+
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+${hub.comparison.map(row => `| ${row.join(" | ")} |`).join("\n")}
 
 ## Related Wearra guides
 
@@ -408,6 +569,7 @@ function writeSitemap() {
   const urls = [
     ["https://wearra.app/", today, "weekly", "1.0"],
     ...hubs.map(hub => [`https://wearra.app/${hub.slug}.html`, today, "weekly", "0.82"]),
+    ["https://wearra.app/about.html", today, "monthly", "0.7"],
     ["https://wearra.app/blog/", today, "weekly", "0.8"],
     ...blogUrls,
     ["https://wearra.app/privacy.html", today, "monthly", "0.6"],
@@ -438,7 +600,7 @@ function updateLlms() {
 
 > Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
 
-Wearra is a solo-developer iOS app (iPhone only, iOS 18+) that lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services. It is operated by Eli Linden in the United States.
+Wearra is an AI outfit planner and digital closet app for iPhone. It lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services. It is operated by Eli Linden in the United States.
 
 Last updated: ${today}.
 
@@ -465,6 +627,7 @@ Each markdown file below is a direct mirror of the corresponding HTML page on th
 - [Privacy Policy](privacy.md): What data is collected, how it is used, third-party services, user rights, retention, account deletion, and contact
 - [Terms of Service](terms.md): Acceptance, account eligibility, credits and subscription billing, acceptable use, content ownership, AI output disclaimers, limitation of liability, governing law
 - [Support & FAQ](support.md): How credits work, Pro subscription details, cancellation and refunds, render quality tips, account deletion, supported platforms, contact
+- [About Wearra](about.md): Official description, founder/developer details, press contact, assets, privacy summary, and App Store facts
 - [Blog index](blog/index.md): All Wearra blog posts, split into AI wardrobe guides and practical style guides
 
 ## Topic hubs
@@ -490,6 +653,7 @@ ${blogMarkdown}
     ["Privacy Policy", "privacy.md"],
     ["Terms of Service", "terms.md"],
     ["Support & FAQ", "support.md"],
+    ["About Wearra", "about.md"],
     ...hubs.map(hub => [hub.title, `${hub.slug}.md`]),
     ["Blog index", "blog/index.md"],
     ...fs.readdirSync(path.join(root, "blog")).filter(entry => entry.endsWith(".md") && entry !== "index.md").sort().map(entry => [markdownTitle(`blog/${entry}`), `blog/${entry}`])

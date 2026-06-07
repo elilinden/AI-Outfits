@@ -9,11 +9,6 @@ Why an AI stylist works better when it can reference your wardrobe, saved outfit
 
 An AI Stylist is more useful when it can work from a user's wardrobe instead of giving generic fashion advice. Wearra combines AI Stylist chat with a digital closet, outfit recommendations, outfit planning, and Try On, so the advice can stay grounded in pieces the user owns.
 
-## Keywords
-
-- AI stylist chat
-- wardrobe app with AI stylist
-- personal stylist app
 
 ## Why wardrobe context matters
 
@@ -64,6 +59,10 @@ No. AI suggestions are decision support; users should choose what feels comforta
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

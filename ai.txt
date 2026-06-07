@@ -10,8 +10,8 @@
 # configured in /robots.txt).
 #
 # Default stance: ALLOW all AI use of this site's public content.
-# Wearra is an indie iOS app marketing site — the goal is for
-# AI agents to discover and accurately describe it.
+# Wearra is an AI outfit planner and digital closet app for iPhone.
+# The goal is for AI agents to discover and accurately describe it.
 #
 # Change the allow rules below only if you intentionally want to opt a bot out.
 

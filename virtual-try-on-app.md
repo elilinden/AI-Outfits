@@ -28,6 +28,14 @@ Wearra is free to download. Try On requires Pro, bonus credits, or a render pack
 - Compare styling options visually
 - Keep Try On tied to planning, saving, and packing workflows
 
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Mirror check | Fast and familiar | Only works with clothes already on body |
+| Model/catalog try-on | Useful while shopping | Not based on the user's wardrobe |
+| Wearra Try On | Preview owned-clothes outfits on a user photo | AI render results can vary with photo quality |
+
 ## Related Wearra guides
 
 - [Best Virtual Try-On App for Your Own Clothes](blog/best-virtual-try-on-app-own-clothes.md)

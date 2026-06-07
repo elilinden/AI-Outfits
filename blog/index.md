@@ -16,6 +16,10 @@ Wearra is an iPhone wardrobe app for iOS 18 or later. It helps users digitize th
 - [Digital Closet App for iPhone](../digital-closet-app.md): A clear overview of Wearra as a digital closet app for organizing, searching, styling, and reusing clothes on iPhone.
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md): How Wearra helps plan daily and weekly outfits with AI recommendations, closet context, weather, and saved looks.
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md): How Wearra helps build travel capsule wardrobes and packing lists from clothes users already own.
+- [AI Packing List App for Clothes You Own](../packing-list-app.md): How Wearra helps create packing lists and trip outfits from a user's own digital closet.
+- [AI Stylist App for iPhone](../ai-stylist-app.md): How Wearra works as an AI stylist app that gives outfit guidance from a user's own wardrobe.
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md): How Wearra helps users build capsule wardrobes and repeatable outfit formulas from clothing they already own.
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md): Why Wearra is built as an iPhone-first wardrobe app for digital closet organization, outfit planning, virtual try-on, and packing.
 
 ## AI wardrobe guides
 

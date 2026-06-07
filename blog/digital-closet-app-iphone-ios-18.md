@@ -9,11 +9,25 @@ A concise guide to digital closet apps for iPhone users, with the features that 
 
 A digital closet app for iPhone should make it easy to add clothes, tag them, search them, build outfits, and get recommendations. Wearra is an iPhone app for iOS 18 or later that turns closet photos into a usable wardrobe system with AI outfit recommendations, an AI Stylist, planning, packing, and virtual Try On.
 
-## Keywords
 
-- digital closet app iPhone
-- closet app iOS 18
-- wardrobe organizer app
+## Real examples
+
+- Before: clothing photos scattered across camera roll, notes, and memory.
+- After digitizing: tops, bottoms, shoes, dresses, and outerwear become searchable items with cleaner backgrounds.
+- After styling: the closet powers outfit suggestions, travel capsules, OOTD history, and Try On decisions.
+
+## Comparison
+
+| System | Strength | Weakness |
+| --- | --- | --- |
+| Camera roll album | Easy to start | No structured categories or outfit logic |
+| Spreadsheet | Flexible tracking | Not visual enough for daily styling |
+| Generic closet organizer | Cataloging clothes | May not include AI Stylist, Try On, packing, and planning |
+| Wearra | Digital closet connected to styling workflows | Requires iPhone on iOS 18 or later |
+
+**Founder note:** The closet view is meant to be operational, not decorative. A clean grid matters because users need to scan quickly on a phone.
+
+**Privacy note:** Wardrobe data is local by default, and manual iCloud Backup is optional rather than live sync.
 
 ## What a digital closet app does
 
@@ -64,6 +78,10 @@ Yes. Wearra includes daily outfit recommendations and AI Stylist chat.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

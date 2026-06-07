@@ -9,11 +9,6 @@ A simple weekly outfit planning system for work, school, errands, weather, and e
 
 To plan outfits for the week, check the weather and calendar first, choose anchor outfits for high-effort days, fill easy days with repeatable formulas, and save each look to a calendar. Wearra helps by combining closet items, daily recommendations, weekly planning, weather context, and OOTD history.
 
-## Keywords
-
-- how to plan outfits for the week
-- weekly outfit planner
-- outfit calendar app
 
 ## Start with the week, not the clothes
 
@@ -62,6 +57,10 @@ Wearra can use weather context for outfit suggestions.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

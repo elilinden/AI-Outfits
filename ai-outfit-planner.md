@@ -30,6 +30,14 @@ A useful outfit planner should let a user save, plan, rewear, and review looks. 
 - OOTD history
 - Weather-aware styling context
 
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Calendar app | Shows what is happening | Does not suggest clothes |
+| Weather app | Shows conditions | Does not know closet items |
+| Wearra | Combines outfit ideas, closet context, and planning | Needs wardrobe data for best results |
+
 ## Related Wearra guides
 
 - [AI Outfit Planner for Weather and Calendar Context](blog/ai-outfit-planner-weather-calendar.md)

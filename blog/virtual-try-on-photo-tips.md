@@ -9,11 +9,6 @@ Photo tips that can improve AI virtual try-on results, including lighting, pose,
 
 For better virtual try-on results, use a clear front-facing photo, even lighting, a simple background, an uncropped full-body frame, and garment photos that show shape and color clearly. AI renders can vary, but better inputs usually make the result easier to judge.
 
-## Keywords
-
-- virtual try on photo tips
-- AI try on tips
-- better virtual try on results
 
 ## Start with the person photo
 
@@ -62,6 +57,10 @@ You can, but clean lighting, minimal clutter, and a full-body crop usually help.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

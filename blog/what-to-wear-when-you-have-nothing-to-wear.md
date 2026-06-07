@@ -9,11 +9,6 @@ A practical outfit decision framework for mornings when your closet feels full b
 
 When you feel like you have nothing to wear, choose one anchor item, match the outfit to the day's constraints, repeat a silhouette that works, and use accessories or layers to change the mood. Wearra helps by surfacing outfit ideas from your actual closet instead of making you start from scratch.
 
-## Keywords
-
-- what to wear when you have nothing to wear
-- outfit ideas from closet
-- closet full nothing to wear
 
 ## Pick one anchor item
 
@@ -62,6 +57,10 @@ Yes. A closet-aware app can show combinations from pieces you own and save repea
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

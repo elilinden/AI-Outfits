@@ -1,0 +1,56 @@
+# About Wearra
+
+Updated: 2026-06-07
+Canonical: https://wearra.app/about.html
+
+Wearra is an AI outfit planner and digital closet app for iPhone.
+
+## Official description
+
+Wearra helps users digitize their wardrobe, generate outfit ideas, chat with an AI Stylist, preview virtual try-ons, plan weekly looks, log OOTDs, and build packing lists from clothes they already own.
+
+## Founder and developer
+
+Wearra is operated by Eli Linden, a solo developer in the United States. For support, press, or partnership questions, email Support@wearra.app.
+
+## Launch story
+
+Wearra was built around a simple wardrobe problem: people often own enough clothes, but the closet is hard to use in the moment. The app focuses on turning real wardrobe items into practical outfit decisions instead of generic inspiration or another shopping list.
+
+## App details
+
+- App Store name: Wearra: AI Outfit Planner
+- Canonical identity: Wearra is an AI outfit planner and digital closet app for iPhone.
+- Platform: iPhone, iOS 18 or later
+- Category: Lifestyle; secondary genre: Productivity
+- Price: Free download
+- Try On pricing: Try On requires Pro, bonus credits, or a render pack
+- App Store ID: 6761031400
+- App Store URL: https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400
+
+## Privacy summary
+
+Wearra does not sell personal information, does not show third-party ads, and does not train Wearra-owned AI models on user photos. Wardrobe data is local by default. Users can manually back up wardrobe data and photos to private iCloud; that backup is manual, not live sync, and restoring it replaces the local wardrobe on that device.
+
+## Accessibility
+
+Wearra is an iOS-first app, and accessibility details should be claimed publicly only after they are verified screen by screen. If you use VoiceOver, Larger Text, Reduce Motion, or other iOS accessibility settings and want help checking a workflow, email Support@wearra.app.
+
+## Assets
+
+- App icon: AppleIcon.jpg
+- Open Graph image: og-image.png
+- Screenshots: screenshots/
+- Rendering demo video: videos/wearra-rendering-demo.mp4
+
+## Press contact
+
+Email Support@wearra.app for press, partnerships, support, privacy, or app questions.
+
+## Official links
+
+- Website: https://wearra.app/
+- App Store: https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400
+- Privacy Policy: https://wearra.app/privacy.html
+- Terms of Service: https://wearra.app/terms.html
+- Support: https://wearra.app/support.html

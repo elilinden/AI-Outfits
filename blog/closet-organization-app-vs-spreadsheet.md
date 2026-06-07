@@ -9,11 +9,6 @@ Compare a dedicated closet organization app with a spreadsheet for wardrobe trac
 
 A wardrobe spreadsheet can track items, but a closet organization app is usually better for visual outfit decisions, AI recommendations, packing lists, and OOTD history. Wearra is designed for the visual and decision-heavy parts of getting dressed, while a spreadsheet is best for simple inventory tracking.
 
-## Keywords
-
-- closet organization app vs spreadsheet
-- wardrobe spreadsheet
-- closet app
 
 ## When a spreadsheet works
 
@@ -63,6 +58,10 @@ For styling and planning, yes for many users. For detailed purchase accounting, 
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
