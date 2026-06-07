@@ -9,11 +9,6 @@ A step-by-step guide to turning clothing photos into a practical digital closet 
 
 To digitize your closet on iPhone, start with your most-worn pieces, photograph items in good light, sort them by category, add useful tags, and build a few outfits right away. Wearra can help turn that process into a searchable closet with outfit recommendations, AI Stylist chat, planning, and Try On.
 
-## Keywords
-
-- how to digitize closet iPhone
-- digital closet guide
-- closet organization app
 
 ## Start with the clothes you actually wear
 
@@ -62,6 +57,10 @@ Not at first. Add the items that help you make outfit decisions.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

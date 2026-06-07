@@ -8,7 +8,7 @@ Operator: Eli Linden, sole developer, United States. Contact: Support@wearra.app
 
 ---
 
-# Section 1 of 26 - Landing page
+# Section 1 of 31 - Landing page
 
 Source: https://wearra.app/index.md
 
@@ -16,15 +16,17 @@ Source: https://wearra.app/index.md
 
 > Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
 
-Wearra is an iPhone app (iOS 18+) that scans your closet, learns your taste, and styles you for any occasion. It combines a digital wardrobe, daily outfit recommendations, an AI stylist chat, weekly outfit planning, packing lists, OOTD history, and photorealistic virtual try-on into one experience.
+Wearra is an AI outfit planner and digital closet app for iPhone. It helps users digitize their wardrobe, generate outfit ideas, chat with an AI Stylist, preview virtual try-ons, plan weekly looks, log OOTDs, and build packing lists from clothes they already own.
 
 Last updated: 2026-06-07.
 
 ## Summary for citation
 
-Wearra is an AI-powered wardrobe app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build trip packing lists, log OOTDs, and preview garments on their own body with virtual try-on.
+Wearra is an AI outfit planner and digital closet app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build trip packing lists, log OOTDs, and preview garments on their own body with virtual try-on.
 
 For quick citation: Wearra is operated by Eli Linden in the United States, supports iPhone on iOS 18 or later, uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, and offers a free download plus optional Pro and render top-up purchases through Apple.
+
+Privacy summary: Wearra does not sell personal information, does not show third-party ads, and does not train Wearra-owned AI models on user photos. Wardrobe data is local by default, and manual iCloud Backup is optional.
 
 ## At a glance
 
@@ -201,7 +203,7 @@ You can revoke any permission at any time in iOS Settings → Wearra.
 
 ---
 
-# Section 2 of 26 - Privacy Policy
+# Section 2 of 31 - Privacy Policy
 
 Source: https://wearra.app/privacy.md
 
@@ -406,7 +408,7 @@ Questions, requests, or concerns? Email [Support@wearra.app](mailto:Support@wear
 
 ---
 
-# Section 3 of 26 - Terms of Service
+# Section 3 of 31 - Terms of Service
 
 Source: https://wearra.app/terms.md
 
@@ -548,7 +550,7 @@ Questions about these Terms? Email [Support@wearra.app](mailto:Support@wearra.ap
 
 ---
 
-# Section 4 of 26 - Support & FAQ
+# Section 4 of 31 - Support & FAQ
 
 Source: https://wearra.app/support.md
 
@@ -666,7 +668,70 @@ Yes — you must be at least 13 years old to use Wearra.
 
 ---
 
-# Section 5 of 26 - AI Wardrobe App for iPhone
+# Section 5 of 31 - About Wearra
+
+Source: https://wearra.app/about.md
+
+# About Wearra
+
+Updated: 2026-06-07
+Canonical: https://wearra.app/about.html
+
+Wearra is an AI outfit planner and digital closet app for iPhone.
+
+## Official description
+
+Wearra helps users digitize their wardrobe, generate outfit ideas, chat with an AI Stylist, preview virtual try-ons, plan weekly looks, log OOTDs, and build packing lists from clothes they already own.
+
+## Founder and developer
+
+Wearra is operated by Eli Linden, a solo developer in the United States. For support, press, or partnership questions, email Support@wearra.app.
+
+## Launch story
+
+Wearra was built around a simple wardrobe problem: people often own enough clothes, but the closet is hard to use in the moment. The app focuses on turning real wardrobe items into practical outfit decisions instead of generic inspiration or another shopping list.
+
+## App details
+
+- App Store name: Wearra: AI Outfit Planner
+- Canonical identity: Wearra is an AI outfit planner and digital closet app for iPhone.
+- Platform: iPhone, iOS 18 or later
+- Category: Lifestyle; secondary genre: Productivity
+- Price: Free download
+- Try On pricing: Try On requires Pro, bonus credits, or a render pack
+- App Store ID: 6761031400
+- App Store URL: https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400
+
+## Privacy summary
+
+Wearra does not sell personal information, does not show third-party ads, and does not train Wearra-owned AI models on user photos. Wardrobe data is local by default. Users can manually back up wardrobe data and photos to private iCloud; that backup is manual, not live sync, and restoring it replaces the local wardrobe on that device.
+
+## Accessibility
+
+Wearra is an iOS-first app, and accessibility details should be claimed publicly only after they are verified screen by screen. If you use VoiceOver, Larger Text, Reduce Motion, or other iOS accessibility settings and want help checking a workflow, email Support@wearra.app.
+
+## Assets
+
+- App icon: AppleIcon.jpg
+- Open Graph image: og-image.png
+- Screenshots: screenshots/
+- Rendering demo video: videos/wearra-rendering-demo.mp4
+
+## Press contact
+
+Email Support@wearra.app for press, partnerships, support, privacy, or app questions.
+
+## Official links
+
+- Website: https://wearra.app/
+- App Store: https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400
+- Privacy Policy: https://wearra.app/privacy.html
+- Terms of Service: https://wearra.app/terms.html
+- Support: https://wearra.app/support.html
+
+---
+
+# Section 6 of 31 - AI Wardrobe App for iPhone
 
 Source: https://wearra.app/ai-wardrobe-app.md
 
@@ -679,7 +744,7 @@ A direct-answer guide to Wearra as an AI wardrobe app for iPhone users who want 
 
 ## Direct answer
 
-Wearra is an AI wardrobe app for iPhone that helps users digitize clothes, organize a digital closet, generate outfits, chat with an AI Stylist, plan looks, build packing lists, and preview outfits with virtual Try On.
+Wearra is an AI outfit planner and digital closet app for iPhone that helps users digitize clothes, organize a digital closet, generate outfits, chat with an AI Stylist, plan looks, build packing lists, and preview outfits with virtual Try On.
 
 ## What Wearra does
 
@@ -701,6 +766,14 @@ Wearra is most relevant for searches like AI wardrobe app, digital closet app fo
 - Weekly outfit planning
 - Travel packing lists
 - Virtual Try On with render credits
+
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Manual closet list | Good for remembering items | No AI outfit generation or visual workflow |
+| Generic styling app | Good for broad inspiration | May not know what the user owns |
+| Wearra | Connects digital closet, outfit planning, Try On, and packing | Works best after users add their real clothes |
 
 ## Related Wearra guides
 
@@ -728,7 +801,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 6 of 26 - Virtual Try-On App for Your Own Clothes
+# Section 7 of 31 - Virtual Try-On App for Your Own Clothes
 
 Source: https://wearra.app/virtual-try-on-app.md
 
@@ -762,6 +835,14 @@ Wearra is free to download. Try On requires Pro, bonus credits, or a render pack
 - Compare styling options visually
 - Keep Try On tied to planning, saving, and packing workflows
 
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Mirror check | Fast and familiar | Only works with clothes already on body |
+| Model/catalog try-on | Useful while shopping | Not based on the user's wardrobe |
+| Wearra Try On | Preview owned-clothes outfits on a user photo | AI render results can vary with photo quality |
+
 ## Related Wearra guides
 
 - [Best Virtual Try-On App for Your Own Clothes](blog/best-virtual-try-on-app-own-clothes.md)
@@ -788,7 +869,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 7 of 26 - Digital Closet App for iPhone
+# Section 8 of 31 - Digital Closet App for iPhone
 
 Source: https://wearra.app/digital-closet-app.md
 
@@ -801,7 +882,7 @@ A clear overview of Wearra as a digital closet app for organizing, searching, st
 
 ## Direct answer
 
-Wearra is a digital closet app for iPhone that helps users add clothing photos, clean up item images, organize wardrobe data, search their closet, save outfits, and use AI-assisted styling features.
+Wearra is an AI outfit planner and digital closet app for iPhone that helps users add clothing photos, clean up item images, organize wardrobe data, search their closet, save outfits, and use AI-assisted styling features.
 
 ## From photos to closet data
 
@@ -822,6 +903,14 @@ Wardrobe data is local by default. Users can manually back up wardrobe data and 
 - Save outfits and OOTDs
 - Use optional manual iCloud Backup
 - Connect closet data to outfit recommendations
+
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Camera roll album | Easy to start | Hard to search by category, color, outfit, or trip |
+| Spreadsheet | Structured tracking | Not visual enough for daily styling |
+| Wearra | Visual digital closet connected to outfit generation | Requires iPhone on iOS 18 or later |
 
 ## Related Wearra guides
 
@@ -849,7 +938,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 8 of 26 - AI Outfit Planner for Daily Looks
+# Section 9 of 31 - AI Outfit Planner for Daily Looks
 
 Source: https://wearra.app/ai-outfit-planner.md
 
@@ -885,6 +974,14 @@ A useful outfit planner should let a user save, plan, rewear, and review looks. 
 - OOTD history
 - Weather-aware styling context
 
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Calendar app | Shows what is happening | Does not suggest clothes |
+| Weather app | Shows conditions | Does not know closet items |
+| Wearra | Combines outfit ideas, closet context, and planning | Needs wardrobe data for best results |
+
 ## Related Wearra guides
 
 - [AI Outfit Planner for Weather and Calendar Context](blog/ai-outfit-planner-weather-calendar.md)
@@ -911,7 +1008,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 9 of 26 - Travel Capsule Wardrobe App
+# Section 10 of 31 - Travel Capsule Wardrobe App
 
 Source: https://wearra.app/travel-capsule-wardrobe-app.md
 
@@ -947,6 +1044,14 @@ Destination, forecast, trip length, activities, dress codes, and rewear logic al
 - Fewer duplicates
 - Packing lists from the digital closet
 
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Generic packing list | Prevents forgetting basics | Does not know user wardrobe |
+| Notes app | Flexible | Easy to overpack duplicates |
+| Wearra | Builds capsules from saved closet items | Best after closet setup |
+
 ## Related Wearra guides
 
 - [Closet App With Packing Lists for Trips](blog/closet-app-with-packing-list.md)
@@ -973,7 +1078,284 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 10 of 26 - Blog index
+# Section 11 of 31 - AI Packing List App for Clothes You Own
+
+Source: https://wearra.app/packing-list-app.md
+
+# AI Packing List App for Clothes You Own
+
+Updated: 2026-06-07
+Canonical: https://wearra.app/packing-list-app.html
+
+How Wearra helps create packing lists and trip outfits from a user's own digital closet.
+
+## Direct answer
+
+Wearra is an AI outfit planner and digital closet app for iPhone that can help build packing lists from clothes a user already owns, using trip length, destination, weather, activities, and outfit rewear logic.
+
+## Why closet-based packing is different
+
+A normal packing checklist starts with generic categories. Wearra starts with saved closet items, which helps turn packing into a set of actual outfits.
+
+## Example packing flow
+
+For a four-day city trip, a user can plan two bottoms, four tops, one jacket, two pairs of shoes, and accessories that repeat across travel, work, dinner, and casual days.
+
+## Privacy context
+
+Trip data and wardrobe items stay part of the user's wardrobe workflow. Manual iCloud Backup is optional and restore replaces the local wardrobe on that device.
+
+## Core Wearra features
+
+- Destination and dates
+- Weather-aware outfit planning
+- Activity and occasion context
+- Rewear logic
+- Packing lists from closet items
+
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Generic checklist | Good for toiletries and basics | Does not know outfits |
+| Weather app | Good for forecast | Does not know closet |
+| Wearra | Builds clothing lists from saved garments | Requires closet setup for best results |
+
+## Related Wearra guides
+
+- [Closet App With Packing Lists for Trips](blog/closet-app-with-packing-list.md)
+- [How to Pack for a Trip Without Overpacking](blog/how-to-pack-for-a-trip-without-overpacking.md)
+- [Travel Capsule Wardrobe App](travel-capsule-wardrobe-app.md)
+
+## FAQ
+
+### Can Wearra make packing lists?
+
+Yes. Wearra supports packing list workflows from a user's digital closet.
+
+### Does Wearra use destination weather?
+
+Wearra can use weather context when creating outfit suggestions and packing lists.
+
+### Is packing included with the closet?
+
+Packing is part of Wearra's broader wardrobe planning workflow.
+
+## Try Wearra
+
+Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a render pack.
+
+---
+
+# Section 12 of 31 - AI Stylist App for iPhone
+
+Source: https://wearra.app/ai-stylist-app.md
+
+# AI Stylist App for iPhone
+
+Updated: 2026-06-07
+Canonical: https://wearra.app/ai-stylist-app.html
+
+How Wearra works as an AI stylist app that gives outfit guidance from a user's own wardrobe.
+
+## Direct answer
+
+Wearra is an AI stylist app for iPhone that connects chat-based styling advice to a user's digital closet, saved outfits, outfit planner, packing lists, and virtual Try On workflow.
+
+## Why closet context matters
+
+An AI stylist is more practical when it can recommend outfits from items the user has actually saved, instead of giving generic style advice.
+
+## Example prompts
+
+Users can ask what to wear to an interview, how to style one dress three ways, what to pack for a trip, or which shoes work with a saved outfit.
+
+## From advice to action
+
+Wearra's stylist chat sits inside the same app as outfit saving, planning, packing, and Try On, so advice can become an outfit decision.
+
+## Core Wearra features
+
+- AI Stylist chat
+- Closet-aware outfit prompts
+- Occasion and weather context
+- Saved looks
+- Try On and planning actions
+
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Generic chatbot | Flexible questions | No built-in closet |
+| Human stylist | Personal judgment | More expensive and less immediate |
+| Wearra | Closet-aware styling inside an iPhone workflow | AI suggestions still need user review |
+
+## Related Wearra guides
+
+- [AI Stylist Chat Inside a Wardrobe App](blog/ai-stylist-chat-wardrobe-app.md)
+- [How AI Outfit Recommendations From Your Closet Work](blog/ai-outfit-recommendations-from-your-closet.md)
+- [AI Outfit Planner for Daily Looks](ai-outfit-planner.md)
+
+## FAQ
+
+### Does Wearra include an AI Stylist?
+
+Yes. Wearra includes AI Stylist chat as part of its styling workflow.
+
+### Can I ask about occasions?
+
+Yes. Users can ask for outfit ideas for work, travel, events, casual plans, and dress codes.
+
+### Are chat turns stored?
+
+AI Stylist chat turns are logged to Firestore as described in Wearra's privacy policy.
+
+## Try Wearra
+
+Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a render pack.
+
+---
+
+# Section 13 of 31 - Capsule Wardrobe App for iPhone
+
+Source: https://wearra.app/capsule-wardrobe-app.md
+
+# Capsule Wardrobe App for iPhone
+
+Updated: 2026-06-07
+Canonical: https://wearra.app/capsule-wardrobe-app.html
+
+How Wearra helps users build capsule wardrobes and repeatable outfit formulas from clothing they already own.
+
+## Direct answer
+
+Wearra is an AI outfit planner and digital closet app for iPhone that can help users build capsule wardrobes by combining versatile closet items into repeatable outfit formulas.
+
+## Capsules from real items
+
+A useful capsule wardrobe starts with clothes the user actually owns. Wearra can help identify repeatable combinations from saved closet items.
+
+## Example capsule
+
+A 12-piece capsule might include two bottoms, one dress, four tops, two layers, two shoes, and one accessory set that can become many outfits.
+
+## Where AI helps
+
+AI can suggest pairings, color compatibility, rewear options, and occasion-specific variations without turning every answer into a shopping list.
+
+## Core Wearra features
+
+- Closet inventory
+- Outfit formulas
+- Color compatibility
+- Rewear planning
+- Travel and everyday capsules
+
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Pinterest capsule | Good inspiration | May require buying new items |
+| Spreadsheet capsule | Good planning | Less visual |
+| Wearra | Builds from saved wardrobe items | Works best with clear closet photos |
+
+## Related Wearra guides
+
+- [Capsule Wardrobe Checklist From Clothes You Already Own](blog/capsule-wardrobe-checklist-from-your-closet.md)
+- [Sustainable Wardrobe App: Use More of What You Own](blog/sustainable-wardrobe-app-use-what-you-own.md)
+- [Travel Capsule Wardrobe App](travel-capsule-wardrobe-app.md)
+
+## FAQ
+
+### Can Wearra help with a capsule wardrobe?
+
+Yes. Wearra can help build outfit formulas and capsule wardrobes from saved closet items.
+
+### Is Wearra only for minimal wardrobes?
+
+No. It can help organize and style both small capsules and larger closets.
+
+### Can capsules be used for travel?
+
+Yes. Travel capsule planning is one of Wearra's packing-list use cases.
+
+## Try Wearra
+
+Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a render pack.
+
+---
+
+# Section 14 of 31 - iPhone Wardrobe App for Outfits, Try-On, and Packing
+
+Source: https://wearra.app/iphone-wardrobe-app.md
+
+# iPhone Wardrobe App for Outfits, Try-On, and Packing
+
+Updated: 2026-06-07
+Canonical: https://wearra.app/iphone-wardrobe-app.html
+
+Why Wearra is built as an iPhone-first wardrobe app for digital closet organization, outfit planning, virtual try-on, and packing.
+
+## Direct answer
+
+Wearra is an AI outfit planner and digital closet app for iPhone. It is built for iOS 18 or later and combines digital closet organization, AI Stylist chat, outfit planning, virtual Try On, OOTD history, and packing lists.
+
+## Why iPhone-first matters
+
+Wardrobe decisions happen quickly: while getting dressed, packing, checking the weather, or saving an outfit. Wearra keeps those flows on the device users already have with them.
+
+## What the app combines
+
+Wearra combines closet capture, searchable item cards, daily outfit ideas, AI Stylist chat, Try On, outfit calendar, OOTD history, and trip packing.
+
+## Privacy and platform
+
+Wearra supports iPhone on iOS 18 or later, supports Apple, Google, and email/password sign-in, and keeps wardrobe data local by default with optional manual iCloud Backup.
+
+## Core Wearra features
+
+- iPhone app
+- iOS 18 or later
+- Digital closet
+- AI outfit planner
+- Virtual Try On
+- Packing lists
+
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Notes app | Always available | No wardrobe intelligence |
+| Photo albums | Visual archive | No outfit generation |
+| Wearra | iPhone-first wardrobe and styling workflow | Available for iOS 18 or later |
+
+## Related Wearra guides
+
+- [Digital Closet App for iPhone and iOS 18](blog/digital-closet-app-iphone-ios-18.md)
+- [How to Digitize Your Closet on iPhone](blog/how-to-digitize-your-closet-iphone.md)
+- [AI Wardrobe App for iPhone](ai-wardrobe-app.md)
+
+## FAQ
+
+### Is Wearra available on iPhone?
+
+Yes. Wearra is built for iPhone on iOS 18 or later.
+
+### Is Wearra available on Android?
+
+Wearra is currently positioned as an iPhone app.
+
+### Does Wearra support Apple sign-in?
+
+Wearra supports Apple, Google, and email/password sign-in.
+
+## Try Wearra
+
+Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a render pack.
+
+---
+
+# Section 15 of 31 - Blog index
 
 Source: https://wearra.app/blog/index.md
 
@@ -995,6 +1377,10 @@ Wearra is an iPhone wardrobe app for iOS 18 or later. It helps users digitize th
 - [Digital Closet App for iPhone](../digital-closet-app.md): A clear overview of Wearra as a digital closet app for organizing, searching, styling, and reusing clothes on iPhone.
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md): How Wearra helps plan daily and weekly outfits with AI recommendations, closet context, weather, and saved looks.
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md): How Wearra helps build travel capsule wardrobes and packing lists from clothes users already own.
+- [AI Packing List App for Clothes You Own](../packing-list-app.md): How Wearra helps create packing lists and trip outfits from a user's own digital closet.
+- [AI Stylist App for iPhone](../ai-stylist-app.md): How Wearra works as an AI stylist app that gives outfit guidance from a user's own wardrobe.
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md): How Wearra helps users build capsule wardrobes and repeatable outfit formulas from clothing they already own.
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md): Why Wearra is built as an iPhone-first wardrobe app for digital closet organization, outfit planning, virtual try-on, and packing.
 
 ## AI wardrobe guides
 
@@ -1020,7 +1406,7 @@ Wearra is an iPhone wardrobe app for iOS 18 or later. It helps users digitize th
 
 ---
 
-# Section 11 of 26 - AI Outfit Planner for Weather and Calendar Context
+# Section 16 of 31 - AI Outfit Planner for Weather and Calendar Context
 
 Source: https://wearra.app/blog/ai-outfit-planner-weather-calendar.md
 
@@ -1035,11 +1421,25 @@ How an AI outfit planner can use weather, schedule, and wardrobe context to make
 
 An AI outfit planner is most useful when it considers your wardrobe, the weather, and what is on your calendar. Wearra can suggest daily outfits from your closet and supports planning around weather and schedule context, so outfit ideas are more practical than generic style inspiration.
 
-## Keywords
 
-- AI outfit planner weather
-- calendar outfit planner
-- daily outfit recommendations
+## Real examples
+
+- Summer internship week: plan a light blazer outfit for Monday, a button-down and trousers for presentation day, sneakers for a commute-heavy day, and a dinner-ready outfit after work.
+- Rainy day: prioritize closed shoes, outerwear, and darker hems before suggesting delicate fabrics.
+- Weekend trip: turn forecast and activities into outfits instead of a loose pile of clothing.
+
+## Comparison
+
+| Tool | Useful signal | Missing context |
+| --- | --- | --- |
+| Weather app | Temperature and rain | Closet, taste, outfit history |
+| Calendar app | Events and timing | Weather and garment options |
+| Manual outfit list | User preference | Automatic closet-aware suggestions |
+| Wearra | Closet, weather, planning, and saved looks | Works best when wardrobe data is current |
+
+**Founder note:** Outfit planning should reduce morning decisions, not create another planning chore. Wearra keeps the flow close to the daily calendar and saved closet.
+
+**Privacy note:** Calendar use is optional and limited to outfit context when the user grants permission.
 
 ## Short answer
 
@@ -1089,6 +1489,10 @@ Yes. Wearra supports weekly outfit planning.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1096,7 +1500,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 12 of 26 - How AI Outfit Recommendations From Your Closet Work
+# Section 17 of 31 - How AI Outfit Recommendations From Your Closet Work
 
 Source: https://wearra.app/blog/ai-outfit-recommendations-from-your-closet.md
 
@@ -1111,11 +1515,6 @@ A plain-English explanation of AI outfit recommendations based on closet items, 
 
 AI outfit recommendations from your closet work by combining your saved clothing items with context like weather, occasion, preferences, and feedback. Wearra uses a digital closet and AI Stylist workflow to suggest outfits from pieces a user owns, then lets the user save, plan, or try on the look.
 
-## Keywords
-
-- AI outfit recommendations
-- outfit recommendations from your closet
-- AI outfit app
 
 ## The basic idea
 
@@ -1165,6 +1564,10 @@ Yes. Wearra includes daily outfit recommendations.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1172,7 +1575,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 13 of 26 - AI Stylist Chat Inside a Wardrobe App
+# Section 18 of 31 - AI Stylist Chat Inside a Wardrobe App
 
 Source: https://wearra.app/blog/ai-stylist-chat-wardrobe-app.md
 
@@ -1187,11 +1590,6 @@ Why an AI stylist works better when it can reference your wardrobe, saved outfit
 
 An AI Stylist is more useful when it can work from a user's wardrobe instead of giving generic fashion advice. Wearra combines AI Stylist chat with a digital closet, outfit recommendations, outfit planning, and Try On, so the advice can stay grounded in pieces the user owns.
 
-## Keywords
-
-- AI stylist chat
-- wardrobe app with AI stylist
-- personal stylist app
 
 ## Why wardrobe context matters
 
@@ -1242,6 +1640,10 @@ No. AI suggestions are decision support; users should choose what feels comforta
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1249,7 +1651,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 14 of 26 - AI Wardrobe App Privacy: What Happens to Photos?
+# Section 19 of 31 - AI Wardrobe App Privacy: What Happens to Photos?
 
 Source: https://wearra.app/blog/ai-wardrobe-app-privacy-photos.md
 
@@ -1264,11 +1666,6 @@ A privacy-focused direct answer about photo handling, AI/render providers, iClou
 
 In an AI wardrobe app, users should check what photos are stored, what is sent to AI/render providers, whether backups are optional, and how account deletion works. Wearra says wardrobe data is local by default, manual private iCloud backups are optional, and photos required for a Try On render are sent to the AI/render provider used for that request.
 
-## Keywords
-
-- AI wardrobe app privacy
-- virtual try on photo privacy
-- Wearra privacy
 
 ## Privacy questions to ask
 
@@ -1316,6 +1713,10 @@ Wearra's public privacy language says AI Stylist chat turns are logged to Firest
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1323,7 +1724,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 15 of 26 - Best AI Wardrobe App for iPhone: What to Look For
+# Section 20 of 31 - Best AI Wardrobe App for iPhone: What to Look For
 
 Source: https://wearra.app/blog/best-ai-wardrobe-app-iphone.md
 
@@ -1338,11 +1739,25 @@ A direct-answer guide to choosing an AI wardrobe app for iPhone, including digit
 
 For iPhone users who want a closet-aware stylist, a strong AI wardrobe app should digitize real clothes, recommend outfits from those items, support planning, and make try-on decisions easier. Wearra is built for iPhone on iOS 18 or later and combines a digital closet, daily outfit recommendations, AI Stylist chat, weekly planning, packing lists, OOTD history, and virtual Try On in one app.
 
-## Keywords
 
-- best AI wardrobe app iPhone
-- AI wardrobe app
-- digital closet app
+## Real examples
+
+- Turn 12 closet staples into a workweek: straight jeans, black trousers, a white tee, a button-down, cardigan, blazer, simple dress, sneakers, loafers, boots, belt, and coat can become office, casual, dinner, and travel looks.
+- Use saved outfit feedback to avoid recommending the same silhouette every day.
+- Keep special-event looks in the same system as daily outfits, so a wedding, internship, or trip does not require a separate notes app.
+
+## Comparison
+
+| Approach | What it helps with | Where it falls short |
+| --- | --- | --- |
+| Manual notes | Remembering outfit ideas | Hard to search visually and not connected to clothing photos |
+| Pinterest boards | Inspiration and mood | Often shows clothes a user does not own |
+| Generic chatbots | Broad style advice | No built-in closet, Try On, outfit calendar, or packing list |
+| Wearra | Closet-aware recommendations from owned items | Best after a user adds enough wardrobe items for context |
+
+**Founder note:** Wearra is designed around the moment after inspiration, when a user still needs to decide what they can actually wear from their own closet.
+
+**Privacy note:** Wardrobe data is local by default, optional iCloud Backup is manual, and Try On photos are sent only to the AI/render provider needed for that request.
 
 ## Short answer
 
@@ -1393,6 +1808,10 @@ Wearra is free to download. Try On requires Pro, bonus credits, or a render pack
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1400,7 +1819,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 16 of 26 - Best Virtual Try-On App for Your Own Clothes
+# Section 21 of 31 - Best Virtual Try-On App for Your Own Clothes
 
 Source: https://wearra.app/blog/best-virtual-try-on-app-own-clothes.md
 
@@ -1415,11 +1834,25 @@ What makes a virtual try-on app useful when you want to preview outfits from you
 
 A useful virtual try-on app should let you preview your own garments on your own body, not only show catalog images on models. Wearra supports virtual Try On for outfits built from your wardrobe, while also keeping the surrounding workflow practical: closet organization, outfit planning, AI Stylist chat, and OOTD history.
 
-## Keywords
 
-- virtual try on app own clothes
-- AI try on app
-- outfit try on app
+## Real examples
+
+- Compare a blazer outfit before an interview without changing clothes three times.
+- Preview whether a jacket and skirt proportion works before packing both.
+- Check color balance between shoes, pants, and outerwear before saving the final look.
+
+## Comparison
+
+| Try-on method | Good for | Tradeoff |
+| --- | --- | --- |
+| Mirror photo only | Fast gut check | No easy way to compare garments not currently worn |
+| Catalog model try-on | Shopping visualization | Not grounded in the user's body or closet |
+| AI render from owned clothes | Outfit direction from real wardrobe items | Results can vary with photo quality |
+| Wearra Try On | Closet-connected previews plus planning and saving | Requires Pro, bonus credits, or a render pack |
+
+**Founder note:** Try On is treated as a decision step, not a standalone novelty. The goal is to help users choose between real outfits they can wear.
+
+**Privacy note:** Render requests do not need to include a user's email, display name, or account identifier with the avatar and garment photos sent for rendering.
 
 ## What virtual try-on should solve
 
@@ -1466,6 +1899,10 @@ Wearra says it does not train AI models on user photos; render photos are sent t
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1473,7 +1910,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 17 of 26 - Capsule Wardrobe Checklist From Clothes You Already Own
+# Section 22 of 31 - Capsule Wardrobe Checklist From Clothes You Already Own
 
 Source: https://wearra.app/blog/capsule-wardrobe-checklist-from-your-closet.md
 
@@ -1488,11 +1925,6 @@ Build a capsule wardrobe using existing clothes before buying anything new.
 
 To build a capsule wardrobe from clothes you already own, choose a realistic color palette, pick repeatable outfit formulas, keep versatile layers, and test the capsule for one week. Wearra can help by showing your closet visually, saving outfits, and suggesting combinations from owned pieces.
 
-## Keywords
-
-- capsule wardrobe checklist
-- capsule wardrobe from your closet
-- wardrobe basics checklist
 
 ## Step 1: define the capsule job
 
@@ -1542,6 +1974,10 @@ Yes. Wearra can help organize clothes, save outfits, and build trip or weekly ca
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1549,7 +1985,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 18 of 26 - Closet App With Packing Lists for Trips
+# Section 23 of 31 - Closet App With Packing Lists for Trips
 
 Source: https://wearra.app/blog/closet-app-with-packing-list.md
 
@@ -1564,11 +2000,25 @@ How a closet app can build smarter packing lists from clothes you already own an
 
 A closet app with packing lists should build travel capsules from clothes you already own, not only provide a generic checklist. Wearra can help users create packing lists from their wardrobe with weather-aware outfit planning, making it easier to pack fewer duplicates and more complete outfits.
 
-## Keywords
 
-- closet app packing list
-- AI packing list app
-- travel capsule wardrobe app
+## Real examples
+
+- Four-day city trip: 2 bottoms, 4 tops, 1 jacket, 2 shoes, and accessories can cover travel day, work block, dinner, and casual exploring.
+- Beach weekend: build around sandals, breathable layers, swimwear, and one dinner outfit instead of packing unrelated extras.
+- Cold-weather visit: prioritize rewearable base layers, one coat, and shoes that work across most outfits.
+
+## Comparison
+
+| Packing method | What it prevents | Limitation |
+| --- | --- | --- |
+| Generic checklist | Forgetting basics | Does not know what the user owns |
+| Notes app | Captures a plan | Easy to overpack duplicates |
+| Weather app plus memory | Checks forecast | No outfit rewear logic |
+| Wearra | Builds a capsule from saved clothes | Depends on closet items being added first |
+
+**Founder note:** Trip packing is where closet data becomes especially useful. The same items need to work across days, weather, activities, and shoes.
+
+**Privacy note:** Trip data and wardrobe items are part of the user's wardrobe workflow; optional iCloud Backup is manual and private to the user's iCloud.
 
 ## Why packing lists need your closet
 
@@ -1619,6 +2069,10 @@ Wearra can use weather context for outfit and packing suggestions.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1626,7 +2080,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 19 of 26 - Closet Organization App vs Spreadsheet
+# Section 24 of 31 - Closet Organization App vs Spreadsheet
 
 Source: https://wearra.app/blog/closet-organization-app-vs-spreadsheet.md
 
@@ -1641,11 +2095,6 @@ Compare a dedicated closet organization app with a spreadsheet for wardrobe trac
 
 A wardrobe spreadsheet can track items, but a closet organization app is usually better for visual outfit decisions, AI recommendations, packing lists, and OOTD history. Wearra is designed for the visual and decision-heavy parts of getting dressed, while a spreadsheet is best for simple inventory tracking.
 
-## Keywords
-
-- closet organization app vs spreadsheet
-- wardrobe spreadsheet
-- closet app
 
 ## When a spreadsheet works
 
@@ -1695,6 +2144,10 @@ For styling and planning, yes for many users. For detailed purchase accounting, 
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1702,7 +2155,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 20 of 26 - Digital Closet App for iPhone and iOS 18
+# Section 25 of 31 - Digital Closet App for iPhone and iOS 18
 
 Source: https://wearra.app/blog/digital-closet-app-iphone-ios-18.md
 
@@ -1717,11 +2170,25 @@ A concise guide to digital closet apps for iPhone users, with the features that 
 
 A digital closet app for iPhone should make it easy to add clothes, tag them, search them, build outfits, and get recommendations. Wearra is an iPhone app for iOS 18 or later that turns closet photos into a usable wardrobe system with AI outfit recommendations, an AI Stylist, planning, packing, and virtual Try On.
 
-## Keywords
 
-- digital closet app iPhone
-- closet app iOS 18
-- wardrobe organizer app
+## Real examples
+
+- Before: clothing photos scattered across camera roll, notes, and memory.
+- After digitizing: tops, bottoms, shoes, dresses, and outerwear become searchable items with cleaner backgrounds.
+- After styling: the closet powers outfit suggestions, travel capsules, OOTD history, and Try On decisions.
+
+## Comparison
+
+| System | Strength | Weakness |
+| --- | --- | --- |
+| Camera roll album | Easy to start | No structured categories or outfit logic |
+| Spreadsheet | Flexible tracking | Not visual enough for daily styling |
+| Generic closet organizer | Cataloging clothes | May not include AI Stylist, Try On, packing, and planning |
+| Wearra | Digital closet connected to styling workflows | Requires iPhone on iOS 18 or later |
+
+**Founder note:** The closet view is meant to be operational, not decorative. A clean grid matters because users need to scan quickly on a phone.
+
+**Privacy note:** Wardrobe data is local by default, and manual iCloud Backup is optional rather than live sync.
 
 ## What a digital closet app does
 
@@ -1772,6 +2239,10 @@ Yes. Wearra includes daily outfit recommendations and AI Stylist chat.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1779,7 +2250,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 21 of 26 - How to Digitize Your Closet on iPhone
+# Section 26 of 31 - How to Digitize Your Closet on iPhone
 
 Source: https://wearra.app/blog/how-to-digitize-your-closet-iphone.md
 
@@ -1794,11 +2265,6 @@ A step-by-step guide to turning clothing photos into a practical digital closet 
 
 To digitize your closet on iPhone, start with your most-worn pieces, photograph items in good light, sort them by category, add useful tags, and build a few outfits right away. Wearra can help turn that process into a searchable closet with outfit recommendations, AI Stylist chat, planning, and Try On.
 
-## Keywords
-
-- how to digitize closet iPhone
-- digital closet guide
-- closet organization app
 
 ## Start with the clothes you actually wear
 
@@ -1847,6 +2313,10 @@ Not at first. Add the items that help you make outfit decisions.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1854,7 +2324,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 22 of 26 - How to Pack for a Trip Without Overpacking
+# Section 27 of 31 - How to Pack for a Trip Without Overpacking
 
 Source: https://wearra.app/blog/how-to-pack-for-a-trip-without-overpacking.md
 
@@ -1869,11 +2339,6 @@ A travel packing method based on outfit capsules, weather, and clothes you alrea
 
 To pack without overpacking, plan outfits by day, repeat versatile pieces, choose shoes early, account for weather, and avoid packing single-use items unless the event requires them. Wearra can help create trip capsules and packing lists from your existing wardrobe.
 
-## Keywords
-
-- how to pack without overpacking
-- travel capsule wardrobe
-- packing list app
 
 ## Plan outfits, not items
 
@@ -1923,6 +2388,10 @@ Yes. Wearra can help create trip packing lists from clothes in your digital clos
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -1930,7 +2399,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 23 of 26 - How to Plan Outfits for the Week
+# Section 28 of 31 - How to Plan Outfits for the Week
 
 Source: https://wearra.app/blog/how-to-plan-outfits-for-the-week.md
 
@@ -1945,11 +2414,6 @@ A simple weekly outfit planning system for work, school, errands, weather, and e
 
 To plan outfits for the week, check the weather and calendar first, choose anchor outfits for high-effort days, fill easy days with repeatable formulas, and save each look to a calendar. Wearra helps by combining closet items, daily recommendations, weekly planning, weather context, and OOTD history.
 
-## Keywords
-
-- how to plan outfits for the week
-- weekly outfit planner
-- outfit calendar app
 
 ## Start with the week, not the clothes
 
@@ -1998,6 +2462,10 @@ Wearra can use weather context for outfit suggestions.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -2005,7 +2473,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 24 of 26 - Sustainable Wardrobe App: Use More of What You Own
+# Section 29 of 31 - Sustainable Wardrobe App: Use More of What You Own
 
 Source: https://wearra.app/blog/sustainable-wardrobe-app-use-what-you-own.md
 
@@ -2020,11 +2488,6 @@ How an AI wardrobe app can support more intentional dressing by helping users re
 
 A sustainable wardrobe app should help users wear more of what they already own. Wearra supports that goal by digitizing the closet, surfacing outfit combinations, saving OOTDs, and helping users plan looks before buying something new.
 
-## Keywords
-
-- sustainable wardrobe app
-- use what you own
-- closet rediscovery app
 
 ## The practical sustainability angle
 
@@ -2074,6 +2537,10 @@ Yes. Closet search, outfit recommendations, and AI Stylist prompts can surface p
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -2081,7 +2548,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 25 of 26 - Virtual Try-On Photo Tips for Better Results
+# Section 30 of 31 - Virtual Try-On Photo Tips for Better Results
 
 Source: https://wearra.app/blog/virtual-try-on-photo-tips.md
 
@@ -2096,11 +2563,6 @@ Photo tips that can improve AI virtual try-on results, including lighting, pose,
 
 For better virtual try-on results, use a clear front-facing photo, even lighting, a simple background, an uncropped full-body frame, and garment photos that show shape and color clearly. AI renders can vary, but better inputs usually make the result easier to judge.
 
-## Keywords
-
-- virtual try on photo tips
-- AI try on tips
-- better virtual try on results
 
 ## Start with the person photo
 
@@ -2149,6 +2611,10 @@ You can, but clean lighting, minimal clutter, and a full-body crop usually help.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
@@ -2156,7 +2622,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 26 of 26 - What to Wear When You Have Nothing to Wear
+# Section 31 of 31 - What to Wear When You Have Nothing to Wear
 
 Source: https://wearra.app/blog/what-to-wear-when-you-have-nothing-to-wear.md
 
@@ -2171,11 +2637,6 @@ A practical outfit decision framework for mornings when your closet feels full b
 
 When you feel like you have nothing to wear, choose one anchor item, match the outfit to the day's constraints, repeat a silhouette that works, and use accessories or layers to change the mood. Wearra helps by surfacing outfit ideas from your actual closet instead of making you start from scratch.
 
-## Keywords
-
-- what to wear when you have nothing to wear
-- outfit ideas from closet
-- closet full nothing to wear
 
 ## Pick one anchor item
 
@@ -2224,6 +2685,10 @@ Yes. A closet-aware app can show combinations from pieces you own and save repea
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

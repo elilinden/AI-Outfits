@@ -9,11 +9,6 @@ A travel packing method based on outfit capsules, weather, and clothes you alrea
 
 To pack without overpacking, plan outfits by day, repeat versatile pieces, choose shoes early, account for weather, and avoid packing single-use items unless the event requires them. Wearra can help create trip capsules and packing lists from your existing wardrobe.
 
-## Keywords
-
-- how to pack without overpacking
-- travel capsule wardrobe
-- packing list app
 
 ## Plan outfits, not items
 
@@ -63,6 +58,10 @@ Yes. Wearra can help create trip packing lists from clothes in your digital clos
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

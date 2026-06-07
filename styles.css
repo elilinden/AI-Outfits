@@ -182,6 +182,28 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   margin:24px 0;
 }
 .article .answer-box p:last-child{margin-bottom:0}
+.article-media{
+  margin:28px 0;
+  background:var(--bg-soft);
+  border:1px solid var(--border);
+  border-radius:var(--radius-md);
+  padding:16px;
+  box-shadow:var(--shadow-sm);
+}
+.article-media img,
+.article-media video{
+  width:100%;
+  max-height:620px;
+  object-fit:contain;
+  border-radius:var(--radius-sm);
+  background:var(--bg-warm);
+}
+.article-media figcaption{
+  margin:10px 2px 0;
+  color:var(--fg-muted);
+  font-size:13px;
+  line-height:1.45;
+}
 .article .hub-links{
   display:grid;gap:10px;margin:20px 0 28px;
   padding:18px 20px;border:1px solid var(--border);
@@ -227,6 +249,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   }
   .article th,.article td{min-width:180px;padding:12px 14px}
   .article .lede{font-size:17px}
+  .article-media{border-radius:var(--radius-sm);padding:12px}
+  .article-media img,.article-media video{max-height:520px}
   .article .answer-box,.toc,.post-card{border-radius:var(--radius-sm);padding:18px}
   .article .hub-links{border-radius:var(--radius-sm);padding:16px 18px}
   .post-card h2{font-size:20px}

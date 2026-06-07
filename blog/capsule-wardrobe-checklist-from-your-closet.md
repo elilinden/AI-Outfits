@@ -9,11 +9,6 @@ Build a capsule wardrobe using existing clothes before buying anything new.
 
 To build a capsule wardrobe from clothes you already own, choose a realistic color palette, pick repeatable outfit formulas, keep versatile layers, and test the capsule for one week. Wearra can help by showing your closet visually, saving outfits, and suggesting combinations from owned pieces.
 
-## Keywords
-
-- capsule wardrobe checklist
-- capsule wardrobe from your closet
-- wardrobe basics checklist
 
 ## Step 1: define the capsule job
 
@@ -63,6 +58,10 @@ Yes. Wearra can help organize clothes, save outfits, and build trip or weekly ca
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

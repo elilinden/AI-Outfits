@@ -7,7 +7,7 @@ A clear overview of Wearra as a digital closet app for organizing, searching, st
 
 ## Direct answer
 
-Wearra is a digital closet app for iPhone that helps users add clothing photos, clean up item images, organize wardrobe data, search their closet, save outfits, and use AI-assisted styling features.
+Wearra is an AI outfit planner and digital closet app for iPhone that helps users add clothing photos, clean up item images, organize wardrobe data, search their closet, save outfits, and use AI-assisted styling features.
 
 ## From photos to closet data
 
@@ -28,6 +28,14 @@ Wardrobe data is local by default. Users can manually back up wardrobe data and 
 - Save outfits and OOTDs
 - Use optional manual iCloud Backup
 - Connect closet data to outfit recommendations
+
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Camera roll album | Easy to start | Hard to search by category, color, outfit, or trip |
+| Spreadsheet | Structured tracking | Not visual enough for daily styling |
+| Wearra | Visual digital closet connected to outfit generation | Requires iPhone on iOS 18 or later |
 
 ## Related Wearra guides
 

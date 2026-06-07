@@ -9,11 +9,25 @@ What makes a virtual try-on app useful when you want to preview outfits from you
 
 A useful virtual try-on app should let you preview your own garments on your own body, not only show catalog images on models. Wearra supports virtual Try On for outfits built from your wardrobe, while also keeping the surrounding workflow practical: closet organization, outfit planning, AI Stylist chat, and OOTD history.
 
-## Keywords
 
-- virtual try on app own clothes
-- AI try on app
-- outfit try on app
+## Real examples
+
+- Compare a blazer outfit before an interview without changing clothes three times.
+- Preview whether a jacket and skirt proportion works before packing both.
+- Check color balance between shoes, pants, and outerwear before saving the final look.
+
+## Comparison
+
+| Try-on method | Good for | Tradeoff |
+| --- | --- | --- |
+| Mirror photo only | Fast gut check | No easy way to compare garments not currently worn |
+| Catalog model try-on | Shopping visualization | Not grounded in the user's body or closet |
+| AI render from owned clothes | Outfit direction from real wardrobe items | Results can vary with photo quality |
+| Wearra Try On | Closet-connected previews plus planning and saving | Requires Pro, bonus credits, or a render pack |
+
+**Founder note:** Try On is treated as a decision step, not a standalone novelty. The goal is to help users choose between real outfits they can wear.
+
+**Privacy note:** Render requests do not need to include a user's email, display name, or account identifier with the avatar and garment photos sent for rendering.
 
 ## What virtual try-on should solve
 
@@ -60,6 +74,10 @@ Wearra says it does not train AI models on user photos; render photos are sent t
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

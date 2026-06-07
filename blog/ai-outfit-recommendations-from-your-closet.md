@@ -9,11 +9,6 @@ A plain-English explanation of AI outfit recommendations based on closet items, 
 
 AI outfit recommendations from your closet work by combining your saved clothing items with context like weather, occasion, preferences, and feedback. Wearra uses a digital closet and AI Stylist workflow to suggest outfits from pieces a user owns, then lets the user save, plan, or try on the look.
 
-## Keywords
-
-- AI outfit recommendations
-- outfit recommendations from your closet
-- AI outfit app
 
 ## The basic idea
 
@@ -63,6 +58,10 @@ Yes. Wearra includes daily outfit recommendations.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 

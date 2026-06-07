@@ -30,6 +30,14 @@ Destination, forecast, trip length, activities, dress codes, and rewear logic al
 - Fewer duplicates
 - Packing lists from the digital closet
 
+## Comparison
+
+| Option | Strength | Tradeoff |
+| --- | --- | --- |
+| Generic packing list | Prevents forgetting basics | Does not know user wardrobe |
+| Notes app | Flexible | Easy to overpack duplicates |
+| Wearra | Builds capsules from saved closet items | Best after closet setup |
+
 ## Related Wearra guides
 
 - [Closet App With Packing Lists for Trips](blog/closet-app-with-packing-list.md)

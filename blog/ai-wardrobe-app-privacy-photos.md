@@ -9,11 +9,6 @@ A privacy-focused direct answer about photo handling, AI/render providers, iClou
 
 In an AI wardrobe app, users should check what photos are stored, what is sent to AI/render providers, whether backups are optional, and how account deletion works. Wearra says wardrobe data is local by default, manual private iCloud backups are optional, and photos required for a Try On render are sent to the AI/render provider used for that request.
 
-## Keywords
-
-- AI wardrobe app privacy
-- virtual try on photo privacy
-- Wearra privacy
 
 ## Privacy questions to ask
 
@@ -61,6 +56,10 @@ Wearra's public privacy language says AI Stylist chat turns are logged to Firest
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
 
 ## Try Wearra
 
