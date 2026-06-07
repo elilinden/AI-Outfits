@@ -8,6 +8,37 @@ fs.mkdirSync(blogDir, { recursive: true });
 
 const appStoreUrl = "https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400";
 
+function cleanPath(file) {
+  if (file === "index.html" || file === "/") return "/";
+  if (file === "blog/index.html" || file === "blog/") return "/blog/";
+  if (file.endsWith(".html")) return `/${file.replace(/\.html$/, "/")}`;
+  return file.startsWith("/") ? file : `/${file}`;
+}
+
+function cleanUrl(file) {
+  return `https://wearra.app${cleanPath(file)}`;
+}
+
+function redirectHtml(toPath, title = "Wearra") {
+  const destination = cleanPath(toPath);
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://wearra.app${destination}">
+<meta http-equiv="refresh" content="0; url=${destination}">
+<title>${esc(title)} moved</title>
+<script>window.location.replace(${JSON.stringify(destination)} + window.location.search + window.location.hash);</script>
+</head>
+<body>
+<p>This page moved to <a href="${destination}">${esc(title)}</a>.</p>
+</body>
+</html>
+`;
+}
+
 const posts = [
   {
     slug: "best-ai-wardrobe-app-iphone",
@@ -784,7 +815,7 @@ function mdEscape(value) {
 
 const postExtras = {
   "best-ai-wardrobe-app-iphone": {
-    media: { type: "image", src: "../screenshots/home-current.jpg", alt: "Wearra iPhone home screen with outfit ideas, saved outfits, and AI Stylist access" },
+    media: { type: "image", src: "/screenshots/wearra-ai-outfit-planner-home-screen.webp", alt: "Wearra iPhone home screen with outfit ideas, saved outfits, and AI Stylist access" },
     examples: [
       "Turn 12 closet staples into a workweek: straight jeans, black trousers, a white tee, a button-down, cardigan, blazer, simple dress, sneakers, loafers, boots, belt, and coat can become office, casual, dinner, and travel looks.",
       "Use saved outfit feedback to avoid recommending the same silhouette every day.",
@@ -803,7 +834,7 @@ const postExtras = {
     privacy: "Wardrobe data is local by default, optional iCloud Backup is manual, and Try On photos are sent only to the AI/render provider needed for that request."
   },
   "best-virtual-try-on-app-own-clothes": {
-    media: { type: "video", src: "../videos/wearra-rendering-demo.mp4", poster: "../videos/wearra-rendering-demo-poster.jpg", alt: "Muted Wearra virtual try-on rendering demo" },
+    media: { type: "video", src: "/videos/wearra-virtual-try-on-demo.mp4", poster: "/videos/wearra-virtual-try-on-demo-poster.webp", alt: "Muted Wearra virtual try-on rendering demo" },
     examples: [
       "Compare a blazer outfit before an interview without changing clothes three times.",
       "Preview whether a jacket and skirt proportion works before packing both.",
@@ -822,7 +853,7 @@ const postExtras = {
     privacy: "Render requests do not need to include a user's email, display name, or account identifier with the avatar and garment photos sent for rendering."
   },
   "ai-outfit-planner-weather-calendar": {
-    media: { type: "image", src: "../screenshots/planner.jpg", alt: "Wearra planner calendar screen for scheduling outfits by day" },
+    media: { type: "image", src: "/screenshots/wearra-outfit-planner-calendar-iphone.webp", alt: "Wearra planner calendar screen for scheduling outfits by day" },
     examples: [
       "Summer internship week: plan a light blazer outfit for Monday, a button-down and trousers for presentation day, sneakers for a commute-heavy day, and a dinner-ready outfit after work.",
       "Rainy day: prioritize closed shoes, outerwear, and darker hems before suggesting delicate fabrics.",
@@ -841,7 +872,7 @@ const postExtras = {
     privacy: "Calendar use is optional and limited to outfit context when the user grants permission."
   },
   "digital-closet-app-iphone-ios-18": {
-    media: { type: "image", src: "../screenshots/closet-current.jpg", alt: "Wearra digital closet grid with categories, search, favorites, and clothing item cards" },
+    media: { type: "image", src: "/screenshots/wearra-digital-closet-grid-iphone.webp", alt: "Wearra digital closet grid with categories, search, favorites, and clothing item cards" },
     examples: [
       "Before: clothing photos scattered across camera roll, notes, and memory.",
       "After digitizing: tops, bottoms, shoes, dresses, and outerwear become searchable items with cleaner backgrounds.",
@@ -860,7 +891,7 @@ const postExtras = {
     privacy: "Wardrobe data is local by default, and manual iCloud Backup is optional rather than live sync."
   },
   "closet-app-with-packing-list": {
-    media: { type: "image", src: "../screenshots/packing.jpg", alt: "Wearra trip form for creating a packing list by destination, dates, and activities" },
+    media: { type: "image", src: "/screenshots/wearra-packing-list-trip-form-iphone.webp", alt: "Wearra trip form for creating a packing list by destination, dates, and activities" },
     examples: [
       "Four-day city trip: 2 bottoms, 4 tops, 1 jacket, 2 shoes, and accessories can cover travel day, work block, dinner, and casual exploring.",
       "Beach weekend: build around sandals, breathable layers, swimwear, and one dinner outfit instead of packing unrelated extras.",
@@ -880,32 +911,32 @@ const postExtras = {
   }
 };
 
-function nav(prefix = "../") {
+function nav() {
   return `<header class="nav" id="nav">
   <div class="container nav__inner">
-    <a class="brand" href="${prefix}index.html" aria-label="Wearra home">
-      <img class="brand__mark" src="${prefix}AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
+    <a class="brand" href="/" aria-label="Wearra home">
+      <img class="brand__mark" src="/AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
       <em>Wearra</em>
     </a>
     <nav class="nav__links" aria-label="Primary">
-      <a href="${prefix}index.html#features">Features</a>
-      <a href="${prefix}index.html#how">How it works</a>
-      <a href="${prefix}index.html#stylist">AI Stylist</a>
-      <a href="${prefix}blog/index.html">Guides</a>
-      <a href="${prefix}index.html#download">Download</a>
+      <a href="/#features">Features</a>
+      <a href="/#how">How it works</a>
+      <a href="/#stylist">AI Stylist</a>
+      <a href="/blog/">Guides</a>
+      <a href="/#download">Download</a>
     </nav>
     <a class="btn btn--primary" href="${appStoreUrl}" target="_blank" rel="noopener">Get the app</a>
   </div>
 </header>`;
 }
 
-function footer(prefix = "../") {
+function footer() {
   return `<footer class="footer">
   <div class="container">
     <div class="footer__top">
       <div class="footer__brand">
-        <a class="brand" href="${prefix}index.html">
-          <img class="brand__mark" src="${prefix}AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
+        <a class="brand" href="/">
+          <img class="brand__mark" src="/AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
           <em>Wearra</em>
         </a>
         <p>Wearra is an AI outfit planner and digital closet app for iPhone.</p>
@@ -913,29 +944,29 @@ function footer(prefix = "../") {
       <div>
         <h3>Product</h3>
         <ul>
-          <li><a href="${prefix}index.html#features">Features</a></li>
-          <li><a href="${prefix}ai-wardrobe-app.html">AI wardrobe app</a></li>
-          <li><a href="${prefix}virtual-try-on-app.html">Virtual try-on app</a></li>
-          <li><a href="${prefix}digital-closet-app.html">Digital closet app</a></li>
-          <li><a href="${prefix}ai-outfit-planner.html">AI outfit planner</a></li>
-          <li><a href="${prefix}travel-capsule-wardrobe-app.html">Travel capsule wardrobe</a></li>
-          <li><a href="${prefix}index.html#how">How it works</a></li>
-          <li><a href="${prefix}index.html#stylist">AI Stylist</a></li>
-          <li><a href="${prefix}blog/index.html">Guides</a></li>
-          <li><a href="${prefix}index.html#download">Download</a></li>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/ai-wardrobe-app/">AI wardrobe app</a></li>
+          <li><a href="/virtual-try-on-app/">Virtual try-on app</a></li>
+          <li><a href="/digital-closet-app/">Digital closet app</a></li>
+          <li><a href="/ai-outfit-planner/">AI outfit planner</a></li>
+          <li><a href="/travel-capsule-wardrobe-app/">Travel capsule wardrobe</a></li>
+          <li><a href="/#how">How it works</a></li>
+          <li><a href="/#stylist">AI Stylist</a></li>
+          <li><a href="/blog/">Guides</a></li>
+          <li><a href="/#download">Download</a></li>
         </ul>
       </div>
       <div>
         <h3>Legal</h3>
         <ul>
-          <li><a href="${prefix}privacy.html">Privacy Policy</a></li>
-          <li><a href="${prefix}terms.html">Terms of Service</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
         </ul>
       </div>
       <div>
         <h3>Help</h3>
         <ul>
-          <li><a href="${prefix}support.html">Support &amp; FAQ</a></li>
+          <li><a href="/support/">Support &amp; FAQ</a></li>
           <li><a href="mailto:Support@wearra.app">Contact us</a></li>
         </ul>
       </div>
@@ -960,6 +991,14 @@ function script() {
 </script>`;
 }
 
+function breadcrumbs(items) {
+  return `<nav class="breadcrumbs" aria-label="Breadcrumb">
+${items.map((item, index) => item.href
+  ? `  <a href="${item.href}">${esc(item.label)}</a>${index < items.length - 1 ? ' <span aria-hidden="true">&gt;</span>' : ''}`
+  : `  <span aria-current="page">${esc(item.label)}</span>`).join("\n")}
+</nav>`;
+}
+
 function head({ title, description, canonical, type = "article", markdown, schema }) {
   return `<!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -979,13 +1018,13 @@ function head({ title, description, canonical, type = "article", markdown, schem
 <meta name="twitter:image" content="https://wearra.app/og-image.png">
 <meta name="apple-itunes-app" content="app-id=6761031400, app-argument=https://wearra.app/">
 <link rel="canonical" href="${canonical}">
-<link rel="icon" type="image/jpeg" href="../AppleIcon.jpg">
-<link rel="apple-touch-icon" href="../AppleIcon.jpg">
+<link rel="icon" type="image/jpeg" href="/AppleIcon.jpg">
+<link rel="apple-touch-icon" href="/AppleIcon.jpg">
 ${markdown ? `<link rel="alternate" type="text/markdown" href="${markdown}" title="${esc(title)} - Markdown mirror">` : ""}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">
 ${json(schema)}
 </script>
@@ -999,12 +1038,12 @@ function postSchema(post) {
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://wearra.app/" },
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://wearra.app/blog/" },
-        { "@type": "ListItem", "position": 3, "name": post.title, "item": `https://wearra.app/blog/${post.slug}.html` }
+        { "@type": "ListItem", "position": 3, "name": post.title, "item": cleanUrl(`blog/${post.slug}.html`) }
       ]
     },
     {
       "@type": "BlogPosting",
-      "@id": `https://wearra.app/blog/${post.slug}.html#article`,
+      "@id": `${cleanUrl(`blog/${post.slug}.html`)}#article`,
       "headline": post.title,
       "description": post.description,
       "datePublished": today,
@@ -1017,7 +1056,7 @@ function postSchema(post) {
         "url": "https://wearra.app/",
         "logo": { "@type": "ImageObject", "url": "https://wearra.app/AppleIcon.jpg" }
       },
-      "mainEntityOfPage": `https://wearra.app/blog/${post.slug}.html`,
+      "mainEntityOfPage": cleanUrl(`blog/${post.slug}.html`),
       "image": "https://wearra.app/og-image.png",
       "keywords": post.keywords,
       "about": ["AI wardrobe app", "digital closet", "outfit planning", "virtual try-on"],
@@ -1030,7 +1069,7 @@ function postSchema(post) {
   if (post.faq?.length) {
     graph.push({
       "@type": "FAQPage",
-      "@id": `https://wearra.app/blog/${post.slug}.html#faq`,
+      "@id": `${cleanUrl(`blog/${post.slug}.html`)}#faq`,
       "mainEntity": post.faq.map(([q, a]) => ({
         "@type": "Question",
         "name": q,
@@ -1104,15 +1143,16 @@ ${post.faq.map(([q, a]) => `    <details>
   return `${head({
     title: post.title,
     description: post.description,
-    canonical: `https://wearra.app/blog/${post.slug}.html`,
-    markdown: `${post.slug}.md`,
+    canonical: cleanUrl(`blog/${post.slug}.html`),
+    markdown: `/blog/${post.slug}.md`,
     schema
   })}
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-${nav("../")}
+${nav()}
 <main id="main">
 <article class="article">
+  ${breadcrumbs([{ label: "Home", href: "/" }, { label: "Guides", href: "/blog/" }, { label: post.title }])}
   <p class="article__kicker">${post.type === "ANSWER" ? "AI wardrobe guide" : "Style guide"}</p>
   <h1>${esc(post.title)}</h1>
   <p class="meta">Published <time datetime="${today}">June 7, 2026</time> - Wearra Blog</p>
@@ -1129,7 +1169,7 @@ ${nav("../")}
   <p><a class="btn btn--primary" href="${appStoreUrl}" target="_blank" rel="noopener">Get the app</a></p>
 </article>
 </main>
-${footer("../")}
+${footer()}
 ${script()}
 </body>
 </html>
@@ -1162,7 +1202,7 @@ ${extra.comparison.rows.map(row => `| ${row.map(mdEscape).join(" | ")} |`).join(
   return `# ${post.title}
 
 Published: ${today}
-Canonical: https://wearra.app/blog/${post.slug}.html
+Canonical: ${cleanUrl(`blog/${post.slug}.html`)}
 
 ${post.description}
 
@@ -1198,7 +1238,7 @@ function blogIndexHtml() {
         "url": "https://wearra.app/blog/",
         "inLanguage": "en-US",
         "publisher": { "@type": "Organization", "name": "Wearra", "url": "https://wearra.app/" },
-        "blogPost": posts.map(post => ({ "@type": "BlogPosting", "headline": post.title, "url": `https://wearra.app/blog/${post.slug}.html` }))
+        "blogPost": posts.map(post => ({ "@type": "BlogPosting", "headline": post.title, "url": cleanUrl(`blog/${post.slug}.html`) }))
       }
     ]
   };
@@ -1206,7 +1246,7 @@ function blogIndexHtml() {
     const label = type === "ANSWER" ? "AI wardrobe guides" : "Practical style guides";
     return `<h2>${label}</h2>
   <div class="post-list">
-${posts.filter(p => p.type === type).map(post => `    <a class="post-card" href="${post.slug}.html">
+${posts.filter(p => p.type === type).map(post => `    <a class="post-card" href="/blog/${post.slug}/">
       <p class="meta">${post.type === "ANSWER" ? "AI wardrobe guide" : "Style guide"}</p>
       <h2>${esc(post.title)}</h2>
       <p>${esc(post.description)}</p>
@@ -1224,9 +1264,10 @@ ${posts.filter(p => p.type === type).map(post => `    <a class="post-card" href=
   })}
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-${nav("../")}
+${nav()}
 <main id="main">
 <article class="article">
+  ${breadcrumbs([{ label: "Home", href: "/" }, { label: "Guides" }])}
   <p class="article__kicker">Wearra Blog</p>
   <h1>AI wardrobe and outfit planning guides</h1>
   <p class="meta">Published <time datetime="${today}">June 7, 2026</time></p>
@@ -1237,7 +1278,7 @@ ${nav("../")}
   ${grouped}
 </article>
 </main>
-${footer("../")}
+${footer()}
 ${script()}
 </body>
 </html>
@@ -1270,12 +1311,17 @@ function writeGeneratedFiles() {
   for (const entry of fs.readdirSync(blogDir)) {
     if (entry.endsWith(".html") || entry.endsWith(".md")) {
       fs.unlinkSync(path.join(blogDir, entry));
+    } else if (posts.some(post => post.slug === entry)) {
+      fs.rmSync(path.join(blogDir, entry), { recursive: true, force: true });
     }
   }
   fs.writeFileSync(path.join(blogDir, "index.html"), blogIndexHtml());
   fs.writeFileSync(path.join(blogDir, "index.md"), blogIndexMarkdown());
   for (const post of posts) {
-    fs.writeFileSync(path.join(blogDir, `${post.slug}.html`), postHtml(post));
+    const postDir = path.join(blogDir, post.slug);
+    fs.mkdirSync(postDir, { recursive: true });
+    fs.writeFileSync(path.join(postDir, "index.html"), postHtml(post));
+    fs.writeFileSync(path.join(blogDir, `${post.slug}.html`), redirectHtml(`blog/${post.slug}.html`, post.title));
     fs.writeFileSync(path.join(blogDir, `${post.slug}.md`), postMarkdown(post));
   }
 }
@@ -1284,10 +1330,10 @@ function writeSitemap() {
   const urls = [
     ["https://wearra.app/", "2026-05-31", "weekly", "1.0"],
     ["https://wearra.app/blog/", today, "weekly", "0.8"],
-    ...posts.map(post => [`https://wearra.app/blog/${post.slug}.html`, today, "monthly", post.type === "ANSWER" ? "0.75" : "0.7"]),
-    ["https://wearra.app/privacy.html", "2026-05-31", "monthly", "0.6"],
-    ["https://wearra.app/terms.html", "2026-05-31", "monthly", "0.6"],
-    ["https://wearra.app/support.html", "2026-05-31", "monthly", "0.7"]
+    ...posts.map(post => [cleanUrl(`blog/${post.slug}.html`), today, "monthly", post.type === "ANSWER" ? "0.75" : "0.7"]),
+    [cleanUrl("privacy.html"), "2026-05-31", "monthly", "0.6"],
+    [cleanUrl("terms.html"), "2026-05-31", "monthly", "0.6"],
+    [cleanUrl("support.html"), "2026-05-31", "monthly", "0.7"]
   ];
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

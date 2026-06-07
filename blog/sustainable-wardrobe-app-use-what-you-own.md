@@ -1,7 +1,7 @@
 # Sustainable Wardrobe App: Use More of What You Own
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/sustainable-wardrobe-app-use-what-you-own.html
+Canonical: https://wearra.app/blog/sustainable-wardrobe-app-use-what-you-own/
 
 How an AI wardrobe app can support more intentional dressing by helping users restyle and rediscover existing clothes.
 

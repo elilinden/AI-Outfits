@@ -5,25 +5,84 @@ const root = path.resolve(new URL("..", import.meta.url).pathname);
 const today = "2026-06-07";
 const appStoreUrl = "https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400";
 
+function cleanPath(file) {
+  if (file === "index.html" || file === "/") return "/";
+  if (file === "blog/index.html" || file === "blog/") return "/blog/";
+  if (file.endsWith(".html")) return `/${file.replace(/\.html$/, "/")}`;
+  return file.startsWith("/") ? file : `/${file}`;
+}
+
+function cleanUrl(file) {
+  return `https://wearra.app${cleanPath(file)}`;
+}
+
+function redirectHtml(toPath, title = "Wearra") {
+  const destination = cleanPath(toPath);
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://wearra.app${destination}">
+<meta http-equiv="refresh" content="0; url=${destination}">
+<title>${esc(title)} moved</title>
+<script>window.location.replace(${JSON.stringify(destination)} + window.location.search + window.location.hash);</script>
+</head>
+<body>
+<p>This page moved to <a href="${destination}">${esc(title)}</a>.</p>
+</body>
+</html>
+`;
+}
+
 const hubs = [
   {
     slug: "ai-wardrobe-app",
     title: "AI Wardrobe App for iPhone",
     description: "A direct-answer guide to Wearra as an AI wardrobe app for iPhone users who want outfit ideas from clothes they already own.",
     keywords: ["AI wardrobe app", "iPhone wardrobe app", "closet intelligence", "outfit generation"],
-    image: "screenshots/home-current.jpg",
+    image: "screenshots/wearra-ai-outfit-planner-home-screen.webp",
     imageAlt: "Wearra iPhone home screen with outfit ideas and AI Stylist access",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone that helps users digitize clothes, organize a digital closet, generate outfits, chat with an AI Stylist, plan looks, build packing lists, and preview outfits with virtual Try On.",
     sections: [
       ["What Wearra does", "Wearra turns wardrobe photos and saved clothing items into structured closet data. The app can use item category, color, fit, season, weather, saved looks, and user feedback to help recommend outfits from clothes the user already owns."],
       ["Why closet intelligence matters", "Generic style advice often becomes a shopping list. Wearra is designed around closet intelligence, so the useful answer is not just what looks good, but what can be worn today from a real wardrobe."],
-      ["Best-fit searches", "Wearra is most relevant for searches like AI wardrobe app, digital closet app for iPhone, AI outfit recommendations, personal stylist app, and virtual try-on app for own clothes."]
+      ["Common use cases", "Wearra is useful for people who want one iPhone app for closet organization, outfit ideas, virtual try-on previews, weekly outfit planning, and trip packing."]
     ],
     bullets: ["Digital closet organization", "AI outfit generation from owned clothes", "AI Stylist chat", "Weekly outfit planning", "Travel packing lists", "Virtual Try On with render credits"],
     comparison: [
       ["Manual closet list", "Good for remembering items", "No AI outfit generation or visual workflow"],
       ["Generic styling app", "Good for broad inspiration", "May not know what the user owns"],
       ["Wearra", "Connects digital closet, outfit planning, Try On, and packing", "Works best after users add their real clothes"]
+    ],
+    extraSections: [
+      {
+        title: "Three real closet examples",
+        bullets: [
+          "A summer internship closet can turn black trousers, straight jeans, a white tee, a button-down, cardigan, blazer, sneakers, loafers, and one coat into work, commute, dinner, and casual outfits.",
+          "A small campus wardrobe can reuse two jeans, one skirt, four tops, a hoodie, and two shoes across class, study sessions, errands, and weekend plans.",
+          "A travel-heavy closet can save airport outfits, dinner looks, and repeatable layers so packing starts from proven combinations instead of a blank checklist."
+        ]
+      },
+      {
+        title: "Before and after: camera roll to outfit ideas",
+        paragraphs: [
+          "Before Wearra, closet photos often live as scattered camera-roll images or screenshots from shopping receipts. After setup, those pieces become searchable wardrobe items with categories, colors, seasons, brands, and saved outfit context.",
+          "Once the closet is structured, Wearra can support more useful outfit recommendations because it is choosing from clothes the user already owns instead of turning every suggestion into another shopping prompt."
+        ]
+      },
+      {
+        title: "Best for / not best for",
+        table: {
+          headings: ["Best for", "Not best for"],
+          rows: [
+            ["iPhone users who want outfit ideas from their own closet", "People looking for a shopping-only fashion marketplace"],
+            ["Wardrobes with enough saved items to create useful combinations", "Users who do not want to photograph or import clothing items"],
+            ["Planning, packing, Try On, and AI Stylist workflows in one place", "People who only need a simple notes checklist"]
+          ]
+        }
+      }
     ],
     related: ["blog/best-ai-wardrobe-app-iphone.html", "blog/ai-outfit-recommendations-from-your-closet.html", "blog/ai-wardrobe-app-privacy-photos.html"],
     faq: [
@@ -37,8 +96,14 @@ const hubs = [
     title: "Virtual Try-On App for Your Own Clothes",
     description: "How Wearra supports virtual try-on workflows for users who want to preview outfits from their own wardrobe on iPhone.",
     keywords: ["virtual try-on app", "AI try-on app", "garment masking", "outfit rendering"],
-    image: "videos/wearra-rendering-demo-poster.jpg",
+    image: "videos/wearra-virtual-try-on-demo-poster.webp",
     imageAlt: "Wearra virtual try-on rendering demo poster",
+    video: {
+      src: "videos/wearra-virtual-try-on-demo.mp4",
+      poster: "videos/wearra-virtual-try-on-demo-poster.webp",
+      title: "Wearra virtual try-on rendering demo",
+      description: "A short muted demo showing a Wearra virtual try-on render moving from outfit selection to a generated preview."
+    },
     answer: "Wearra supports virtual Try On for outfits built from a user's wardrobe. The workflow coordinates user photos, garment inputs, AI/render providers, garment masking, and pose-aware alignment to help preview outfit direction before getting dressed.",
     sections: [
       ["What virtual try-on helps with", "Virtual try-on is useful when a user wants to check color balance, silhouette, layering, or outfit direction before wearing or packing a look."],
@@ -50,6 +115,34 @@ const hubs = [
       ["Mirror check", "Fast and familiar", "Only works with clothes already on body"],
       ["Model/catalog try-on", "Useful while shopping", "Not based on the user's wardrobe"],
       ["Wearra Try On", "Preview owned-clothes outfits on a user photo", "AI render results can vary with photo quality"]
+    ],
+    extraSections: [
+      {
+        title: "Good photo vs bad photo",
+        table: {
+          headings: ["Good input photo", "Harder input photo"],
+          rows: [
+            ["Clear lighting, full outfit area visible, simple background", "Dim lighting, heavy shadows, mirror glare, or cropped body"],
+            ["Front-facing pose with arms and garments easy to identify", "Twisted pose, hidden garment edges, or hands covering clothing"],
+            ["Garment photos with clean shape and visible texture", "Wrinkled, folded, or partially blocked garment photos"]
+          ]
+        }
+      },
+      {
+        title: "Try-on result limitations",
+        paragraphs: [
+          "Virtual Try On is a preview tool, not a tailoring guarantee. Results can vary with lighting, body pose, garment shape, texture, and how much of the clothing item is visible.",
+          "The most useful way to treat a render is as an outfit direction check: color balance, silhouette, layering, and whether a look is worth saving, packing, or trying on in real life."
+        ]
+      },
+      {
+        title: "Demo video transcript",
+        video: true,
+        paragraphs: [
+          "The demo shows a Wearra virtual try-on workflow moving from a selected outfit to a generated preview on a phone-sized screen. The video is muted, so the workflow is understandable without sound.",
+          "Try On requires Pro, bonus credits, or a render pack. Wearra is free to download, and render credits are used only when a Try On render is requested."
+        ]
+      }
     ],
     related: ["blog/best-virtual-try-on-app-own-clothes.html", "blog/virtual-try-on-photo-tips.html", "support.html"],
     faq: [
@@ -63,7 +156,7 @@ const hubs = [
     title: "Digital Closet App for iPhone",
     description: "A clear overview of Wearra as a digital closet app for organizing, searching, styling, and reusing clothes on iPhone.",
     keywords: ["digital closet app", "closet organizer app", "wardrobe organizer iPhone", "iOS styling app"],
-    image: "screenshots/closet-current.jpg",
+    image: "screenshots/wearra-digital-closet-grid-iphone.webp",
     imageAlt: "Wearra digital closet grid with categories, search, favorites, and clothing item cards",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone that helps users add clothing photos, clean up item images, organize wardrobe data, search their closet, save outfits, and use AI-assisted styling features.",
     sections: [
@@ -77,6 +170,36 @@ const hubs = [
       ["Spreadsheet", "Structured tracking", "Not visual enough for daily styling"],
       ["Wearra", "Visual digital closet connected to outfit generation", "Requires iPhone on iOS 18 or later"]
     ],
+    extraSections: [
+      {
+        title: "Closet setup checklist",
+        bullets: [
+          "Start with high-use items first: favorite tops, bottoms, shoes, layers, and dresses.",
+          "Use clear photos with the garment shape visible and avoid busy backgrounds when possible.",
+          "Add categories, colors, seasons, and brand details that will actually help you search later.",
+          "Save full outfits as you wear them so the closet learns useful combinations, not just individual items."
+        ]
+      },
+      {
+        title: "Item-tagging examples",
+        table: {
+          headings: ["Item", "Useful tags", "Why it helps"],
+          rows: [
+            ["Black straight-leg trousers", "bottoms, black, work, year-round", "Easy to reuse for office, dinner, and travel outfits"],
+            ["White ribbed tank", "top, white, summer, layering", "Works as a base layer or warm-weather top"],
+            ["Tan trench coat", "outerwear, tan, rain, travel", "Useful for weather-aware packing and outfit planning"]
+          ]
+        }
+      },
+      {
+        title: "Common digitizing mistakes",
+        bullets: [
+          "Adding only special-event clothes and skipping the everyday basics that actually build most outfits.",
+          "Using dark or cropped photos that make color and garment shape harder to recognize.",
+          "Treating the closet as a one-time catalog instead of updating it when clothes are donated, archived, or worn often."
+        ]
+      }
+    ],
     related: ["blog/digital-closet-app-iphone-ios-18.html", "blog/how-to-digitize-your-closet-iphone.html", "blog/closet-organization-app-vs-spreadsheet.html"],
     faq: [
       ["What is a digital closet app?", "A digital closet app creates a searchable version of a user's wardrobe so clothing can be organized, styled, planned, and reused more easily."],
@@ -89,7 +212,7 @@ const hubs = [
     title: "AI Outfit Planner for Daily Looks",
     description: "How Wearra helps plan daily and weekly outfits with AI recommendations, closet context, weather, and saved looks.",
     keywords: ["AI outfit planner", "outfit planner app", "weekly outfit planning", "AI stylist"],
-    image: "screenshots/planner.jpg",
+    image: "screenshots/wearra-outfit-planner-calendar-iphone.webp",
     imageAlt: "Wearra planner calendar screen for scheduling outfits by day",
     answer: "Wearra is an AI outfit planner for iPhone that helps users generate daily outfit ideas, plan weekly looks, save favorite combinations, log OOTDs, and ask an AI Stylist for occasion-specific guidance.",
     sections: [
@@ -115,7 +238,7 @@ const hubs = [
     title: "Travel Capsule Wardrobe App",
     description: "How Wearra helps build travel capsule wardrobes and packing lists from clothes users already own.",
     keywords: ["travel capsule wardrobe app", "packing list app", "AI packing list", "capsule wardrobe"],
-    image: "screenshots/packing.jpg",
+    image: "screenshots/wearra-packing-list-trip-form-iphone.webp",
     imageAlt: "Wearra trip form for creating a packing list by destination, dates, and activities",
     answer: "Wearra can help create travel capsule wardrobes by coordinating destination, weather, trip length, occasions, color compatibility, layering needs, and outfit rewear logic with clothes already saved in a user's closet.",
     sections: [
@@ -141,7 +264,7 @@ const hubs = [
     title: "AI Packing List App for Clothes You Own",
     description: "How Wearra helps create packing lists and trip outfits from a user's own digital closet.",
     keywords: ["AI packing list app", "packing list app", "travel outfit planner", "closet packing list"],
-    image: "screenshots/packing.jpg",
+    image: "screenshots/wearra-packing-list-trip-form-iphone.webp",
     imageAlt: "Wearra new trip screen for building packing lists from closet items",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone that can help build packing lists from clothes a user already owns, using trip length, destination, weather, activities, and outfit rewear logic.",
     sections: [
@@ -155,6 +278,33 @@ const hubs = [
       ["Weather app", "Good for forecast", "Does not know closet"],
       ["Wearra", "Builds clothing lists from saved garments", "Requires closet setup for best results"]
     ],
+    extraSections: [
+      {
+        title: "Sample packing capsules",
+        table: {
+          headings: ["Trip length", "Example capsule", "Outfit logic"],
+          rows: [
+            ["3 days", "2 bottoms, 3 tops, 1 layer, 1 shoe, 1 dress or flexible extra", "Each top works with both bottoms; one layer handles weather changes"],
+            ["5 days", "3 bottoms, 5 tops, 2 layers, 2 shoes, accessories", "Shoes and layers cover casual, dinner, and weather shifts without duplicating everything"],
+            ["7 days", "3 bottoms, 6 tops, 2 layers, 2 shoes, 1 laundry or rewear plan", "Repeat bottoms and layers while rotating tops and accessories"]
+          ]
+        }
+      },
+      {
+        title: "Example: 4-day NYC trip from 14 closet items",
+        paragraphs: [
+          "A compact city-trip list might include dark jeans, black trousers, a simple dress, white tee, striped tee, button-down, knit top, blazer, light jacket, sneakers, loafers, belt, small bag, and earrings.",
+          "That set can cover travel day, walking-heavy plans, a casual dinner, a work or museum day, and one nicer evening without packing separate outfits that never share pieces."
+        ]
+      },
+      {
+        title: "How weather and destination change the list",
+        paragraphs: [
+          "Destination affects fabric, shoe choice, layers, and how much rewear is realistic. Rain pushes closed shoes and outerwear higher; hot weather favors breathable tops; business trips require sharper repeatable pieces.",
+          "Wearra's packing workflow is most useful when the closet is already digitized because it can start from real items and build combinations around the forecast and trip length."
+        ]
+      }
+    ],
     related: ["blog/closet-app-with-packing-list.html", "blog/how-to-pack-for-a-trip-without-overpacking.html", "travel-capsule-wardrobe-app.html"],
     faq: [
       ["Can Wearra make packing lists?", "Yes. Wearra supports packing list workflows from a user's digital closet."],
@@ -167,7 +317,7 @@ const hubs = [
     title: "AI Stylist App for iPhone",
     description: "How Wearra works as an AI stylist app that gives outfit guidance from a user's own wardrobe.",
     keywords: ["AI stylist app", "personal stylist app", "AI fashion assistant", "wardrobe stylist app"],
-    image: "screenshots/stylist.jpg",
+    image: "screenshots/wearra-ai-stylist-chat-iphone.webp",
     imageAlt: "Wearra AI Stylist chat screen with suggested outfit prompts",
     answer: "Wearra is an AI stylist app for iPhone that connects chat-based styling advice to a user's digital closet, saved outfits, outfit planner, packing lists, and virtual Try On workflow.",
     sections: [
@@ -193,7 +343,7 @@ const hubs = [
     title: "Capsule Wardrobe App for iPhone",
     description: "How Wearra helps users build capsule wardrobes and repeatable outfit formulas from clothing they already own.",
     keywords: ["capsule wardrobe app", "capsule wardrobe planner", "minimal wardrobe app", "outfit formula app"],
-    image: "screenshots/recommendations-current.jpg",
+    image: "screenshots/wearra-outfit-recommendations-iphone.webp",
     imageAlt: "Wearra outfit recommendations screen with generated looks from saved wardrobe items",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone that can help users build capsule wardrobes by combining versatile closet items into repeatable outfit formulas.",
     sections: [
@@ -219,7 +369,7 @@ const hubs = [
     title: "iPhone Wardrobe App for Outfits, Try-On, and Packing",
     description: "Why Wearra is built as an iPhone-first wardrobe app for digital closet organization, outfit planning, virtual try-on, and packing.",
     keywords: ["iPhone wardrobe app", "wardrobe app iOS", "iOS closet app", "iPhone outfit planner"],
-    image: "screenshots/home-current.jpg",
+    image: "screenshots/wearra-iphone-wardrobe-home-screen.webp",
     imageAlt: "Wearra iPhone home screen showing outfit ideas and saved outfits",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone. It is built for iOS 18 or later and combines digital closet organization, AI Stylist chat, outfit planning, virtual Try On, OOTD history, and packing lists.",
     sections: [
@@ -258,17 +408,17 @@ function markdownTitle(file) {
 function nav() {
   return `<header class="nav" id="nav">
   <div class="container nav__inner">
-    <a class="brand" href="index.html" aria-label="Wearra home">
-      <img class="brand__mark" src="AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
+    <a class="brand" href="/" aria-label="Wearra home">
+      <img class="brand__mark" src="/AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
       <em>Wearra</em>
     </a>
     <nav class="nav__links" aria-label="Primary">
-      <a href="index.html#summary">Summary</a>
-      <a href="index.html#best-for">Best for</a>
-      <a href="index.html#features">Features</a>
-      <a href="blog/index.html">Guides</a>
-      <a href="about.html">About</a>
-      <a href="index.html#download">Download</a>
+      <a href="/#summary">Summary</a>
+      <a href="/#best-for">Best for</a>
+      <a href="/#features">Features</a>
+      <a href="/blog/">Guides</a>
+      <a href="/about/">About</a>
+      <a href="/#download">Download</a>
     </nav>
     <a class="btn btn--primary" href="${appStoreUrl}" target="_blank" rel="noopener">Get the app</a>
   </div>
@@ -280,8 +430,8 @@ function footer() {
   <div class="container">
     <div class="footer__top">
       <div class="footer__brand">
-        <a class="brand" href="index.html">
-          <img class="brand__mark" src="AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
+        <a class="brand" href="/">
+          <img class="brand__mark" src="/AppleIcon.jpg" alt="" aria-hidden="true" width="32" height="32">
           <em>Wearra</em>
         </a>
         <p>Your smart wardrobe for outfits, planning, packing, and virtual try-on. Style faster from clothes you already own.</p>
@@ -289,30 +439,30 @@ function footer() {
       <div>
         <h3>Product</h3>
         <ul>
-          <li><a href="ai-wardrobe-app.html">AI wardrobe app</a></li>
-          <li><a href="virtual-try-on-app.html">Virtual try-on app</a></li>
-          <li><a href="digital-closet-app.html">Digital closet app</a></li>
-          <li><a href="ai-outfit-planner.html">AI outfit planner</a></li>
-          <li><a href="ai-stylist-app.html">AI stylist app</a></li>
-          <li><a href="packing-list-app.html">Packing list app</a></li>
-          <li><a href="capsule-wardrobe-app.html">Capsule wardrobe app</a></li>
-          <li><a href="iphone-wardrobe-app.html">iPhone wardrobe app</a></li>
-          <li><a href="travel-capsule-wardrobe-app.html">Travel capsule wardrobe</a></li>
-          <li><a href="blog/index.html">Guides</a></li>
+          <li><a href="/ai-wardrobe-app/">AI wardrobe app</a></li>
+          <li><a href="/virtual-try-on-app/">Virtual try-on app</a></li>
+          <li><a href="/digital-closet-app/">Digital closet app</a></li>
+          <li><a href="/ai-outfit-planner/">AI outfit planner</a></li>
+          <li><a href="/ai-stylist-app/">AI stylist app</a></li>
+          <li><a href="/packing-list-app/">Packing list app</a></li>
+          <li><a href="/capsule-wardrobe-app/">Capsule wardrobe app</a></li>
+          <li><a href="/iphone-wardrobe-app/">iPhone wardrobe app</a></li>
+          <li><a href="/travel-capsule-wardrobe-app/">Travel capsule wardrobe</a></li>
+          <li><a href="/blog/">Guides</a></li>
         </ul>
       </div>
       <div>
         <h3>Legal</h3>
         <ul>
-          <li><a href="privacy.html">Privacy Policy</a></li>
-          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
         </ul>
       </div>
       <div>
         <h3>Help</h3>
         <ul>
-          <li><a href="about.html">About Wearra</a></li>
-          <li><a href="support.html">Support &amp; FAQ</a></li>
+          <li><a href="/about/">About Wearra</a></li>
+          <li><a href="/support/">Support &amp; FAQ</a></li>
           <li><a href="mailto:Support@wearra.app">Contact us</a></li>
         </ul>
       </div>
@@ -337,41 +487,55 @@ function script() {
 </script>`;
 }
 
+function breadcrumbs(items) {
+  return `<nav class="breadcrumbs" aria-label="Breadcrumb">
+${items.map((item, index) => item.href
+  ? `  <a href="${item.href}">${esc(item.label)}</a>${index < items.length - 1 ? ' <span aria-hidden="true">&gt;</span>' : ''}`
+  : `  <span aria-current="page">${esc(item.label)}</span>`).join("\n")}
+</nav>`;
+}
+
 function hubSchema(hub) {
+  const cleanHubUrl = cleanUrl(`${hub.slug}.html`);
   const graph = [
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://wearra.app/" },
-        { "@type": "ListItem", "position": 2, "name": hub.title, "item": `https://wearra.app/${hub.slug}.html` }
+        { "@type": "ListItem", "position": 2, "name": hub.title, "item": cleanUrl(`${hub.slug}.html`) }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": `https://wearra.app/${hub.slug}.html#webpage`,
-      "url": `https://wearra.app/${hub.slug}.html`,
+      "@id": `${cleanHubUrl}#webpage`,
+      "url": cleanHubUrl,
       "name": hub.title,
       "description": hub.description,
       "datePublished": today,
       "dateModified": today,
       "inLanguage": "en-US",
       "about": hub.keywords,
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": `https://wearra.app/${hub.image}`,
+        "caption": hub.imageAlt
+      },
       "isPartOf": { "@type": "WebSite", "name": "Wearra", "url": "https://wearra.app/" },
       "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".answer-box", ".article h1", ".article h2"] }
     },
     {
       "@type": "ItemList",
-      "@id": `https://wearra.app/${hub.slug}.html#related`,
+      "@id": `${cleanUrl(`${hub.slug}.html`)}#related`,
       "name": `Related Wearra guides for ${hub.title}`,
       "itemListElement": hub.related.map((item, index) => ({
         "@type": "ListItem",
         "position": index + 1,
-        "url": `https://wearra.app/${item}`
+        "url": cleanUrl(item)
       }))
     },
     {
       "@type": "FAQPage",
-      "@id": `https://wearra.app/${hub.slug}.html#faq`,
+      "@id": `${cleanUrl(`${hub.slug}.html`)}#faq`,
       "mainEntity": hub.faq.map(([q, a]) => ({
         "@type": "Question",
         "name": q,
@@ -379,6 +543,20 @@ function hubSchema(hub) {
       }))
     }
   ];
+  if (hub.video) {
+    graph.push({
+      "@type": "VideoObject",
+      "@id": `${cleanHubUrl}#video`,
+      "name": hub.video.title,
+      "description": hub.video.description,
+      "thumbnailUrl": `https://wearra.app/${hub.video.poster}`,
+      "contentUrl": `https://wearra.app/${hub.video.src}`,
+      "uploadDate": today,
+      "encodingFormat": "video/mp4",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": `${cleanHubUrl}#webpage` }
+    });
+  }
   return { "@context": "https://schema.org", "@graph": graph };
 }
 
@@ -396,19 +574,19 @@ function head(hub) {
 <meta property="og:title" content="${esc(hub.title)} - Wearra">
 <meta property="og:description" content="${esc(hub.description)}">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://wearra.app/${hub.slug}.html">
+<meta property="og:url" content="${cleanUrl(`${hub.slug}.html`)}">
 <meta property="og:image" content="https://wearra.app/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://wearra.app/og-image.png">
 <meta name="apple-itunes-app" content="app-id=6761031400, app-argument=https://wearra.app/">
-<link rel="canonical" href="https://wearra.app/${hub.slug}.html">
-<link rel="alternate" type="text/markdown" href="${hub.slug}.md" title="${esc(hub.title)} - Markdown mirror">
-<link rel="icon" type="image/jpeg" href="AppleIcon.jpg">
-<link rel="apple-touch-icon" href="AppleIcon.jpg">
+<link rel="canonical" href="${cleanUrl(`${hub.slug}.html`)}">
+<link rel="alternate" type="text/markdown" href="/${hub.slug}.md" title="${esc(hub.title)} - Markdown mirror">
+<link rel="icon" type="image/jpeg" href="/AppleIcon.jpg">
+<link rel="apple-touch-icon" href="/AppleIcon.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">
 ${json(hubSchema(hub))}
 </script>
@@ -418,20 +596,22 @@ ${json(hubSchema(hub))}
 function hubHtml(hub) {
   const related = hub.related.map(file => {
     const label = file === "support.html" ? "Support & FAQ" : markdownTitle(file.replace(/\.html$/, ".md"));
-    return `    <li><a href="${file}">${esc(label)}</a></li>`;
+    return `    <li><a href="${cleanPath(file)}">${esc(label)}</a></li>`;
   }).join("\n");
+  const extraSections = (hub.extraSections || []).map(section => extraSectionHtml(section, hub)).join("\n\n  ");
   return `${head(hub)}
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 ${nav()}
 <main id="main">
 <article class="article">
+  ${breadcrumbs([{ label: "Home", href: "/" }, { label: "Guides", href: "/blog/" }, { label: hub.title }])}
   <p class="article__kicker">Wearra topic guide</p>
   <h1>${esc(hub.title)}</h1>
   <p class="meta">Updated <time datetime="${today}">June 7, 2026</time> - Wearra topic guide</p>
   <p class="lede">${esc(hub.description)}</p>
   <figure class="article-media">
-    <img src="${hub.image}" alt="${esc(hub.imageAlt)}" loading="lazy" decoding="async" width="720" height="1565">
+    <img src="/${hub.image}" alt="${esc(hub.imageAlt)}" loading="lazy" decoding="async" width="720" height="1565">
     <figcaption>${esc(hub.imageAlt)}</figcaption>
   </figure>
   <div class="answer-box">
@@ -451,6 +631,7 @@ ${hub.bullets.map(b => `    <li>${esc(b)}</li>`).join("\n")}
 ${hub.comparison.map(row => `      <tr>${row.map(cell => `<td>${esc(cell)}</td>`).join("")}</tr>`).join("\n")}
     </tbody>
   </table>
+  ${extraSections}
   <section class="hub-links" aria-labelledby="related-title">
     <h2 id="related-title">Related Wearra guides</h2>
     <ul>
@@ -473,11 +654,37 @@ ${script()}
 `;
 }
 
+function extraSectionHtml(section, hub) {
+  const paragraphs = (section.paragraphs || []).map(text => `  <p>${esc(text)}</p>`).join("\n");
+  const bullets = section.bullets?.length ? `  <ul>\n${section.bullets.map(item => `    <li>${esc(item)}</li>`).join("\n")}\n  </ul>` : "";
+  const table = section.table ? `  <table>
+    <thead>
+      <tr>${section.table.headings.map(heading => `<th scope="col">${esc(heading)}</th>`).join("")}</tr>
+    </thead>
+    <tbody>
+${section.table.rows.map(row => `      <tr>${row.map(cell => `<td>${esc(cell)}</td>`).join("")}</tr>`).join("\n")}
+    </tbody>
+  </table>` : "";
+  const video = section.video && hub.video ? `  <figure class="article-media">
+    <video controls muted playsinline preload="metadata" poster="/${hub.video.poster}" aria-label="${esc(hub.video.title)}">
+      <source src="/${hub.video.src}" type="video/mp4">
+      <a href="/${hub.video.src}">Watch the Wearra virtual try-on rendering demo.</a>
+    </video>
+    <figcaption>${esc(hub.video.description)}</figcaption>
+  </figure>` : "";
+  return `<h2>${esc(section.title)}</h2>
+${video}
+${paragraphs}
+${bullets}
+${table}`;
+}
+
 function hubMarkdown(hub) {
+  const extraMd = (hub.extraSections || []).map(section => extraSectionMarkdown(section, hub)).join("\n\n");
   return `# ${hub.title}
 
 Updated: ${today}
-Canonical: https://wearra.app/${hub.slug}.html
+Canonical: ${cleanUrl(`${hub.slug}.html`)}
 
 ${hub.description}
 
@@ -497,7 +704,7 @@ ${hub.bullets.map(b => `- ${b}`).join("\n")}
 | --- | --- | --- |
 ${hub.comparison.map(row => `| ${row.join(" | ")} |`).join("\n")}
 
-## Related Wearra guides
+${extraMd ? `${extraMd}\n\n` : ""}## Related Wearra guides
 
 ${hub.related.map(file => `- [${file === "support.html" ? "Support & FAQ" : markdownTitle(file.replace(/\.html$/, ".md"))}](${file.replace(/\.html$/, ".md")})`).join("\n")}
 
@@ -511,11 +718,26 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 `;
 }
 
+function extraSectionMarkdown(section, hub) {
+  const parts = [`## ${section.title}`];
+  if (section.video && hub.video) {
+    parts.push(`[Watch the Wearra virtual try-on rendering demo](/${hub.video.src})`);
+  }
+  if (section.paragraphs?.length) parts.push(section.paragraphs.join("\n\n"));
+  if (section.bullets?.length) parts.push(section.bullets.map(item => `- ${item}`).join("\n"));
+  if (section.table) {
+    parts.push(`| ${section.table.headings.join(" | ")} |
+| ${section.table.headings.map(() => "---").join(" | ")} |
+${section.table.rows.map(row => `| ${row.join(" | ")} |`).join("\n")}`);
+  }
+  return parts.join("\n\n");
+}
+
 function injectHubLinksIntoBlog() {
   const hubListHtml = `<section class="hub-links" aria-labelledby="topic-guides-title">
     <h2 id="topic-guides-title">Related Wearra topic guides</h2>
     <ul>
-${hubs.map(hub => `      <li><a href="../${hub.slug}.html">${esc(hub.title)}</a></li>`).join("\n")}
+${hubs.map(hub => `      <li><a href="/${hub.slug}/">${esc(hub.title)}</a></li>`).join("\n")}
     </ul>
   </section>`;
   const hubListMd = `## Related Wearra topic guides
@@ -524,6 +746,13 @@ ${hubs.map(hub => `- [${hub.title}](../${hub.slug}.md)`).join("\n")}
 `;
   for (const entry of fs.readdirSync(path.join(root, "blog"))) {
     const file = path.join(root, "blog", entry);
+    const indexFile = path.join(file, "index.html");
+    if (fs.existsSync(indexFile)) {
+      let html = fs.readFileSync(indexFile, "utf8");
+      html = html.replace(/\n  <section class="hub-links"[\s\S]*?  <\/section>\n/g, "\n");
+      html = html.replace("  <h2>Try Wearra</h2>", `  ${hubListHtml}\n  <h2>Try Wearra</h2>`);
+      fs.writeFileSync(indexFile, html);
+    }
     if (entry.endsWith(".html") && entry !== "index.html") {
       let html = fs.readFileSync(file, "utf8");
       html = html.replace(/\n  <section class="hub-links"[\s\S]*?  <\/section>\n/g, "\n");
@@ -542,7 +771,7 @@ ${hubs.map(hub => `- [${hub.title}](../${hub.slug}.md)`).join("\n")}
 function updateBlogIndex() {
   const hubCards = `<h2>Core topic guides</h2>
   <div class="post-list">
-${hubs.map(hub => `    <a class="post-card" href="../${hub.slug}.html">
+${hubs.map(hub => `    <a class="post-card" href="/${hub.slug}/">
       <p class="meta">Topic hub</p>
       <h2>${esc(hub.title)}</h2>
       <p>${esc(hub.description)}</p>
@@ -563,18 +792,18 @@ ${hubs.map(hub => `    <a class="post-card" href="../${hub.slug}.html">
 
 function writeSitemap() {
   const blogUrls = fs.readdirSync(path.join(root, "blog"))
-    .filter(entry => entry.endsWith(".html") && entry !== "index.html")
+    .filter(entry => entry.endsWith(".md") && entry !== "index.md")
     .sort()
-    .map(entry => [`https://wearra.app/blog/${entry}`, today, "monthly", "0.7"]);
+    .map(entry => [cleanUrl(`blog/${entry.replace(/\.md$/, ".html")}`), today, "monthly", "0.7"]);
   const urls = [
     ["https://wearra.app/", today, "weekly", "1.0"],
-    ...hubs.map(hub => [`https://wearra.app/${hub.slug}.html`, today, "weekly", "0.82"]),
-    ["https://wearra.app/about.html", today, "monthly", "0.7"],
+    ...hubs.map(hub => [cleanUrl(`${hub.slug}.html`), today, "weekly", "0.82"]),
+    [cleanUrl("about.html"), today, "monthly", "0.7"],
     ["https://wearra.app/blog/", today, "weekly", "0.8"],
     ...blogUrls,
-    ["https://wearra.app/privacy.html", today, "monthly", "0.6"],
-    ["https://wearra.app/terms.html", today, "monthly", "0.6"],
-    ["https://wearra.app/support.html", today, "monthly", "0.7"]
+    [cleanUrl("privacy.html"), today, "monthly", "0.6"],
+    [cleanUrl("terms.html"), today, "monthly", "0.6"],
+    [cleanUrl("support.html"), today, "monthly", "0.7"]
   ];
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -614,11 +843,11 @@ Last updated: ${today}.
 - Price: Free download
 - Public rating checked on ${today}: 5.0 from 4 ratings
 - App Store URL: ${appStoreUrl}
-- Privacy URL: https://wearra.app/privacy.html
-- Support URL: https://wearra.app/support.html
+- Privacy URL: ${cleanUrl("privacy.html")}
+- Support URL: ${cleanUrl("support.html")}
 - Pricing note: Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 
-Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption.
+Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption. Markdown mirrors are intended to be accessible but served with noindex headers so HTML pages remain the primary search pages.
 
 ## Core docs
 
@@ -661,7 +890,7 @@ ${blogMarkdown}
 
 > Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
 
-This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt).
+This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt). Markdown mirrors should be served with noindex headers so HTML pages remain the primary search pages.
 
 Operator: Wearra, independently operated in the United States. Contact: Support@wearra.app. Last updated: ${today}.
 
@@ -678,7 +907,11 @@ ${fs.readFileSync(path.join(root, file), "utf8").trim()}
 }
 
 for (const hub of hubs) {
-  fs.writeFileSync(path.join(root, `${hub.slug}.html`), hubHtml(hub));
+  const hubDir = path.join(root, hub.slug);
+  fs.rmSync(hubDir, { recursive: true, force: true });
+  fs.mkdirSync(hubDir, { recursive: true });
+  fs.writeFileSync(path.join(hubDir, "index.html"), hubHtml(hub));
+  fs.writeFileSync(path.join(root, `${hub.slug}.html`), redirectHtml(`${hub.slug}.html`, hub.title));
   fs.writeFileSync(path.join(root, `${hub.slug}.md`), hubMarkdown(hub));
 }
 injectHubLinksIntoBlog();

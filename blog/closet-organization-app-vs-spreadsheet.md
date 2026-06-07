@@ -1,7 +1,7 @@
 # Closet Organization App vs Spreadsheet
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/closet-organization-app-vs-spreadsheet.html
+Canonical: https://wearra.app/blog/closet-organization-app-vs-spreadsheet/
 
 Compare a dedicated closet organization app with a spreadsheet for wardrobe tracking, outfit planning, packing, and AI recommendations.
 

@@ -1,7 +1,7 @@
 # What to Wear When You Have Nothing to Wear
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/what-to-wear-when-you-have-nothing-to-wear.html
+Canonical: https://wearra.app/blog/what-to-wear-when-you-have-nothing-to-wear/
 
 A practical outfit decision framework for mornings when your closet feels full but nothing feels right.
 

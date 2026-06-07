@@ -9,8 +9,8 @@
   --fg:#1A1715;
   --fg-soft:#3A3331;
   --fg-muted:#6B635E;
-  --primary:#1F7BFF;
-  --primary-hover:#1865D6;
+  --primary:#0B63D9;
+  --primary-hover:#084FB8;
   --primary-soft:#E6F0FF;
   --accent:#ECD9F5;
   --accent-soft:#F6EAFB;
@@ -58,6 +58,15 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   transition:top .2s var(--ease);
 }
 .skip-link:focus{top:12px;outline:3px solid var(--primary);outline-offset:3px}
+
+.breadcrumbs{
+  display:flex;flex-wrap:wrap;align-items:center;gap:6px;
+  margin:0 0 20px;color:var(--fg-muted);
+  font-size:14px;line-height:1.4;
+}
+.breadcrumbs a{color:var(--fg-muted)}
+.breadcrumbs a:hover{color:var(--fg);text-decoration:underline}
+.breadcrumbs span[aria-hidden="true"]{color:color-mix(in srgb,var(--fg-muted),transparent 35%)}
 
 /* ---------- Nav ---------- */
 .nav{

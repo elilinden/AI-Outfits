@@ -1,7 +1,7 @@
 # Virtual Try-On Photo Tips for Better Results
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/virtual-try-on-photo-tips.html
+Canonical: https://wearra.app/blog/virtual-try-on-photo-tips/
 
 Photo tips that can improve AI virtual try-on results, including lighting, pose, background, crop, and garment photos.
 

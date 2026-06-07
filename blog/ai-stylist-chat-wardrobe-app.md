@@ -1,7 +1,7 @@
 # AI Stylist Chat Inside a Wardrobe App
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/ai-stylist-chat-wardrobe-app.html
+Canonical: https://wearra.app/blog/ai-stylist-chat-wardrobe-app/
 
 Why an AI stylist works better when it can reference your wardrobe, saved outfits, and style preferences.
 

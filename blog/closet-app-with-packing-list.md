@@ -1,7 +1,7 @@
 # Closet App With Packing Lists for Trips
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/closet-app-with-packing-list.html
+Canonical: https://wearra.app/blog/closet-app-with-packing-list/
 
 How a closet app can build smarter packing lists from clothes you already own and the weather at your destination.
 

@@ -1,7 +1,7 @@
 # Digital Closet App for iPhone and iOS 18
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/digital-closet-app-iphone-ios-18.html
+Canonical: https://wearra.app/blog/digital-closet-app-iphone-ios-18/
 
 A concise guide to digital closet apps for iPhone users, with the features that matter for outfit recommendations and wardrobe planning.
 

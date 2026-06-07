@@ -1,7 +1,7 @@
 # AI Outfit Planner for Weather and Calendar Context
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/ai-outfit-planner-weather-calendar.html
+Canonical: https://wearra.app/blog/ai-outfit-planner-weather-calendar/
 
 How an AI outfit planner can use weather, schedule, and wardrobe context to make daily outfit recommendations more useful.
 

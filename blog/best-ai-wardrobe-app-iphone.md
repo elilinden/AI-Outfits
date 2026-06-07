@@ -1,7 +1,7 @@
 # Best AI Wardrobe App for iPhone: What to Look For
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/best-ai-wardrobe-app-iphone.html
+Canonical: https://wearra.app/blog/best-ai-wardrobe-app-iphone/
 
 A direct-answer guide to choosing an AI wardrobe app for iPhone, including digital closet, outfit planning, AI stylist chat, and virtual try-on features.
 

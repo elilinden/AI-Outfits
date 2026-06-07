@@ -1,7 +1,7 @@
 # AI Wardrobe App Privacy: What Happens to Photos?
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/ai-wardrobe-app-privacy-photos.html
+Canonical: https://wearra.app/blog/ai-wardrobe-app-privacy-photos/
 
 A privacy-focused direct answer about photo handling, AI/render providers, iCloud backups, and account data in AI wardrobe apps.
 

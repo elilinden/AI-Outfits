@@ -1,7 +1,7 @@
 # About Wearra
 
 Updated: 2026-06-07
-Canonical: https://wearra.app/about.html
+Canonical: https://wearra.app/about/
 
 Wearra is an AI outfit planner and digital closet app for iPhone.
 
@@ -16,6 +16,10 @@ Wearra is independently operated in the United States. For support, press, or pa
 ## Launch story
 
 Wearra was built around a simple wardrobe problem: people often own enough clothes, but the closet is hard to use in the moment. The app focuses on turning real wardrobe items into practical outfit decisions instead of generic inspiration or another shopping list.
+
+## Why Wearra was built
+
+Wearra exists for people who want to use more of what they already own. Instead of separating closet organization, outfit planning, virtual try-on, and packing into different tools, Wearra brings those workflows into one iPhone app built around the user's real wardrobe.
 
 ## App details
 
@@ -41,16 +45,24 @@ Wearra is an iOS-first app, and accessibility details should be claimed publicly
 - App icon: AppleIcon.jpg
 - Preview image: og-image.png
 - Screenshots: screenshots/
-- Rendering demo video: videos/wearra-rendering-demo.mp4
+- Rendering demo video: videos/wearra-virtual-try-on-demo.mp4
 
 ## Press contact
 
 Email Support@wearra.app for press, partnerships, support, privacy, or app questions.
 
+## Press boilerplate
+
+Wearra is an iPhone AI outfit planner and digital closet app that helps users digitize their wardrobe, generate outfit ideas, chat with an AI Stylist, preview virtual try-ons, plan weekly looks, log outfits, and build packing lists from clothes they already own.
+
+## Official social profiles
+
+- Instagram: https://www.instagram.com/wearraapp/
+
 ## Official links
 
 - Website: https://wearra.app/
 - App Store: https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400
-- Privacy Policy: https://wearra.app/privacy.html
-- Terms of Service: https://wearra.app/terms.html
-- Support: https://wearra.app/support.html
+- Privacy Policy: https://wearra.app/privacy/
+- Terms of Service: https://wearra.app/terms/
+- Support: https://wearra.app/support/

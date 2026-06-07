@@ -1,7 +1,7 @@
 # How to Pack for a Trip Without Overpacking
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/how-to-pack-for-a-trip-without-overpacking.html
+Canonical: https://wearra.app/blog/how-to-pack-for-a-trip-without-overpacking/
 
 A travel packing method based on outfit capsules, weather, and clothes you already own.
 

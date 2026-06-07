@@ -1,7 +1,7 @@
 # Best Virtual Try-On App for Your Own Clothes
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/best-virtual-try-on-app-own-clothes.html
+Canonical: https://wearra.app/blog/best-virtual-try-on-app-own-clothes/
 
 What makes a virtual try-on app useful when you want to preview outfits from your own wardrobe instead of browsing model photos.
 

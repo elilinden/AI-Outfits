@@ -1,7 +1,7 @@
 # How to Plan Outfits for the Week
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/how-to-plan-outfits-for-the-week.html
+Canonical: https://wearra.app/blog/how-to-plan-outfits-for-the-week/
 
 A simple weekly outfit planning system for work, school, errands, weather, and events.
 

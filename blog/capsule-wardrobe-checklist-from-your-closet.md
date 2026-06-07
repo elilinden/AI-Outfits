@@ -1,7 +1,7 @@
 # Capsule Wardrobe Checklist From Clothes You Already Own
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/capsule-wardrobe-checklist-from-your-closet.html
+Canonical: https://wearra.app/blog/capsule-wardrobe-checklist-from-your-closet/
 
 Build a capsule wardrobe using existing clothes before buying anything new.
 
