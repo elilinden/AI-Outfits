@@ -20,7 +20,7 @@ Last updated: 2026-06-07.
 - Support URL: https://wearra.app/support/
 - Pricing note: Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 
-Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption. Markdown mirrors are intended to be accessible but served with noindex headers so HTML pages remain the primary search pages.
+Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption. HTML pages are the canonical search pages; robots.txt directs major search crawlers away from markdown mirrors.
 
 ## Core docs
 

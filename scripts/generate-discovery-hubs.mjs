@@ -16,26 +16,6 @@ function cleanUrl(file) {
   return `https://wearra.app${cleanPath(file)}`;
 }
 
-function redirectHtml(toPath, title = "Wearra") {
-  const destination = cleanPath(toPath);
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, follow">
-<link rel="canonical" href="https://wearra.app${destination}">
-<meta http-equiv="refresh" content="0; url=${destination}">
-<title>${esc(title)} moved</title>
-<script>window.location.replace(${JSON.stringify(destination)} + window.location.search + window.location.hash);</script>
-</head>
-<body>
-<p>This page moved to <a href="${destination}">${esc(title)}</a>.</p>
-</body>
-</html>
-`;
-}
-
 const hubs = [
   {
     slug: "ai-wardrobe-app",
@@ -621,6 +601,7 @@ ${hub.bullets.map(b => `    <li>${esc(b)}</li>`).join("\n")}
   </ul>
   <h2>Comparison</h2>
   <table>
+    <caption>${esc(hub.title)} comparison</caption>
     <thead>
       <tr><th scope="col">Option</th><th scope="col">Strength</th><th scope="col">Tradeoff</th></tr>
     </thead>
@@ -655,6 +636,7 @@ function extraSectionHtml(section, hub) {
   const paragraphs = (section.paragraphs || []).map(text => `  <p>${esc(text)}</p>`).join("\n");
   const bullets = section.bullets?.length ? `  <ul>\n${section.bullets.map(item => `    <li>${esc(item)}</li>`).join("\n")}\n  </ul>` : "";
   const table = section.table ? `  <table>
+    <caption>${esc(section.title)}</caption>
     <thead>
       <tr>${section.table.headings.map(heading => `<th scope="col">${esc(heading)}</th>`).join("")}</tr>
     </thead>
@@ -844,7 +826,7 @@ Last updated: ${today}.
 - Support URL: ${cleanUrl("support.html")}
 - Pricing note: Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 
-Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption. Markdown mirrors are intended to be accessible but served with noindex headers so HTML pages remain the primary search pages.
+Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption. HTML pages are the canonical search pages; robots.txt directs major search crawlers away from markdown mirrors.
 
 ## Core docs
 
@@ -887,7 +869,7 @@ ${blogMarkdown}
 
 > Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
 
-This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt). Markdown mirrors should be served with noindex headers so HTML pages remain the primary search pages.
+This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt). HTML pages are the canonical search pages; robots.txt directs major search crawlers away from markdown mirrors.
 
 Operator: Wearra, independently operated in the United States. Contact: Support@wearra.app. Last updated: ${today}.
 
@@ -908,7 +890,6 @@ for (const hub of hubs) {
   fs.rmSync(hubDir, { recursive: true, force: true });
   fs.mkdirSync(hubDir, { recursive: true });
   fs.writeFileSync(path.join(hubDir, "index.html"), hubHtml(hub));
-  fs.writeFileSync(path.join(root, `${hub.slug}.html`), redirectHtml(`${hub.slug}.html`, hub.title));
   fs.writeFileSync(path.join(root, `${hub.slug}.md`), hubMarkdown(hub));
 }
 injectHubLinksIntoBlog();

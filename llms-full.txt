@@ -2,7 +2,7 @@
 
 > Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
 
-This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt). Markdown mirrors should be served with noindex headers so HTML pages remain the primary search pages.
+This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt). HTML pages are the canonical search pages; robots.txt directs major search crawlers away from markdown mirrors.
 
 Operator: Wearra, independently operated in the United States. Contact: Support@wearra.app. Last updated: 2026-06-07.
 
@@ -1610,6 +1610,25 @@ A plain-English explanation of AI outfit recommendations based on closet items, 
 
 AI outfit recommendations from your closet work by combining your saved clothing items with context like weather, occasion, preferences, and feedback. Wearra uses a digital closet and AI Stylist workflow to suggest outfits from pieces a user owns, then lets the user save, plan, or try on the look.
 
+
+## Real examples
+
+- Closet input: black trousers, white tee, cardigan, blazer, loafers, sneakers, denim jacket, and a simple dress.
+- Recommendation output: work look with trousers, tee, blazer, and loafers; casual look with dress, denim jacket, and sneakers; dinner look with trousers, cardigan, and boots.
+- Feedback loop: save the looks that work, reject the ones that feel wrong, and let future suggestions lean toward the outfits you actually wear.
+
+## Comparison
+
+| Recommendation source | What it can suggest | Limitation |
+| --- | --- | --- |
+| Generic inspiration | Trendy outfit ideas | May require clothes the user does not own |
+| Manual outfit list | Known favorite combinations | Does not surface new pairings easily |
+| Closet-aware AI | Outfits from saved wardrobe items | Needs useful closet data and feedback |
+| Wearra | Daily ideas, AI Stylist chat, planning, and Try On | Works best after users add real wardrobe items |
+
+**Product note:** The useful part of AI outfit recommendations is not novelty alone. It is recommending something the user can realistically wear from their closet.
+
+**Privacy note:** Wearra's wardrobe workflow is private by default, and personal photos are handled according to the app's Privacy Policy.
 
 ## The basic idea
 

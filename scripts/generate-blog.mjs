@@ -19,26 +19,6 @@ function cleanUrl(file) {
   return `https://wearra.app${cleanPath(file)}`;
 }
 
-function redirectHtml(toPath, title = "Wearra") {
-  const destination = cleanPath(toPath);
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, follow">
-<link rel="canonical" href="https://wearra.app${destination}">
-<meta http-equiv="refresh" content="0; url=${destination}">
-<title>${esc(title)} moved</title>
-<script>window.location.replace(${JSON.stringify(destination)} + window.location.search + window.location.hash);</script>
-</head>
-<body>
-<p>This page moved to <a href="${destination}">${esc(title)}</a>.</p>
-</body>
-</html>
-`;
-}
-
 const posts = [
   {
     slug: "best-ai-wardrobe-app-iphone",
@@ -1179,6 +1159,25 @@ const postExtras = {
     },
     note: "The best vacation wardrobe is not the biggest one. It is the one that works for the destination, weather, activities, and suitcase.",
     privacy: "Trip planning can use wardrobe and destination context; optional iCloud Backup remains manual rather than live sync."
+  },
+  "ai-outfit-recommendations-from-your-closet": {
+    media: { type: "image", src: "/screenshots/wearra-outfit-recommendations-iphone.webp", alt: "Wearra outfit recommendations screen with closet-based outfit ideas and feedback actions" },
+    examples: [
+      "Closet input: black trousers, white tee, cardigan, blazer, loafers, sneakers, denim jacket, and a simple dress.",
+      "Recommendation output: work look with trousers, tee, blazer, and loafers; casual look with dress, denim jacket, and sneakers; dinner look with trousers, cardigan, and boots.",
+      "Feedback loop: save the looks that work, reject the ones that feel wrong, and let future suggestions lean toward the outfits you actually wear."
+    ],
+    comparison: {
+      headings: ["Recommendation source", "What it can suggest", "Limitation"],
+      rows: [
+        ["Generic inspiration", "Trendy outfit ideas", "May require clothes the user does not own"],
+        ["Manual outfit list", "Known favorite combinations", "Does not surface new pairings easily"],
+        ["Closet-aware AI", "Outfits from saved wardrobe items", "Needs useful closet data and feedback"],
+        ["Wearra", "Daily ideas, AI Stylist chat, planning, and Try On", "Works best after users add real wardrobe items"]
+      ]
+    },
+    note: "The useful part of AI outfit recommendations is not novelty alone. It is recommending something the user can realistically wear from their closet.",
+    privacy: "Wearra's wardrobe workflow is private by default, and personal photos are handled according to the app's Privacy Policy."
   }
 };
 
@@ -1378,6 +1377,7 @@ ${extra.examples.map(item => `    <li>${esc(item)}</li>`).join("\n")}
   </ul>`;
   const comparison = `<h2>Comparison</h2>
   <table>
+    <caption>${esc(post.title)} comparison</caption>
     <thead>
       <tr>${extra.comparison.headings.map(h => `<th scope="col">${esc(h)}</th>`).join("")}</tr>
     </thead>
@@ -1589,7 +1589,6 @@ function writeGeneratedFiles() {
     const postDir = path.join(blogDir, post.slug);
     fs.mkdirSync(postDir, { recursive: true });
     fs.writeFileSync(path.join(postDir, "index.html"), postHtml(post));
-    fs.writeFileSync(path.join(blogDir, `${post.slug}.html`), redirectHtml(`blog/${post.slug}.html`, post.title));
     fs.writeFileSync(path.join(blogDir, `${post.slug}.md`), postMarkdown(post));
   }
 }

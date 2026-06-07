@@ -1,6 +1,21 @@
 # robots.txt for Wearra — https://wearra.app/
 # HTML pages are intended for indexing. Markdown mirrors are kept accessible
-# for tools and AI agents, but served with X-Robots-Tag: noindex, follow.
+# for tools and AI agents; major search crawlers are directed to the canonical
+# HTML pages instead.
+
+# Markdown mirrors are for llms.txt and AI tooling. Search crawlers should use
+# the canonical HTML pages instead.
+User-agent: Googlebot
+Disallow: /*.md$
+Allow: /
+
+User-agent: Bingbot
+Disallow: /*.md$
+Allow: /
+
+User-agent: Applebot
+Disallow: /*.md$
+Allow: /
 
 User-agent: *
 Content-Signal: search=yes,ai-input=yes,ai-train=yes
