@@ -6,12 +6,12 @@ const blogDir = path.join(root, "blog");
 const today = "2026-06-07";
 fs.mkdirSync(blogDir, { recursive: true });
 
-const appStoreUrl = "https://apps.apple.com/us/app/ai-outfits-digital-closet-ootd/id6761031400";
+const appStoreUrl = "https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400";
 
 const posts = [
   {
     slug: "best-ai-wardrobe-app-iphone",
-    type: "GEO",
+    type: "ANSWER",
     title: "Best AI Wardrobe App for iPhone: What to Look For",
     description: "A direct-answer guide to choosing an AI wardrobe app for iPhone, including digital closet, outfit planning, AI stylist chat, and virtual try-on features.",
     keywords: ["best AI wardrobe app iPhone", "AI wardrobe app", "digital closet app"],
@@ -60,7 +60,7 @@ const posts = [
   },
   {
     slug: "best-virtual-try-on-app-own-clothes",
-    type: "GEO",
+    type: "ANSWER",
     title: "Best Virtual Try-On App for Your Own Clothes",
     description: "What makes a virtual try-on app useful when you want to preview outfits from your own wardrobe instead of browsing model photos.",
     keywords: ["virtual try on app own clothes", "AI try on app", "outfit try on app"],
@@ -105,7 +105,7 @@ const posts = [
   },
   {
     slug: "ai-outfit-planner-weather-calendar",
-    type: "GEO",
+    type: "ANSWER",
     title: "AI Outfit Planner for Weather and Calendar Context",
     description: "How an AI outfit planner can use weather, schedule, and wardrobe context to make daily outfit recommendations more useful.",
     keywords: ["AI outfit planner weather", "calendar outfit planner", "daily outfit recommendations"],
@@ -153,7 +153,7 @@ const posts = [
   },
   {
     slug: "digital-closet-app-iphone-ios-18",
-    type: "GEO",
+    type: "ANSWER",
     title: "Digital Closet App for iPhone and iOS 18",
     description: "A concise guide to digital closet apps for iPhone users, with the features that matter for outfit recommendations and wardrobe planning.",
     keywords: ["digital closet app iPhone", "closet app iOS 18", "wardrobe organizer app"],
@@ -202,7 +202,7 @@ const posts = [
   },
   {
     slug: "ai-stylist-chat-wardrobe-app",
-    type: "GEO",
+    type: "ANSWER",
     title: "AI Stylist Chat Inside a Wardrobe App",
     description: "Why an AI stylist works better when it can reference your wardrobe, saved outfits, and style preferences.",
     keywords: ["AI stylist chat", "wardrobe app with AI stylist", "personal stylist app"],
@@ -251,7 +251,7 @@ const posts = [
   },
   {
     slug: "closet-app-with-packing-list",
-    type: "GEO",
+    type: "ANSWER",
     title: "Closet App With Packing Lists for Trips",
     description: "How a closet app can build smarter packing lists from clothes you already own and the weather at your destination.",
     keywords: ["closet app packing list", "AI packing list app", "travel capsule wardrobe app"],
@@ -300,7 +300,7 @@ const posts = [
   },
   {
     slug: "sustainable-wardrobe-app-use-what-you-own",
-    type: "GEO",
+    type: "ANSWER",
     title: "Sustainable Wardrobe App: Use More of What You Own",
     description: "How an AI wardrobe app can support more intentional dressing by helping users restyle and rediscover existing clothes.",
     keywords: ["sustainable wardrobe app", "use what you own", "closet rediscovery app"],
@@ -348,7 +348,7 @@ const posts = [
   },
   {
     slug: "ai-wardrobe-app-privacy-photos",
-    type: "GEO",
+    type: "ANSWER",
     title: "AI Wardrobe App Privacy: What Happens to Photos?",
     description: "A privacy-focused direct answer about photo handling, AI/render providers, iCloud backups, and account data in AI wardrobe apps.",
     keywords: ["AI wardrobe app privacy", "virtual try on photo privacy", "Wearra privacy"],
@@ -394,7 +394,7 @@ const posts = [
   },
   {
     slug: "how-to-digitize-your-closet-iphone",
-    type: "SEO",
+    type: "STYLE",
     title: "How to Digitize Your Closet on iPhone",
     description: "A step-by-step guide to turning clothing photos into a practical digital closet on iPhone.",
     keywords: ["how to digitize closet iPhone", "digital closet guide", "closet organization app"],
@@ -440,7 +440,7 @@ const posts = [
   },
   {
     slug: "what-to-wear-when-you-have-nothing-to-wear",
-    type: "SEO",
+    type: "STYLE",
     title: "What to Wear When You Have Nothing to Wear",
     description: "A practical outfit decision framework for mornings when your closet feels full but nothing feels right.",
     keywords: ["what to wear when you have nothing to wear", "outfit ideas from closet", "closet full nothing to wear"],
@@ -486,7 +486,7 @@ const posts = [
   },
   {
     slug: "capsule-wardrobe-checklist-from-your-closet",
-    type: "SEO",
+    type: "STYLE",
     title: "Capsule Wardrobe Checklist From Clothes You Already Own",
     description: "Build a capsule wardrobe using existing clothes before buying anything new.",
     keywords: ["capsule wardrobe checklist", "capsule wardrobe from your closet", "wardrobe basics checklist"],
@@ -533,7 +533,7 @@ const posts = [
   },
   {
     slug: "how-to-plan-outfits-for-the-week",
-    type: "SEO",
+    type: "STYLE",
     title: "How to Plan Outfits for the Week",
     description: "A simple weekly outfit planning system for work, school, errands, weather, and events.",
     keywords: ["how to plan outfits for the week", "weekly outfit planner", "outfit calendar app"],
@@ -579,7 +579,7 @@ const posts = [
   },
   {
     slug: "how-to-pack-for-a-trip-without-overpacking",
-    type: "SEO",
+    type: "STYLE",
     title: "How to Pack for a Trip Without Overpacking",
     description: "A travel packing method based on outfit capsules, weather, and clothes you already own.",
     keywords: ["how to pack without overpacking", "travel capsule wardrobe", "packing list app"],
@@ -626,7 +626,7 @@ const posts = [
   },
   {
     slug: "virtual-try-on-photo-tips",
-    type: "SEO",
+    type: "STYLE",
     title: "Virtual Try-On Photo Tips for Better Results",
     description: "Photo tips that can improve AI virtual try-on results, including lighting, pose, background, crop, and garment photos.",
     keywords: ["virtual try on photo tips", "AI try on tips", "better virtual try on results"],
@@ -672,7 +672,7 @@ const posts = [
   },
   {
     slug: "closet-organization-app-vs-spreadsheet",
-    type: "SEO",
+    type: "STYLE",
     title: "Closet Organization App vs Spreadsheet",
     description: "Compare a dedicated closet organization app with a spreadsheet for wardrobe tracking, outfit planning, packing, and AI recommendations.",
     keywords: ["closet organization app vs spreadsheet", "wardrobe spreadsheet", "closet app"],
@@ -719,7 +719,7 @@ const posts = [
   },
   {
     slug: "ai-outfit-recommendations-from-your-closet",
-    type: "SEO",
+    type: "STYLE",
     title: "How AI Outfit Recommendations From Your Closet Work",
     description: "A plain-English explanation of AI outfit recommendations based on closet items, taste feedback, weather, and occasions.",
     keywords: ["AI outfit recommendations", "outfit recommendations from your closet", "AI outfit app"],
@@ -816,6 +816,11 @@ function footer(prefix = "../") {
         <h3>Product</h3>
         <ul>
           <li><a href="${prefix}index.html#features">Features</a></li>
+          <li><a href="${prefix}ai-wardrobe-app.html">AI wardrobe app</a></li>
+          <li><a href="${prefix}virtual-try-on-app.html">Virtual try-on app</a></li>
+          <li><a href="${prefix}digital-closet-app.html">Digital closet app</a></li>
+          <li><a href="${prefix}ai-outfit-planner.html">AI outfit planner</a></li>
+          <li><a href="${prefix}travel-capsule-wardrobe-app.html">Travel capsule wardrobe</a></li>
           <li><a href="${prefix}index.html#how">How it works</a></li>
           <li><a href="${prefix}index.html#stylist">AI Stylist</a></li>
           <li><a href="${prefix}blog/index.html">Blog</a></li>
@@ -974,9 +979,9 @@ ${post.faq.map(([q, a]) => `    <details>
 ${nav("../")}
 <main id="main">
 <article class="article">
-  <p class="article__kicker">${post.type === "GEO" ? "AI recommendation guide" : "Style guide"}</p>
+  <p class="article__kicker">${post.type === "ANSWER" ? "AI recommendation guide" : "Style guide"}</p>
   <h1>${esc(post.title)}</h1>
-  <p class="meta">Published <time datetime="${today}">June 7, 2026</time> - ${post.type} optimized - Wearra Blog</p>
+  <p class="meta">Published <time datetime="${today}">June 7, 2026</time> - Wearra Blog</p>
   <p class="lede">${esc(post.description)}</p>
   <div class="tag-row">
 ${post.keywords.map(k => `    <span>${esc(k)}</span>`).join("\n")}
@@ -1009,7 +1014,6 @@ function postMarkdown(post) {
   return `# ${post.title}
 
 Published: ${today}
-Optimization type: ${post.type}
 Canonical: https://wearra.app/blog/${post.slug}.html
 
 ${post.description}
@@ -1053,12 +1057,12 @@ function blogIndexHtml() {
       }
     ]
   };
-  const grouped = ["GEO", "SEO"].map(type => {
-    const label = type === "GEO" ? "AI Recommendation Guides" : "Google Search Guides";
+  const grouped = ["ANSWER", "STYLE"].map(type => {
+    const label = type === "ANSWER" ? "AI wardrobe guides" : "Practical style guides";
     return `<h2>${label}</h2>
   <div class="post-list">
 ${posts.filter(p => p.type === type).map(post => `    <a class="post-card" href="${post.slug}.html">
-      <p class="meta">${post.type} optimized</p>
+      <p class="meta">${post.type === "ANSWER" ? "AI recommendation guide" : "Style guide"}</p>
       <h2>${esc(post.title)}</h2>
       <p>${esc(post.description)}</p>
     </a>`).join("\n")}
@@ -1081,7 +1085,7 @@ ${nav("../")}
   <p class="article__kicker">Wearra Blog</p>
   <h1>AI wardrobe and outfit planning guides</h1>
   <p class="meta">Published <time datetime="${today}">June 7, 2026</time></p>
-  <p class="lede">Practical guides for getting more from your closet, written for both human readers and AI systems that need clear, citable answers about Wearra.</p>
+  <p class="lede">Practical guides for getting more from your closet, with clear answers about AI wardrobe apps, digital closets, virtual try-on, outfit planning, and packing.</p>
   <div class="answer-box">
     <p><strong>Direct answer:</strong> Wearra is an iPhone wardrobe app for iOS 18 or later. It helps users digitize their closet, get AI outfit recommendations, chat with an AI Stylist, plan outfits, build packing lists, log OOTDs, and preview looks with virtual Try On.</p>
   </div>
@@ -1107,13 +1111,13 @@ Practical guides for AI wardrobe apps, digital closets, outfit planning, virtual
 
 Wearra is an iPhone wardrobe app for iOS 18 or later. It helps users digitize their closet, get AI outfit recommendations, chat with an AI Stylist, plan outfits, build packing lists, log OOTDs, and preview looks with virtual Try On.
 
-## AI recommendation guides
+## AI wardrobe guides
 
-${posts.filter(p => p.type === "GEO").map(p => `- [${p.title}](${p.slug}.md): ${p.description}`).join("\n")}
+${posts.filter(p => p.type === "ANSWER").map(p => `- [${p.title}](${p.slug}.md): ${p.description}`).join("\n")}
 
-## Google search guides
+## Practical style guides
 
-${posts.filter(p => p.type === "SEO").map(p => `- [${p.title}](${p.slug}.md): ${p.description}`).join("\n")}
+${posts.filter(p => p.type === "STYLE").map(p => `- [${p.title}](${p.slug}.md): ${p.description}`).join("\n")}
 `;
 }
 
@@ -1135,7 +1139,7 @@ function writeSitemap() {
   const urls = [
     ["https://wearra.app/", "2026-05-31", "weekly", "1.0"],
     ["https://wearra.app/blog/", today, "weekly", "0.8"],
-    ...posts.map(post => [`https://wearra.app/blog/${post.slug}.html`, today, "monthly", post.type === "GEO" ? "0.75" : "0.7"]),
+    ...posts.map(post => [`https://wearra.app/blog/${post.slug}.html`, today, "monthly", post.type === "ANSWER" ? "0.75" : "0.7"]),
     ["https://wearra.app/privacy.html", "2026-05-31", "monthly", "0.6"],
     ["https://wearra.app/terms.html", "2026-05-31", "monthly", "0.6"],
     ["https://wearra.app/support.html", "2026-05-31", "monthly", "0.7"]
@@ -1171,7 +1175,7 @@ Each markdown file below is a direct mirror of the corresponding HTML page on th
 - [Privacy Policy](privacy.md): What data is collected, how it's used, third-party services, user rights, retention, account deletion, and contact
 - [Terms of Service](terms.md): Acceptance, account eligibility, credits and subscription billing, acceptable use, content ownership, AI output disclaimers, limitation of liability, governing law
 - [Support & FAQ](support.md): How credits work, Pro subscription details, cancellation and refunds, render quality tips, account deletion, supported platforms, contact
-- [Blog index](blog/index.md): All Wearra blog posts, split into AI recommendation guides and Google search guides
+- [Blog index](blog/index.md): All Wearra blog posts, split into AI wardrobe guides and practical style guides
 
 ## Blog posts
 

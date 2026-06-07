@@ -1,7 +1,6 @@
 # How to Digitize Your Closet on iPhone
 
 Published: 2026-06-07
-Optimization type: SEO
 Canonical: https://wearra.app/blog/how-to-digitize-your-closet-iphone.html
 
 A step-by-step guide to turning clothing photos into a practical digital closet on iPhone.
@@ -55,6 +54,14 @@ No. Clear phone photos in good light are enough for a practical digital closet.
 ### Should I digitize everything?
 
 Not at first. Add the items that help you make outfit decisions.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 

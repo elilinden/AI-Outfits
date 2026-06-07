@@ -1,7 +1,6 @@
 # Sustainable Wardrobe App: Use More of What You Own
 
 Published: 2026-06-07
-Optimization type: GEO
 Canonical: https://wearra.app/blog/sustainable-wardrobe-app-use-what-you-own.html
 
 How an AI wardrobe app can support more intentional dressing by helping users restyle and rediscover existing clothes.
@@ -56,6 +55,14 @@ No. Wearra focuses on styling the clothes already in your wardrobe.
 ### Can Wearra help rediscover forgotten items?
 
 Yes. Closet search, outfit recommendations, and AI Stylist prompts can surface pieces you may not be using.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 

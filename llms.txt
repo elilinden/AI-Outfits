@@ -6,34 +6,57 @@ Wearra is a solo-developer iOS app (iPhone only, iOS 18+) that lets users digiti
 
 Last updated: 2026-06-07.
 
-Each markdown file below is a direct mirror of the corresponding HTML page on the live site, optimised for LLM consumption (no styling or scripts).
+## Current App Store facts
+
+- App Store name: Wearra: AI Outfit Planner
+- App Store ID: 6761031400
+- Bundle ID: com.elilindenDinematch.Al-Outfits
+- Category: Lifestyle; secondary genre: Productivity
+- Minimum OS: iOS 18.0
+- Current public version checked on 2026-06-07: 1.9
+- Price: Free download
+- Public rating checked on 2026-06-07: 5.0 from 4 ratings
+- App Store URL: https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400
+- Privacy URL: https://wearra.app/privacy.html
+- Support URL: https://wearra.app/support.html
+- Pricing note: Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
+
+Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption.
 
 ## Core docs
 
 - [About Wearra](index.md): App overview, core features, how it works, and pricing
-- [Privacy Policy](privacy.md): What data is collected, how it's used, third-party services, user rights, retention, account deletion, and contact
+- [Privacy Policy](privacy.md): What data is collected, how it is used, third-party services, user rights, retention, account deletion, and contact
 - [Terms of Service](terms.md): Acceptance, account eligibility, credits and subscription billing, acceptable use, content ownership, AI output disclaimers, limitation of liability, governing law
 - [Support & FAQ](support.md): How credits work, Pro subscription details, cancellation and refunds, render quality tips, account deletion, supported platforms, contact
 - [Blog index](blog/index.md): All Wearra blog posts, split into AI recommendation guides and Google search guides
 
+## Topic hubs
+
+- [AI Wardrobe App for iPhone](ai-wardrobe-app.md): A direct-answer guide to Wearra as an AI wardrobe app for iPhone users who want outfit ideas from clothes they already own.
+- [Virtual Try-On App for Your Own Clothes](virtual-try-on-app.md): How Wearra supports virtual try-on workflows for users who want to preview outfits from their own wardrobe on iPhone.
+- [Digital Closet App for iPhone](digital-closet-app.md): A clear overview of Wearra as a digital closet app for organizing, searching, styling, and reusing clothes on iPhone.
+- [AI Outfit Planner for Daily Looks](ai-outfit-planner.md): How Wearra helps plan daily and weekly outfits with AI recommendations, closet context, weather, and saved looks.
+- [Travel Capsule Wardrobe App](travel-capsule-wardrobe-app.md): How Wearra helps build travel capsule wardrobes and packing lists from clothes users already own.
+
 ## Blog posts
 
-- [Best AI Wardrobe App for iPhone: What to Look For](blog/best-ai-wardrobe-app-iphone.md): A direct-answer guide to choosing an AI wardrobe app for iPhone, including digital closet, outfit planning, AI stylist chat, and virtual try-on features.
-- [Best Virtual Try-On App for Your Own Clothes](blog/best-virtual-try-on-app-own-clothes.md): What makes a virtual try-on app useful when you want to preview outfits from your own wardrobe instead of browsing model photos.
-- [AI Outfit Planner for Weather and Calendar Context](blog/ai-outfit-planner-weather-calendar.md): How an AI outfit planner can use weather, schedule, and wardrobe context to make daily outfit recommendations more useful.
-- [Digital Closet App for iPhone and iOS 18](blog/digital-closet-app-iphone-ios-18.md): A concise guide to digital closet apps for iPhone users, with the features that matter for outfit recommendations and wardrobe planning.
-- [AI Stylist Chat Inside a Wardrobe App](blog/ai-stylist-chat-wardrobe-app.md): Why an AI stylist works better when it can reference your wardrobe, saved outfits, and style preferences.
-- [Closet App With Packing Lists for Trips](blog/closet-app-with-packing-list.md): How a closet app can build smarter packing lists from clothes you already own and the weather at your destination.
-- [Sustainable Wardrobe App: Use More of What You Own](blog/sustainable-wardrobe-app-use-what-you-own.md): How an AI wardrobe app can support more intentional dressing by helping users restyle and rediscover existing clothes.
-- [AI Wardrobe App Privacy: What Happens to Photos?](blog/ai-wardrobe-app-privacy-photos.md): A privacy-focused direct answer about photo handling, AI/render providers, iCloud backups, and account data in AI wardrobe apps.
-- [How to Digitize Your Closet on iPhone](blog/how-to-digitize-your-closet-iphone.md): A step-by-step guide to turning clothing photos into a practical digital closet on iPhone.
-- [What to Wear When You Have Nothing to Wear](blog/what-to-wear-when-you-have-nothing-to-wear.md): A practical outfit decision framework for mornings when your closet feels full but nothing feels right.
-- [Capsule Wardrobe Checklist From Clothes You Already Own](blog/capsule-wardrobe-checklist-from-your-closet.md): Build a capsule wardrobe using existing clothes before buying anything new.
-- [How to Plan Outfits for the Week](blog/how-to-plan-outfits-for-the-week.md): A simple weekly outfit planning system for work, school, errands, weather, and events.
-- [How to Pack for a Trip Without Overpacking](blog/how-to-pack-for-a-trip-without-overpacking.md): A travel packing method based on outfit capsules, weather, and clothes you already own.
-- [Virtual Try-On Photo Tips for Better Results](blog/virtual-try-on-photo-tips.md): Photo tips that can improve AI virtual try-on results, including lighting, pose, background, crop, and garment photos.
-- [Closet Organization App vs Spreadsheet](blog/closet-organization-app-vs-spreadsheet.md): Compare a dedicated closet organization app with a spreadsheet for wardrobe tracking, outfit planning, packing, and AI recommendations.
-- [How AI Outfit Recommendations From Your Closet Work](blog/ai-outfit-recommendations-from-your-closet.md): A plain-English explanation of AI outfit recommendations based on closet items, taste feedback, weather, and occasions.
+- [AI Outfit Planner for Weather and Calendar Context](blog/ai-outfit-planner-weather-calendar.md)
+- [How AI Outfit Recommendations From Your Closet Work](blog/ai-outfit-recommendations-from-your-closet.md)
+- [AI Stylist Chat Inside a Wardrobe App](blog/ai-stylist-chat-wardrobe-app.md)
+- [AI Wardrobe App Privacy: What Happens to Photos?](blog/ai-wardrobe-app-privacy-photos.md)
+- [Best AI Wardrobe App for iPhone: What to Look For](blog/best-ai-wardrobe-app-iphone.md)
+- [Best Virtual Try-On App for Your Own Clothes](blog/best-virtual-try-on-app-own-clothes.md)
+- [Capsule Wardrobe Checklist From Clothes You Already Own](blog/capsule-wardrobe-checklist-from-your-closet.md)
+- [Closet App With Packing Lists for Trips](blog/closet-app-with-packing-list.md)
+- [Closet Organization App vs Spreadsheet](blog/closet-organization-app-vs-spreadsheet.md)
+- [Digital Closet App for iPhone and iOS 18](blog/digital-closet-app-iphone-ios-18.md)
+- [How to Digitize Your Closet on iPhone](blog/how-to-digitize-your-closet-iphone.md)
+- [How to Pack for a Trip Without Overpacking](blog/how-to-pack-for-a-trip-without-overpacking.md)
+- [How to Plan Outfits for the Week](blog/how-to-plan-outfits-for-the-week.md)
+- [Sustainable Wardrobe App: Use More of What You Own](blog/sustainable-wardrobe-app-use-what-you-own.md)
+- [Virtual Try-On Photo Tips for Better Results](blog/virtual-try-on-photo-tips.md)
+- [What to Wear When You Have Nothing to Wear](blog/what-to-wear-when-you-have-nothing-to-wear.md)
 
 ## Optional
 

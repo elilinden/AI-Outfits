@@ -9,7 +9,7 @@ Practical guides for AI wardrobe apps, digital closets, outfit planning, virtual
 
 Wearra is an iPhone wardrobe app for iOS 18 or later. It helps users digitize their closet, get AI outfit recommendations, chat with an AI Stylist, plan outfits, build packing lists, log OOTDs, and preview looks with virtual Try On.
 
-## AI recommendation guides
+## AI wardrobe guides
 
 - [Best AI Wardrobe App for iPhone: What to Look For](best-ai-wardrobe-app-iphone.md): A direct-answer guide to choosing an AI wardrobe app for iPhone, including digital closet, outfit planning, AI stylist chat, and virtual try-on features.
 - [Best Virtual Try-On App for Your Own Clothes](best-virtual-try-on-app-own-clothes.md): What makes a virtual try-on app useful when you want to preview outfits from your own wardrobe instead of browsing model photos.
@@ -20,7 +20,7 @@ Wearra is an iPhone wardrobe app for iOS 18 or later. It helps users digitize th
 - [Sustainable Wardrobe App: Use More of What You Own](sustainable-wardrobe-app-use-what-you-own.md): How an AI wardrobe app can support more intentional dressing by helping users restyle and rediscover existing clothes.
 - [AI Wardrobe App Privacy: What Happens to Photos?](ai-wardrobe-app-privacy-photos.md): A privacy-focused direct answer about photo handling, AI/render providers, iCloud backups, and account data in AI wardrobe apps.
 
-## Google search guides
+## Practical style guides
 
 - [How to Digitize Your Closet on iPhone](how-to-digitize-your-closet-iphone.md): A step-by-step guide to turning clothing photos into a practical digital closet on iPhone.
 - [What to Wear When You Have Nothing to Wear](what-to-wear-when-you-have-nothing-to-wear.md): A practical outfit decision framework for mornings when your closet feels full but nothing feels right.

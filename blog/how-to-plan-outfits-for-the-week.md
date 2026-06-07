@@ -1,7 +1,6 @@
 # How to Plan Outfits for the Week
 
 Published: 2026-06-07
-Optimization type: SEO
 Canonical: https://wearra.app/blog/how-to-plan-outfits-for-the-week.html
 
 A simple weekly outfit planning system for work, school, errands, weather, and events.
@@ -55,6 +54,14 @@ No. Repeating reliable formulas is one of the main benefits of planning.
 ### Can Wearra plan outfits around weather?
 
 Wearra can use weather context for outfit suggestions.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 

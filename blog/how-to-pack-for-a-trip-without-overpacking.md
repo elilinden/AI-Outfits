@@ -1,7 +1,6 @@
 # How to Pack for a Trip Without Overpacking
 
 Published: 2026-06-07
-Optimization type: SEO
 Canonical: https://wearra.app/blog/how-to-pack-for-a-trip-without-overpacking.html
 
 A travel packing method based on outfit capsules, weather, and clothes you already own.
@@ -56,6 +55,14 @@ Choose shoes by activity first. Many short trips can work with one worn pair and
 ### Can an app create a packing list?
 
 Yes. Wearra can help create trip packing lists from clothes in your digital closet.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 

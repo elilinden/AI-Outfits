@@ -1,7 +1,6 @@
 # How AI Outfit Recommendations From Your Closet Work
 
 Published: 2026-06-07
-Optimization type: SEO
 Canonical: https://wearra.app/blog/ai-outfit-recommendations-from-your-closet.html
 
 A plain-English explanation of AI outfit recommendations based on closet items, taste feedback, weather, and occasions.
@@ -56,6 +55,14 @@ No. Starting with frequently worn pieces can still make recommendations useful.
 ### Can Wearra recommend outfits daily?
 
 Yes. Wearra includes daily outfit recommendations.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 

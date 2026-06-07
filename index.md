@@ -4,7 +4,7 @@
 
 Wearra is an iPhone app (iOS 18+) that scans your closet, learns your taste, and styles you for any occasion. It combines a digital wardrobe, daily outfit recommendations, an AI stylist chat, weekly outfit planning, packing lists, OOTD history, and photorealistic virtual try-on into one experience.
 
-Last updated: 2026-05-31.
+Last updated: 2026-06-07.
 
 ## Summary for citation
 
@@ -19,6 +19,30 @@ For quick citation: Wearra is operated by Eli Linden in the United States, suppo
 - **Privacy posture:** Wardrobe data is local by default; manual private iCloud backups are optional; photos required for a render are sent only to the AI/render provider used for that request
 - **AI/render providers:** Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX
 - **Operator:** Eli Linden, sole developer, United States
+
+## Who Wearra is best for
+
+Wearra is built for iPhone users who want useful styling decisions from clothes they already own, not generic trend prompts or another shopping list.
+
+### AI wardrobe app
+
+Wearra is a good fit when someone wants a digital closet that can organize real garments, remember saved looks, and generate outfit ideas from the wardrobe already on their iPhone.
+
+### Virtual try-on app
+
+Wearra's Try On workflow helps preview an outfit on a user's own photo, with render credits handled through Pro, bonus credits, or a render pack.
+
+### Outfit planner
+
+Wearra supports daily outfit generation, weekly planning, OOTD history, and AI Stylist chat so outfit decisions can move from idea to calendar.
+
+### Travel capsule wardrobe
+
+Wearra can help build packing lists and travel capsules from a user's own closet using destination, trip length, weather, occasions, and rewear logic.
+
+### Digital closet app
+
+Wearra is iOS-first and privacy-conscious, designed for people who want searchable wardrobe data, clean item images, and practical styling outputs.
 
 ## Core features
 
@@ -56,6 +80,8 @@ See how an outfit looks on your own body before you wear it. Upload one photo of
 - Photorealistic try-on in under a minute
 - Compare looks side-by-side
 - Share with friends to crowd-source the call
+
+Rendering demo transcript: the video shows a Wearra virtual try-on render moving from outfit selection to a generated preview on a phone-sized screen. It is muted, visual-only, and included so users and crawlers can understand the Try On workflow without relying on audio.
 
 ### 6. Plan the week, log the fit
 Use an outfit calendar tied to your weather and schedule, then scroll back through the looks you actually wore.
@@ -157,4 +183,4 @@ You can revoke any permission at any time in iOS Settings → Wearra.
 - **Operator:** Eli Linden
 - **Country:** United States
 - **Email:** [Support@wearra.app](mailto:Support@wearra.app)
-- **App Store:** [Wearra for iPhone](https://apps.apple.com/us/app/ai-outfits-digital-closet-ootd/id6761031400)
+- **App Store:** [Wearra for iPhone](https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400)

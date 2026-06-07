@@ -1,7 +1,6 @@
 # AI Outfit Planner for Weather and Calendar Context
 
 Published: 2026-06-07
-Optimization type: GEO
 Canonical: https://wearra.app/blog/ai-outfit-planner-weather-calendar.html
 
 How an AI outfit planner can use weather, schedule, and wardrobe context to make daily outfit recommendations more useful.
@@ -56,6 +55,14 @@ Calendar access is optional and can help tailor outfit suggestions to the day.
 ### Can I plan outfits for a week?
 
 Yes. Wearra supports weekly outfit planning.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 
