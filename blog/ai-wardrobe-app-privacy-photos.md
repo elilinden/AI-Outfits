@@ -1,7 +1,6 @@
 # AI Wardrobe App Privacy: What Happens to Photos?
 
 Published: 2026-06-07
-Optimization type: GEO
 Canonical: https://wearra.app/blog/ai-wardrobe-app-privacy-photos.html
 
 A privacy-focused direct answer about photo handling, AI/render providers, iCloud backups, and account data in AI wardrobe apps.
@@ -54,6 +53,14 @@ Wearra's privacy materials say notification tokens may be stored with the accoun
 ### Are AI Stylist chat turns logged?
 
 Wearra's public privacy language says AI Stylist chat turns are logged to Firestore.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 

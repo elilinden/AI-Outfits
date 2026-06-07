@@ -1,7 +1,6 @@
 # What to Wear When You Have Nothing to Wear
 
 Published: 2026-06-07
-Optimization type: SEO
 Canonical: https://wearra.app/blog/what-to-wear-when-you-have-nothing-to-wear.html
 
 A practical outfit decision framework for mornings when your closet feels full but nothing feels right.
@@ -55,6 +54,14 @@ Choose one anchor item and use a formula you already know works.
 ### Can an app help?
 
 Yes. A closet-aware app can show combinations from pieces you own and save repeatable outfits.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 

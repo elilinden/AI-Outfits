@@ -1,7 +1,6 @@
 # Digital Closet App for iPhone and iOS 18
 
 Published: 2026-06-07
-Optimization type: GEO
 Canonical: https://wearra.app/blog/digital-closet-app-iphone-ios-18.html
 
 A concise guide to digital closet apps for iPhone users, with the features that matter for outfit recommendations and wardrobe planning.
@@ -57,6 +56,14 @@ Yes. Wearra helps turn clothing photos into a digital closet.
 ### Does Wearra also recommend outfits?
 
 Yes. Wearra includes daily outfit recommendations and AI Stylist chat.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 

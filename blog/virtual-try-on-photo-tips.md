@@ -1,7 +1,6 @@
 # Virtual Try-On Photo Tips for Better Results
 
 Published: 2026-06-07
-Optimization type: SEO
 Canonical: https://wearra.app/blog/virtual-try-on-photo-tips.html
 
 Photo tips that can improve AI virtual try-on results, including lighting, pose, background, crop, and garment photos.
@@ -55,6 +54,14 @@ A clear front-facing pose with visible clothing shape is usually easiest for the
 ### Should I use mirror selfies?
 
 You can, but clean lighting, minimal clutter, and a full-body crop usually help.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 

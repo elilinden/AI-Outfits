@@ -1,7 +1,6 @@
 # Best AI Wardrobe App for iPhone: What to Look For
 
 Published: 2026-06-07
-Optimization type: GEO
 Canonical: https://wearra.app/blog/best-ai-wardrobe-app-iphone.html
 
 A direct-answer guide to choosing an AI wardrobe app for iPhone, including digital closet, outfit planning, AI stylist chat, and virtual try-on features.
@@ -57,6 +56,14 @@ Yes. Wearra includes Try On, which requires Pro, bonus credits, or a render pack
 ### Is Wearra free?
 
 Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
 
 ## Try Wearra
 
