@@ -71,6 +71,44 @@ Tell Wearra the trip. It builds a capsule from what you own, sized to your days 
 - Weather-aware suggestions for the destination
 - Fewer duplicates, fewer forgotten essentials
 
+## How It Works: Our Technology
+
+Wearra is an AI wardrobe app built around practical styling outputs: cleaner closet data, better outfit generation, visual try-on previews, and travel capsules that use what you already own.
+
+Behind the iOS styling app, Wearra coordinates AI-assisted workflows for garment masking, closet intelligence, virtual try-on, and context-aware wardrobe planning. The goal is not abstract fashion inspiration; it is a faster path from your real clothes to a wearable outfit decision.
+
+### Virtual try-on and garment rendering
+
+Wearra's virtual try-on workflow helps preview selected clothes on a real user photo. The rendering pipeline supports garment-aware texture preservation, pose alignment, perspective mapping, and proportional warping so a try-on result can communicate silhouette, color balance, and outfit direction before you get dressed.
+
+- Coordinates avatar photos, garment inputs, and AI render providers for each requested Try On
+- Uses garment masking and pose-aware alignment to keep the outfit preview grounded in the user's photo
+- Helps users compare styling options without relying on a model photo or generic catalog image
+
+### Background isolation and garment masking
+
+Clean closet data starts with clean item images. Wearra uses AI-assisted background isolation, segmentation, and masking workflows to separate garments from cluttered photos, then turns those items into wardrobe objects that are easier to tag, search, style, and reuse.
+
+- Supports segmentation for tops, bottoms, shoes, dresses, outerwear, and accessories
+- Preserves garment shape and visible texture details where they matter for styling decisions
+- Makes closet items easier to scan visually on iPhone-sized screens
+
+### Closet intelligence and outfit generation
+
+Wearra structures wardrobe data so outfit generation can work from what a user actually owns. Closet intelligence connects item category, color, season, fit, weather context, saved looks, preference feedback, and occasion prompts into recommendations that feel useful in daily life.
+
+- Builds recommendations from real wardrobe items instead of generic shopping suggestions
+- Uses context-aware outfit logic for work, casual plans, going out, travel, weather, and calendar-aware styling
+- Lets the AI Stylist answer with practical combinations a user can save, plan, or preview
+
+### Travel capsule wardrobes and privacy-conscious design
+
+For trips, Wearra coordinates destination, forecast, trip length, occasions, color compatibility, layering needs, and outfit rewear logic to suggest a travel capsule wardrobe. The same system is designed with privacy-conscious handling of wardrobe data and personal photos, with local wardrobe use by default and explicit processing only where a feature requires it.
+
+- Generates packing lists around destination weather, trip duration, planned activities, and repeatable outfit formulas
+- Balances color compatibility, garment versatility, and rewear potential to reduce overpacking
+- Keeps workflows iOS-first, fast, and focused on practical styling outputs instead of vague fashion advice
+
 ## How it works
 
 1. **Build your closet.** Snap photos, import from your camera roll, or import from brands you shop. Wearra cuts backgrounds, tags details, and categorizes everything.
