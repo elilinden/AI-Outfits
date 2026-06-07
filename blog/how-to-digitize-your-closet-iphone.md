@@ -1,7 +1,7 @@
 # How to Digitize Your Closet on iPhone
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/how-to-digitize-your-closet-iphone.html
+Canonical: https://wearra.app/blog/how-to-digitize-your-closet-iphone/
 
 A step-by-step guide to turning clothing photos into a practical digital closet on iPhone.
 

@@ -1,7 +1,7 @@
 # Travel Capsule Wardrobe App
 
 Updated: 2026-06-07
-Canonical: https://wearra.app/travel-capsule-wardrobe-app.html
+Canonical: https://wearra.app/travel-capsule-wardrobe-app/
 
 How Wearra helps build travel capsule wardrobes and packing lists from clothes users already own.
 

@@ -16,11 +16,11 @@ Last updated: 2026-06-07.
 - Price: Free download
 - Public rating checked on 2026-06-07: 5.0 from 4 ratings
 - App Store URL: https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400
-- Privacy URL: https://wearra.app/privacy.html
-- Support URL: https://wearra.app/support.html
+- Privacy URL: https://wearra.app/privacy/
+- Support URL: https://wearra.app/support/
 - Pricing note: Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
 
-Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption.
+Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption. Markdown mirrors are intended to be accessible but served with noindex headers so HTML pages remain the primary search pages.
 
 ## Core docs
 

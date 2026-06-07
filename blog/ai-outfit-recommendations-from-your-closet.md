@@ -1,7 +1,7 @@
 # How AI Outfit Recommendations From Your Closet Work
 
 Published: 2026-06-07
-Canonical: https://wearra.app/blog/ai-outfit-recommendations-from-your-closet.html
+Canonical: https://wearra.app/blog/ai-outfit-recommendations-from-your-closet/
 
 A plain-English explanation of AI outfit recommendations based on closet items, taste feedback, weather, and occasions.
 

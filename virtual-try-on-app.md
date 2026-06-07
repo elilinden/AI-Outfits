@@ -1,7 +1,7 @@
 # Virtual Try-On App for Your Own Clothes
 
 Updated: 2026-06-07
-Canonical: https://wearra.app/virtual-try-on-app.html
+Canonical: https://wearra.app/virtual-try-on-app/
 
 How Wearra supports virtual try-on workflows for users who want to preview outfits from their own wardrobe on iPhone.
 
@@ -35,6 +35,28 @@ Wearra is free to download. Try On requires Pro, bonus credits, or a render pack
 | Mirror check | Fast and familiar | Only works with clothes already on body |
 | Model/catalog try-on | Useful while shopping | Not based on the user's wardrobe |
 | Wearra Try On | Preview owned-clothes outfits on a user photo | AI render results can vary with photo quality |
+
+## Good photo vs bad photo
+
+| Good input photo | Harder input photo |
+| --- | --- |
+| Clear lighting, full outfit area visible, simple background | Dim lighting, heavy shadows, mirror glare, or cropped body |
+| Front-facing pose with arms and garments easy to identify | Twisted pose, hidden garment edges, or hands covering clothing |
+| Garment photos with clean shape and visible texture | Wrinkled, folded, or partially blocked garment photos |
+
+## Try-on result limitations
+
+Virtual Try On is a preview tool, not a tailoring guarantee. Results can vary with lighting, body pose, garment shape, texture, and how much of the clothing item is visible.
+
+The most useful way to treat a render is as an outfit direction check: color balance, silhouette, layering, and whether a look is worth saving, packing, or trying on in real life.
+
+## Demo video transcript
+
+[Watch the Wearra virtual try-on rendering demo](/videos/wearra-virtual-try-on-demo.mp4)
+
+The demo shows a Wearra virtual try-on workflow moving from a selected outfit to a generated preview on a phone-sized screen. The video is muted, so the workflow is understandable without sound.
+
+Try On requires Pro, bonus credits, or a render pack. Wearra is free to download, and render credits are used only when a Try On render is requested.
 
 ## Related Wearra guides
 

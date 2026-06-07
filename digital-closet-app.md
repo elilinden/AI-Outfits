@@ -1,7 +1,7 @@
 # Digital Closet App for iPhone
 
 Updated: 2026-06-07
-Canonical: https://wearra.app/digital-closet-app.html
+Canonical: https://wearra.app/digital-closet-app/
 
 A clear overview of Wearra as a digital closet app for organizing, searching, styling, and reusing clothes on iPhone.
 
@@ -36,6 +36,27 @@ Wardrobe data is local by default. Users can manually back up wardrobe data and 
 | Camera roll album | Easy to start | Hard to search by category, color, outfit, or trip |
 | Spreadsheet | Structured tracking | Not visual enough for daily styling |
 | Wearra | Visual digital closet connected to outfit generation | Requires iPhone on iOS 18 or later |
+
+## Closet setup checklist
+
+- Start with high-use items first: favorite tops, bottoms, shoes, layers, and dresses.
+- Use clear photos with the garment shape visible and avoid busy backgrounds when possible.
+- Add categories, colors, seasons, and brand details that will actually help you search later.
+- Save full outfits as you wear them so the closet learns useful combinations, not just individual items.
+
+## Item-tagging examples
+
+| Item | Useful tags | Why it helps |
+| --- | --- | --- |
+| Black straight-leg trousers | bottoms, black, work, year-round | Easy to reuse for office, dinner, and travel outfits |
+| White ribbed tank | top, white, summer, layering | Works as a base layer or warm-weather top |
+| Tan trench coat | outerwear, tan, rain, travel | Useful for weather-aware packing and outfit planning |
+
+## Common digitizing mistakes
+
+- Adding only special-event clothes and skipping the everyday basics that actually build most outfits.
+- Using dark or cropped photos that make color and garment shape harder to recognize.
+- Treating the closet as a one-time catalog instead of updating it when clothes are donated, archived, or worn often.
 
 ## Related Wearra guides
 
