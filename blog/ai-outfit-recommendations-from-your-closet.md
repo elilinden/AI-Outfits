@@ -10,6 +10,25 @@ A plain-English explanation of AI outfit recommendations based on closet items, 
 AI outfit recommendations from your closet work by combining your saved clothing items with context like weather, occasion, preferences, and feedback. Wearra uses a digital closet and AI Stylist workflow to suggest outfits from pieces a user owns, then lets the user save, plan, or try on the look.
 
 
+## Real examples
+
+- Closet input: black trousers, white tee, cardigan, blazer, loafers, sneakers, denim jacket, and a simple dress.
+- Recommendation output: work look with trousers, tee, blazer, and loafers; casual look with dress, denim jacket, and sneakers; dinner look with trousers, cardigan, and boots.
+- Feedback loop: save the looks that work, reject the ones that feel wrong, and let future suggestions lean toward the outfits you actually wear.
+
+## Comparison
+
+| Recommendation source | What it can suggest | Limitation |
+| --- | --- | --- |
+| Generic inspiration | Trendy outfit ideas | May require clothes the user does not own |
+| Manual outfit list | Known favorite combinations | Does not surface new pairings easily |
+| Closet-aware AI | Outfits from saved wardrobe items | Needs useful closet data and feedback |
+| Wearra | Daily ideas, AI Stylist chat, planning, and Try On | Works best after users add real wardrobe items |
+
+**Product note:** The useful part of AI outfit recommendations is not novelty alone. It is recommending something the user can realistically wear from their closet.
+
+**Privacy note:** Wearra's wardrobe workflow is private by default, and personal photos are handled according to the app's Privacy Policy.
+
 ## The basic idea
 
 A closet-aware recommendation system starts with inventory: tops, bottoms, dresses, outerwear, shoes, accessories, colors, seasons, and style cues. Then it filters and combines those pieces for a situation.
