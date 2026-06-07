@@ -8,7 +8,7 @@ Operator: Wearra, independently operated in the United States. Contact: Support@
 
 ---
 
-# Section 1 of 31 - Landing page
+# Section 1 of 35 - Landing page
 
 Source: https://wearra.app/index.md
 
@@ -203,7 +203,7 @@ You can revoke any permission at any time in iOS Settings → Wearra.
 
 ---
 
-# Section 2 of 31 - Privacy Policy
+# Section 2 of 35 - Privacy Policy
 
 Source: https://wearra.app/privacy.md
 
@@ -408,7 +408,7 @@ Questions, requests, or concerns? Email [Support@wearra.app](mailto:Support@wear
 
 ---
 
-# Section 3 of 31 - Terms of Service
+# Section 3 of 35 - Terms of Service
 
 Source: https://wearra.app/terms.md
 
@@ -550,7 +550,7 @@ Questions about these Terms? Email [Support@wearra.app](mailto:Support@wearra.ap
 
 ---
 
-# Section 4 of 31 - Support & FAQ
+# Section 4 of 35 - Support & FAQ
 
 Source: https://wearra.app/support.md
 
@@ -668,7 +668,7 @@ Yes — you must be at least 13 years old to use Wearra.
 
 ---
 
-# Section 5 of 31 - About Wearra
+# Section 5 of 35 - About Wearra
 
 Source: https://wearra.app/about.md
 
@@ -743,7 +743,7 @@ Wearra is an iPhone AI outfit planner and digital closet app that helps users di
 
 ---
 
-# Section 6 of 31 - AI Wardrobe App for iPhone
+# Section 6 of 35 - AI Wardrobe App for iPhone
 
 Source: https://wearra.app/ai-wardrobe-app.md
 
@@ -833,7 +833,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 7 of 31 - Virtual Try-On App for Your Own Clothes
+# Section 7 of 35 - Virtual Try-On App for Your Own Clothes
 
 Source: https://wearra.app/virtual-try-on-app.md
 
@@ -923,7 +923,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 8 of 31 - Digital Closet App for iPhone
+# Section 8 of 35 - Digital Closet App for iPhone
 
 Source: https://wearra.app/digital-closet-app.md
 
@@ -1013,7 +1013,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 9 of 31 - AI Outfit Planner for Daily Looks
+# Section 9 of 35 - AI Outfit Planner for Daily Looks
 
 Source: https://wearra.app/ai-outfit-planner.md
 
@@ -1083,7 +1083,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 10 of 31 - Travel Capsule Wardrobe App
+# Section 10 of 35 - Travel Capsule Wardrobe App
 
 Source: https://wearra.app/travel-capsule-wardrobe-app.md
 
@@ -1153,7 +1153,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 11 of 31 - AI Packing List App for Clothes You Own
+# Section 11 of 35 - AI Packing List App for Clothes You Own
 
 Source: https://wearra.app/packing-list-app.md
 
@@ -1242,7 +1242,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 12 of 31 - AI Stylist App for iPhone
+# Section 12 of 35 - AI Stylist App for iPhone
 
 Source: https://wearra.app/ai-stylist-app.md
 
@@ -1311,7 +1311,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 13 of 31 - Capsule Wardrobe App for iPhone
+# Section 13 of 35 - Capsule Wardrobe App for iPhone
 
 Source: https://wearra.app/capsule-wardrobe-app.md
 
@@ -1380,7 +1380,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 14 of 31 - iPhone Wardrobe App for Outfits, Try-On, and Packing
+# Section 14 of 35 - iPhone Wardrobe App for Outfits, Try-On, and Packing
 
 Source: https://wearra.app/iphone-wardrobe-app.md
 
@@ -1450,7 +1450,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 15 of 31 - Blog index
+# Section 15 of 35 - Blog index
 
 Source: https://wearra.app/blog/index.md
 
@@ -1501,7 +1501,7 @@ Wearra is an iPhone wardrobe app for iOS 18 or later. It helps users digitize th
 
 ---
 
-# Section 16 of 31 - AI Outfit Planner for Weather and Calendar Context
+# Section 16 of 35 - AI Outfit Planner for Weather and Calendar Context
 
 Source: https://wearra.app/blog/ai-outfit-planner-weather-calendar.md
 
@@ -1595,7 +1595,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 17 of 31 - How AI Outfit Recommendations From Your Closet Work
+# Section 17 of 35 - How AI Outfit Recommendations From Your Closet Work
 
 Source: https://wearra.app/blog/ai-outfit-recommendations-from-your-closet.md
 
@@ -1670,7 +1670,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 18 of 31 - AI Stylist Chat Inside a Wardrobe App
+# Section 18 of 35 - AI Stylist Chat Inside a Wardrobe App
 
 Source: https://wearra.app/blog/ai-stylist-chat-wardrobe-app.md
 
@@ -1746,7 +1746,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 19 of 31 - AI Wardrobe App Privacy: What Happens to Photos?
+# Section 19 of 35 - AI Wardrobe App Privacy: What Happens to Photos?
 
 Source: https://wearra.app/blog/ai-wardrobe-app-privacy-photos.md
 
@@ -1819,7 +1819,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 20 of 31 - Best AI Wardrobe App for iPhone: What to Look For
+# Section 20 of 35 - Best AI Wardrobe App for iPhone: What to Look For
 
 Source: https://wearra.app/blog/best-ai-wardrobe-app-iphone.md
 
@@ -1914,7 +1914,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 21 of 31 - Best Virtual Try-On App for Your Own Clothes
+# Section 21 of 35 - Best Virtual Try-On App for Your Own Clothes
 
 Source: https://wearra.app/blog/best-virtual-try-on-app-own-clothes.md
 
@@ -2005,7 +2005,101 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 22 of 31 - Capsule Wardrobe Checklist From Clothes You Already Own
+# Section 22 of 35 - Business Casual Outfit Planner: What to Wear to Work From Clothes You Own
+
+Source: https://wearra.app/blog/business-casual-outfit-planner.md
+
+# Business Casual Outfit Planner: What to Wear to Work From Clothes You Own
+
+Published: 2026-06-07
+Canonical: https://wearra.app/blog/business-casual-outfit-planner/
+
+A practical guide to planning business casual work outfits for offices, internships, interviews, creative workplaces, and casual Fridays.
+
+## Direct answer
+
+A business casual outfit planner helps turn existing closet pieces into polished work looks. Wearra can help iPhone users build office outfits from saved clothes, plan a workweek, and preview important looks before wearing them.
+
+
+## Real examples
+
+- Monday presentation: blazer, knit shell, tailored trouser, loafers.
+- Creative office: dark denim, clean tee, oversized blazer, minimalist sneakers.
+- Casual Friday: straight jeans, elevated cardigan, leather belt, ankle boots.
+
+## Comparison
+
+| Workplace | Core formula | What to avoid |
+| --- | --- | --- |
+| Corporate office | Blazer, button-down, trouser, closed-toe shoe | Too-casual denim or loud graphics |
+| Summer internship | Light knit, wide-leg pant, cardigan, comfortable flat | Unplanned layers for freezing offices |
+| Startup or studio | Dark denim, tee, blazer, clean sneaker | Looking careless instead of relaxed |
+| Interview | Structured jacket or dress, polished shoe, simple details | Distracting accessories or untested fit |
+
+**Product note:** Business casual is easier when the planner starts with the office context instead of treating every workday the same.
+
+**Privacy note:** Try On can help preview high-stakes outfits; render requests use AI/render providers for that request.
+
+## Business casual starts with the office
+
+Business casual does not mean the same thing everywhere. A law office, summer internship, tech startup, creative studio, and casual office all have different expectations.
+
+The easiest way to plan is to identify the formality level first, then build around structured basics: trousers, dark denim, button-downs, knit tops, blazers, loafers, flats, boots, and clean sneakers where appropriate.
+
+## Six useful work outfit formulas
+
+- Corporate office: blazer, button-down or knit shell, tailored trouser, closed-toe shoes.
+- Summer internship: lightweight knit, wide-leg trousers, cardigan or blazer, comfortable flats.
+- Creative workplace: dark denim, clean tee, oversized blazer, minimalist sneakers.
+- Standard office: blouse, chinos or trousers, structured cardigan, loafers.
+- Interview day: suit jacket or structured dress, polished shoes, simple accessories.
+- Casual Friday: straight jeans, elevated sweater or button-down, leather belt, boots or flats.
+
+## How to plan a workweek
+
+A work outfit planner is most useful when you plan the whole week at once. Start with the most formal day, then repeat shoes, layers, and trousers in different combinations.
+
+Wearra can help organize those looks in a planner so Monday's outfit does not have to be solved again on Tuesday morning.
+
+## Use Try On for high-stakes outfits
+
+For interviews, presentations, and first days, a visual preview can help you check proportion before you commit. Try On is useful when you want to see whether a blazer, trousers, dress, or shoe choice feels balanced on your own body.
+
+AI-generated previews can vary, so use them as a styling aid rather than a perfect mirror.
+
+## FAQ
+
+### What should I wear for business casual?
+
+Start with tailored basics like trousers, dark denim, button-downs, knit tops, blazers, loafers, flats, or clean sneakers depending on the office.
+
+### How do I plan work outfits from my closet?
+
+Digitize your work pieces, save reliable formulas, plan the most formal days first, and repeat shoes and layers intentionally.
+
+### Can Wearra help plan office outfits?
+
+Yes. Wearra can generate outfit ideas from saved wardrobe items, help plan looks, and support Try On for important outfits.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
+
+## Try Wearra
+
+Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a render pack.
+
+---
+
+# Section 23 of 35 - Capsule Wardrobe Checklist From Clothes You Already Own
 
 Source: https://wearra.app/blog/capsule-wardrobe-checklist-from-your-closet.md
 
@@ -2080,7 +2174,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 23 of 31 - Closet App With Packing Lists for Trips
+# Section 24 of 35 - Closet App With Packing Lists for Trips
 
 Source: https://wearra.app/blog/closet-app-with-packing-list.md
 
@@ -2175,7 +2269,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 24 of 31 - Closet Organization App vs Spreadsheet
+# Section 25 of 35 - Closet Organization App vs Spreadsheet
 
 Source: https://wearra.app/blog/closet-organization-app-vs-spreadsheet.md
 
@@ -2250,7 +2344,192 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 25 of 31 - Digital Closet App for iPhone and iOS 18
+# Section 26 of 35 - Best Outfit Planner App for College Students
+
+Source: https://wearra.app/blog/college-outfit-planner-app.md
+
+# Best Outfit Planner App for College Students
+
+Published: 2026-06-07
+Canonical: https://wearra.app/blog/college-outfit-planner-app/
+
+How college students can use an outfit planner app to build class, internship, going-out, and weekend outfits from a small dorm closet.
+
+## Direct answer
+
+A good college outfit planner helps students make more outfits from fewer clothes. Wearra lets iPhone users digitize a dorm closet, plan looks for classes and internships, ask an AI Stylist for outfit ideas, and build weekend packing lists from clothes they already own.
+
+
+## Real examples
+
+- Dorm capsule: straight jeans, black trousers, hoodie, cardigan, button-down, four tops, sneakers, loafers, boots, and one jacket can cover class, meetings, errands, and weekend plans.
+- Class-to-internship pivot: start with trousers and a fitted tee, then add a blazer and loafers for a professional meeting.
+- Weekend trip: reuse one travel outfit, two daytime outfits, one going-out look, and shoes that work across the whole bag.
+
+## Comparison
+
+| College need | Manual approach | Wearra workflow |
+| --- | --- | --- |
+| Small closet | Bring more clothes just in case | Build more combinations from fewer pieces |
+| Internship day | Guess in the morning | Save polished outfit formulas ahead of time |
+| Going out | Buy something new | Restyle pieces already in the closet |
+| Weekend trip | Overpack a duffel | Create a small packing list from planned outfits |
+
+**Product note:** College style is a practical constraint problem: limited space, changing weather, different dress codes, and little time.
+
+**Privacy note:** Wearra is designed around a personal wardrobe workflow; wardrobe data is local by default and optional iCloud Backup is manual.
+
+## Why college closets need planning
+
+College style is hard because the same wardrobe has to handle early lectures, campus walks, internship interviews, nights out, and quick trips home. Most students also have limited closet space, limited laundry time, and a budget that does not leave room for buying a new outfit every week.
+
+An outfit planner helps by turning a small closet into reusable looks. Instead of thinking item by item, you can plan full outfits by schedule, weather, and occasion.
+
+## Dorm closet strategy
+
+- Start with repeatable basics: jeans, trousers, tees, sweaters, one jacket, sneakers, boots, and a few going-out pieces.
+- Digitize the pieces you actually wear first, then add special-event items later.
+- Save proven combinations for class, internships, dinners, weekends, and travel days.
+- Use outfit history to avoid forgetting combinations that already worked.
+
+## Class to internship outfits
+
+The most useful college outfits can pivot. A fitted tee, trousers, loafers, and a cardigan might work for class, while a blazer turns the same base into an internship-ready look.
+
+Wearra can help students ask for context-specific ideas, like a comfortable lecture outfit that can become business casual for an afternoon meeting.
+
+## Weekend and break packing
+
+Weekend trips, holidays, and campus events are where overpacking starts. A planner can turn the real schedule into a small capsule: travel outfit, daytime outfits, one going-out look, shoes that repeat, and a weather layer.
+
+That keeps the duffel bag lighter and makes it easier to rewear pieces without feeling like the same outfit is repeating.
+
+## FAQ
+
+### What is the best outfit planner app for college students?
+
+The best app is one that helps students use a small closet across classes, internships, weekends, and trips. Wearra is built for iPhone and combines a digital closet, AI outfit ideas, planning, packing lists, and Try On.
+
+### How can I make more outfits from a dorm closet?
+
+Digitize your most-worn clothes, save outfits by occasion, repeat core basics, and plan layers and shoes around your real schedule.
+
+### Can Wearra help with internship outfits?
+
+Yes. Wearra can help generate outfit ideas from saved wardrobe items and supports planning looks for work, school, events, and travel.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
+
+## Try Wearra
+
+Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a render pack.
+
+---
+
+# Section 27 of 35 - Date Night Outfit Planner: How to Pick an Outfit From Your Closet
+
+Source: https://wearra.app/blog/date-night-outfit-planner.md
+
+# Date Night Outfit Planner: How to Pick an Outfit From Your Closet
+
+Published: 2026-06-07
+Canonical: https://wearra.app/blog/date-night-outfit-planner/
+
+A simple date night outfit planning guide for dinner, coffee, movies, drinks, outdoor dates, and casual plans.
+
+## Direct answer
+
+A date night outfit planner helps match your outfit to the real plan: dinner, coffee, drinks, a movie, or an outdoor date. Wearra helps users build date-night looks from clothes they already own, save favorites, and ask the AI Stylist for occasion-specific ideas.
+
+
+## Real examples
+
+- Casual dinner: dark jeans, fitted top, boots, cropped jacket.
+- Movie date: trousers, soft sweater, comfortable shoes, light layer.
+- Rooftop drinks: satin skirt, bodysuit, boots, one strong accessory.
+
+## Comparison
+
+| Date plan | Start with | Finish with |
+| --- | --- | --- |
+| Dinner | Dress, trousers, or dark denim | Polished shoes and simple jewelry |
+| Coffee | Jeans or relaxed trousers | Clean sneakers and a light layer |
+| Movie | Comfortable base outfit | Warm layer and realistic shoes |
+| Outdoor walk | Weather-safe pieces | Comfortable shoes first |
+
+**Product note:** Date-night style works best when the outfit matches the real plan and still feels like the person wearing it.
+
+**Privacy note:** Wearra can suggest looks from saved closet items without requiring users to publish or share their wardrobe.
+
+## Start with the date plan
+
+The best date night outfit depends on where you are going. Dinner, coffee, rooftop drinks, a movie, and an outdoor walk all need different shoes, layers, and levels of polish.
+
+Start with the setting, then choose one main piece you feel good in. Build around that piece instead of pulling everything out of the closet.
+
+## Easy date night outfit formulas
+
+- Dinner: black dress, boots or heels, cropped jacket, simple jewelry.
+- Coffee: straight jeans, fitted top, clean sneakers, small bag.
+- Movie: trousers, soft sweater, comfortable shoes, light jacket.
+- Drinks: satin skirt, bodysuit or fitted top, boots, statement earrings.
+- Outdoor date: jeans, tank or tee, cardigan, comfortable walking shoes.
+
+## Balance makes outfits feel intentional
+
+A date outfit usually works when it has balance: fitted with relaxed, dressy with casual, simple with one strong accessory, or monochrome with texture.
+
+That means you do not need a new outfit. You need a combination that matches the plan and feels like you.
+
+## How Wearra helps
+
+Wearra can help users ask for date-night outfit ideas from their own closet, restyle a favorite item, save looks, and plan outfits ahead of time.
+
+Useful prompts include: style my black jeans for date night, make this outfit more dressed up, what shoes work with this dress, or create a casual dinner outfit from my closet.
+
+## FAQ
+
+### What should I wear on a date night?
+
+Wear something that matches the plan and makes you feel confident. For dinner, try a dress, trousers, dark jeans, or a skirt with polished shoes. For a casual date, keep it comfortable but intentional.
+
+### How do I plan a date outfit from my closet?
+
+Start with the location, choose one main piece, add shoes, add a layer, and finish with one accessory or detail.
+
+### Can an AI outfit planner help with date outfits?
+
+Yes. An AI outfit planner can suggest date-night looks based on your closet, the occasion, weather, and the style you want.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
+
+## Try Wearra
+
+Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a render pack.
+
+---
+
+# Section 28 of 35 - Digital Closet App for iPhone and iOS 18
 
 Source: https://wearra.app/blog/digital-closet-app-iphone-ios-18.md
 
@@ -2345,7 +2624,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 26 of 31 - How to Digitize Your Closet on iPhone
+# Section 29 of 35 - How to Digitize Your Closet on iPhone
 
 Source: https://wearra.app/blog/how-to-digitize-your-closet-iphone.md
 
@@ -2419,7 +2698,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 27 of 31 - How to Pack for a Trip Without Overpacking
+# Section 30 of 35 - How to Pack for a Trip Without Overpacking
 
 Source: https://wearra.app/blog/how-to-pack-for-a-trip-without-overpacking.md
 
@@ -2494,7 +2773,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 28 of 31 - How to Plan Outfits for the Week
+# Section 31 of 35 - How to Plan Outfits for the Week
 
 Source: https://wearra.app/blog/how-to-plan-outfits-for-the-week.md
 
@@ -2568,7 +2847,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 29 of 31 - Sustainable Wardrobe App: Use More of What You Own
+# Section 32 of 35 - Sustainable Wardrobe App: Use More of What You Own
 
 Source: https://wearra.app/blog/sustainable-wardrobe-app-use-what-you-own.md
 
@@ -2643,7 +2922,109 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 30 of 31 - Virtual Try-On Photo Tips for Better Results
+# Section 33 of 35 - Vacation Outfit Planner: Plan Every Look Before You Pack
+
+Source: https://wearra.app/blog/vacation-outfit-planner.md
+
+# Vacation Outfit Planner: Plan Every Look Before You Pack
+
+Published: 2026-06-07
+Canonical: https://wearra.app/blog/vacation-outfit-planner/
+
+How to plan vacation outfits by itinerary, weather, color palette, repeat pieces, shoes, layers, and packing lists.
+
+## Direct answer
+
+A vacation outfit planner helps you pack outfits, not random clothes. Wearra can help users build travel looks from their real closet, plan outfits by day, and create packing lists around weather, destination, trip length, and rewearable pieces.
+
+
+## Real examples
+
+- Five-day city trip: repeat jeans, trousers, a button-down, sneakers, and one cardigan across travel, sightseeing, dinner, and museum outfits.
+- Beach weekend: plan swimwear, breathable layers, sandals, one dinner outfit, and a light jacket before packing extras.
+- Photo-friendly dinner: choose the full look, including shoes and layer, before it goes in the suitcase.
+
+## Comparison
+
+| Packing method | Result | Risk |
+| --- | --- | --- |
+| Pack by category | Lots of items | Pieces may not work together |
+| Pack by outfit | Clear daily plan | Requires a little planning upfront |
+| Pack by capsule | Fewer items, more rewear | Needs color compatibility |
+| Wearra | Outfits and packing list from closet items | Works best after adding travel-relevant clothes |
+
+**Product note:** The best vacation wardrobe is not the biggest one. It is the one that works for the destination, weather, activities, and suitcase.
+
+**Privacy note:** Trip planning can use wardrobe and destination context; optional iCloud Backup remains manual rather than live sync.
+
+## Pack outfits, not piles
+
+Most overpacking happens when people pack by category: tops, pants, shoes, dresses, and extras. The suitcase fills up, but the outfits may not work together.
+
+A vacation outfit planner starts with the itinerary and builds complete looks for travel day, sightseeing, dinners, events, weather changes, and the trip home.
+
+## Plan around the trip details
+
+- Destination and weather.
+- Trip length and laundry access.
+- Walking, swimming, events, dinners, and photos.
+- Carry-on or checked bag limits.
+- Shoes that work with more than one outfit.
+- Layers for planes, restaurants, nights, and weather shifts.
+
+## Use a color palette and repeat pieces
+
+A travel wardrobe works better when the colors mix. Neutrals plus one accent color can make tops, bottoms, shoes, jackets, and bags easier to repeat.
+
+Repeat pieces are not a problem. Jeans, linen pants, black trousers, a white button-down, a neutral sweater, and comfortable shoes can each appear in multiple outfits when styled differently.
+
+## Example five-day city trip
+
+- Travel day: jeans, white tee, cardigan, sneakers.
+- Sightseeing: trousers, tank, button-down, sneakers.
+- Dinner: black dress, sandals, small bag, jewelry.
+- Museum and lunch: midi skirt, tee, cardigan, flats.
+- Casual exploring: linen pants, tank, button-down, sandals.
+
+## How Wearra helps
+
+Wearra can help users plan vacation outfits from clothes already in their digital closet, save looks by day, and turn planned outfits into packing lists.
+
+Useful prompts include: plan outfits for a five-day beach vacation, make a travel capsule from my closet, help me pack light, or create dinner outfits for my trip.
+
+## FAQ
+
+### What is a vacation outfit planner?
+
+A vacation outfit planner helps decide what to wear for each day and activity of a trip before packing.
+
+### How do I avoid overpacking for a trip?
+
+Plan complete outfits first, choose repeat pieces, limit shoes, use a color palette, and avoid packing items that do not belong to a specific outfit.
+
+### Can Wearra make vacation packing lists?
+
+Yes. Wearra supports travel packing workflows and can help build packing lists from saved closet items and planned outfits.
+
+## Related Wearra topic guides
+
+- [AI Wardrobe App for iPhone](../ai-wardrobe-app.md)
+- [Virtual Try-On App for Your Own Clothes](../virtual-try-on-app.md)
+- [Digital Closet App for iPhone](../digital-closet-app.md)
+- [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
+- [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
+- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Stylist App for iPhone](../ai-stylist-app.md)
+- [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
+- [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)
+
+## Try Wearra
+
+Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a render pack.
+
+---
+
+# Section 34 of 35 - Virtual Try-On Photo Tips for Better Results
 
 Source: https://wearra.app/blog/virtual-try-on-photo-tips.md
 
@@ -2717,7 +3098,7 @@ Wearra is free to download for iPhone. Try On requires Pro, bonus credits, or a 
 
 ---
 
-# Section 31 of 31 - What to Wear When You Have Nothing to Wear
+# Section 35 of 35 - What to Wear When You Have Nothing to Wear
 
 Source: https://wearra.app/blog/what-to-wear-when-you-have-nothing-to-wear.md
 
