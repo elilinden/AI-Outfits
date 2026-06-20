@@ -1,21 +1,21 @@
 # Virtual Try-On App for Your Own Clothes
 
-Updated: 2026-06-07
+Updated: 2026-06-19
 Canonical: https://wearra.app/virtual-try-on-app/
 
 How Wearra supports virtual try-on workflows for users who want to preview outfits from their own wardrobe on iPhone.
 
 ## Direct answer
 
-Wearra supports virtual Try On for outfits built from a user's wardrobe. The workflow coordinates user photos, garment inputs, AI/render providers, garment masking, and pose-aware alignment to help preview outfit direction before getting dressed.
+Wearra previews outfits from clothes saved in a user's wardrobe on the user's own photo. Try On coordinates the selected outfit, the user's photo, and AI/render providers to create a visual preview for color balance, silhouette, layering, and outfit direction before getting dressed.
 
 ## What virtual try-on helps with
 
-Virtual try-on is useful when a user wants to check color balance, silhouette, layering, or outfit direction before wearing or packing a look.
+Virtual try-on is useful when a user wants to check color balance, silhouette, layering, or outfit direction from clothing they already saved before wearing or packing a look.
 
-## How Wearra describes the pipeline
+## How Wearra describes the workflow
 
-Wearra coordinates AI-assisted workflows for garment masking, texture preservation, warping, pose alignment, and perspective mapping. It does not need to claim that every underlying model was built from scratch.
+Wearra coordinates AI-assisted rendering workflows for user photos and wardrobe items. It does not claim that every underlying model was built from scratch, and generated previews should be treated as styling guidance rather than exact tailoring or fit predictions.
 
 ## Pricing and credits
 

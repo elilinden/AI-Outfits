@@ -1,6 +1,6 @@
 # Capsule Wardrobe Checklist From Clothes You Already Own
 
-Published: 2026-06-07
+Published: 2026-06-19
 Canonical: https://wearra.app/blog/capsule-wardrobe-checklist-from-your-closet/
 
 Build a capsule wardrobe using existing clothes before buying anything new.
@@ -58,7 +58,7 @@ Yes. Wearra can help organize clothes, save outfits, and build trip or weekly ca
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
-- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Travel Packing List App for Clothes You Own](../packing-list-app.md)
 - [AI Stylist App for iPhone](../ai-stylist-app.md)
 - [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
 - [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)

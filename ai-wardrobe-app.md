@@ -1,6 +1,6 @@
 # AI Wardrobe App for iPhone
 
-Updated: 2026-06-07
+Updated: 2026-06-19
 Canonical: https://wearra.app/ai-wardrobe-app/
 
 A direct-answer guide to Wearra as an AI wardrobe app for iPhone users who want outfit ideas from clothes they already own.

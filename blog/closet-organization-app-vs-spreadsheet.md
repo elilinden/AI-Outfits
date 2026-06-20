@@ -1,6 +1,6 @@
 # Closet Organization App vs Spreadsheet
 
-Published: 2026-06-07
+Published: 2026-06-19
 Canonical: https://wearra.app/blog/closet-organization-app-vs-spreadsheet/
 
 Compare a dedicated closet organization app with a spreadsheet for wardrobe tracking, outfit planning, packing, and AI recommendations.
@@ -58,7 +58,7 @@ For styling and planning, yes for many users. For detailed purchase accounting, 
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
-- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Travel Packing List App for Clothes You Own](../packing-list-app.md)
 - [AI Stylist App for iPhone](../ai-stylist-app.md)
 - [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
 - [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)

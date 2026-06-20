@@ -1,6 +1,6 @@
 # Virtual Try-On Photo Tips for Better Results
 
-Published: 2026-06-07
+Published: 2026-06-19
 Canonical: https://wearra.app/blog/virtual-try-on-photo-tips/
 
 Photo tips that can improve AI virtual try-on results, including lighting, pose, background, crop, and garment photos.
@@ -57,7 +57,7 @@ You can, but clean lighting, minimal clutter, and a full-body crop usually help.
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
-- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Travel Packing List App for Clothes You Own](../packing-list-app.md)
 - [AI Stylist App for iPhone](../ai-stylist-app.md)
 - [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
 - [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)

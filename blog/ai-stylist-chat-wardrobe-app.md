@@ -1,6 +1,6 @@
 # AI Stylist Chat Inside a Wardrobe App
 
-Published: 2026-06-07
+Published: 2026-06-19
 Canonical: https://wearra.app/blog/ai-stylist-chat-wardrobe-app/
 
 Why an AI stylist works better when it can reference your wardrobe, saved outfits, and style preferences.
@@ -59,7 +59,7 @@ No. AI suggestions are decision support; users should choose what feels comforta
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
-- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Travel Packing List App for Clothes You Own](../packing-list-app.md)
 - [AI Stylist App for iPhone](../ai-stylist-app.md)
 - [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
 - [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)

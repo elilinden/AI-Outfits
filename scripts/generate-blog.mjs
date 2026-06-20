@@ -1,12 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
+import { siteFacts } from "./site-data.mjs";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
 const blogDir = path.join(root, "blog");
-const today = "2026-06-07";
+const today = siteFacts.updatedDate;
 fs.mkdirSync(blogDir, { recursive: true });
 
-const appStoreUrl = "https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400";
+const appStoreUrl = siteFacts.appStoreUrl;
 
 function cleanPath(file) {
   if (file === "index.html" || file === "/") return "/";
@@ -1423,7 +1424,7 @@ ${nav()}
   ${breadcrumbs([{ label: "Home", href: "/" }, { label: "Guides", href: "/blog/" }, { label: post.title }])}
   <p class="article__kicker">${post.type === "ANSWER" ? "AI wardrobe guide" : "Style guide"}</p>
   <h1>${esc(post.title)}</h1>
-  <p class="meta">Published <time datetime="${today}">June 7, 2026</time> - Wearra Blog</p>
+  <p class="meta">Published <time datetime="${today}">${siteFacts.updatedLabel}</time> - Wearra Blog</p>
   <p class="lede">${esc(post.description)}</p>
   <div class="answer-box">
     <p><strong>Direct answer:</strong> ${esc(post.answer)}</p>
@@ -1538,7 +1539,7 @@ ${nav()}
   ${breadcrumbs([{ label: "Home", href: "/" }, { label: "Guides" }])}
   <p class="article__kicker">Wearra Blog</p>
   <h1>AI wardrobe and outfit planning guides</h1>
-  <p class="meta">Published <time datetime="${today}">June 7, 2026</time></p>
+  <p class="meta">Published <time datetime="${today}">${siteFacts.updatedLabel}</time></p>
   <p class="lede">Practical guides for getting more from your closet, with clear answers about AI wardrobe apps, digital closets, virtual try-on, outfit planning, and packing.</p>
   <div class="answer-box">
     <p><strong>Direct answer:</strong> Wearra is an iPhone wardrobe app for iOS 18 or later. It helps users digitize their closet, get AI outfit recommendations, chat with an AI Stylist, plan outfits, build packing lists, log OOTDs, and preview looks with virtual Try On.</p>
@@ -1595,12 +1596,12 @@ function writeGeneratedFiles() {
 
 function writeSitemap() {
   const urls = [
-    ["https://wearra.app/", "2026-05-31", "weekly", "1.0"],
+    ["https://wearra.app/", today, "weekly", "1.0"],
     ["https://wearra.app/blog/", today, "weekly", "0.8"],
     ...posts.map(post => [cleanUrl(`blog/${post.slug}.html`), today, "monthly", post.type === "ANSWER" ? "0.75" : "0.7"]),
-    [cleanUrl("privacy.html"), "2026-05-31", "monthly", "0.6"],
-    [cleanUrl("terms.html"), "2026-05-31", "monthly", "0.6"],
-    [cleanUrl("support.html"), "2026-05-31", "monthly", "0.7"]
+    [cleanUrl("privacy.html"), today, "monthly", "0.6"],
+    [cleanUrl("terms.html"), today, "monthly", "0.6"],
+    [cleanUrl("support.html"), today, "monthly", "0.7"]
   ];
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -1619,9 +1620,9 @@ function writeLlms() {
   const blogLinks = posts.map(p => `- [${p.title}](blog/${p.slug}.md): ${p.description}`).join("\n");
   const llms = `# Wearra
 
-> Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
+> Wearra helps iPhone users preview outfits on their own photo, plan looks from their closet, and build weather-aware trip packing lists.
 
-Wearra is an independently operated iOS app (iPhone only, iOS 18+) that lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services.
+Wearra is an independently operated iOS app (iPhone only, iOS 18+) that lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build weather-aware trip packing lists, log OOTDs, and preview outfits on their own photo before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services.
 
 Last updated: ${today}.
 
@@ -1659,7 +1660,7 @@ ${blogLinks}
   ];
   const full = `# Wearra - full content for LLMs
 
-> Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
+> Wearra helps iPhone users preview outfits on their own photo, plan looks from their closet, and build weather-aware trip packing lists.
 
 This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt).
 

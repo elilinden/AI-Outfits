@@ -1,6 +1,6 @@
 # Date Night Outfit Planner: How to Pick an Outfit From Your Closet
 
-Published: 2026-06-07
+Published: 2026-06-19
 Canonical: https://wearra.app/blog/date-night-outfit-planner/
 
 A simple date night outfit planning guide for dinner, coffee, movies, drinks, outdoor dates, and casual plans.
@@ -76,7 +76,7 @@ Yes. An AI outfit planner can suggest date-night looks based on your closet, the
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
-- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Travel Packing List App for Clothes You Own](../packing-list-app.md)
 - [AI Stylist App for iPhone](../ai-stylist-app.md)
 - [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
 - [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)

@@ -1,9 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
+import { siteFacts } from "./site-data.mjs";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
-const today = "2026-06-07";
-const appStoreUrl = "https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400";
+const today = siteFacts.updatedDate;
+const appStoreUrl = siteFacts.appStoreUrl;
 
 function cleanPath(file) {
   if (file === "index.html" || file === "/") return "/";
@@ -84,10 +85,10 @@ const hubs = [
       title: "Wearra virtual try-on rendering demo",
       description: "A short muted demo showing a Wearra virtual try-on render moving from outfit selection to a generated preview."
     },
-    answer: "Wearra supports virtual Try On for outfits built from a user's wardrobe. The workflow coordinates user photos, garment inputs, AI/render providers, garment masking, and pose-aware alignment to help preview outfit direction before getting dressed.",
+    answer: "Wearra previews outfits from clothes saved in a user's wardrobe on the user's own photo. Try On coordinates the selected outfit, the user's photo, and AI/render providers to create a visual preview for color balance, silhouette, layering, and outfit direction before getting dressed.",
     sections: [
-      ["What virtual try-on helps with", "Virtual try-on is useful when a user wants to check color balance, silhouette, layering, or outfit direction before wearing or packing a look."],
-      ["How Wearra describes the pipeline", "Wearra coordinates AI-assisted workflows for garment masking, texture preservation, warping, pose alignment, and perspective mapping. It does not need to claim that every underlying model was built from scratch."],
+      ["What virtual try-on helps with", "Virtual try-on is useful when a user wants to check color balance, silhouette, layering, or outfit direction from clothing they already saved before wearing or packing a look."],
+      ["How Wearra describes the workflow", "Wearra coordinates AI-assisted rendering workflows for user photos and wardrobe items. It does not claim that every underlying model was built from scratch, and generated previews should be treated as styling guidance rather than exact tailoring or fit predictions."],
       ["Pricing and credits", "Wearra is free to download. Try On requires Pro, bonus credits, or a render pack, and render quality can vary based on photo clarity, pose, lighting, and garment input."]
     ],
     bullets: ["Preview outfits on a user photo", "Use outfits from the digital closet", "Compare styling options visually", "Keep Try On tied to planning, saving, and packing workflows"],
@@ -241,18 +242,18 @@ const hubs = [
   },
   {
     slug: "packing-list-app",
-    title: "AI Packing List App for Clothes You Own",
-    description: "How Wearra helps create packing lists and trip outfits from a user's own digital closet.",
+    title: "AI Travel Packing List App for Clothes You Own",
+    description: "How Wearra helps create weather-aware travel packing lists and trip outfits from a user's own digital closet.",
     keywords: ["AI packing list app", "packing list app", "travel outfit planner", "closet packing list"],
     image: "screenshots/wearra-packing-list-trip-form-iphone.webp",
     imageAlt: "Wearra new trip screen for building packing lists from closet items",
-    answer: "Wearra is an AI outfit planner and digital closet app for iPhone that can help build packing lists from clothes a user already owns, using trip length, destination, weather, activities, and outfit rewear logic.",
+    answer: "Wearra is an AI outfit planner and digital closet app for iPhone that can help build travel packing lists from clothes a user already owns, using destination, trip duration, weather, activities, dress codes, capsule coordination, and outfit rewear logic.",
     sections: [
       ["Why closet-based packing is different", "A normal packing checklist starts with generic categories. Wearra starts with saved closet items, which helps turn packing into a set of actual outfits."],
-      ["Example packing flow", "For a four-day city trip, a user can plan two bottoms, four tops, one jacket, two pairs of shoes, and accessories that repeat across travel, work, dinner, and casual days."],
+      ["Example packing flow", "For a 10-day Europe trip, a user might build around three bottoms, seven tops, two layers, one dress or nicer outfit, two pairs of shoes, and accessories that repeat across walking days, transit, casual dinners, and dress-code-specific plans."],
       ["Privacy context", "Trip data and wardrobe items stay part of the user's wardrobe workflow. Manual iCloud Backup is optional and restore replaces the local wardrobe on that device."]
     ],
-    bullets: ["Destination and dates", "Weather-aware outfit planning", "Activity and occasion context", "Rewear logic", "Packing lists from closet items"],
+    bullets: ["Destination and dates", "Trip duration", "Weather-aware outfit planning", "Activity and dress-code context", "Capsule coordination", "Rewear logic", "Packing lists from closet items"],
     comparison: [
       ["Generic checklist", "Good for toiletries and basics", "Does not know outfits"],
       ["Weather app", "Good for forecast", "Does not know closet"],
@@ -271,10 +272,10 @@ const hubs = [
         }
       },
       {
-        title: "Example: 4-day NYC trip from 14 closet items",
+        title: "Example: 10-day Europe trip from 18 closet items",
         paragraphs: [
-          "A compact city-trip list might include dark jeans, black trousers, a simple dress, white tee, striped tee, button-down, knit top, blazer, light jacket, sneakers, loafers, belt, small bag, and earrings.",
-          "That set can cover travel day, walking-heavy plans, a casual dinner, a work or museum day, and one nicer evening without packing separate outfits that never share pieces."
+          "A 10-day Europe packing capsule might include dark jeans, black trousers, one skirt, a simple dress, white tee, striped tee, button-down, knit top, lightweight sweater, blazer, rain layer, sneakers, loafers, belt, small bag, scarf, earrings, and one sleep or lounge set.",
+          "That set can cover travel days, walking-heavy sightseeing, casual dinners, museum days, a nicer evening, and weather changes by repeating bottoms, layers, and shoes instead of packing unrelated full outfits for every day."
         ]
       },
       {
@@ -585,7 +586,7 @@ ${nav()}
   ${breadcrumbs([{ label: "Home", href: "/" }, { label: "Guides", href: "/blog/" }, { label: hub.title }])}
   <p class="article__kicker">Wearra topic guide</p>
   <h1>${esc(hub.title)}</h1>
-  <p class="meta">Updated <time datetime="${today}">June 7, 2026</time> - Wearra topic guide</p>
+  <p class="meta">Updated <time datetime="${today}">${siteFacts.updatedLabel}</time> - Wearra topic guide</p>
   <p class="lede">${esc(hub.description)}</p>
   <figure class="article-media">
     <img src="/${hub.image}" alt="${esc(hub.imageAlt)}" loading="lazy" decoding="async" width="720" height="1565">
@@ -647,6 +648,7 @@ ${section.table.rows.map(row => `      <tr>${row.map(cell => `<td>${esc(cell)}</
   const video = section.video && hub.video ? `  <figure class="article-media">
     <video controls muted playsinline preload="metadata" poster="/${hub.video.poster}" aria-label="${esc(hub.video.title)}">
       <source src="/${hub.video.src}" type="video/mp4">
+      <track kind="captions" src="/videos/wearra-virtual-try-on-demo.vtt" srclang="en" label="English captions" default>
       <a href="/${hub.video.src}">Watch the Wearra virtual try-on rendering demo.</a>
     </video>
     <figcaption>${esc(hub.video.description)}</figcaption>
@@ -806,25 +808,23 @@ function updateLlms() {
   const hubMarkdown = hubs.map(hub => `- [${hub.title}](${hub.slug}.md): ${hub.description}`).join("\n");
   const llms = `# Wearra
 
-> Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
+> Wearra helps iPhone users preview outfits on their own photo, plan looks from their closet, and build weather-aware trip packing lists.
 
-Wearra is an AI outfit planner and digital closet app for iPhone. It lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build trip packing lists, log OOTDs, and preview outfits on their own body before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services. Wearra is independently operated in the United States.
+Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone. It lets users digitize their wardrobe, get daily AI-generated outfit recommendations, chat with an AI stylist, plan weekly outfits, build weather-aware trip packing lists, log OOTDs, and preview outfits on their own photo before wearing them. The app uses AI/render providers including Google Gemini, Google Vertex AI, FASHN, fal.ai/Kling, and LightX, plus Firebase for backend services. Wearra is independently operated in the United States.
 
 Last updated: ${today}.
 
 ## Current App Store facts
 
-- App Store name: Wearra: AI Outfit Planner
-- App Store ID: 6761031400
-- Category: Lifestyle; secondary genre: Productivity
-- Minimum OS: iOS 18.0
-- Current public version checked on ${today}: 1.9
-- Price: Free download
-- Public rating checked on ${today}: 5.0 from 4 ratings
+- App Store name: ${siteFacts.appStoreName}
+- App Store ID: ${siteFacts.appStoreId}
+- Category: ${siteFacts.appCategory}; secondary genre: ${siteFacts.secondaryGenre}
+- Minimum OS: ${siteFacts.minimumOS}
+- Price: ${siteFacts.priceText}
 - App Store URL: ${appStoreUrl}
 - Privacy URL: ${cleanUrl("privacy.html")}
 - Support URL: ${cleanUrl("support.html")}
-- Pricing note: Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.
+- Pricing note: ${siteFacts.pricingNote}
 
 Each markdown file below is a direct mirror of the corresponding HTML page on the live site, formatted for LLM consumption. HTML pages are the canonical search pages; robots.txt directs major search crawlers away from markdown mirrors.
 
@@ -867,7 +867,7 @@ ${blogMarkdown}
   ];
   const full = `# Wearra - full content for LLMs
 
-> Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
+> Wearra helps iPhone users preview outfits on their own photo, plan looks from their closet, and build weather-aware trip packing lists.
 
 This is a single-fetch concatenation of every markdown mirror on https://wearra.app/, intended for LLM ingestion when one request is preferred over multiple files. The original source files remain canonical and are listed in [llms.txt](https://wearra.app/llms.txt). HTML pages are the canonical search pages; robots.txt directs major search crawlers away from markdown mirrors.
 
