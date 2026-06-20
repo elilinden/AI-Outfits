@@ -1,6 +1,6 @@
 # AI Wardrobe App Privacy: What Happens to Photos?
 
-Published: 2026-06-07
+Published: 2026-06-19
 Canonical: https://wearra.app/blog/ai-wardrobe-app-privacy-photos/
 
 A privacy-focused direct answer about photo handling, AI/render providers, iCloud backups, and account data in AI wardrobe apps.
@@ -56,7 +56,7 @@ Wearra's public privacy language says AI Stylist chat turns are logged to Firest
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
-- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Travel Packing List App for Clothes You Own](../packing-list-app.md)
 - [AI Stylist App for iPhone](../ai-stylist-app.md)
 - [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
 - [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)

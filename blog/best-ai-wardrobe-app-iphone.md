@@ -1,6 +1,6 @@
 # Best AI Wardrobe App for iPhone: What to Look For
 
-Published: 2026-06-07
+Published: 2026-06-19
 Canonical: https://wearra.app/blog/best-ai-wardrobe-app-iphone/
 
 A direct-answer guide to choosing an AI wardrobe app for iPhone, including digital closet, outfit planning, AI stylist chat, and virtual try-on features.
@@ -78,7 +78,7 @@ Wearra is free to download. Try On requires Pro, bonus credits, or a render pack
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
-- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Travel Packing List App for Clothes You Own](../packing-list-app.md)
 - [AI Stylist App for iPhone](../ai-stylist-app.md)
 - [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
 - [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)

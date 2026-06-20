@@ -1,15 +1,15 @@
 # About Wearra
 
-Updated: 2026-06-07
+Updated: 2026-06-19
 Canonical: https://wearra.app/about/
 
-Wearra is an AI outfit planner and digital closet app for iPhone.
+Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone.
 
 ## Official description
 
-Wearra helps users digitize their wardrobe, generate outfit ideas, chat with an AI Stylist, preview virtual try-ons, plan weekly looks, log OOTDs, and build packing lists from clothes they already own.
+Wearra helps users digitize their wardrobe, preview outfits on their own photo, generate outfit ideas, chat with an AI Stylist, plan weekly looks, log OOTDs, and build weather-aware packing lists from clothes they already own.
 
-## Founder and developer
+## Operator
 
 Wearra is independently operated in the United States. For support, press, or partnership questions, email Support@wearra.app.
 
@@ -24,7 +24,7 @@ Wearra exists for people who want to use more of what they already own. Instead 
 ## App details
 
 - App Store name: Wearra: AI Outfit Planner
-- What it is: Wearra is an AI outfit planner and digital closet app for iPhone.
+- What it is: Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone.
 - Platform: iPhone, iOS 18 or later
 - Category: Lifestyle; secondary genre: Productivity
 - Price: Free download
@@ -53,7 +53,7 @@ Email Support@wearra.app for press, partnerships, support, privacy, or app quest
 
 ## Press boilerplate
 
-Wearra is an iPhone AI outfit planner and digital closet app that helps users digitize their wardrobe, generate outfit ideas, chat with an AI Stylist, preview virtual try-ons, plan weekly looks, log outfits, and build packing lists from clothes they already own.
+Wearra is an iPhone AI virtual try-on, outfit planner, and digital closet app that helps users digitize their wardrobe, preview outfits on their own photo, generate outfit ideas, chat with an AI Stylist, plan weekly looks, log outfits, and build weather-aware packing lists from clothes they already own.
 
 ## Official social profiles
 

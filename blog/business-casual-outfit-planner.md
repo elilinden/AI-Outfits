@@ -1,6 +1,6 @@
 # Business Casual Outfit Planner: What to Wear to Work From Clothes You Own
 
-Published: 2026-06-07
+Published: 2026-06-19
 Canonical: https://wearra.app/blog/business-casual-outfit-planner/
 
 A practical guide to planning business casual work outfits for offices, internships, interviews, creative workplaces, and casual Fridays.
@@ -77,7 +77,7 @@ Yes. Wearra can generate outfit ideas from saved wardrobe items, help plan looks
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
-- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Travel Packing List App for Clothes You Own](../packing-list-app.md)
 - [AI Stylist App for iPhone](../ai-stylist-app.md)
 - [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
 - [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)

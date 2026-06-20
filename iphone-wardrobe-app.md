@@ -1,6 +1,6 @@
 # iPhone Wardrobe App for Outfits, Try-On, and Packing
 
-Updated: 2026-06-07
+Updated: 2026-06-19
 Canonical: https://wearra.app/iphone-wardrobe-app/
 
 Why Wearra is built as an iPhone-first wardrobe app for digital closet organization, outfit planning, virtual try-on, and packing.

@@ -2,13 +2,13 @@
 
 > Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
 
-Wearra is an AI outfit planner and digital closet app for iPhone. It helps users digitize their wardrobe, generate outfit ideas, chat with an AI Stylist, preview virtual try-ons, plan weekly looks, log OOTDs, and build packing lists from clothes they already own.
+Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone. It helps users upload clothes they own, preview outfits on their own photo, plan the week, log OOTDs, and build weather-aware packing lists for trips.
 
-Last updated: 2026-06-07.
+Last updated: 2026-06-19.
 
 ## Summary
 
-Wearra is an AI outfit planner and digital closet app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build trip packing lists, log OOTDs, and preview garments on their own body with virtual try-on.
+Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build weather-aware trip packing lists, log OOTDs, and preview wardrobe outfits on their own photo with virtual Try On.
 
 Wearra is independently operated in the United States, supports iPhone on iOS 18 or later, uses trusted AI/render providers for styling and Try On features, and offers a free download plus optional Pro and render top-up purchases through Apple.
 
@@ -48,56 +48,49 @@ Wearra is iOS-first and privacy-conscious, designed for people who want searchab
 
 ## Core features
 
-### 1. Your closet, digitized
-Snap photos, import from your camera roll, or import from the brands you shop. Wearra cuts backgrounds, tags the color, fit, season, and brand, and builds a digital closet in minutes.
+### 1. Virtual Try On
+Upload one photo of yourself, pick an outfit from your wardrobe, and preview the look on your own photo instead of a model.
 
-- Auto-categorized tops, bottoms, outerwear, and shoes
-- Search by color, fit, season, brand, or vibe
-- Favorite, archive, and rediscover forgotten pieces
+- AI-generated outfit previews from clothes saved in your closet
+- Compare styling directions before saving, packing, or wearing
+- Try On requires Pro, bonus credits, or a render pack
 
-### 2. Outfits, recommended daily
+Rendering demo transcript: the video shows a Wearra virtual try-on render moving from outfit selection to a generated preview on a phone-sized screen. It is muted and visual-only, so the Try On workflow is easy to follow without audio.
+
+### 2. AI outfit planning
 Wake up to fresh outfit ideas tailored to your day, the weather, your schedule, and what's already in your closet.
 
 - Three new outfits every morning
 - Thumbs up / down to teach your taste
-- Save favorites for one-tap dressing later
+- Save favorites, shuffle combinations, and rediscover hidden gems
 
-### 3. Shuffle and hidden gems
-Mix, match, and refine outfits with the built-in stylist. Drag, tap, save, and shuffle to surface pieces you forgot and fresh combos from what you already own.
+### 3. Travel packing
+Tell Wearra the destination, dates, activities, and dress codes. It builds weather-aware trip capsules from what you own.
 
-- Layer top, bottom, and shoes with live previews
-- Add accessories and outerwear with one tap
-- Shuffle to discover combinations you wouldn't try yourself
+- Trip capsules based on clothes already in your closet
+- Weather-aware suggestions for destination and trip length
+- Fewer duplicates, fewer forgotten essentials, smarter rewear
 
 ### 4. An AI Stylist for any occasion
 Brunch, date night, job interview, wedding, weekend trip — ask away. The AI Stylist replies with looks pulled straight from your closet. Pick the vibe: clean girl, coquette, blokecore, off-duty, or whatever fits the day.
 
-- Natural-language chat trained on style fundamentals
+- Natural-language chat for outfit and styling questions
 - Context-aware suggestions: weather, dress code, vibe
 - Build a capsule wardrobe with guided prompts
 
-### 5. Try it on, virtually
-See how an outfit looks on your own body before you wear it. Upload one photo of yourself, pick the outfit, and Wearra renders the result on you instead of a model.
+### 5. Digital closet
+Snap and save every piece you own or import clothing photos from your camera roll. Wearra cuts backgrounds, supports useful item details, and builds a searchable wardrobe in minutes.
 
-- Photorealistic try-on in under a minute
-- Compare looks side-by-side
-- Share with friends to crowd-source the call
+- Backgrounds cut out for a clean closet view
+- Item cards can store color, fit, season, category, and brand
+- Favorite, archive, style, and rediscover forgotten pieces
 
-Rendering demo transcript: the video shows a Wearra virtual try-on render moving from outfit selection to a generated preview on a phone-sized screen. It is muted and visual-only, so the Try On workflow is easy to follow without audio.
-
-### 6. Plan the week, log the fit
+### 6. Weekly planner and OOTD history
 Use an outfit calendar tied to your weather and schedule, then scroll back through the looks you actually wore.
 
 - Plan outfits around your calendar and forecast
 - Save OOTD history for repeat wins
 - See what works without digging through camera roll screenshots
-
-### 7. Packing lists that work
-Tell Wearra the trip. It builds a capsule from what you own, sized to your days and the forecast.
-
-- Trip capsules based on clothes already in your closet
-- Weather-aware suggestions for the destination
-- Fewer duplicates, fewer forgotten essentials
 
 ## How It Works: Our Technology
 
@@ -107,10 +100,10 @@ Behind the iOS styling app, Wearra coordinates AI-assisted workflows for garment
 
 ### Virtual try-on and garment rendering
 
-Wearra's virtual try-on workflow helps preview selected clothes on a real user photo. The rendering pipeline supports garment-aware texture preservation, pose alignment, perspective mapping, and proportional warping so a try-on result can communicate silhouette, color balance, and outfit direction before you get dressed.
+Wearra's virtual try-on workflow helps preview selected clothes on a real user photo. The AI-assisted rendering flow is designed to communicate silhouette, color balance, layering, and outfit direction before you get dressed, while keeping results framed as previews rather than exact fit or tailoring guarantees.
 
 - Coordinates avatar photos, garment inputs, and AI render providers for each requested Try On
-- Uses garment masking and pose-aware alignment to keep the outfit preview grounded in the user's photo
+- Uses garment masking and photo-aware rendering steps to keep the outfit preview connected to the user's selected wardrobe items
 - Helps users compare styling options without relying on a model photo or generic catalog image
 
 ### Background isolation and garment masking
@@ -118,7 +111,7 @@ Wearra's virtual try-on workflow helps preview selected clothes on a real user p
 Clean closet data starts with clean item images. Wearra uses AI-assisted background isolation, segmentation, and masking workflows to separate garments from cluttered photos, then turns those items into wardrobe objects that are easier to tag, search, style, and reuse.
 
 - Supports segmentation for tops, bottoms, shoes, dresses, outerwear, and accessories
-- Preserves garment shape and visible texture details where they matter for styling decisions
+- Keeps garment shape and visible details useful for styling decisions where the source photo allows
 - Makes closet items easier to scan visually on iPhone-sized screens
 
 ### Closet intelligence and outfit generation
@@ -139,7 +132,7 @@ For trips, Wearra coordinates destination, forecast, trip length, occasions, col
 
 ## How it works
 
-1. **Build your closet.** Snap photos, import from your camera roll, or import from brands you shop. Wearra cuts backgrounds, tags details, and categorizes everything.
+1. **Build your closet.** Snap photos or import clothing photos from your camera roll. Wearra cuts backgrounds, supports useful item details, and categorizes everything.
 2. **Train your stylist.** Rate looks, save favorites, and chat with the AI Stylist. The more you interact, the sharper its picks become.
 3. **Plan and try on.** Get daily outfits, plan looks around your schedule, and preview outfits on your own body before you wear them.
 4. **Pack the trip.** Tell Wearra where you're going and for how long. It builds a capsule packing list from what you own and the forecast.

@@ -1,6 +1,6 @@
 # Vacation Outfit Planner: Plan Every Look Before You Pack
 
-Published: 2026-06-07
+Published: 2026-06-19
 Canonical: https://wearra.app/blog/vacation-outfit-planner/
 
 How to plan vacation outfits by itinerary, weather, color palette, repeat pieces, shoes, layers, and packing lists.
@@ -85,7 +85,7 @@ Yes. Wearra supports travel packing workflows and can help build packing lists f
 - [Digital Closet App for iPhone](../digital-closet-app.md)
 - [AI Outfit Planner for Daily Looks](../ai-outfit-planner.md)
 - [Travel Capsule Wardrobe App](../travel-capsule-wardrobe-app.md)
-- [AI Packing List App for Clothes You Own](../packing-list-app.md)
+- [AI Travel Packing List App for Clothes You Own](../packing-list-app.md)
 - [AI Stylist App for iPhone](../ai-stylist-app.md)
 - [Capsule Wardrobe App for iPhone](../capsule-wardrobe-app.md)
 - [iPhone Wardrobe App for Outfits, Try-On, and Packing](../iphone-wardrobe-app.md)

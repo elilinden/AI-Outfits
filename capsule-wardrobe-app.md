@@ -1,6 +1,6 @@
 # Capsule Wardrobe App for iPhone
 
-Updated: 2026-06-07
+Updated: 2026-06-19
 Canonical: https://wearra.app/capsule-wardrobe-app/
 
 How Wearra helps users build capsule wardrobes and repeatable outfit formulas from clothing they already own.

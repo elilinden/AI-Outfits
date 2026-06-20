@@ -1,6 +1,6 @@
 # AI Stylist App for iPhone
 
-Updated: 2026-06-07
+Updated: 2026-06-19
 Canonical: https://wearra.app/ai-stylist-app/
 
 How Wearra works as an AI stylist app that gives outfit guidance from a user's own wardrobe.

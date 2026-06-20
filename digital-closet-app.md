@@ -1,6 +1,6 @@
 # Digital Closet App for iPhone
 
-Updated: 2026-06-07
+Updated: 2026-06-19
 Canonical: https://wearra.app/digital-closet-app/
 
 A clear overview of Wearra as a digital closet app for organizing, searching, styling, and reusing clothes on iPhone.

@@ -1,6 +1,6 @@
 # AI Outfit Planner for Daily Looks
 
-Updated: 2026-06-07
+Updated: 2026-06-19
 Canonical: https://wearra.app/ai-outfit-planner/
 
 How Wearra helps plan daily and weekly outfits with AI recommendations, closet context, weather, and saved looks.

@@ -1,0 +1,22 @@
+export const siteFacts = {
+  updatedDate: "2026-06-19",
+  updatedLabel: "June 19, 2026",
+  appStoreUrl: "https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400",
+  appStoreId: "6761031400",
+  appStoreName: "Wearra: AI Outfit Planner",
+  appCategory: "Lifestyle",
+  secondaryGenre: "Productivity",
+  minimumOS: "iOS 18.0",
+  homepageTitle: "Wearra — AI Virtual Try-On, Outfit Planner & Packing App",
+  homepageDescription: "Try outfits on your own photo, plan looks from clothes you own, and build weather-aware trip packing lists with Wearra for iPhone.",
+  homepageH1: "AI virtual try-on and outfit planning from your own closet.",
+  homepageSubheading: "Upload clothes you own, preview outfits on your own photo, plan the week, and build weather-aware packing lists for trips.",
+  priceText: "Free download",
+  pricingNote: "Wearra is free to download. Try On requires Pro, bonus credits, or a render pack.",
+  proPrice: "$6.99",
+  proPriceValue: "6.99",
+  proRenderAllowance: "30",
+  topUpPrice: "$1.99",
+  topUpPriceValue: "1.99",
+  topUpRenderAllowance: "5"
+};

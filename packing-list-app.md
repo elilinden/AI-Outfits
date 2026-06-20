@@ -1,13 +1,13 @@
-# AI Packing List App for Clothes You Own
+# AI Travel Packing List App for Clothes You Own
 
-Updated: 2026-06-07
+Updated: 2026-06-19
 Canonical: https://wearra.app/packing-list-app/
 
-How Wearra helps create packing lists and trip outfits from a user's own digital closet.
+How Wearra helps create weather-aware travel packing lists and trip outfits from a user's own digital closet.
 
 ## Direct answer
 
-Wearra is an AI outfit planner and digital closet app for iPhone that can help build packing lists from clothes a user already owns, using trip length, destination, weather, activities, and outfit rewear logic.
+Wearra is an AI outfit planner and digital closet app for iPhone that can help build travel packing lists from clothes a user already owns, using destination, trip duration, weather, activities, dress codes, capsule coordination, and outfit rewear logic.
 
 ## Why closet-based packing is different
 
@@ -15,7 +15,7 @@ A normal packing checklist starts with generic categories. Wearra starts with sa
 
 ## Example packing flow
 
-For a four-day city trip, a user can plan two bottoms, four tops, one jacket, two pairs of shoes, and accessories that repeat across travel, work, dinner, and casual days.
+For a 10-day Europe trip, a user might build around three bottoms, seven tops, two layers, one dress or nicer outfit, two pairs of shoes, and accessories that repeat across walking days, transit, casual dinners, and dress-code-specific plans.
 
 ## Privacy context
 
@@ -24,8 +24,10 @@ Trip data and wardrobe items stay part of the user's wardrobe workflow. Manual i
 ## Core Wearra features
 
 - Destination and dates
+- Trip duration
 - Weather-aware outfit planning
-- Activity and occasion context
+- Activity and dress-code context
+- Capsule coordination
 - Rewear logic
 - Packing lists from closet items
 
@@ -45,11 +47,11 @@ Trip data and wardrobe items stay part of the user's wardrobe workflow. Manual i
 | 5 days | 3 bottoms, 5 tops, 2 layers, 2 shoes, accessories | Shoes and layers cover casual, dinner, and weather shifts without duplicating everything |
 | 7 days | 3 bottoms, 6 tops, 2 layers, 2 shoes, 1 laundry or rewear plan | Repeat bottoms and layers while rotating tops and accessories |
 
-## Example: 4-day NYC trip from 14 closet items
+## Example: 10-day Europe trip from 18 closet items
 
-A compact city-trip list might include dark jeans, black trousers, a simple dress, white tee, striped tee, button-down, knit top, blazer, light jacket, sneakers, loafers, belt, small bag, and earrings.
+A 10-day Europe packing capsule might include dark jeans, black trousers, one skirt, a simple dress, white tee, striped tee, button-down, knit top, lightweight sweater, blazer, rain layer, sneakers, loafers, belt, small bag, scarf, earrings, and one sleep or lounge set.
 
-That set can cover travel day, walking-heavy plans, a casual dinner, a work or museum day, and one nicer evening without packing separate outfits that never share pieces.
+That set can cover travel days, walking-heavy sightseeing, casual dinners, museum days, a nicer evening, and weather changes by repeating bottoms, layers, and shoes instead of packing unrelated full outfits for every day.
 
 ## How weather and destination change the list
 
