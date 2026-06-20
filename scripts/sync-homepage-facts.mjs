@@ -21,7 +21,7 @@ function homepageSchema() {
         "@type": "Organization",
         "@id": "https://wearra.app/#org",
         "name": "Wearra",
-        "description": "Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone.",
+        "description": "Wearra is a digital closet, AI outfit planner, travel packing, and virtual Try On app for iPhone.",
         "url": "https://wearra.app/",
         "email": "Support@wearra.app",
         "logo": "https://wearra.app/og-image.png",
@@ -41,7 +41,7 @@ function homepageSchema() {
         "@id": "https://wearra.app/#website",
         "url": "https://wearra.app/",
         "name": "Wearra",
-        "description": "Wearra is an AI virtual try-on, outfit planner, digital closet, and travel packing app for iPhone.",
+        "description": "Wearra is a digital closet, AI outfit planner, travel packing, and virtual Try On app for iPhone.",
         "publisher": { "@id": "https://wearra.app/#org" },
         "inLanguage": "en-US"
       },
@@ -76,7 +76,7 @@ function homepageSchema() {
         "downloadUrl": appStoreUrl,
         "contentRating": "4+",
         "inLanguage": "en-US",
-        "description": "Wearra helps iPhone users preview outfits on their own photo, plan looks from clothes they own, organize a digital closet, chat with an AI Stylist, log OOTDs, and build weather-aware packing lists.",
+        "description": siteFacts.homepageDescription,
         "image": "https://wearra.app/og-image.png",
         "screenshot": [
           "https://wearra.app/screenshots/wearra-ai-outfit-planner-home-screen-20260620.webp",
@@ -87,12 +87,12 @@ function homepageSchema() {
           "https://wearra.app/screenshots/wearra-packing-list-trip-form-iphone.webp"
         ],
         "featureList": [
-          "Virtual Try On previews outfits on a user photo",
-          "AI outfit planning from clothes saved in the closet",
-          "Travel packing lists using trip and weather context",
-          "AI Stylist chat for outfit questions",
           "Digital closet organization",
-          "Weekly outfit planner and OOTD history"
+          "AI outfit planning from clothes saved in the closet",
+          "Weekly outfit planner and OOTD history",
+          "Travel packing lists using trip and weather context",
+          "Virtual Try On previews outfits on a user photo using credits",
+          "AI Stylist chat for Pro outfit questions"
         ],
         "offers": [
           {

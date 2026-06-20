@@ -1,14 +1,14 @@
 # Wearra
 
-> Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that plans, packs, and styles itself.
+> Your closet is full. Your outfits are stuck. Wearra turns every piece you own into a smart wardrobe that organizes, plans, packs, and styles with you.
 
-Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone. It helps users upload clothes they own, preview outfits on their own photo, plan the week, log OOTDs, and build weather-aware packing lists for trips.
+Wearra is a digital closet, AI outfit planner, travel packing, and virtual Try On app for iPhone. It helps users organize clothes they own, get personalized outfit ideas, plan the week, log OOTDs, build smarter travel packing lists, and preview selected outfits on their own photo with Try On credits.
 
 Last updated: 2026-06-19.
 
 ## Summary
 
-Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone. It helps users create a digital closet, receive daily outfit recommendations, ask an AI Stylist for occasion-specific looks, plan weekly outfits, build weather-aware trip packing lists, log OOTDs, and preview wardrobe outfits on their own photo with virtual Try On.
+Wearra is a digital closet, AI outfit planner, travel packing, and virtual Try On app for iPhone. It helps users create a digital closet, receive personalized outfit recommendations, plan weekly outfits, build weather-aware trip packing lists, log OOTDs, ask an AI Stylist for Pro styling help, and preview selected wardrobe outfits on their own photo with Try On credits.
 
 Wearra is independently operated in the United States, supports iPhone on iOS 18 or later, uses trusted AI/render providers for styling and Try On features, and offers a free download plus optional Pro and render top-up purchases through Apple.
 
@@ -48,49 +48,49 @@ Wearra is iOS-first and privacy-conscious, designed for people who want searchab
 
 ## Core features
 
-### 1. Virtual Try On
-Upload one photo of yourself, pick an outfit from your wardrobe, and preview the look on your own photo instead of a model.
-
-- AI-generated outfit previews from clothes saved in your closet
-- Compare styling directions before saving, packing, or wearing
-- Try On requires Pro, bonus credits, or a render pack
-
-Rendering demo transcript: the video shows a Wearra virtual try-on render moving from outfit selection to a generated preview on a phone-sized screen. It is muted and visual-only, so the Try On workflow is easy to follow without audio.
-
-### 2. AI outfit planning
-Wake up to fresh outfit ideas tailored to your day, the weather, your schedule, and what's already in your closet.
-
-- Three new outfits every morning
-- Thumbs up / down to teach your taste
-- Save favorites, shuffle combinations, and rediscover hidden gems
-
-### 3. Travel packing
-Tell Wearra the destination, dates, activities, and dress codes. It builds weather-aware trip capsules from what you own.
-
-- Trip capsules based on clothes already in your closet
-- Weather-aware suggestions for destination and trip length
-- Fewer duplicates, fewer forgotten essentials, smarter rewear
-
-### 4. An AI Stylist for any occasion
-Brunch, date night, job interview, wedding, weekend trip — ask away. The AI Stylist replies with looks pulled straight from your closet. Pick the vibe: clean girl, coquette, blokecore, off-duty, or whatever fits the day.
-
-- Natural-language chat for outfit and styling questions
-- Context-aware suggestions: weather, dress code, vibe
-- Build a capsule wardrobe with guided prompts
-
-### 5. Digital closet
+### 1. Digital closet
 Snap and save every piece you own or import clothing photos from your camera roll. Wearra cuts backgrounds, supports useful item details, and builds a searchable wardrobe in minutes.
 
 - Backgrounds cut out for a clean closet view
 - Item cards can store color, fit, season, category, and brand
 - Favorite, archive, style, and rediscover forgotten pieces
 
-### 6. Weekly planner and OOTD history
+### 2. AI outfit planning
+Wake up to fresh outfit ideas tailored to your day, the weather, your schedule, and what's already in your closet.
+
+- Up to 6 daily outfit ideas when your closet has enough items
+- Thumbs up / down to teach your taste
+- Save favorites, shuffle combinations, and rediscover hidden gems
+
+### 3. Weekly planner and OOTD history
 Use an outfit calendar tied to your weather and schedule, then scroll back through the looks you actually wore.
 
 - Plan outfits around your calendar and forecast
 - Save OOTD history for repeat wins
 - See what works without digging through camera roll screenshots
+
+### 4. Smart travel packing
+Tell Wearra the destination, dates, activities, and dress codes. It builds weather-aware trip capsules from what you own.
+
+- Trip capsules based on clothes already in your closet
+- Weather-aware suggestions for destination and trip length
+- Fewer duplicates, fewer forgotten essentials, smarter rewear
+
+### 5. Virtual Try On
+Choose an outfit from your digital closet and use Try On credits to generate a visual preview on your own photo.
+
+- AI-generated outfit previews from clothes saved in your closet
+- Compare styling directions before saving, packing, or wearing
+- Try On uses credits and requires Pro, bonus credits, or a render pack
+
+Rendering demo transcript: the video shows a Wearra virtual try-on render moving from outfit selection to a generated preview on a phone-sized screen. It is muted and visual-only, so the Try On workflow is easy to follow without audio.
+
+### 6. AI Stylist
+Upgrade to Pro to ask for styling help for brunch, date night, job interviews, weddings, weekend trips, or whatever fits the day.
+
+- Natural-language chat for outfit and styling questions
+- Context-aware suggestions: weather, dress code, vibe
+- Build a capsule wardrobe with guided prompts
 
 ## How It Works: Our Technology
 
@@ -141,7 +141,7 @@ For trips, Wearra coordinates destination, forecast, trip length, occasions, col
 
 | Tier | Cost | Includes |
 |---|---|---|
-| Free | $0 | Wearra is free to download. Try On requires Pro, bonus credits, or a render pack. |
+| Free | $0 | Wearra is free to download. Upgrade to Pro for AI Stylist access and monthly Try On credits. |
 | Pro | $6.99 / month, auto-renew via Apple ID | 30 renders / month, AI Stylist chat, personalised suggestions |
 | 5-render top-up | $1.99 one-time, Pro only | 5 extra renders that stack on Pro and never expire |
 
@@ -151,7 +151,7 @@ Subscriptions are billed through Apple. See [Terms of Service](terms.md) for ful
 
 | Plan | Price | Includes | Best for |
 |---|---:|---|---|
-| Free | $0 | Wearra is free to download. Try On requires Pro, bonus credits, or a render pack. | Trying Wearra and organizing your wardrobe |
+| Free | $0 | Wearra is free to download. Upgrade to Pro for AI Stylist access and monthly Try On credits. | Trying Wearra and organizing your wardrobe |
 | Pro monthly | $6.99 / month | 30 renders per month, AI Stylist chat, and personalised outfit suggestions | Daily outfit planning and ongoing AI styling |
 | 5-render top-up | $1.99 one-time | 5 extra renders that stack on Pro and never expire | Extra virtual try-on sessions in a busy month |
 

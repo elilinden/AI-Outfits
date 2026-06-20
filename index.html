@@ -5,13 +5,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#FAF6EE">
-<title>Wearra — AI Virtual Try-On, Outfit Planner &amp; Packing App</title>
-<meta name="description" content="Try outfits on your own photo, plan looks from clothes you own, and build weather-aware trip packing lists with Wearra for iPhone.">
+<title>Wearra — Digital Closet, AI Outfit Planner &amp; Virtual Try-On</title>
+<meta name="description" content="Organize clothes you own, get personalized outfit ideas, plan your week, build smarter travel packing lists, and preview outfits on your own photo with Wearra.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="googlebot" content="index, follow, max-image-preview:large">
 <meta name="last-modified" content="2026-06-19">
-<meta property="og:title" content="Wearra — AI Virtual Try-On, Outfit Planner &amp; Packing App">
-<meta property="og:description" content="Try outfits on your own photo, plan looks from clothes you own, and build weather-aware trip packing lists with Wearra for iPhone.">
+<meta property="og:title" content="Wearra — Digital Closet, AI Outfit Planner &amp; Virtual Try-On">
+<meta property="og:description" content="Organize clothes you own, get personalized outfit ideas, plan your week, build smarter travel packing lists, and preview outfits on your own photo with Wearra.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://wearra.app/">
 <meta property="og:site_name" content="Wearra">
@@ -22,8 +22,8 @@
 <meta property="article:published_time" content="2026-04-20T00:00:00-04:00">
 <meta property="article:modified_time" content="2026-06-19T00:00:00-07:00">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Wearra — AI Virtual Try-On, Outfit Planner &amp; Packing App">
-<meta name="twitter:description" content="Try outfits on your own photo, plan looks from clothes you own, and build weather-aware trip packing lists with Wearra for iPhone.">
+<meta name="twitter:title" content="Wearra — Digital Closet, AI Outfit Planner &amp; Virtual Try-On">
+<meta name="twitter:description" content="Organize clothes you own, get personalized outfit ideas, plan your week, build smarter travel packing lists, and preview outfits on your own photo with Wearra.">
 <meta name="twitter:image" content="https://wearra.app/og-image.png">
 <meta name="apple-itunes-app" content="app-id=6761031400, app-argument=https://wearra.app/">
 <link rel="canonical" href="https://wearra.app/">
@@ -43,7 +43,7 @@
       "@type": "Organization",
       "@id": "https://wearra.app/#org",
       "name": "Wearra",
-      "description": "Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone.",
+      "description": "Wearra is a digital closet, AI outfit planner, travel packing, and virtual Try On app for iPhone.",
       "url": "https://wearra.app/",
       "email": "Support@wearra.app",
       "logo": "https://wearra.app/og-image.png",
@@ -65,7 +65,7 @@
       "@id": "https://wearra.app/#website",
       "url": "https://wearra.app/",
       "name": "Wearra",
-      "description": "Wearra is an AI virtual try-on, outfit planner, digital closet, and travel packing app for iPhone.",
+      "description": "Wearra is a digital closet, AI outfit planner, travel packing, and virtual Try On app for iPhone.",
       "publisher": {
         "@id": "https://wearra.app/#org"
       },
@@ -75,8 +75,8 @@
       "@type": "WebPage",
       "@id": "https://wearra.app/#webpage",
       "url": "https://wearra.app/",
-      "name": "Wearra — AI Virtual Try-On, Outfit Planner & Packing App",
-      "description": "Try outfits on your own photo, plan looks from clothes you own, and build weather-aware trip packing lists with Wearra for iPhone.",
+      "name": "Wearra — Digital Closet, AI Outfit Planner & Virtual Try-On",
+      "description": "Organize clothes you own, get personalized outfit ideas, plan your week, build smarter travel packing lists, and preview outfits on your own photo with Wearra.",
       "isPartOf": {
         "@id": "https://wearra.app/#website"
       },
@@ -106,7 +106,7 @@
       "downloadUrl": "https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400",
       "contentRating": "4+",
       "inLanguage": "en-US",
-      "description": "Wearra helps iPhone users preview outfits on their own photo, plan looks from clothes they own, organize a digital closet, chat with an AI Stylist, log OOTDs, and build weather-aware packing lists.",
+      "description": "Organize clothes you own, get personalized outfit ideas, plan your week, build smarter travel packing lists, and preview outfits on your own photo with Wearra.",
       "image": "https://wearra.app/og-image.png",
       "screenshot": [
         "https://wearra.app/screenshots/wearra-ai-outfit-planner-home-screen-20260620.webp",
@@ -117,12 +117,12 @@
         "https://wearra.app/screenshots/wearra-packing-list-trip-form-iphone.webp"
       ],
       "featureList": [
-        "Virtual Try On previews outfits on a user photo",
-        "AI outfit planning from clothes saved in the closet",
-        "Travel packing lists using trip and weather context",
-        "AI Stylist chat for outfit questions",
         "Digital closet organization",
-        "Weekly outfit planner and OOTD history"
+        "AI outfit planning from clothes saved in the closet",
+        "Weekly outfit planner and OOTD history",
+        "Travel packing lists using trip and weather context",
+        "Virtual Try On previews outfits on a user photo using credits",
+        "AI Stylist chat for Pro outfit questions"
       ],
       "offers": [
         {
@@ -565,8 +565,9 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   width:38px;height:38px;border-radius:12px;
   background:var(--bg-soft);border:1px solid var(--border);
   font-weight:700;font-size:14px;color:var(--fg-muted);
-  margin-bottom:20px;box-shadow:var(--shadow-sm);
+  margin-bottom:20px;box-shadow:var(--shadow-sm);white-space:nowrap;
 }
+.feature__num--wide{width:auto;padding:0 12px}
 .feature__title{font-size:clamp(28px,3.5vw,40px);font-weight:800;letter-spacing:-0.025em;line-height:1.1;margin:0 0 16px}
 .feature__title em{font-style:italic;color:var(--primary)}
 .feature__title em.lav{color:var(--accent-strong)}
@@ -915,18 +916,14 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   <div class="container hero__inner">
     <div class="reveal">
       <span class="hero__eyebrow"><span class="dot" aria-hidden="true"></span> Style smarter, dress better</span>
-      <h1 class="hero__title">AI virtual try-on and outfit planning from your own closet.</h1>
-      <p class="hero__sub">Upload clothes you own, preview outfits on your own photo, plan the week, and build weather-aware packing lists for trips.</p>
+      <h1 class="hero__title">Your AI outfit planner and digital closet.</h1>
+      <p class="hero__sub">Organize clothes you own, get personalized outfit ideas, plan your week, pack smarter, and use Try On credits to preview outfits on your own photo.</p>
       <div class="hero__ctas">
         <a class="appstore" href="https://apps.apple.com/us/app/wearra-ai-outfit-planner/id6761031400" target="_blank" rel="noopener" aria-label="Download Wearra on the App Store">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.03-3.13 2.55-4.63 2.66-4.7-1.45-2.12-3.71-2.41-4.51-2.45-1.92-.19-3.75 1.13-4.72 1.13-.99 0-2.49-1.11-4.1-1.08-2.11.03-4.06 1.23-5.14 3.12-2.2 3.81-.56 9.45 1.58 12.55 1.05 1.51 2.3 3.21 3.92 3.15 1.58-.06 2.18-1.02 4.09-1.02 1.91 0 2.45 1.02 4.12.99 1.7-.03 2.78-1.55 3.82-3.07 1.2-1.76 1.7-3.46 1.72-3.55-.04-.02-3.3-1.27-3.34-5.07zM14.06 3.13c.85-1.04 1.43-2.48 1.27-3.93-1.23.05-2.74.83-3.62 1.86-.79.91-1.49 2.39-1.31 3.79 1.38.11 2.79-.7 3.66-1.72z"/></svg>
           <span class="appstore__txt"><small>Download on the</small><span>App Store</span></span>
         </a>
         <a class="btn btn--ghost btn--lg" href="#how">See how it works</a>
-      </div>
-      <div class="hero__links" aria-label="Featured Wearra guides">
-        <a class="btn btn--ghost" href="/virtual-try-on-app/">Virtual try-on guide</a>
-        <a class="btn btn--ghost" href="/packing-list-app/">Packing list guide</a>
       </div>
       <div class="hero__meta">
         <span class="hero__stars" aria-hidden="true">✦</span>
@@ -965,7 +962,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
       </a>
       <div class="hero-demo__copy">
         <h2 id="hero-demo-title">Preview outfits on your own photo.</h2>
-        <p>Wearra's virtual Try On demo stays below the first paint as a lightweight poster image. Open the Try On feature section to watch the muted, captioned rendering workflow and read the transcript.</p>
+        <p>Choose an outfit from your digital closet and generate a visual preview before getting dressed. Try On uses credits, and results may vary with photo and garment quality.</p>
       </div>
     </div>
   </div>
@@ -978,9 +975,9 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
       <div class="trust__num">Local</div>
       <figcaption class="trust__lbl">By default</figcaption>
     </figure>
-    <figure class="trust__item stat-callout reveal" role="group" aria-label="Daily outfit picks: 5x">
-      <div class="trust__num"><data value="5">5<em>×</em></data></div>
-      <figcaption class="trust__lbl">Daily outfit picks</figcaption>
+    <figure class="trust__item stat-callout reveal" role="group" aria-label="Daily outfit ideas: up to 6">
+      <div class="trust__num"><data value="6">Up to 6</data></div>
+      <figcaption class="trust__lbl">Daily outfit ideas</figcaption>
     </figure>
     <figure class="trust__item stat-callout reveal" role="group" aria-label="Closet capacity: unlimited">
       <div class="trust__num">∞</div>
@@ -999,7 +996,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
     <div class="summary__copy reveal">
       <span class="section__kicker">Summary</span>
       <h2 class="section__title" id="summary-title">Wearra in one <em>readable answer</em>.</h2>
-      <p>Wearra is an AI virtual try-on, outfit planner, and digital closet app for iPhone. It turns pieces you own into a smart closet that can preview outfits on your own photo, plan your week, build trip packing lists, log OOTDs, and support practical styling decisions.</p>
+      <p>Wearra is a digital closet, AI outfit planner, travel packing, and virtual Try On app for iPhone. It turns pieces you own into a smart closet that can organize garments, suggest outfits, plan your week, build trip packing lists, log OOTDs, and preview selected looks on your own photo.</p>
       <p>Snap your clothes once or import clothing photos from your camera roll. Wearra cuts backgrounds, supports useful item details like color, fit, season, and brand, then makes your closet searchable so the AI Stylist can answer the way a friend would.</p>
       <p>Wearra is independently operated in the United States, supports iPhone on iOS 18 or later, uses trusted AI/render providers for styling and Try On features, and offers a free download plus optional Pro and render top-up purchases through Apple.</p>
       <p><strong>Privacy summary:</strong> Wearra does not sell personal information, does not show third-party ads, and does not train Wearra-owned AI models on user photos. Wardrobe data is local by default, and manual iCloud Backup is optional.</p>
@@ -1008,7 +1005,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
     <aside class="summary__facts reveal" aria-labelledby="facts-title">
       <h3 id="facts-title">Quick facts</h3>
       <dl>
-        <div><dt>Category</dt><dd>AI stylist, digital closet, virtual try-on, outfit planner, packing list builder</dd></div>
+        <div><dt>Category</dt><dd>Digital closet, AI outfit planner, packing list builder, virtual try-on, AI stylist</dd></div>
         <div><dt>Platform</dt><dd>iPhone running iOS 18 or later</dd></div>
         <div><dt>Pricing</dt><dd>Free download, Pro monthly subscription, and Pro render top-ups</dd></div>
         <div><dt>Operator</dt><dd>Wearra, independently operated in the United States</dd></div>
@@ -1065,88 +1062,9 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
       <p class="section__sub">From your closet to your calendar, Wearra handles the styling so you can focus on showing up.</p>
     </header>
 
-    <article class="feature reveal" id="try-on">
+    <article class="feature reveal" id="digital-closet">
       <div class="feature__copy">
         <span class="feature__num">01</span>
-        <h3 class="feature__title">Try it on, <em>before you wear it</em>.</h3>
-        <p class="feature__desc">Upload one photo of yourself, pick an outfit from your wardrobe, and preview the look on your own photo instead of a model. Read the <a href="/virtual-try-on-app/">virtual try-on app guide</a>, compare <a href="/blog/best-virtual-try-on-app-own-clothes/">virtual try-on apps for your own clothes</a>, or use the <a href="/blog/virtual-try-on-photo-tips/">photo tips for better renders</a>.</p>
-        <ul class="feature__bullets">
-          <li>AI-generated outfit previews from clothes saved in your closet</li>
-          <li>Compare styling directions before saving, packing, or wearing</li>
-          <li>Try On requires Pro, bonus credits, or a render pack</li>
-        </ul>
-        <div class="feature__note">
-          <strong>Rendering demo transcript:</strong> the video shows a Wearra virtual try-on render moving from outfit selection to a generated preview on a phone-sized screen. It is muted and visual-only, so the Try On workflow is easy to follow without audio.
-        </div>
-      </div>
-      <div class="feature__media" data-bg="cream">
-        <div class="phone phone--video" data-parallax="0.08">
-          <video class="phone__video" muted loop playsinline preload="none" poster="/videos/wearra-virtual-try-on-demo-poster.webp" aria-label="Muted virtual try-on rendering demo" width="720" height="1280" data-lazy-video="/videos/wearra-virtual-try-on-demo.mp4" data-poster="/videos/wearra-virtual-try-on-demo-poster.webp">
-            <source data-src="/videos/wearra-virtual-try-on-demo.mp4" type="video/mp4">
-            <track kind="captions" src="/videos/wearra-virtual-try-on-demo.vtt" srclang="en" label="English captions" default>
-            <a href="/videos/wearra-virtual-try-on-demo.mp4">Watch the Wearra virtual try-on rendering demo.</a>
-          </video>
-        </div>
-      </div>
-    </article>
-
-    <article class="feature feature--reverse reveal">
-      <div class="feature__copy">
-        <span class="feature__num">02</span>
-        <h3 class="feature__title">AI outfit planning, <em>from your closet</em>.</h3>
-        <p class="feature__desc">Wake up to fresh looks tailored to your day, the weather, your schedule, and what's already hanging in your closet. Learn <a href="/blog/ai-outfit-recommendations-from-your-closet/">how AI outfit recommendations from your closet work</a> or open the <a href="/ai-outfit-planner/">AI outfit planner guide</a>.</p>
-        <ul class="feature__bullets">
-          <li>Three new outfits every morning</li>
-          <li>Thumbs up &amp; down to teach your taste</li>
-          <li>Save favorites, shuffle combinations, and rediscover hidden gems</li>
-        </ul>
-      </div>
-      <div class="feature__media" data-bg="cream">
-        <div class="phone" data-parallax="0.1">
-          <img class="phone__img" src="/screenshots/wearra-outfit-builder-iphone-20260620.webp" alt="Wearra outfit builder screen with clothing carousel and Shuffle, Try On, and Save actions" loading="lazy" decoding="async" width="720" height="1565">
-        </div>
-      </div>
-    </article>
-
-    <article class="feature reveal">
-      <div class="feature__copy">
-        <span class="feature__num">03</span>
-        <h3 class="feature__title">Travel packing <em>that works</em>.</h3>
-        <p class="feature__desc">Tell Wearra the destination, dates, activities, and dress codes. It builds weather-aware trip capsules from what you own so packing stops becoming a late-night panic. Explore the <a href="/packing-list-app/">AI travel packing list guide</a> and <a href="/blog/how-to-pack-for-a-trip-without-overpacking/">how to pack without overpacking</a>.</p>
-        <ul class="feature__bullets">
-          <li>Trip capsules based on clothes already in your closet</li>
-          <li>Weather-aware suggestions for destination and trip length</li>
-          <li>Fewer duplicates, fewer forgotten essentials, smarter rewear</li>
-        </ul>
-      </div>
-      <div class="feature__media" data-bg="lavender">
-        <div class="phone" data-parallax="0.08">
-          <img class="phone__img" src="/screenshots/wearra-packing-list-trip-form-iphone.webp" alt="New trip form for building a personalized packing list by destination, dates, and activities" loading="lazy" decoding="async" width="720" height="1565">
-        </div>
-      </div>
-    </article>
-
-    <article class="feature feature--reverse reveal" id="stylist">
-      <div class="feature__copy">
-        <span class="feature__num">04</span>
-        <h3 class="feature__title">An AI Stylist <em class="lav">that knows you</em>.</h3>
-        <p class="feature__desc">Ask "what should I wear to brunch?" and get outfits pulled straight from your closet. Choose the vibe: clean girl, coquette, blokecore, off-duty, or whatever fits your day. Read the <a href="/ai-stylist-app/">AI stylist app guide</a> or see the <a href="/privacy/">privacy policy</a> for how photos and chat data are handled.</p>
-        <ul class="feature__bullets">
-          <li>Natural-language chat for outfit and styling questions</li>
-          <li>Context-aware suggestions: weather, dress code, vibe</li>
-          <li>Build a capsule wardrobe with guided prompts</li>
-        </ul>
-      </div>
-      <div class="feature__media" data-bg="lavender">
-        <div class="phone" data-parallax="0.1">
-          <img class="phone__img" src="/screenshots/wearra-ai-stylist-chat-iphone-20260620.webp" alt="Wearra AI Stylist chat answering a wardrobe question with suggested clothing items" loading="lazy" decoding="async" width="720" height="1565">
-        </div>
-      </div>
-    </article>
-
-    <article class="feature reveal">
-      <div class="feature__copy">
-        <span class="feature__num">05</span>
         <h3 class="feature__title">Your closet, <em>digitized</em>.</h3>
         <p class="feature__desc">Snap and save every piece you own or import clothing photos from your camera roll. Wearra turns them into a searchable wardrobe in minutes. See the guide to <a href="/blog/how-to-digitize-your-closet-iphone/">digitizing your closet on iPhone</a> or the <a href="/digital-closet-app/">digital closet app guide</a>.</p>
         <ul class="feature__bullets">
@@ -1164,9 +1082,27 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 
     <article class="feature feature--reverse reveal">
       <div class="feature__copy">
-        <span class="feature__num">06</span>
+        <span class="feature__num">02</span>
+        <h3 class="feature__title">AI outfit planning, <em>from your closet</em>.</h3>
+        <p class="feature__desc">Wake up to fresh looks tailored to your day, the weather, your schedule, and what's already hanging in your closet. Learn <a href="/blog/ai-outfit-recommendations-from-your-closet/">how AI outfit recommendations from your closet work</a> or open the <a href="/ai-outfit-planner/">AI outfit planner guide</a>.</p>
+        <ul class="feature__bullets">
+          <li>Up to 6 daily outfit ideas when your closet has enough items</li>
+          <li>Thumbs up &amp; down to teach your taste</li>
+          <li>Save favorites, shuffle combinations, and rediscover hidden gems</li>
+        </ul>
+      </div>
+      <div class="feature__media" data-bg="cream">
+        <div class="phone" data-parallax="0.1">
+          <img class="phone__img" src="/screenshots/wearra-outfit-builder-iphone-20260620.webp" alt="Wearra outfit builder screen with clothing carousel and Shuffle, Try On, and Save actions" loading="lazy" decoding="async" width="720" height="1565">
+        </div>
+      </div>
+    </article>
+
+    <article class="feature reveal" id="planner">
+      <div class="feature__copy">
+        <span class="feature__num">03</span>
         <h3 class="feature__title">Plan the week, <em>log the fit</em>.</h3>
-        <p class="feature__desc">Build an outfit calendar tied to your weather and schedule, then scroll back through the looks you actually wore.</p>
+        <p class="feature__desc">Build an outfit calendar tied to your weather and schedule, then scroll back through the looks you actually wore. See <a href="/blog/how-to-plan-outfits-for-the-week/">how to plan outfits for the week</a> or open the <a href="/ai-outfit-planner/">AI outfit planner guide</a>.</p>
         <ul class="feature__bullets">
           <li>Plan outfits around your calendar and forecast</li>
           <li>Save OOTD history for repeat wins</li>
@@ -1176,6 +1112,67 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
       <div class="feature__media" data-bg="cream">
         <div class="phone" data-parallax="0.08">
           <img class="phone__img" src="/screenshots/wearra-outfit-planner-calendar-iphone-20260620.webp" alt="Wearra planner calendar screen for scheduling outfits by day" loading="lazy" decoding="async" width="720" height="1565">
+        </div>
+      </div>
+    </article>
+
+    <article class="feature feature--reverse reveal" id="packing">
+      <div class="feature__copy">
+        <span class="feature__num">04</span>
+        <h3 class="feature__title">Smart travel packing <em>that works</em>.</h3>
+        <p class="feature__desc">Tell Wearra the destination, dates, activities, and dress codes. It builds weather-aware trip capsules from what you own so packing stops becoming a late-night panic. Explore the <a href="/packing-list-app/">AI travel packing list guide</a> and <a href="/blog/how-to-pack-for-a-trip-without-overpacking/">how to pack without overpacking</a>.</p>
+        <ul class="feature__bullets">
+          <li>Trip capsules based on clothes already in your closet</li>
+          <li>Weather-aware suggestions for destination and trip length</li>
+          <li>Fewer duplicates, fewer forgotten essentials, smarter rewear</li>
+        </ul>
+      </div>
+      <div class="feature__media" data-bg="lavender">
+        <div class="phone" data-parallax="0.08">
+          <img class="phone__img" src="/screenshots/wearra-packing-list-trip-form-iphone.webp" alt="New trip form for building a personalized packing list by destination, dates, and activities" loading="lazy" decoding="async" width="720" height="1565">
+        </div>
+      </div>
+    </article>
+
+    <article class="feature reveal" id="try-on">
+      <div class="feature__copy">
+        <span class="feature__num feature__num--wide">05 · Pro / credits</span>
+        <h3 class="feature__title">Try it on, <em>before you wear it</em>.</h3>
+        <p class="feature__desc">Choose an outfit from your digital closet and use Try On credits to generate a visual preview on your own photo. Read the <a href="/virtual-try-on-app/">virtual try-on app guide</a>, compare <a href="/blog/best-virtual-try-on-app-own-clothes/">virtual try-on apps for your own clothes</a>, or use the <a href="/blog/virtual-try-on-photo-tips/">photo tips for better renders</a>.</p>
+        <ul class="feature__bullets">
+          <li>AI-generated outfit previews from clothes saved in your closet</li>
+          <li>Compare styling directions before saving, packing, or wearing</li>
+          <li>Try On uses credits and requires Pro, bonus credits, or a render pack</li>
+        </ul>
+        <div class="feature__note">
+          <strong>Rendering demo transcript:</strong> the video shows a Wearra virtual try-on render moving from outfit selection to a generated preview on a phone-sized screen. It is muted and visual-only, so the Try On workflow is easy to follow without audio.
+        </div>
+      </div>
+      <div class="feature__media" data-bg="cream">
+        <div class="phone phone--video" data-parallax="0.08">
+          <video class="phone__video" muted loop playsinline preload="none" poster="/videos/wearra-virtual-try-on-demo-poster.webp" aria-label="Muted virtual try-on rendering demo" width="720" height="1280" data-lazy-video="/videos/wearra-virtual-try-on-demo.mp4" data-poster="/videos/wearra-virtual-try-on-demo-poster.webp">
+            <source data-src="/videos/wearra-virtual-try-on-demo.mp4" type="video/mp4">
+            <track kind="captions" src="/videos/wearra-virtual-try-on-demo.vtt" srclang="en" label="English captions" default>
+            <a href="/videos/wearra-virtual-try-on-demo.mp4">Watch the Wearra virtual try-on rendering demo.</a>
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="feature feature--reverse reveal" id="stylist">
+      <div class="feature__copy">
+        <span class="feature__num feature__num--wide">06 · Pro</span>
+        <h3 class="feature__title">An AI Stylist <em class="lav">that knows you</em>.</h3>
+        <p class="feature__desc">Upgrade to Pro to ask "what should I wear to brunch?" and get outfits pulled straight from your closet. Choose the vibe: clean girl, coquette, blokecore, off-duty, or whatever fits your day. Read the <a href="/ai-stylist-app/">AI stylist app guide</a> or see the <a href="/privacy/">privacy policy</a> for how photos and chat data are handled.</p>
+        <ul class="feature__bullets">
+          <li>Natural-language chat for outfit and styling questions</li>
+          <li>Context-aware suggestions: weather, dress code, vibe</li>
+          <li>Build a capsule wardrobe with guided prompts</li>
+        </ul>
+      </div>
+      <div class="feature__media" data-bg="lavender">
+        <div class="phone" data-parallax="0.1">
+          <img class="phone__img" src="/screenshots/wearra-ai-stylist-chat-iphone-20260620.webp" alt="Wearra AI Stylist chat answering a wardrobe question with suggested clothing items" loading="lazy" decoding="async" width="720" height="1565">
         </div>
       </div>
     </article>
@@ -1278,7 +1275,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
     <header class="section__head reveal">
       <span class="section__kicker">Pricing</span>
       <h2 class="section__title" id="pricing-title">How much does <em>Wearra cost</em>?</h2>
-      <p class="section__sub">This table mirrors the app offer details so search engines and AI agents can extract the plan structure cleanly.</p>
+      <p class="section__sub">Wearra is free to download. Upgrade to Pro for AI Stylist access and monthly Try On credits.</p>
     </header>
     <div class="pricing-table reveal">
       <table>
