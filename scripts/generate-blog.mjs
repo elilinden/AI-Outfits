@@ -1124,7 +1124,7 @@ const postExtras = {
     privacy: "Try On can help preview high-stakes outfits; render requests use AI/render providers for that request."
   },
   "date-night-outfit-planner": {
-    media: { type: "image", src: "/screenshots/wearra-outfit-recommendations-iphone.webp", alt: "Wearra outfit recommendations screen with save and Try On actions" },
+    media: { type: "image", src: "/screenshots/wearra-outfit-recommendations-iphone.webp", alt: "Wearra outfit builder screen with Shuffle, Try On, and Save actions" },
     examples: [
       "Casual dinner: dark jeans, fitted top, boots, cropped jacket.",
       "Movie date: trousers, soft sweater, comfortable shoes, light layer.",
@@ -1162,7 +1162,7 @@ const postExtras = {
     privacy: "Trip planning can use wardrobe and destination context; optional iCloud Backup remains manual rather than live sync."
   },
   "ai-outfit-recommendations-from-your-closet": {
-    media: { type: "image", src: "/screenshots/wearra-outfit-recommendations-iphone.webp", alt: "Wearra outfit recommendations screen with closet-based outfit ideas and feedback actions" },
+    media: { type: "image", src: "/screenshots/wearra-outfit-recommendations-iphone.webp", alt: "Wearra outfit builder screen with closet-based clothing items and Try On action" },
     examples: [
       "Closet input: black trousers, white tee, cardigan, blazer, loafers, sneakers, denim jacket, and a simple dress.",
       "Recommendation output: work look with trousers, tee, blazer, and loafers; casual look with dress, denim jacket, and sneakers; dinner look with trousers, cardigan, and boots.",

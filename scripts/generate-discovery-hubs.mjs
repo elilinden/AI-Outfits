@@ -299,7 +299,7 @@ const hubs = [
     description: "How Wearra works as an AI stylist app that gives outfit guidance from a user's own wardrobe.",
     keywords: ["AI stylist app", "personal stylist app", "AI fashion assistant", "wardrobe stylist app"],
     image: "screenshots/wearra-ai-stylist-chat-iphone.webp",
-    imageAlt: "Wearra AI Stylist chat screen with suggested outfit prompts",
+    imageAlt: "Wearra AI Stylist chat answering a wardrobe question with suggested clothing items",
     answer: "Wearra is an AI stylist app for iPhone that connects chat-based styling advice to a user's digital closet, saved outfits, outfit planner, packing lists, and virtual Try On workflow.",
     sections: [
       ["Why closet context matters", "An AI stylist is more practical when it can recommend outfits from items the user has actually saved, instead of giving generic style advice."],
@@ -325,7 +325,7 @@ const hubs = [
     description: "How Wearra helps users build capsule wardrobes and repeatable outfit formulas from clothing they already own.",
     keywords: ["capsule wardrobe app", "capsule wardrobe planner", "minimal wardrobe app", "outfit formula app"],
     image: "screenshots/wearra-outfit-recommendations-iphone.webp",
-    imageAlt: "Wearra outfit recommendations screen with generated looks from saved wardrobe items",
+    imageAlt: "Wearra outfit builder screen with clothing carousel and Shuffle, Try On, and Save actions",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone that can help users build capsule wardrobes by combining versatile closet items into repeatable outfit formulas.",
     sections: [
       ["Capsules from real items", "A useful capsule wardrobe starts with clothes the user actually owns. Wearra can help identify repeatable combinations from saved closet items."],
