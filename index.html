@@ -492,8 +492,9 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   border-radius:var(--radius-md);padding:18px;box-shadow:var(--shadow-sm);
 }
 .hero-demo__media{
-  position:relative;display:block;overflow:hidden;border-radius:var(--radius-sm);
-  background:#16130F;color:#fff;aspect-ratio:16/9;
+  position:relative;display:block;overflow:hidden;border-radius:32px;
+  background:#16130F;color:#fff;aspect-ratio:9/16;
+  width:min(240px,70vw);justify-self:center;box-shadow:var(--shadow-md);
 }
 .hero-demo__media img{display:block;width:100%;height:100%;object-fit:cover}
 .hero-demo__play{
@@ -507,7 +508,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .hero-demo__copy h2{font-size:clamp(24px,3vw,34px);line-height:1.12;letter-spacing:-0.025em;margin:0 0 10px}
 .hero-demo__copy p{color:var(--fg-muted);line-height:1.58;margin:0}
 @media (min-width:860px){
-  .hero-demo__inner{grid-template-columns:minmax(320px,0.78fr) 1fr;padding:22px 28px}
+  .hero-demo__inner{grid-template-columns:minmax(220px,300px) 1fr;padding:22px 34px}
+  .hero-demo__media{width:min(280px,100%)}
   .hero-demo{padding-bottom:72px}
 }
 @media (max-width:720px){
@@ -955,7 +957,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   <div class="container">
     <div class="hero-demo__inner reveal">
       <a class="hero-demo__media" href="#try-on" aria-label="Jump to Wearra virtual try-on rendering demo">
-        <img src="/videos/wearra-virtual-try-on-demo-poster.webp" alt="Wearra virtual try-on demo poster showing a generated outfit preview workflow" width="1280" height="720" loading="lazy" decoding="async">
+        <img src="/videos/wearra-virtual-try-on-demo-poster.webp" alt="Wearra virtual try-on demo poster showing a generated outfit preview workflow" width="720" height="1280" loading="lazy" decoding="async">
         <span class="hero-demo__play" aria-hidden="true"><span>
           <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
         </span></span>
