@@ -79,11 +79,11 @@ function homepageSchema() {
         "description": "Wearra helps iPhone users preview outfits on their own photo, plan looks from clothes they own, organize a digital closet, chat with an AI Stylist, log OOTDs, and build weather-aware packing lists.",
         "image": "https://wearra.app/og-image.png",
         "screenshot": [
-          "https://wearra.app/screenshots/wearra-ai-outfit-planner-home-screen.webp",
-          "https://wearra.app/screenshots/wearra-digital-closet-grid-iphone.webp",
-          "https://wearra.app/screenshots/wearra-outfit-recommendations-iphone.webp",
-          "https://wearra.app/screenshots/wearra-ai-stylist-chat-iphone.webp",
-          "https://wearra.app/screenshots/wearra-outfit-planner-calendar-iphone.webp",
+          "https://wearra.app/screenshots/wearra-ai-outfit-planner-home-screen-20260620.webp",
+          "https://wearra.app/screenshots/wearra-digital-closet-grid-iphone-20260620.webp",
+          "https://wearra.app/screenshots/wearra-outfit-builder-iphone-20260620.webp",
+          "https://wearra.app/screenshots/wearra-ai-stylist-chat-iphone-20260620.webp",
+          "https://wearra.app/screenshots/wearra-outfit-planner-calendar-iphone-20260620.webp",
           "https://wearra.app/screenshots/wearra-packing-list-trip-form-iphone.webp"
         ],
         "featureList": [

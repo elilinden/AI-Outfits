@@ -991,7 +991,7 @@ function mdEscape(value) {
 
 const postExtras = {
   "best-ai-wardrobe-app-iphone": {
-    media: { type: "image", src: "/screenshots/wearra-ai-outfit-planner-home-screen.webp", alt: "Wearra iPhone home screen with outfit ideas, saved outfits, and AI Stylist access" },
+    media: { type: "image", src: "/screenshots/wearra-ai-outfit-planner-home-screen-20260620.webp", alt: "Wearra iPhone home screen with outfit ideas, saved outfits, and AI Stylist access" },
     examples: [
       "Turn 12 closet staples into a workweek: straight jeans, black trousers, a white tee, a button-down, cardigan, blazer, simple dress, sneakers, loafers, boots, belt, and coat can become office, casual, dinner, and travel looks.",
       "Use saved outfit feedback to avoid recommending the same silhouette every day.",
@@ -1029,7 +1029,7 @@ const postExtras = {
     privacy: "Render requests do not need to include a user's email, display name, or account identifier with the avatar and garment photos sent for rendering."
   },
   "ai-outfit-planner-weather-calendar": {
-    media: { type: "image", src: "/screenshots/wearra-outfit-planner-calendar-iphone.webp", alt: "Wearra planner calendar screen for scheduling outfits by day" },
+    media: { type: "image", src: "/screenshots/wearra-outfit-planner-calendar-iphone-20260620.webp", alt: "Wearra planner calendar screen for scheduling outfits by day" },
     examples: [
       "Summer internship week: plan a light blazer outfit for Monday, a button-down and trousers for presentation day, sneakers for a commute-heavy day, and a dinner-ready outfit after work.",
       "Rainy day: prioritize closed shoes, outerwear, and darker hems before suggesting delicate fabrics.",
@@ -1048,7 +1048,7 @@ const postExtras = {
     privacy: "Calendar use is optional and limited to outfit context when the user grants permission."
   },
   "digital-closet-app-iphone-ios-18": {
-    media: { type: "image", src: "/screenshots/wearra-digital-closet-grid-iphone.webp", alt: "Wearra digital closet grid with categories, search, favorites, and clothing item cards" },
+    media: { type: "image", src: "/screenshots/wearra-digital-closet-grid-iphone-20260620.webp", alt: "Wearra digital closet grid with categories, search, favorites, and clothing item cards" },
     examples: [
       "Before: clothing photos scattered across camera roll, notes, and memory.",
       "After digitizing: tops, bottoms, shoes, dresses, and outerwear become searchable items with cleaner backgrounds.",
@@ -1086,7 +1086,7 @@ const postExtras = {
     privacy: "Trip data and wardrobe items are part of the user's wardrobe workflow; optional iCloud Backup is manual and private to the user's iCloud."
   },
   "college-outfit-planner-app": {
-    media: { type: "image", src: "/screenshots/wearra-ai-outfit-planner-home-screen.webp", alt: "Wearra iPhone home screen with outfit ideas for everyday planning" },
+    media: { type: "image", src: "/screenshots/wearra-ai-outfit-planner-home-screen-20260620.webp", alt: "Wearra iPhone home screen with outfit ideas for everyday planning" },
     examples: [
       "Dorm capsule: straight jeans, black trousers, hoodie, cardigan, button-down, four tops, sneakers, loafers, boots, and one jacket can cover class, meetings, errands, and weekend plans.",
       "Class-to-internship pivot: start with trousers and a fitted tee, then add a blazer and loafers for a professional meeting.",
@@ -1105,7 +1105,7 @@ const postExtras = {
     privacy: "Wearra is designed around a personal wardrobe workflow; wardrobe data is local by default and optional iCloud Backup is manual."
   },
   "business-casual-outfit-planner": {
-    media: { type: "image", src: "/screenshots/wearra-outfit-planner-calendar-iphone.webp", alt: "Wearra planner calendar for scheduling outfits across a workweek" },
+    media: { type: "image", src: "/screenshots/wearra-outfit-planner-calendar-iphone-20260620.webp", alt: "Wearra planner calendar for scheduling outfits across a workweek" },
     examples: [
       "Monday presentation: blazer, knit shell, tailored trouser, loafers.",
       "Creative office: dark denim, clean tee, oversized blazer, minimalist sneakers.",
@@ -1124,7 +1124,7 @@ const postExtras = {
     privacy: "Try On can help preview high-stakes outfits; render requests use AI/render providers for that request."
   },
   "date-night-outfit-planner": {
-    media: { type: "image", src: "/screenshots/wearra-outfit-recommendations-iphone.webp", alt: "Wearra outfit builder screen with Shuffle, Try On, and Save actions" },
+    media: { type: "image", src: "/screenshots/wearra-outfit-builder-iphone-20260620.webp", alt: "Wearra outfit builder screen with Shuffle, Try On, and Save actions" },
     examples: [
       "Casual dinner: dark jeans, fitted top, boots, cropped jacket.",
       "Movie date: trousers, soft sweater, comfortable shoes, light layer.",
@@ -1162,7 +1162,7 @@ const postExtras = {
     privacy: "Trip planning can use wardrobe and destination context; optional iCloud Backup remains manual rather than live sync."
   },
   "ai-outfit-recommendations-from-your-closet": {
-    media: { type: "image", src: "/screenshots/wearra-outfit-recommendations-iphone.webp", alt: "Wearra outfit builder screen with closet-based clothing items and Try On action" },
+    media: { type: "image", src: "/screenshots/wearra-outfit-builder-iphone-20260620.webp", alt: "Wearra outfit builder screen with closet-based clothing items and Try On action" },
     examples: [
       "Closet input: black trousers, white tee, cardigan, blazer, loafers, sneakers, denim jacket, and a simple dress.",
       "Recommendation output: work look with trousers, tee, blazer, and loafers; casual look with dress, denim jacket, and sneakers; dinner look with trousers, cardigan, and boots.",

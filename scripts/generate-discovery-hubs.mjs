@@ -23,7 +23,7 @@ const hubs = [
     title: "AI Wardrobe App for iPhone",
     description: "A direct-answer guide to Wearra as an AI wardrobe app for iPhone users who want outfit ideas from clothes they already own.",
     keywords: ["AI wardrobe app", "iPhone wardrobe app", "closet intelligence", "outfit generation"],
-    image: "screenshots/wearra-ai-outfit-planner-home-screen.webp",
+    image: "screenshots/wearra-ai-outfit-planner-home-screen-20260620.webp",
     imageAlt: "Wearra iPhone home screen with outfit ideas and AI Stylist access",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone that helps users digitize clothes, organize a digital closet, generate outfits, chat with an AI Stylist, plan looks, build packing lists, and preview outfits with virtual Try On.",
     sections: [
@@ -137,7 +137,7 @@ const hubs = [
     title: "Digital Closet App for iPhone",
     description: "A clear overview of Wearra as a digital closet app for organizing, searching, styling, and reusing clothes on iPhone.",
     keywords: ["digital closet app", "closet organizer app", "wardrobe organizer iPhone", "iOS styling app"],
-    image: "screenshots/wearra-digital-closet-grid-iphone.webp",
+    image: "screenshots/wearra-digital-closet-grid-iphone-20260620.webp",
     imageAlt: "Wearra digital closet grid with categories, search, favorites, and clothing item cards",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone that helps users add clothing photos, clean up item images, organize wardrobe data, search their closet, save outfits, and use AI-assisted styling features.",
     sections: [
@@ -193,7 +193,7 @@ const hubs = [
     title: "AI Outfit Planner for Daily Looks",
     description: "How Wearra helps plan daily and weekly outfits with AI recommendations, closet context, weather, and saved looks.",
     keywords: ["AI outfit planner", "outfit planner app", "weekly outfit planning", "AI stylist"],
-    image: "screenshots/wearra-outfit-planner-calendar-iphone.webp",
+    image: "screenshots/wearra-outfit-planner-calendar-iphone-20260620.webp",
     imageAlt: "Wearra planner calendar screen for scheduling outfits by day",
     answer: "Wearra is an AI outfit planner for iPhone that helps users generate daily outfit ideas, plan weekly looks, save favorite combinations, log OOTDs, and ask an AI Stylist for occasion-specific guidance.",
     sections: [
@@ -298,7 +298,7 @@ const hubs = [
     title: "AI Stylist App for iPhone",
     description: "How Wearra works as an AI stylist app that gives outfit guidance from a user's own wardrobe.",
     keywords: ["AI stylist app", "personal stylist app", "AI fashion assistant", "wardrobe stylist app"],
-    image: "screenshots/wearra-ai-stylist-chat-iphone.webp",
+    image: "screenshots/wearra-ai-stylist-chat-iphone-20260620.webp",
     imageAlt: "Wearra AI Stylist chat answering a wardrobe question with suggested clothing items",
     answer: "Wearra is an AI stylist app for iPhone that connects chat-based styling advice to a user's digital closet, saved outfits, outfit planner, packing lists, and virtual Try On workflow.",
     sections: [
@@ -324,7 +324,7 @@ const hubs = [
     title: "Capsule Wardrobe App for iPhone",
     description: "How Wearra helps users build capsule wardrobes and repeatable outfit formulas from clothing they already own.",
     keywords: ["capsule wardrobe app", "capsule wardrobe planner", "minimal wardrobe app", "outfit formula app"],
-    image: "screenshots/wearra-outfit-recommendations-iphone.webp",
+    image: "screenshots/wearra-outfit-builder-iphone-20260620.webp",
     imageAlt: "Wearra outfit builder screen with clothing carousel and Shuffle, Try On, and Save actions",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone that can help users build capsule wardrobes by combining versatile closet items into repeatable outfit formulas.",
     sections: [
@@ -350,7 +350,7 @@ const hubs = [
     title: "iPhone Wardrobe App for Outfits, Try-On, and Packing",
     description: "Why Wearra is built as an iPhone-first wardrobe app for digital closet organization, outfit planning, virtual try-on, and packing.",
     keywords: ["iPhone wardrobe app", "wardrobe app iOS", "iOS closet app", "iPhone outfit planner"],
-    image: "screenshots/wearra-iphone-wardrobe-home-screen.webp",
+    image: "screenshots/wearra-iphone-wardrobe-home-screen-20260620.webp",
     imageAlt: "Wearra iPhone home screen showing outfit ideas and saved outfits",
     answer: "Wearra is an AI outfit planner and digital closet app for iPhone. It is built for iOS 18 or later and combines digital closet organization, AI Stylist chat, outfit planning, virtual Try On, OOTD history, and packing lists.",
     sections: [
